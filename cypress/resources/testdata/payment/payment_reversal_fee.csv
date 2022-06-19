@@ -1,0 +1,8 @@
+tc_name,index,check_payment_reversal,payment_reversal_fee_display,account_onboard_status,account_effective_dt,account_effective_dt_time,origination_fee_cents,payment_amt_cents,return_check_fee,payment_reversal_prin,payment_reversal_fee,post_promo_impl_interest_rate_percent,payment_reversal_int
+PP259 - Payment reversal  fee validation - automated process,1,TRUE,TRUE,200,-2,0,20000,320000,3500,299590,20000,10,410
+PP262 - Payment reversal  fees with zero cents,2,TRUE,FALSE,200,-2,0,20000,320000,0,299590,20000,10,410
+PP264 - Payment reversal  fees with USD 29,3,TRUE,TRUE,200,-2,0,20000,320000,2900,299590,20000,10,410
+PP260 - Attempt to apply payment reversal  fees amount over and above the credit limit,4,TRUE,FALSE,200,-2,0,20000,320000,400000,299590,20000,10,410
+PP261 - Attempt to apply payment reversal  fees with negative amount,5,FALSE,FALSE,400,-2,0,20000,320000,-2000,299590,20000,10,410
+PP263 - Attempt to apply payment reversal  fees with 39 cents,6,TRUE,FALSE,200,-2,0,20000,320000,39,299590,20000,10,410
+PP265 - Attempt to apply payment reversal  fees with USD 1000,7,TRUE,FALSE,200,-2,0,20000,320000,100000,299590,20000,10,410

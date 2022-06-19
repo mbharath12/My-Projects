@@ -1,0 +1,9 @@
+﻿tc_name,index,cycle_interval,cycle_due_interval,first_cycle_interval,account_effective_at,initial_principle_in_cents,terms_frequency,check_cycle_interval,cycle1_inclusive_start,cycle1_exclusive_end,cycle2_inclusive_start,cycle2_exclusive_end
+pp1405 - Verify credit report terms frequency is W for 7 days cycle interval ,1,7 days,5 days,7 days,2021-10-15T02:18:27-08:00,200000,W,TRUE,2021-10-15T,2021-10-23T,2021-10-23T,2021-10-30T
+pp1406 - Verify credit report terms frequency is Y for 14 days cycle interval ,2,14 days,5 days,14 days,2021-09-30T02:18:27-08:00,200000,Y,TRUE,2021-09-30T,2021-10-15T,2021-10-15T,2021-10-29T
+pp1407 - Verify credit report terms frequency is M for 21 days cycle interval ,3,21 days,20 days,21 days,2021-09-10T02:18:27-08:00,200000,M,TRUE,2021-09-10T,2021-10-02T,2021-10-02T,2021-10-23T
+pp1408 - Verify credit report terms frequency is M for 30 days cycle interval ,4,30 days,28 days,30 days,2021-09-10T02:18:27-08:00,200000,M,TRUE,2021-09-10T,2021-10-11T,2021-10-11T,2021-11-10T
+pp1409 - Verify credit report terms frequency is M for 1 month cycle interval ,5,1 month,28 days,1 month,2021-09-10T02:18:27-08:00,200000,M,TRUE,2021-09-10T,2021-10-11T,2021-10-11T,2021-11-11T
+pp1409A - Verify credit report terms frequency is Q for 3 months cycle interval ,6,3 months,5 days,3 months,2021-08-10T02:18:27-08:00,200000,Q,FALSE,,,,
+pp1409B - Verify credit report terms frequency is S for 6 months cycle interval ,7,6 months,5 days,6 months,2021-05-10T02:18:27-08:00,200000,S,FALSE,,,,
+pp1409C - Verify credit report terms frequency is Y for 1 year cycle interval ,8,1 year,1 month,1 year,2020-09-10T02:18:27-08:00,200000,Y,FALSE,,,,

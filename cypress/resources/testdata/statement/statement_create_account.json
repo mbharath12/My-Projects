@@ -1,0 +1,68 @@
+[
+  {
+    "tc_name": "PP2743 - Verify all transaction line items in statements for revolving account",
+    "index": "1",
+    "product_file": "product_revolving.json",
+    "account_effective_dt": "-26",
+    "origination_fee_cents": "50000",
+    "initial_principal_cents": "100000",
+    "late_fee_cents": "0",
+    "monthly_fee_cents": "500",
+    "annual_fee_cents": "0"
+  },
+  {
+    "tc_name": "PP2744 - Do excess payment for an revolving account and check in statements",
+    "index": "2",
+    "product_file": "product_revolving.json",
+    "account_effective_dt": "-26",
+    "origination_fee_cents": "50000",
+    "initial_principal_cents": "100000",
+    "late_fee_cents": "0",
+    "monthly_fee_cents": "500",
+    "annual_fee_cents": "0"
+  },
+  {
+    "tc_name": "PP2745 - Do excess payment for an revolving account without fees and check in statements",
+    "index": "3",
+    "product_file": "product_revolving.json",
+    "account_effective_dt": "-26",
+    "origination_fee_cents": "0",
+    "initial_principal_cents": "100000",
+    "late_fee_cents": "0",
+    "monthly_fee_cents": "0",
+    "annual_fee_cents": "0"
+  },
+  {
+    "tc_name": "PP2743A - Verify all transaction line items in statements for installment account",
+    "index": "4",
+    "product_file": "product_installment.json",
+    "account_effective_dt": "-26",
+    "origination_fee_cents": "50000",
+    "initial_principal_cents": "100000",
+    "late_fee_cents": "0",
+    "monthly_fee_cents": "500",
+    "annual_fee_cents": "0"
+  },
+  {
+    "tc_name": "PP2744A - Do excess payment for an installment account and check in statements",
+    "index": "5",
+    "product_file": "product_installment.json",
+    "account_effective_dt": "-26",
+    "origination_fee_cents": "50000",
+    "initial_principal_cents": "100000",
+    "late_fee_cents": "0",
+    "monthly_fee_cents": "500",
+    "annual_fee_cents": "0"
+  },
+  {
+    "tc_name": "PP2745A - Do excess payment for an installment account without fees and check in statements",
+    "index": "6",
+    "product_file": "product_installment.json",
+    "account_effective_dt": "-26",
+    "origination_fee_cents": "0",
+    "initial_principal_cents": "100000",
+    "late_fee_cents": "0",
+    "monthly_fee_cents": "0",
+    "annual_fee_cents": "0"
+  }
+]

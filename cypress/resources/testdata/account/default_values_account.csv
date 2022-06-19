@@ -1,0 +1,34 @@
+tc_name,index,field_name,field_path,field_value
+API_095 - Validate default value for effective_at,1,effective_at,effective_at,current_date
+API_099 - Validate default value for external_product_id,2,external_account_id,external_account_id,null
+API_100 - Validate default value for external_fields,3,external_fields,external_fields,
+API_106 - Validate default value for ach payment_processor_name ,4,payment_processor_name ,payment_processor_config.ach.payment_processor_name,NONE
+API_108 - Validate default value for ach repay_config,5,repay_config,payment_processor_config.ach.repay_config,null
+API_117 - Validate default value for dwolla_config,6,dwolla_config,payment_processor_config.ach.dwolla_config,null
+API_119 - Validate default value for modern_treasury_config,7,modern_treasury_config,payment_processor_config.ach.modern_treasury_config,null
+API_128 - Validate default value for debit_card payment_processor_name,8,payment_processor_name,payment_processor_config.debit_card.payment_processor_name,NONE
+API_130 - Validate default value for debit_card repay_config,9,repay_config,payment_processor_config.debit_card.repay_config,null
+API_139 - Validate default value for credit_card payment_processor_name,10,payment_processor_name,payment_processor_config.credit_card.payment_processor_name,NONE
+API_140 - Validate default value for credit_card repay_config,11,checkout_config,payment_processor_config.credit_card.checkout_config,null
+API_151 - Validate default value for autopay_enabled,12,autopay_enabled,payment_processor_config.autopay_enabled,FALSE
+API_155 - Validate default value for default_payment_processor_method,13,default_payment_processor_method,payment_processor_config.default_payment_processor_method,NONE
+API_161 - Validate default value for first_cycle_interval,14,first_cycle_interval,cycle_type.first_cycle_interval,7 days
+API_166 - Validate default value for late_fee_grace,15,late_fee_grace,cycle_type.late_fee_grace,2 days
+API_169 - Validate default value for loan_discount_cents,16,loan_discount_cents,discounts.prepayment_discount_config.loan_discount_cents,null
+API_173 - Validate default value for loan_discount_at,17,loan_discount_at,discounts.prepayment_discount_config.loan_discount_at,null
+API_175 - Validate default value for credit_limit_cents,18,credit_limit_cents,summary.credit_limit_cents,7500
+API_177 - Validate default value for max_approved_credit_limit_cents,19,max_approved_credit_limit_cents,summary.max_approved_credit_limit_cents,null
+API_178 - Validate default value for late_fee_cents,20,late_fee_cents,account_product.product_lifecycle.late_fee_impl_cents,0
+API_180 - Validate default value for payment_reversal_fee_cents,21,payment_reversal_fee_cents,account_product.product_lifecycle.payment_reversal_fee_impl_cents,0
+API_181 - Validate default value for origination_fee_cents,22,origination_fee_cents,account_product.product_lifecycle.origination_fee_impl_cents,0
+API_182 - Validate default value for annual_fee_cents,23,annual_fee_cents,account_product.product_lifecycle.annual_fee_impl_cents,0
+API_183 - Validate default value for monthly_fee_cents,24,monthly_fee_cents,account_product.product_lifecycle.monthly_fee_impl_cents,0
+API_184 - Validate default value for initial_principal_cents,25,initial_principal_cents,summary.principal_cents,0
+API_188 - Validate default value for late_fee_cap_percent,26,late_fee_cap_percent,account_product.product_lifecycle.late_fee_cap_percent,null
+API_191 - Validate default value for payment_reversal_fee_cap_percent,27,payment_reversal_fee_cap_percent,account_product.product_lifecycle.payment_reversal_fee_cap_percent,null
+API_193 - Validate default value for promo overview,28,promo_len,account_product.promo_overview.promo_len,0
+API_194 - Validate default value for promo_impl_interest_rate_percent,29,promo_impl_interest_rate_percent,account_product.promo_overview.promo_impl_interest_rate_percent,0
+API_195 - Validate default value for post_promo_len,30,post_promo_len,account_product.post_promo_overview.post_promo_len,10
+API_196 - Validate default value for post_promo_impl_interest_rate_percent,31,post_promo_impl_interest_rate_percent,account_product.post_promo_overview.post_promo_impl_interest_rate_percent,3.99
+API_207 - Validate default value for customer_account_role,32,customer_account_role,customers[0].customer_account_role,PRIMARY
+API_208 - Validate default value for customer_account_external_id,33,customer_account_external_id,customers[0].customer_account_external_id,null

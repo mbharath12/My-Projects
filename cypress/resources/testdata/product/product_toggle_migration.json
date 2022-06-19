@@ -1,0 +1,14 @@
+[
+  {
+    "tc_name": "PP1248 - verify statements are not generating for migration mode true",
+    "index": "1",
+    "migration_mode": "TRUE",
+    "account_effective_dt": "2021-11-01T05:18:27-05:00"
+  },
+  {
+    "tc_name": "PP1249 - verify statements are generating for migration mode false",
+    "index": "2",
+    "migration_mode": "FALSE",
+    "account_effective_dt": "2021-11-06T00:00:00-05:00"
+  }
+]

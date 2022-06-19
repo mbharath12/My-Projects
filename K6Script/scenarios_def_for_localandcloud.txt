@@ -1,0 +1,69 @@
+/*
+// Scenario Start
+export const options = {
+  stages: [
+    { duration: '30s', target: 5 },
+    { duration: '30s', target: 5 },
+    { duration: '30s', target: 0 },
+  ],
+  thresholds: {
+    http_req_failed: ['rate<0.02'], // http errors should be less than 2%
+    http_req_duration: ['p(99)<200'], // 99% requests should be below 200MS
+  },
+  ext: {
+    loadimpact: {
+      distribution: {
+        'amazon:us:ashburn': { loadZone: 'amazon:us:ashburn', percent: 100 },
+      },
+    },
+  },
+}
+*/
+
+/**
+// Scenario Start
+export const options = {
+    stages: [{
+            duration: '30s',
+            target: 10
+        },
+        {
+            duration: '58m',
+            target: 10
+        },
+        {
+            duration: '30s',
+            target: 0
+        },
+    ],
+    thresholds: {
+        http_req_failed: ['rate<0.02'], // http errors should be less than 2%
+        http_req_duration: ['p(99)<200'], // 99% requests should be below 200MS
+    },
+    ext: {
+        loadimpact: {
+          apm: [
+            {
+              provider: 'datadog',
+              apiKey: '****',
+              appKey: '****',
+              // optional parameters
+              region: 'us',
+              metrics: ['http_req_sending', 'my_rate', 'my_gauge'],
+              includeDefaultMetrics: true,
+              includeTestRunId: true,
+            },
+          ],
+          projectID: 3560313,
+          // Test runs with the same name groups test runs together
+          name: "createCharge",
+            distribution: {
+                'amazon:us:ashburn': {
+                    loadZone: 'amazon:us:ashburn',
+                    percent: 100
+                },
+            },
+        },
+    },
+}
+**/

@@ -1,0 +1,44 @@
+﻿account_tc_id,tc_name,index,cycle_number,transaction_amount,effective_at,lineitem1_amount,lineitem2_amount,stmt_charges_principal_cents,stmt_loans_principal_cents,stmt_fees_balance_cents,stmt_total_balance_cents
+PP2733 - statement with manual fee and verify balances,manual_fee,1,1,2000,2021-12-20T02:18:27-08:00,,,,,,
+PP2733 - statement with manual fee and verify balances,balances for first statement,2,2,,,2000,0,0,300000,2000,302000
+PP2733 - statement with manual fee and verify balances,balances for second statement,3,3,,,0,0,0,300000,2000,302000
+PP2733A - Manual fee for two cycle and check the statements,manual_fee,4,1,2000,2021-12-20T02:18:27-08:00,,,,,,
+PP2733A - Manual fee for two cycle and check the statements,manual_fee,5,2,2000,2022-01-20T02:18:27-08:00,,,,,,
+PP2733A - Manual fee for two cycle and check the statements,balances for first statement,6,3,,,2000,0,0,300000,2000,302000
+PP2733A - Manual fee for two cycle and check the statements,balances for second statement,7,4,,,2000,0,0,300000,4000,304000
+PP2733B - Manual fee and payment in same cycle,manual_fee,8,1,2000,2021-12-20T02:18:27-08:00,,,,,,
+PP2733B - Manual fee and payment in same cycle,payment,9,2,2000,2021-12-30T02:18:27-08:00,,,,,,
+PP2733B - Manual fee and payment in same cycle,balances for first statement,10,3,,,2000,2000,0,300000,0,300000
+PP2733B - Manual fee and payment in same cycle,balances for second statement,11,4,,,0,0,0,300000,0,300000
+PP2733C - Manual fee and payment in second cycle,manual_fee,12,1,2000,2021-12-20T02:18:27-08:00,,,,,,
+PP2733C - Manual fee and payment in second cycle,payment,13,2,2000,2022-01-20T02:18:27-08:00,,,,,,
+PP2733C - Manual fee and payment in second cycle,balances for first statement,14,3,,,2000,0,0,300000,2000,302000
+PP2733C - Manual fee and payment in second cycle,balances for second statement,15,4,,,0,2000,0,300000,0,300000
+PP2733D - Manual fee and payment in next cycle,manual_fee,16,1,2000,2021-12-20T02:18:27-08:00,,,,,,
+PP2733D - Manual fee and payment in next cycle,manual_fee,17,2,2000,2022-01-15T02:18:27-08:00,,,,,,
+PP2733D - Manual fee and payment in next cycle,payment,18,3,2000,2021-12-30T02:18:27-08:00,,,,,,
+PP2733D - Manual fee and payment in next cycle,balances for first statement,19,4,,,2000,2000,0,300000,0,300000
+PP2733D - Manual fee and payment in next cycle,balances for second statement,20,5,,,2000,0,0,300000,2000,302000
+PP2733E - Manual fee for two cycles and payment in second cycle,manual_fee,21,1,2000,2021-12-20T02:18:27-08:00,,,,,,
+PP2733E - Manual fee for two cycles and payment in second cycle,manual_fee,22,2,2000,2022-01-15T02:18:27-08:00,,,,,,
+PP2733E - Manual fee for two cycles and payment in second cycle,payment,23,3,2000,2022-01-20T02:18:27-08:00,,,,,,
+PP2733E - Manual fee for two cycles and payment in second cycle,balances for first statement,24,4,,,2000,0,0,300000,2000,302000
+PP2733E - Manual fee for two cycles and payment in second cycle,balances for second statement,25,5,,,2000,2000,0,300000,2000,302000
+PP2733F - Manual fee payment of partial principle in same cycle,manual_fee,26,1,2000,2021-12-20T02:18:27-08:00,,,,,,
+PP2733F - Manual fee payment of partial principle in same cycle,payment,27,2,102000,2021-12-30T02:18:27-08:00,,,,,,
+PP2733F - Manual fee payment of partial principle in same cycle,balances for first statement,28,3,,,2000,102000,0,200000,0,200000
+PP2733F - Manual fee payment of partial principle in same cycle,balances for second statement,29,4,,,0,0,0,200000,0,200000
+PP2733G - Manual fee payment of partial principle in next cycle,manual_fee,30,1,2000,2021-12-20T02:18:27-08:00,,,,,,
+PP2733G - Manual fee payment of partial principle in next cycle,manual_fee,31,2,2000,2022-01-15T02:18:27-08:00,,,,,,
+PP2733G - Manual fee payment of partial principle in next cycle,payment,32,3,104000,2022-01-20T02:18:27-08:00,,,,,,
+PP2733G - Manual fee payment of partial principle in next cycle,balances for first statement,33,4,,,2000,0,0,300000,2000,302000
+PP2733G - Manual fee payment of partial principle in next cycle,balances for second statement,34,5,,,2000,104000,0,200000,0,200000
+PP2733H - Manual fee and full payment for same cycle,manual_fee,35,1,2000,2021-12-20T02:18:27-08:00,,,,,,
+PP2733H - Manual fee and full payment for same cycle,payment,36,2,302000,2021-12-30T02:18:27-08:00,,,,,,
+PP2733H - Manual fee and full payment for same cycle,balances for first statement,37,3,,,2000,302000,0,0,0,0
+PP2733H - Manual fee and full payment for same cycle,balances for second statement,38,4,,,0,0,0,0,0,0
+PP2733I - Manual fee and full payment for next cycle,manual_fee,39,1,2000,2021-12-20T02:18:27-08:00,,,,,,
+PP2733I - Manual fee and full payment for next cycle,manual_fee,40,2,2000,2022-01-15T02:18:27-08:00,,,,,,
+PP2733I - Manual fee and full payment for next cycle,payment,41,3,302000,2022-01-20T02:18:27-08:00,,,,,,
+PP2733I - Manual fee and full payment for next cycle,balances for first statement,42,4,,,2000,0,0,300000,2000,302000
+PP2733I - Manual fee and full payment for next cycle,balances for second statement,43,5,,,2000,302000,0,2000,0,2000

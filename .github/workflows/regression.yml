@@ -1,0 +1,48 @@
+name: Regression
+
+on:
+  workflow_dispatch:
+    inputs:
+      test-type:
+        description: "Allowed types are 'api' and 'perf'"
+        required: true
+        type: string 
+
+jobs:
+  api-test:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.inputs.test-type == 'api' }}
+    steps:
+      - name: Checkout API tests
+        uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.GIT_TOKEN }} 
+      - run: echo "Please enable test execution..."
+
+      # - uses: actions/setup-node@v1
+      #   with:
+      #     node-version: 14
+
+      # - name: Run api tests
+      #   run: |
+      #     yarn --frozen-lockfile
+      #     yarn cy:run --spec "cypress/integration/core_api/account/create_account.ts" --reporter junit --reporter-options mochaFile=testResults.xml
+
+  perf-test:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.inputs.test-type == 'perf' }}
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.GIT_TOKEN }}
+      - run: echo "Please enable perf tests..."
+      # - uses: actions/setup-node@v1
+      #   with:
+      #     node-version: 14
+
+      # - name: Run k6 cloud test
+      #   uses: k6io/action@v0.1
+      #   with:
+      #     filename: /home/runner/work/canopy-api/canopy-api/canopy-tests/k6Scripts/02_create_product.js
+      #     cloud: true
+      #     token: ${{ secrets.K6_TOKEN }}    

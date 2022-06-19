@@ -1,0 +1,13 @@
+{
+  "autopay_enabled": false,
+  "default_payment_processor_method": "DEBIT_CARD",
+  "debit_card": {
+      "payment_processor_name": "AUTHORIZE_NET",
+      "authorize_net_config": {
+          "card_number": "4622941000000005",
+          "expiry_month": "05",
+          "expiry_year": "2022",
+          "cvv": "123"
+      }
+  }
+}

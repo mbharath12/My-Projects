@@ -1,0 +1,160 @@
+account_tc_id,tc_name,index,cycle_number,transaction_type,type,roll_date,effective_at,amount_paid,due_date,min_pay_amount,cycle_payment,interest,principal,fee_balance,opening_balance,closing_balance,paid_on_time
+PP787 - Interest calculation for Installment Product with payment on time,Amortization Schedule for first month,1,1,validation_AM,,2020-11-08,,0,2020-12-07T,85145,0,3325,81820,0,1000000,918180,FALSE
+PP787 - Interest calculation for Installment Product with payment on time,Amortization Schedule for second month,2,2,validation_AM,,,,0,2021-01-07T,85145,0,3052,82093,0,918180,836087,FALSE
+PP787 - Interest calculation for Installment Product with payment on time,Amortization Schedule for third month,3,3,validation_AM,,,,0,2021-02-07T,85145,0,2779,82366,0,836087,753721,FALSE
+PP787 - Interest calculation for Installment Product with payment on time,Amortization Schedule for fourth month,4,4,validation_AM,,,,0,2021-03-07T,85145,0,2506,82639,0,753721,671082,FALSE
+PP787 - Interest calculation for Installment Product with payment on time,Amortization Schedule for fifth month,5,5,validation_AM,,,,0,2021-04-07T,85145,0,2231,82914,0,671082,588168,FALSE
+PP787 - Interest calculation for Installment Product with payment on time,Amortization Schedule for sixth month,6,6,validation_AM,,,,0,2021-05-07T,85145,0,1955,83190,0,588168,504978,FALSE
+PP787 - Interest calculation for Installment Product with payment on time,Amortization Schedule for seventh month,7,7,validation_AM,,,,0,2021-06-07T,85145,0,1679,83466,0,504978,421512,FALSE
+PP787 - Interest calculation for Installment Product with payment on time,Amortization Schedule for eighth month,8,8,validation_AM,,,,0,2021-07-07T,85145,0,1401,83744,0,421512,337768,FALSE
+PP787 - Interest calculation for Installment Product with payment on time,Amortization Schedule for ninth month,9,9,validation_AM,,,,0,2021-08-07T,85145,0,1123,84022,0,337768,253746,FALSE
+PP787 - Interest calculation for Installment Product with payment on time,Amortization Schedule for tenth month,10,10,validation_AM,,,,0,2021-09-07T,85145,0,843,84302,0,253746,169444,FALSE
+PP787 - Interest calculation for Installment Product with payment on time,Amortization Schedule for eleventh month,11,11,validation_AM,,,,0,2021-10-07T,85145,0,563,84582,0,169444,84862,FALSE
+PP787 - Interest calculation for Installment Product with payment on time,Amortization Schedule for twelfth month,12,12,validation_AM,,,,0,2021-11-07T,85144,0,282,84862,0,84862,0,FALSE
+PP787 - Interest calculation for Installment Product with payment on time,First month paid,14,1,payment,,,2020-12-06T02:18:27-05:00,85145,,,,,,,,,
+PP787 - Interest calculation for Installment Product with payment on time,Amortization Schedule for first month payment on time,15,1,validate_AM_for_month,,2020-12-10,,0,2020-12-07T,85145,-85145,3325,81820,0,1000000,918180,TRUE
+PP787 - Interest calculation for Installment Product with payment on time,Second month paid,16,2,payment,,,2021-01-06T02:18:27-05:00,85145,,,-85145,,,,,,
+PP787 - Interest calculation for Installment Product with payment on time,Amortization Schedule for second month payment on time,17,2,validate_AM_for_month,,2021-01-10,,0,2021-01-07T,85145,-85145,3052,82093,0,918180,836087,TRUE
+PP787 - Interest calculation for Installment Product with payment on time,Third month paid,18,3,payment,,,2021-02-06T02:18:27-05:00,85145,,,-85145,,,,,,
+PP787 - Interest calculation for Installment Product with payment on time,Amortization Schedule for third month payment on time,19,3,validate_AM_for_month,,2021-02-10,,0,2021-02-07T,85145,-85145,2779,82366,0,836087,753721,TRUE
+PP787 - Interest calculation for Installment Product with payment on time,Fourth month paid,20,4,payment,,,2021-03-06T02:18:27-05:00,85145,,,-85145,,,,,,
+PP787 - Interest calculation for Installment Product with payment on time,Amortization Schedule for fourth month payment on time,21,4,validate_AM_for_month,,2021-03-10,,0,2021-03-07T,85145,-85145,2506,82639,0,753721,671082,TRUE
+PP787 - Interest calculation for Installment Product with payment on time,Fifth month paid,22,5,payment,,,2021-04-06T02:18:27-05:00,85145,,,-85145,,,,,,
+PP787 - Interest calculation for Installment Product with payment on time,Amortization Schedule for fifth month payment on time,23,5,validate_AM_for_month,,2021-04-10,,0,2021-04-07T,85145,-85145,2231,82914,0,671082,588168,TRUE
+PP787 - Interest calculation for Installment Product with payment on time,Sixth month paid,24,6,payment,,,2021-05-06T02:18:27-05:00,85145,,,-85145,,,,,,
+PP787 - Interest calculation for Installment Product with payment on time,Amortization Schedule for sixth month payment on time,25,6,validate_AM_for_month,,2021-05-10,,0,2021-05-07T,85145,-85145,1955,83190,0,588168,504978,TRUE
+PP787 - Interest calculation for Installment Product with payment on time,Seventh month paid,26,7,payment,,,2021-06-06T02:18:27-05:00,85145,,,-85145,,,,,,
+PP787 - Interest calculation for Installment Product with payment on time,Amortization Schedule for seventh month payment on time,27,7,validate_AM_for_month,,2021-06-10,,0,2021-06-07T,85145,-85145,1679,83466,0,504978,421512,TRUE
+PP787 - Interest calculation for Installment Product with payment on time,Eighth month paid,28,8,payment,,,2021-07-06T02:18:27-05:00,85145,,,,,,,,,
+PP787 - Interest calculation for Installment Product with payment on time,Amortization Schedule for eighth month payment on time,29,8,validate_AM_for_month,,2021-07-10,,0,2021-07-07T,85145,-85145,1401,83744,0,421512,337768,TRUE
+PP787 - Interest calculation for Installment Product with payment on time,Ninth month paid,30,9,payment,,,2021-08-06T02:18:27-05:00,85145,,,,,,,,,
+PP787 - Interest calculation for Installment Product with payment on time,Amortization Schedule for ninth month payment on time,31,9,validate_AM_for_month,,2021-08-10,,0,2021-08-07T,85145,-85145,1123,84022,0,337768,253746,TRUE
+PP787 - Interest calculation for Installment Product with payment on time,Tenth month paid,32,10,payment,,,2021-09-06T02:18:27-05:00,85145,,,,,,,,,
+PP787 - Interest calculation for Installment Product with payment on time,Amortization Schedule for tenth month payment on time,33,10,validate_AM_for_month,,2021-09-10,,0,2021-09-07T,85145,-85145,843,84302,0,253746,169444,TRUE
+PP787 - Interest calculation for Installment Product with payment on time,Eleventh month paid,34,11,payment,,,2021-10-06T02:18:27-05:00,85145,,,,,,,,,
+PP787 - Interest calculation for Installment Product with payment on time,Amortization Schedule for eleventh month payment on time,35,11,validate_AM_for_month,,2021-10-10,,0,2021-10-07T,85145,-85145,563,84582,0,169444,84862,TRUE
+PP787 - Interest calculation for Installment Product with payment on time,Twelfth month paid,36,12,payment,,,2021-11-06T02:18:27-05:00,85145,,,,,,,,,
+PP787 - Interest calculation for Installment Product with payment on time,Amortization Schedule for twelfth month payment on time,37,12,validate_AM_for_month,,2021-11-10,,0,2021-11-07T,85144,-85145,282,84862,0,84862,0,TRUE
+PP788 - Interest calculation for Installment Product with delay payment and before grace period,First month paid before grace period,38,1,payment,,,2020-12-09T02:18:27-05:00,85145,,,,,,,,,
+PP788 - Interest calculation for Installment Product with delay payment and before grace period,Amortization Schedule for first month payment before grace period,39,1,validate_AM_for_month,,2020-12-10,,0,2020-12-07T,85145,0,3325,81820,0,1000000,918180,TRUE
+PP788 - Interest calculation for Installment Product with delay payment and before grace period,Second month paid before grace period,40,2,payment,,,2021-01-10T02:18:27-05:00,85145,,,,,,,,,
+PP788 - Interest calculation for Installment Product with delay payment and before grace period,Amortization Schedule for second month payment before grace period,41,2,validate_AM_for_month,,2021-01-10,,0,2021-01-07T,85145,-85145,3052,82093,0,918180,836087,TRUE
+PP788 - Interest calculation for Installment Product with delay payment and before grace period,Third month paid before grace period,42,3,payment,,,2021-02-09T02:18:27-05:00,85145,,,,,,,,,
+PP788 - Interest calculation for Installment Product with delay payment and before grace period,Amortization Schedule for third month payment before grace period,43,3,validate_AM_for_month,,2021-02-10,,0,2021-02-07T,85145,-85145,2779,82366,0,836087,753721,TRUE
+PP788 - Interest calculation for Installment Product with delay payment and before grace period,Fourth month paid before grace period,44,4,payment,,,2021-03-10T02:18:27-05:00,85145,,,,,,,,,
+PP788 - Interest calculation for Installment Product with delay payment and before grace period,Amortization Schedule for fourth month payment before grace period,45,4,validate_AM_for_month,,2021-03-10,,0,2021-03-07T,85145,-85145,2506,82639,0,753721,671082,TRUE
+PP788 - Interest calculation for Installment Product with delay payment and before grace period,Fifth month paid before grace period,46,5,payment,,,2021-04-09T02:18:27-05:00,85145,,,,,,,,,
+PP788 - Interest calculation for Installment Product with delay payment and before grace period,Amortization Schedule for fifth month payment before grace period,47,5,validate_AM_for_month,,2021-04-10,,0,2021-04-07T,85145,-85145,2231,82914,0,671082,588168,TRUE
+PP788 - Interest calculation for Installment Product with delay payment and before grace period,Sixth month paid before grace period,48,6,payment,,,2021-05-10T02:18:27-05:00,85145,,,,,,,,,
+PP788 - Interest calculation for Installment Product with delay payment and before grace period,Amortization Schedule for sixth month payment before grace period,49,6,validate_AM_for_month,,2021-05-10,,0,2021-05-07T,85145,-85145,1955,83190,0,588168,504978,TRUE
+PP788 - Interest calculation for Installment Product with delay payment and before grace period,Seventh month paid before grace period,50,7,payment,,,2021-06-09T02:18:27-05:00,85145,,,,,,,,,
+PP788 - Interest calculation for Installment Product with delay payment and before grace period,Amortization Schedule for seventh month payment before grace period,51,7,validate_AM_for_month,,2021-06-10,,0,2021-06-07T,85145,-85145,1679,83466,0,504978,421512,TRUE
+PP788 - Interest calculation for Installment Product with delay payment and before grace period,Eighth month paid before grace period,52,8,payment,,,2021-07-10T02:18:27-05:00,85145,,,,,,,,,
+PP788 - Interest calculation for Installment Product with delay payment and before grace period,Amortization Schedule for eighth month payment before grace period,53,8,validate_AM_for_month,,2021-07-10,,0,2021-07-07T,85145,-85145,1401,83744,0,421512,337768,TRUE
+PP788 - Interest calculation for Installment Product with delay payment and before grace period,Ninth month paid before grace period,54,9,payment,,,2021-08-09T02:18:27-05:00,85145,,,,,,,,,
+PP788 - Interest calculation for Installment Product with delay payment and before grace period,Amortization Schedule for ninth month payment before grace period,55,9,validate_AM_for_month,,2021-08-10,,0,2021-08-07T,85145,-85145,1123,84022,0,337768,253746,TRUE
+PP788 - Interest calculation for Installment Product with delay payment and before grace period,Tenth month paid before grace period,56,10,payment,,,2021-09-10T02:18:27-05:00,85145,,,,,,,,,
+PP788 - Interest calculation for Installment Product with delay payment and before grace period,Amortization Schedule for tenth month payment before grace period,57,10,validate_AM_for_month,,2021-09-10,,0,2021-09-07T,85145,-85145,843,84302,0,253746,169444,TRUE
+PP788 - Interest calculation for Installment Product with delay payment and before grace period,Eleventh month paid before grace period,58,11,payment,,,2021-10-09T02:18:27-05:00,85145,,,,,,,,,
+PP788 - Interest calculation for Installment Product with delay payment and before grace period,Amortization Schedule for eleventh month payment before grace period,59,11,validate_AM_for_month,,2021-10-10,,0,2021-10-07T,85145,-85145,563,84582,0,169444,84862,TRUE
+PP788 - Interest calculation for Installment Product with delay payment and before grace period,Twelfth month paid on time,60,12,payment,,,2021-11-04T02:18:27-05:00,85145,,,,,,,,,
+PP788 - Interest calculation for Installment Product with delay payment and before grace period,Amortization Schedule for twelfth month payment on time,61,12,validate_AM_for_month,,2021-11-10,,0,2021-11-07T,85144,-170290,282,84862,0,84862,0,TRUE
+PP789 - Interest calculation for Installment Product with delayed payment,First month paid before grace period,62,1,payment,,,2020-12-09T02:18:27-05:00,85145,,,,,,,,,
+PP789 - Interest calculation for Installment Product with delayed payment,Amortization Schedule for first month payment before grace period,63,1,validate_AM_for_month,,2020-12-10,,0,2020-12-07T,85145,0,3325,81820,0,1000000,918180,TRUE
+PP789 - Interest calculation for Installment Product with delayed payment,Second month paid before grace period,64,2,payment,,,2021-01-10T02:18:27-05:00,85145,,,,,,,,,
+PP789 - Interest calculation for Installment Product with delayed payment,Amortization Schedule for second month payment before grace period,65,2,validate_AM_for_month,,2021-01-10,,0,2021-01-07T,85145,-85145,3052,82093,0,918180,836087,TRUE
+PP789 - Interest calculation for Installment Product with delayed payment,Third month paid before grace period,66,3,payment,,,2021-02-09T02:18:27-05:00,85145,,,,,,,,,
+PP789 - Interest calculation for Installment Product with delayed payment,Amortization Schedule for third month payment before grace period,67,3,validate_AM_for_month,,2021-02-10,,0,2021-02-07T,85145,-85145,2779,82366,0,836087,753721,TRUE
+PP789 - Interest calculation for Installment Product with delayed payment,Fourth month paid before grace period,68,4,payment,,,2021-03-10T02:18:27-05:00,85145,,,,,,,,,
+PP789 - Interest calculation for Installment Product with delayed payment,Amortization Schedule for fourth month payment before grace period,69,4,validate_AM_for_month,,2021-03-10,,0,2021-03-07T,85145,-85145,2506,82639,0,753721,671082,TRUE
+PP789 - Interest calculation for Installment Product with delayed payment,Fifth month paid before grace period,70,5,payment,,,2021-04-09T02:18:27-05:00,85145,,,,,,,,,
+PP789 - Interest calculation for Installment Product with delayed payment,Amortization Schedule for fifth month payment before grace period,71,5,validate_AM_for_month,,2021-04-10,,0,2021-04-07T,85145,-85145,2231,82914,0,671082,588168,TRUE
+PP789 - Interest calculation for Installment Product with delayed payment,Sixth month paid before grace period,72,6,payment,,,2021-05-10T02:18:27-05:00,85145,,,,,,,,,
+PP789 - Interest calculation for Installment Product with delayed payment,Amortization Schedule for sixth month payment before grace period,73,6,validate_AM_for_month,,2021-05-10,,0,2021-05-07T,85145,-85145,1955,83190,0,588168,504978,TRUE
+PP789 - Interest calculation for Installment Product with delayed payment,Seventh month paid before grace period,74,7,payment,,,2021-06-09T02:18:27-05:00,85145,,,,,,,,,
+PP789 - Interest calculation for Installment Product with delayed payment,Amortization Schedule for seventh month payment before grace period,75,7,validate_AM_for_month,,2021-06-10,,0,2021-06-07T,85145,-85145,1679,83466,0,504978,421512,TRUE
+PP789 - Interest calculation for Installment Product with delayed payment,Eighth month paid after grace period,76,8,payment,,,2021-07-15T02:18:27-05:00,85145,,,,,,,,,
+PP789 - Interest calculation for Installment Product with delayed payment,Payment done for late fee,77,8,payment,,,2021-07-20T02:18:27-05:00,299,,,,,,,,,
+PP789 - Interest calculation for Installment Product with delayed payment,Amortization Schedule for eighth month  before grace period,77,8,validate_AM_for_month,,2021-07-10,,0,2021-07-07T,85145,-85145,1401,83744,0,421512,337768,TRUE
+PP789 - Interest calculation for Installment Product with delayed payment,Ninth month paid before grace period,78,9,payment,,,2021-08-09T02:18:27-05:00,85145,,,,,,,,,
+PP789 - Interest calculation for Installment Product with delayed payment,Amortization Schedule for ninth month  before grace period,79,9,validate_AM_for_month,,2021-08-10,,0,2021-08-07T,85145,-85145,1123,84022,0,337768,253746,TRUE
+PP789 - Interest calculation for Installment Product with delayed payment,Tenth month paid after grace period,80,10,payment,,,2021-09-15T02:18:27-05:00,85145,,,,,,,,,
+PP789 - Interest calculation for Installment Product with delayed payment,Payment done for late fee in tenth month,80,10,payment,,,2021-09-20T02:18:27-05:00,299,,,,,,,,,
+PP789 - Interest calculation for Installment Product with delayed payment,Amortization Schedule for tenth month payment on time,81,10,validate_AM_for_month,,2021-09-21,,0,2021-09-07T,85145,-85145,843,84302,0,253746,169444,TRUE
+PP789 - Interest calculation for Installment Product with delayed payment,Eleventh month paid on time,82,11,payment,,,2021-10-04T02:18:27-05:00,85145,,,,,,,,,
+PP789 - Interest calculation for Installment Product with delayed payment,Amortization Schedule for eleventh month payment on time,83,11,validate_AM_for_month,,2021-10-11,,0,2021-10-07T,85145,-170290,563,84582,0,169444,84862,TRUE
+PP789 - Interest calculation for Installment Product with delayed payment,Twelfth month paid on time,84,12,payment,,,2021-11-04T02:18:27-05:00,85145,,,,,,,,,
+PP789 - Interest calculation for Installment Product with delayed payment,Amortization Schedule for twelfth month payment on time,85,12,validate_AM_for_month,,2021-11-10,,0,2021-11-07T,85144,-85145,282,84862,0,84862,0,TRUE
+PP818 - Interest calculation for BNPL Product with payment on time,Amortization Schedule for first month,86,1,validation_AM,,2021-09-23,,0,2021-09-28T,376439,0,2301,374138,0,1500000,1125862,FALSE
+PP818 - Interest calculation for BNPL Product with payment on time,Amortization Schedule for second month,87,2,validation_AM,,,,0,2021-10-05T,376439,0,1727,374712,0,1125862,751150,FALSE
+PP818 - Interest calculation for BNPL Product with payment on time,Amortization Schedule for third month,88,3,validation_AM,,,,0,2021-10-12T,376439,0,1152,375287,0,751150,375863,FALSE
+PP818 - Interest calculation for BNPL Product with payment on time,Amortization Schedule for fourth month,89,4,validation_AM,,,,0,2021-10-19T,376439,0,576,375863,0,375863,0,FALSE
+PP818 - Interest calculation for BNPL Product with payment on time,First month paid,90,1,payment,,,2021-09-27T02:18:27-05:00,376439,,,,,,,,,
+PP818 - Interest calculation for BNPL Product with payment on time,Amortization Schedule for first month payment on time,91,1,validate_AM_for_month,,2021-09-30,,,2021-09-28T,376439,-376439,2301,374138,0,1500000,1125862,TRUE
+PP818 - Interest calculation for BNPL Product with payment on time,Second month paid,92,2,payment,,,2021-10-03T02:18:27-05:00,376439,,,,,,,,,
+PP818 - Interest calculation for BNPL Product with payment on time,Amortization Schedule for second month payment on time,93,2,validate_AM_for_month,,2021-10-07,,,2021-10-05T,376439,-376439,1727,374712,0,1125862,751150,TRUE
+PP818 - Interest calculation for BNPL Product with payment on time,Third month paid,94,3,payment,,,2021-10-11T02:18:27-05:00,376439,,,,,,,,,
+PP818 - Interest calculation for BNPL Product with payment on time,Amortization Schedule for third month payment on time,95,3,validate_AM_for_month,,2021-10-14,,,2021-10-12T,376439,-376439,1152,375287,0,751150,375863,TRUE
+PP818 - Interest calculation for BNPL Product with payment on time,Fourth month paid,96,4,payment,,,2021-10-17T02:18:27-05:00,376439,,,,,,,,,
+PP818 - Interest calculation for BNPL Product with payment on time,Amortization Schedule for fourth month payment on time,97,4,validate_AM_for_month,,2021-10-21,,,2021-10-19T,376439,-376439,576,375863,0,375863,0,TRUE
+PP818B - Interest calculation for BNPL Product with delay payment and before grace period,First month paid,90,1,payment,,,2021-09-30T02:18:27-05:00,376439,,,,,,,,,
+PP818B - Interest calculation for BNPL Product with delay payment and before grace period,Amortization Schedule for first month payment before grace period,91,1,validate_AM_for_month,,2021-10-01,,,2021-09-28T,376439,0,2301,374138,0,1500000,1125862,TRUE
+PP818B - Interest calculation for BNPL Product with delay payment and before grace period,Second month paid before grace period,92,2,payment,,,2021-10-07T02:18:27-05:00,376439,,,,,,,,,
+PP818B - Interest calculation for BNPL Product with delay payment and before grace period,Amortization Schedule for second month payment before grace period,93,2,validate_AM_for_month,,2021-10-08,,,2021-10-05T,376439,-376439,1727,374712,0,1125862,751150,TRUE
+PP818B - Interest calculation for BNPL Product with delay payment and before grace period,Third month paid before grace period,94,3,payment,,,2021-10-14T02:18:27-05:00,376439,,,,,,,,,
+PP818B - Interest calculation for BNPL Product with delay payment and before grace period,Amortization Schedule for third month payment before grace period,95,3,validate_AM_for_month,,2021-10-15,,,2021-10-12T,376439,-376439,1152,375287,0,751150,375863,TRUE
+PP818B - Interest calculation for BNPL Product with delay payment and before grace period,Fourth month paid before grace period,96,4,payment,,,2021-10-18T02:18:27-05:00,376439,,,,,,,,,
+PP818B - Interest calculation for BNPL Product with delay payment and before grace period,Amortization Schedule for third month payment before grace period,97,4,validate_AM_for_month,,2021-10-22,,,2021-10-19T,376439,-752878,576,375863,0,375863,0,TRUE
+PP790 - Interest calculation for Installment Product with payment on time other fees charged paid off separately,Check Origination Fee in account line item,98,1,check_lineItem,ORIG_FEE,,2020-11-06T,,,,,,,,,,
+PP790 - Interest calculation for Installment Product with payment on time other fees charged paid off separately,Pay Origination Fee,99,1,payment,,,2020-11-07T02:18:27-05:00,20000,,,,,,,,,
+PP790 - Interest calculation for Installment Product with payment on time other fees charged paid off separately,First month paid,100,1,payment,,,2020-12-06T02:18:27-05:00,85145,,,,,,,,,
+PP790 - Interest calculation for Installment Product with payment on time other fees charged paid off separately,Amortization Schedule for first month payment on time,101,1,validate_AM_for_month,,2020-12-10,,0,2020-12-07T,85145,-85145,3325,81820,0,1000000,918180,TRUE
+PP790 - Interest calculation for Installment Product with payment on time other fees charged paid off separately,Second month paid,102,2,payment,,,2021-01-06T02:18:27-05:00,85145,,,-85145,,,,,,
+PP790 - Interest calculation for Installment Product with payment on time other fees charged paid off separately,Amortization Schedule for second month payment on time,103,2,validate_AM_for_month,,2021-01-10,,0,2021-01-07T,85145,-85145,3052,82093,0,918180,836087,TRUE
+PP791 - Interest calculation for Installment Product with fee charges not paid,Amortization Schedule for first month,104,1,validation_AM,,2021-02-08,,0,2021-03-07T,61102,0,1995,59107,0,600000,540893,FALSE
+PP791 - Interest calculation for Installment Product with fee charges not paid,Amortization Schedule for second month,105,2,validation_AM,,,,0,2021-04-07T,61102,0,1798,59304,0,540893,481589,FALSE
+PP791 - Interest calculation for Installment Product with fee charges not paid,Amortization Schedule for third month,106,3,validation_AM,,,,0,2021-05-07T,61102,0,1601,59501,0,481589,422088,FALSE
+PP791 - Interest calculation for Installment Product with fee charges not paid,Amortization Schedule for fourth month,107,4,validation_AM,,,,0,2021-06-07T,61102,0,1403,59699,0,422088,362389,FALSE
+PP791 - Interest calculation for Installment Product with fee charges not paid,Amortization Schedule for fifth month,108,5,validation_AM,,,,0,2021-07-07T,61102,0,1204,59898,0,362389,302491,FALSE
+PP791 - Interest calculation for Installment Product with fee charges not paid,Amortization Schedule for sixth month,109,6,validation_AM,,,,0,2021-08-07T,61102,0,1005,60097,0,302491,242394,FALSE
+PP791 - Interest calculation for Installment Product with fee charges not paid,Amortization Schedule for seventh month,110,7,validation_AM,,,,0,2021-09-07T,61102,0,805,60297,0,242394,182097,FALSE
+PP791 - Interest calculation for Installment Product with fee charges not paid,Amortization Schedule for eighth month,111,8,validation_AM,,,,0,2021-10-07T,61102,0,605,60497,0,182097,121600,FALSE
+PP791 - Interest calculation for Installment Product with fee charges not paid,Amortization Schedule for ninth month,112,9,validation_AM,,,,0,2021-11-07T,61102,0,404,60698,0,121600,60902,FALSE
+PP791 - Interest calculation for Installment Product with fee charges not paid,Amortization Schedule for tenth month,113,10,validation_AM,,,,0,2021-12-07T,61104,0,202,60902,0,60902,0,FALSE
+PP791 - Interest calculation for Installment Product with fee charges not paid,Check Origination Fee in account line item,114,1,check_lineItem,ORIG_FEE,,2021-02-06T,20000,,,,,,,,,
+PP791 - Interest calculation for Installment Product with fee charges not paid,First month paid,115,1,payment,,,2021-03-06T02:18:27-05:00,61102,,,,,,,,,
+PP791 - Interest calculation for Installment Product with fee charges not paid,Amortization Schedule for once month,116,1,validate_AM_for_month,,2021-03-10,,0,2021-03-07T,61102,-41102,1995,39107,0,600000,558898,TRUE
+PP791 - Interest calculation for Installment Product with fee charges not paid,Second month paid,117,2,payment,,,2021-04-06T02:18:27-05:00,61102,,,,,,,,,
+PP791 - Interest calculation for Installment Product with fee charges not paid,Amortization Schedule for second month,118,2,validate_AM_for_month,,2021-04-10,,,2021-04-07T,61102,-61102,1858,59244,,558898,499654,TRUE
+PP791 - Interest calculation for Installment Product with fee charges not paid,Third month paid,119,3,payment,,,2021-05-06T02:18:27-05:00,61102,,,,,,,,,
+PP791 - Interest calculation for Installment Product with fee charges not paid,Amortization Schedule for third month,120,3,validate_AM_for_month,,2021-05-10,,,2021-05-07T,61102,-61102,1661,59441,,499654,440213,TRUE
+PP791 - Interest calculation for Installment Product with fee charges not paid,Fourth month paid,121,4,payment,,,2021-06-06T02:18:27-05:00,61102,,,,,,,,,
+PP791 - Interest calculation for Installment Product with fee charges not paid,Amortization Schedule for fourth month,122,4,validate_AM_for_month,,2021-06-10,,,2021-06-07T,61102,-61102,1463,59639,,440213,380574,TRUE
+PP791 - Interest calculation for Installment Product with fee charges not paid,Fifth month paid,123,5,payment,,,2021-07-06T02:18:27-05:00,61102,,,,,,,,,
+PP791 - Interest calculation for Installment Product with fee charges not paid,,124,5,validate_AM_for_month,,2021-07-10,,,2021-07-07T,61102,-61102,1265,59837,,380574,320737,TRUE
+PP791 - Interest calculation for Installment Product with fee charges not paid,Sixth month paid,125,6,payment,,,2021-08-06T02:18:27-05:00,61102,,,,,,,,,
+PP791 - Interest calculation for Installment Product with fee charges not paid,Amortization Schedule for sixth month,126,6,validate_AM_for_month,,2021-08-10,,,2021-08-07T,61102,-61102,1066,60036,,320737,260701,TRUE
+PP791 - Interest calculation for Installment Product with fee charges not paid,Seventh month paid,127,7,payment,,,2021-09-06T02:18:27-05:00,61102,,,,,,,,,
+PP791 - Interest calculation for Installment Product with fee charges not paid,Amortization Schedule for seventh month,128,7,validate_AM_for_month,,2021-09-10,,,2021-09-07T,61102,-61102,866,60236,,260701,200465,TRUE
+PP791 - Interest calculation for Installment Product with fee charges not paid,Eigth month paid,129,8,payment,,,2021-10-06T02:18:27-05:00,61102,,,,,,,,,
+PP791 - Interest calculation for Installment Product with fee charges not paid,Amortization Schedule for eighth month,130,8,validate_AM_for_month,,2021-10-10,,,2021-10-07T,61102,-61102,666,60436,,200465,140029,TRUE
+PP791 - Interest calculation for Installment Product with fee charges not paid,Pay Origination Fee,131,8,payment,,,2021-10-06T02:18:27-05:00,20000,,,,,,,,,
+PP791 - Interest calculation for Installment Product with fee charges not paid,Ninth month paid,133,9,payment,,,2021-11-06T02:18:27-05:00,61102,,,,,,,,,
+PP791 - Interest calculation for Installment Product with fee charges not paid,Amortization Schedule for ninth month,134,9,validate_AM_for_month,,2021-11-10,,,2021-11-07T,61102,-81102,399,60703,,120029,59326,TRUE
+PP791 - Interest calculation for Installment Product with fee charges not paid,Tenth month paid,135,10,payment,,,2021-12-06T02:18:27-05:00,59523,,,,,,,,,
+PP791 - Interest calculation for Installment Product with fee charges not paid,Amortization Schedule for tenth month,136,10,validate_AM_for_month,,2021-12-10,,,2021-12-07T,61102,-59523,197,59326,,59326,0,TRUE
+PP792 - Interest calculation for Installment Product with Part Payments and Late fees charges,Check Origination Fee in account line item,137,1,check_lineItem,ORIG_FEE,,2021-02-06T,10000,,,,,,,,,
+PP792 - Interest calculation for Installment Product with Part Payments and Late fees charges,Pay Origination Fee,138,1,payment,,,2021-02-10T02:18:27-05:00,10000,,,,,,,,,
+PP792 - Interest calculation for Installment Product with Part Payments and Late fees charges,First month paid,139,1,payment,,,2021-03-10T02:18:27-05:00,30551,,,,,,,,,
+PP792 - Interest calculation for Installment Product with Part Payments and Late fees charges,Amortization Schedule for first month,140,1,validate_AM_for_month,2021-03-10,,,,2021-03-07T,30551,-30551,997,29554,,300000,270446,TRUE
+PP792 - Interest calculation for Installment Product with Part Payments and Late fees charges,Second month paid,141,2,payment,,,2021-04-10T02:18:27-05:00,10000,,,,,,,,,
+PP792 - Interest calculation for Installment Product with Part Payments and Late fees charges,Check Late Fee added for second month,142,2,check_lineItem,LATE_FEE,,2021-04-10T,299,,,,,,,,,
+PP792 - Interest calculation for Installment Product with Part Payments and Late fees charges,Third month paid,143,3,payment,,,2021-05-10T02:18:27-05:00,40919,,,,,,,,,
+PP792 - Interest calculation for Installment Product with Part Payments and Late fees charges,Check Late Fee added for third month,144,3,check_lineItem,LATE_FEE,,2021-05-10T,299,,,,,,,,,
+PP792 - Interest calculation for Installment Product with Part Payments and Late fees charges,Fourth month paid,145,4,payment,,,2021-06-10T02:18:27-05:00,10000,,,,,,,,,
+PP792 - Interest calculation for Installment Product with Part Payments and Late fees charges,Check Late Fee added for fourth month,146,4,check_lineItem,LATE_FEE,,2021-06-10T,299,,,,,,,,,
+PP792 - Interest calculation for Installment Product with Part Payments and Late fees charges,Fifth month paid,147,5,payment,,,2021-07-10T02:18:27-05:00,15000,,,,,,,,,
+PP792 - Interest calculation for Installment Product with Part Payments and Late fees charges,Check Late Fee added for fourth month,148,5,check_lineItem,LATE_FEE,,2021-07-10T,299,,,,,,,,,
+PP792 - Interest calculation for Installment Product with Part Payments and Late fees charges,Sixth month paid,149,6,payment,,,2021-08-10T02:18:27-05:00,30551,,,,,,,,,
+PP792 - Interest calculation for Installment Product with Part Payments and Late fees charges,Seventh month paid,150,7,payment,,,2021-09-10T02:18:27-05:00,100000,,,,,,,,,
+PP792 - Interest calculation for Installment Product with Part Payments and Late fees charges,Eigth month paid,151,8,payment,,,2021-10-10T02:18:27-05:00,10200,,,,,,,,,

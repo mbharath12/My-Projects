@@ -1,0 +1,14 @@
+﻿tc_name,index,account_effective_dt,origination_fee_cents,intial_principle_in_cents,late_fee_cents,monthly_fee_cents,annual_fee_cents,payment_amt_cents,payment_effective_dt,check_origination_fee,check_charge,do_payment
+pp500 - statement with - no origination fees - charge - monthly fees - annual fees - no payment,1,2021-12-05T02:18:27-08:00,0,500000,0,200,500,0,0,FALSE,TRUE,FALSE
+pp501 - statement with - no origination fees - charge - monthly fees - annual fees - monthly fees only payment,2,2021-12-05T02:18:27-08:00,0,500000,0,200,500,200,2022-01-02T02:18:27-08:00,FALSE,TRUE,TRUE
+pp502 - statement with - no origination fees - charge - monthly fees - annual fees - charge only payment,3,2021-12-05T02:18:27-08:00,0,500000,0,200,500,500000,2022-01-02T02:18:27-08:00,FALSE,TRUE,TRUE
+pp503 - statement with - no origination fees - charge - monthly fees - annual fees - monthly fees and charge payment,4,2021-12-05T02:18:27-08:00,0,500000,0,200,500,500200,2022-01-02T02:18:27-08:00,FALSE,TRUE,TRUE
+pp504 - statement with - no origination fees - charge - monthly fees - annual fees - annual fees and charge payment,5,2021-12-05T02:18:27-08:00,0,500000,0,200,500,500500,2022-01-02T02:18:27-08:00,FALSE,TRUE,TRUE
+pp505 - statement with - no origination fees - charge - monthly fees - annual fees - all fees and partial payment,6,2021-12-05T02:18:27-08:00,0,500000,0,200,500,200700,2022-01-02T02:18:27-08:00,FALSE,TRUE,TRUE
+pp506 - statement with - origination fees - monthly fees- charge - monthly fees - annual fees - no payment,7,2021-12-05T02:18:27-08:00,5000,500000,0,200,500,0,0,TRUE,TRUE,FALSE
+pp507 - statement with - origination fees - charge - annual fees - monthly fees only payment,8,2021-12-05T02:18:27-08:00,5000,500000,0,200,500,200,2022-01-02T02:18:27-08:00,TRUE,TRUE,TRUE
+pp508 - statement with - origination fees - charge - monthly fees - annual fees - charge only payment,9,2021-12-05T02:18:27-08:00,5000,500000,0,200,500,500000,2022-01-02T02:18:27-08:00,TRUE,TRUE,TRUE
+pp509 - statement with - origination fees - charge - monthly fees - annual fees - monthly fees and charge payment,10,2021-12-05T02:18:27-08:00,5000,500000,0,200,500,500200,2022-01-02T02:18:27-08:00,TRUE,TRUE,TRUE
+pp510 - statement with - origination fees - charge - monthly fees - annual fees - annual fees and charge payment,11,2021-12-05T02:18:27-08:00,5000,500000,0,200,500,500500,2022-01-02T02:18:27-08:00,TRUE,TRUE,TRUE
+pp511 - statement with - origination fees - charge - monthly fees - annual fees - all payments,12,2021-12-05T02:18:27-08:00,5000,500000,0,200,500,505700,2022-01-02T02:18:27-08:00,TRUE,TRUE,TRUE
+pp512 - statement with - origination fees - charge - monthly fees - annual fees - pay fees and partial principal pay,13,2021-12-05T02:18:27-08:00,5000,500000,0,200,500,205700,2022-01-02T02:18:27-08:00,TRUE,TRUE,TRUE

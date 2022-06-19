@@ -1,0 +1,12 @@
+﻿tc_name,index,account_effective_dt,origination_fee_cents,intial_principle_in_cents,late_fee_cents,monthly_fee_cents,payment_amt_cents,payment_effective_dt,check_origination_fee,check_charge,do_payment
+pp478 - statement with - no origination fees - charge - monthly fees - no payment,1,2021-10-20T02:18:27-08:00,0,300000,0,200,0,0,FALSE,TRUE,FALSE
+pp479 - statement with - no origination fees - charge - monthly fees - monthly fees only payment,2,2021-10-20T02:18:27-08:00,0,300000,0,200,200,2021-11-25T02:18:27-08:00,FALSE,TRUE,TRUE
+pp480 - statement with - no origination fees - charge - monthly fees - charge only payment,3,2021-10-20T02:18:27-08:00,0,300000,0,200,300000,2021-11-25T02:18:27-08:00,FALSE,TRUE,TRUE
+pp481 - statement with - no origination fees - charge - monthly fees - monthly fees and charge payment,4,2021-10-20T02:18:27-08:00,0,300000,0,200,300200,2021-11-25T02:18:27-08:00,FALSE,TRUE,TRUE
+pp482 - statement with - no origination fees - charge - monthly fees - monthly fees and partial payment,5,2021-10-20T02:18:27-08:00,0,300000,0,200,150200,2021-11-25T02:18:27-08:00,FALSE,TRUE,TRUE
+pp483 - statement with - origination fees - charge - monthly fees - no payment,6,2021-10-20T02:18:27-08:00,5000,300000,0,200,0,0,TRUE,TRUE,FALSE
+pp484 - statement with - origination fees - charge - monthly fees - monthly fees only payment,7,2021-10-20T02:18:27-08:00,5000,300000,0,200,200,2021-11-25T02:18:27-08:00,TRUE,TRUE,TRUE
+pp485 - statement with - origination fees - charge - monthly fees - charge only payment,8,2021-10-20T02:18:27-08:00,5000,300000,0,200,300000,2021-11-25T02:18:27-08:00,TRUE,TRUE,TRUE
+pp486 - statement with - origination fees - charge - monthly fees - monthly fees and charge payment,9,2021-10-20T02:18:27-08:00,5000,300000,0,200,300200,2021-11-25T02:18:27-08:00,TRUE,TRUE,TRUE
+pp487 - statement with - origination fees - charge - monthly fees - all payments,10,2021-10-20T02:18:27-08:00,5000,300000,0,200,305200,2021-11-25T02:18:27-08:00,TRUE,TRUE,TRUE
+pp488 - statement with - origination fees - charge - monthly fees - pay fees and partial principal pay,11,2021-10-20T02:18:27-08:00,5000,300000,0,200,155200,2021-11-25T02:18:27-08:00,TRUE,TRUE,TRUE

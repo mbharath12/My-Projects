@@ -1,0 +1,38 @@
+[
+  {
+    "tc_name": "pp451 - Verify Account status with 5 cycles",
+    "index": "1",
+    "product_type": "Installment",
+    "product_json_file": "payment_product.json",
+    "product_updater": "FALSE",
+    "delinquent": "5",
+    "charge_off": "6",
+    "cycle_interval": "4 days",
+    "cycle_due_interval": "2 days",
+    "first_cycle_interval": "4 days",
+    "account_effective_dt": "2021-09-10T02:18:27-08:00",
+    "account_status": "ACTIVE",
+    "suspended_roll_forward_dt": "2021-10-05T02:18:27-08:00",
+    "account_status_after_multiple_cycles": "SUSPENDED",
+    "chargeoff_roll_forward_dt": "2021-10-10T02:18:27-08:00",
+    "account_status_next_suspended_cycle": "CLOSED"
+  },
+  {
+    "tc_name": "pp453 - Verify Account status with 12 cycles",
+    "index": "2",
+    "product_type": "Credit Card",
+    "product_json_file": "product_credit.json",
+    "product_updater": "FALSE",
+    "delinquent": "12",
+    "charge_off": "13",
+    "cycle_interval": "4 days",
+    "cycle_due_interval": "2 days",
+    "first_cycle_interval": "4 days",
+    "account_effective_dt": "2021-09-10T02:18:27-08:00",
+    "account_status": "ACTIVE",
+    "suspended_roll_forward_dt": "2021-10-28T02:18:27-08:00",
+    "account_status_after_multiple_cycles": "SUSPENDED",
+    "chargeoff_roll_forward_dt": "2021-11-01T02:18:27-08:00",
+    "account_status_next_suspended_cycle": "CLOSED"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "tc_name": "PP2733 - statement with manual fee and verify balances",
+    "index": "1",
+    "account_effective_dt": "2021-12-05T02:18:27-08:00",
+    "origination_fee_cents": "0",
+    "initial_principle_in_cents": "300000",
+    "late_fee_cents": "0",
+    "monthly_fee_cents": "0",
+    "annual_fee_cents": "0"
+  },
+  {
+    "tc_name": "PP2733A - Manual fee for two cycle and check the statements",
+    "index": "2",
+    "account_effective_dt": "2021-12-05T02:18:27-08:00",
+    "origination_fee_cents": "0",
+    "initial_principle_in_cents": "300000",
+    "late_fee_cents": "0",
+    "monthly_fee_cents": "0",
+    "annual_fee_cents": "0"
+  },
+  {
+    "tc_name": "PP2733B - Manual fee and payment in same cycle",
+    "index": "3",
+    "account_effective_dt": "2021-12-05T02:18:27-08:00",
+    "origination_fee_cents": "0",
+    "initial_principle_in_cents": "300000",
+    "late_fee_cents": "0",
+    "monthly_fee_cents": "0",
+    "annual_fee_cents": "0"
+  },
+  {
+    "tc_name": "PP2733C - Manual fee and payment in second cycle",
+    "index": "4",
+    "account_effective_dt": "2021-12-05T02:18:27-08:00",
+    "origination_fee_cents": "0",
+    "initial_principle_in_cents": "300000",
+    "late_fee_cents": "0",
+    "monthly_fee_cents": "0",
+    "annual_fee_cents": "0"
+  },
+  {
+    "tc_name": "PP2733D - Manual fee and payment in next cycle",
+    "index": "5",
+    "account_effective_dt": "2021-12-05T02:18:27-08:00",
+    "origination_fee_cents": "0",
+    "initial_principle_in_cents": "300000",
+    "late_fee_cents": "0",
+    "monthly_fee_cents": "0",
+    "annual_fee_cents": "0"
+  },
+  {
+    "tc_name": "PP2733E - Manual fee for two cycles and payment in second cycle",
+    "index": "6",
+    "account_effective_dt": "2021-12-05T02:18:27-08:00",
+    "origination_fee_cents": "0",
+    "initial_principle_in_cents": "300000",
+    "late_fee_cents": "0",
+    "monthly_fee_cents": "0",
+    "annual_fee_cents": "0"
+  },
+  {
+    "tc_name": "PP2733F - Manual fee payment of partial principle in same cycle",
+    "index": "7",
+    "account_effective_dt": "2021-12-05T02:18:27-08:00",
+    "origination_fee_cents": "0",
+    "initial_principle_in_cents": "300000",
+    "late_fee_cents": "0",
+    "monthly_fee_cents": "0",
+    "annual_fee_cents": "0"
+  },
+  {
+    "tc_name": "PP2733G - Manual fee payment of partial principle in next cycle",
+    "index": "8",
+    "account_effective_dt": "2021-12-05T02:18:27-08:00",
+    "origination_fee_cents": "0",
+    "initial_principle_in_cents": "300000",
+    "late_fee_cents": "0",
+    "monthly_fee_cents": "0",
+    "annual_fee_cents": "0"
+  },
+  {
+    "tc_name": "PP2733H - Manual fee and full payment for same cycle",
+    "index": "9",
+    "account_effective_dt": "2021-12-05T02:18:27-08:00",
+    "origination_fee_cents": "0",
+    "initial_principle_in_cents": "300000",
+    "late_fee_cents": "0",
+    "monthly_fee_cents": "0",
+    "annual_fee_cents": "0"
+  },
+  {
+    "tc_name": "PP2733I - Manual fee and full payment for next cycle",
+    "index": "10",
+    "account_effective_dt": "2021-12-05T02:18:27-08:00",
+    "origination_fee_cents": "0",
+    "initial_principle_in_cents": "300000",
+    "late_fee_cents": "0",
+    "monthly_fee_cents": "0",
+    "annual_fee_cents": "0"
+  }
+]

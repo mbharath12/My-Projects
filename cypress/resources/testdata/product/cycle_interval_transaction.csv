@@ -1,0 +1,9 @@
+account_tc_id,tc_name,index,cycle_number,exp_cycle_inclusive_start,exp_cycle_exclusive_end
+PP1191-Verify account is cycled and Account Statement is generated based on the Cycle interval specified - 7 days,7 days- first cycle statement details,1,0,2021-11-28T05:18:27-05:00,2021-12-06T00:00:00-05:00
+PP1191-Verify account is cycled and Account Statement is generated based on the Cycle interval specified - 7 days,7 days - second cycle statement details,2,1,2021-12-06T00:00:00-05:00,2021-12-13T00:00:00-05:00
+PP1192-Verify account is cycled and Account Statement is generated based on the Cycle interval specified - 30 days,30 days - first cycle statement details,3,0,2021-10-10T06:18:27-04:00,2021-11-10T00:00:00-05:00
+PP1192-Verify account is cycled and Account Statement is generated based on the Cycle interval specified - 30 days,30 days - second cycle statement details,4,1,2021-11-10T00:00:00-05:00,2021-12-10T00:00:00-05:00
+PP1193-Verify account is cycled and Account Statement is generated based on the Cycle interval specified - 1 month,1 month - first cycle statement details,5,0,2021-10-10T06:18:27-04:00,2021-11-11T00:00:00-05:00
+PP1193-Verify account is cycled and Account Statement is generated based on the Cycle interval specified - 1 month,1 month - second cycle statement details,6,1,2021-11-11T00:00:00-05:00,2021-12-11T00:00:00-05:00
+PP1194-Verify account is cycled and Account Statement is generated based on the Cycle interval specified at account level if account level set up is done,7 days from account level - first cycle statement details,7,0,2021-10-10T02:18:27-04:00,2021-12-18T00:00:00-05:00
+PP1194-Verify account is cycled and Account Statement is generated based on the Cycle interval specified at account level if account level set up is done,7 days from account level - second cycle statement details,8,1,2021-12-18T00:00:00-05:00,2021-12-25T00:00:00-05:00

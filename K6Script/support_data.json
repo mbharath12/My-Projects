@@ -1,0 +1,12 @@
+{
+  "tokenUrl": "https://rc-api.canopyservicing.com/auth/token",
+  "createProductUrl": "https://rc-api.canopyservicing.com/products",
+  "createCustUrl": "https://rc-api.canopyservicing.com/customers",
+  "accountsUrl": "https://rc-api.canopyservicing.com/accounts",
+  "apiUsersUrl": "https://rc-api.canopyservicing.com/api_users",
+  "organizationUrl": "https://rc-api.canopyservicing.com/organization",
+  "apiBaseUrl": "https://rc-api.canopyservicing.com",
+  "clientId": "7520rjvp39pigjlossq7uoqkg7",
+  "clientSecret": "1v5r7n8imhl380c8mk4hvomng365jc4rj68crq6pq06s4vs71t9u"
+}
+

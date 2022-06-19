@@ -1,0 +1,31 @@
+﻿tc_name,index,field_name,field_path,field_value
+API_002 - Validate default value for effective_at,1,effective_at,effective_at,current_date
+API_003 - Validate default value for external_product_id,2,external_product_id,external_product_id,null
+API_012 - Validate default value for product_color,3,product_color,product_overview.product_color,#4867FF
+API_021 - Validate default value for pending_pmt_affects_avail_credit,4,pending_pmt_affects_avail_credit,product_lifecycle_policies.payment_pouring_policies.pending_pmt_affects_avail_credit,FALSE
+API_024 - Validate default value for late_fee_grace,5,late_fee_grace,product_lifecycle_policies.fee_policies.late_fee_grace,0 days
+API_028 - Validate default value for surcharge_fee_interval,6,surcharge_fee_interval,product_lifecycle_policies.fee_policies.surcharge_fee_interval,null
+API_029 - Validate default value for default_surcharge_fee_structure,7,default_surcharge_fee_structure,product_lifecycle_policies.fee_policies.default_surcharge_fee_structure,null
+API_038 - Validate default value for first_cycle_interval,8,first_cycle_interval,product_lifecycle_policies.billing_cycle_policies.first_cycle_interval,1 mon
+API_035 - Validate default value for cycle_due_interval,9,cycle_due_interval,product_lifecycle_policies.billing_cycle_policies.cycle_due_interval,0 days
+API_041 - Validate default value for close_of_business_time,10,close_of_business_time,product_lifecycle_policies.billing_cycle_policies.close_of_business_time,23:59:59-05:00
+API_042 - Validate default value for product_time_zone,11,product_time_zone,product_lifecycle_policies.billing_cycle_policies.product_time_zone,America/New_York
+API_044 - Validate default value for interest_calc_time,12,interest_calc_time,product_lifecycle_policies.interest_policies.interest_calc_time,01:00:00-05:00
+API_047 - Validate default value for default_late_fee_cents,13,default_late_fee_cents,product_lifecycle_policies.default_attributes.default_late_fee_cents,0
+API_048 - Validate default value for default_payment_reversal_fee_cents,14,default_payment_reversal_fee_cents,product_lifecycle_policies.default_attributes.default_payment_reversal_fee_cents,0
+API_050 - Validate default value for promo_len,15,promo_len,promotional_policies.promo_len,0
+API_053 - Validate default value for promo_min_pay_type,16,promo_min_pay_type,promotional_policies.promo_min_pay_type,AM
+API_057 - Validate default value for promo_purchase_window_len,17,promo_purchase_window_len,promotional_policies.promo_purchase_window_len,0
+API_058 - Validate default value for promo_min_pay_percent,18,promo_min_pay_percent,promotional_policies.promo_min_pay_percent,100
+API_062 - Validate default value for promo_interest_deferred,19,promo_interest_deferred,promotional_policies.promo_interest_deferred,TRUE
+API_065 - Validate default value for promo_default_interest_rate_percent,20,promo_default_interest_rate_percent,promotional_policies.promo_default_interest_rate_percent,0
+API_067 - Validate default value for promo_apr_range_inclusive_lower,21,promo_apr_range_inclusive_lower,promotional_policies.promo_apr_range_inclusive_lower,0
+API_069 - Validate default value for promo_apr_range_inclusive_upper,22,promo_apr_range_inclusive_upper,promotional_policies.promo_apr_range_inclusive_upper,0
+API_072 - Validate default value for post_promo_len,23,post_promo_len,post_promotional_policies.post_promo_len,0
+API_077 - Validate default value for post_promo_am_len_range_inclusive_lower,24,post_promo_am_len_range_inclusive_lower,post_promotional_policies.post_promo_am_len_range_inclusive_lower,0
+API_079 - Validate default value for post_promo_am_len_range_inclusive_upper,25,post_promo_am_len_range_inclusive_upper,post_promotional_policies.post_promo_am_len_range_inclusive_upper,0
+API_081 - Validate default value for post_promo_min_pay_type,26,post_promo_min_pay_type,post_promotional_policies.post_promo_min_pay_type,AM
+API_084 - Validate default value for post_promo_default_interest_rate_percent,27,post_promo_default_interest_rate_percent,post_promotional_policies.post_promo_default_interest_rate_percent,0
+API_087 - Validate default value for post_promo_apr_range_inclusive_lower,28,post_promo_apr_range_inclusive_lower,post_promotional_policies.post_promo_apr_range_inclusive_lower,0
+API_089 - Validate default value for post_promo_apr_range_inclusive_upper,29,post_promo_apr_range_inclusive_upper,post_promotional_policies.post_promo_apr_range_inclusive_upper,0
+API_093 - Validate default value for migration_mode,30,migration_mode,admin.migration_mode,FALSE

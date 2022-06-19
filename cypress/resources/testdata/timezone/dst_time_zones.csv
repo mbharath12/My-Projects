@@ -1,0 +1,9 @@
+tc_name,index,product_time_zone,product_req_effective_at,account_req_effective_at,account_response_effective_at,product_interest_calc_time,product_close_of_business_time,response_close_of_business_time,response_interest_calc_time
+TZ_001 - Validate day light savings time zone for America Denver,1,America/Denver,2017-06-15T20:00:00-06:00,2022-06-20T11:00:00-06:00,2022-06-20T11:00:00-06:00,01:00:00-06:00,23:59:59-06:00,23:59:59,01:00:00-06
+TZ_002 - Validate normal time zone for America Denver,2,America/Denver,2017-12-15T13:00:00-07:00,2022-12-15T11:00:00-06:00,2022-12-15T10:00:00-07:00,01:00:00-07:00,23:59:59-07:00,23:59:59,01:00:00-07
+TZ_003 - Validate day light savings time zone for America Chicago,3,America/Chicago,2017-06-15T11:00:00-05:00,2022-06-20T11:00:00-05:00,2022-06-20T11:00:00-05:00,01:00:00-05:00,23:59:59-05:00,23:59:59,01:00:00-05
+TZ_004 - Validate normal time zone for America Chicago,4,America/Chicago,2017-12-15T13:00:00-06:00,2022-12-15T11:00:00-05:00,2022-12-15T10:00:00-06:00,01:00:00-06:00,23:59:59-06:00,23:59:59,01:00:00-06
+TZ_005 - Validate day light savings time zone for America Detroit,5,America/Detroit,2017-06-15T12:00:00-04:00,2022-06-15T12:00:00-04:00,2022-06-15T12:00:00-04:00,01:00:00-04:00,23:59:59-04:00,23:59:59,01:00:00-04
+TZ_006 - Validate normal time zone for America Detroit,6,America/Detroit,2017-12-15T10:00:00-05:00,2022-12-15T10:00:00-05:00,2022-12-15T10:00:00-05:00,01:00:00-05:00,23:59:59-05:00,23:59:59,01:00:00-05
+TZ_007 - Validate day light savings time zone for America Dawson,7,America/Dawson,2017-06-15T19:00:00-07:00,2022-06-15T19:00:00-07:00,2022-06-15T19:00:00-07:00,01:00:00-07:00,23:59:59-07:00,23:59:59,01:00:00-07
+TZ_008 - Validate normal time zone for America Dawson,8,America/Dawson,2017-12-15T10:00:00-08:00,2022-12-15T10:00:00-08:00,2022-12-15T11:00:00-07:00,01:00:00-08:00,23:59:59-08:00,23:59:59,01:00:00-08 

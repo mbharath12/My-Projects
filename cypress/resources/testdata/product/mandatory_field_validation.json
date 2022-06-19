@@ -1,0 +1,11 @@
+[
+{"tc_name":"API_001 - create product without product overview section header key","index":"1","key_name":"product_overview","error_message":"Event object failed validation","detailed_error_message":"must have required property product_overview"},
+{"tc_name":"API_004 - create product without product name key","index":"2","key_name":"product_name","error_message":"Event object failed validation","detailed_error_message":"must have required property product_name"},
+{"tc_name":"API_005 - create product without product type key","index":"3","key_name":"product_type","error_message":"Event object failed validation","detailed_error_message":"must have required property product_type"},
+{"tc_name":"API_010 - create product without product short description key","index":"4","key_name":"product_short_description","error_message":"Event object failed validation","detailed_error_message":"must have required property product_short_description"},
+{"tc_name":"API_011 - create product without product long description key","index":"5","key_name":"product_long_description","error_message":"Event object failed validation","detailed_error_message":"must have required property product_long_description"},
+{"tc_name":"API_014 - create product without product lifecycle policies section header key","index":"6","key_name":"product_lifecycle_policies","error_message":"Event object failed validation","detailed_error_message":"must have required property product_lifecycle_policies"},
+{"tc_name":"API_034 - create product without cycle interval","index":"7","key_name":"cycle_interval","error_message":"Event object failed validation","detailed_error_message":"must have required property cycle_interval"},
+{"tc_name":"API_046 - create product without default credit limit","index":"8","key_name":"default_credit_limit_cents","error_message":"Event object failed validation","detailed_error_message":"must have required property default_credit_limit_cents"},
+{"tc_name":"API_049 - create product without promotional policies section header key","index":"9","key_name":"promotional_policies","error_message":"Event object failed validation","detailed_error_message":"must have required property promotional_policies"}
+]

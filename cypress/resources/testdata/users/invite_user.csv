@@ -1,0 +1,5 @@
+tc_name,index,randromEmail,email,phone,expected_status_code,error_message
+PP2229 Validate error for invalid email id format,1,FALSE,marrisa.com,,500,Invalid email address format.
+PP2130 Validate error when email id of existing user,2,FALSE,marissa@globex.com,1-567-8900,409,An account with the given email already exists.
+PP2134 Validate error for invalid phone number format,3,FALSE,mariss6a@globex.com,qz-234-567-8900,500,Invalid phone number format.
+PP2135 Verify the status in the response as Success,4,TRUE,mariss51sa@globex.com,1-234-567-8900,200,

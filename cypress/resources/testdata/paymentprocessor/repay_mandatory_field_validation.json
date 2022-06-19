@@ -1,0 +1,74 @@
+[
+  {
+    "tc_name": "API_105 - create account without payment_processor_name key",
+    "index": "1",
+    "payment_processor_name": "delete",
+    "repay_check_type": "BUSINESS",
+    "repay_account_type": "CHECKING",
+    "repay_transit_number": "121000358",
+    "repay_account_number": "6041231231",
+    "repay_name_on_check": "Umbrella Corporation",
+    "error_message": "Event object failed validation",
+    "detailed_error_message": "must have required property payment_processor_name"
+  },
+  {
+    "tc_name": "API_110 - create account without repay_check_type",
+    "index": "2",
+    "payment_processor_name": "REPAY",
+    "repay_check_type": "delete",
+    "repay_account_type": "CHECKING",
+    "repay_transit_number": "121000358",
+    "repay_account_number": "6041231231",
+    "repay_name_on_check": "Umbrella Corporation",
+    "error_message": "Event object failed validation",
+    "detailed_error_message": "must have required property repay_check_type"
+  },
+  {
+    "tc_name": "API_112 - create account without repay_account_type",
+    "index": "3",
+    "payment_processor_name": "REPAY",
+    "repay_check_type": "BUSINESS",
+    "repay_account_type": "delete",
+    "repay_transit_number": "121000358",
+    "repay_account_number": "6041231231",
+    "repay_name_on_check": "Umbrella Corporation",
+    "error_message": "Event object failed validation",
+    "detailed_error_message": "must have required property repay_account_type"
+  },
+  {
+    "tc_name": "API_114 - create account without repay_transit_number",
+    "index": "4",
+    "payment_processor_name": "REPAY",
+    "repay_check_type": "BUSINESS",
+    "repay_account_type": "CHECKING",
+    "repay_transit_number": "delete",
+    "repay_account_number": "6041231231",
+    "repay_name_on_check": "Umbrella Corporation",
+    "error_message": "Event object failed validation",
+    "detailed_error_message": "must have required property repay_transit_number"
+  },
+  {
+    "tc_name": "API_115 - create account without repay_account_number",
+    "index": "5",
+    "payment_processor_name": "REPAY",
+    "repay_check_type": "BUSINESS",
+    "repay_account_type": "CHECKING",
+    "repay_transit_number": "121000358",
+    "repay_account_number": "delete",
+    "repay_name_on_check": "Umbrella Corporation",
+    "error_message": "Event object failed validation",
+    "detailed_error_message": "must have required property repay_account_number"
+  },
+  {
+    "tc_name": "API_116 - create account without repay_name_on_check",
+    "index": "6",
+    "payment_processor_name": "REPAY",
+    "repay_check_type": "BUSINESS",
+    "repay_account_type": "CHECKING",
+    "repay_transit_number": "121000358",
+    "repay_account_number": "6041231231",
+    "repay_name_on_check": "delete",
+    "error_message": "Event object failed validation",
+    "detailed_error_message": "must have required property repay_name_on_check"
+  }
+]

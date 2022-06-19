@@ -1,0 +1,25 @@
+﻿tc_name,index,payout_entity_file_name,exp_payout_entity_type,exp_payout_entity_name,exp_bank_account_number,exp_bank_routing_number,exp_irs_tin,response,error_message,detailed_error_message
+PayoutEntity-256A-General-Create payout entity without entity type,1,merchant.json,delete,BHG Operating,3790,64008637,113456444,400,Event object failed validation,must have required property payout_entity_type
+PayoutEntity-257A-General-Create payout entity without entity name,2,merchant.json,organization,delete,3790,64008637,113456444,400,Event object failed validation,must have required property payout_entity_name
+PayoutEntity-258A-General-Create payout entity without bank account number,3,merchant.json,organization,BHG Operating,delete,64008637,113456444,200,,
+PayoutEntity-259A-General-Create payout entity without bank routing number,4,merchant.json,organization,BHG Operating,3790,delete,113456444,200,,
+PayoutEntity-271A-Merchant-Create payout entity without entity type,5,merchant.json,delete,MERCHANT,2351,215545677,482456323,400,Event object failed validation,must have required property payout_entity_type
+PayoutEntity-272A-Merchant-Create payout entity without entity name,6,merchant.json,merchant,delete,2351,215545677,482456323,400,Event object failed validation,must have required property payout_entity_name
+PayoutEntity-273A-Merchant-Create payout entity without bank account number,7,merchant.json,merchant,MERCHANT,delete,215545677,482456323,500,Failed to create payout entity,
+PayoutEntity-274A-Merchant-Create payout entity without bank routing number,8,merchant.json,merchant,MERCHANT,2351,delete,482456323,500,Failed to create payout entity,
+PayoutEntity-288A-Lender-Create payout entity without entity type,9,merchant.json,delete,BHG Funding Account,8000,64008637,451456898,400,Event object failed validation,must have required property payout_entity_type
+PayoutEntity-289A-Lender-Create payout entity without entity name,10,merchant.json,lender,delete,8000,64008637,451456898,400,Event object failed validation,must have required property payout_entity_name
+PayoutEntity-290A-Lender-Create payout entity without bank account number,11,merchant.json,lender,BHG Funding Account,delete,64008637,451456898,500,Failed to create payout entity,
+PayoutEntity-291A-Lender-Create payout entity without bank routing number,12,merchant.json,lender,BHG Funding Account,8000,delete,451456898,500,Failed to create payout entity,
+PayoutEntity-305A-ACH Source-Create payout entity without entity type,13,merchant.json,delete,ACH Clearing,681,64008637,102456545,400,Event object failed validation,must have required property payout_entity_type
+PayoutEntity-306A-ACH Source-Create payout entity without entity name,14,merchant.json,clearing,delete,681,64008637,102456545,400,Event object failed validation,must have required property payout_entity_name
+PayoutEntity-307A-ACH Source-Create payout entity without bank account number,15,merchant.json,clearing,ACH Clearing,delete,64008637,102456545,500,Failed to create payout entity,
+PayoutEntity-308A-ACH Source-Create payout entity without bank routing number,16,merchant.json,clearing,ACH Clearing,681,delete,102456545,500,Failed to create payout entity,
+PayoutEntity-321A-Debit Source-Create payout entity without entity type,17,merchant.json,delete,Card Clearing,764,64008637,505456222,400,Event object failed validation,must have required property payout_entity_type
+PayoutEntity-322A-Debit Source-Create payout entity without entity name,18,merchant.json,clearing,delete,764,64008637,505456222,400,Event object failed validation,must have required property payout_entity_name
+PayoutEntity-323A-Debit Source-Create payout entity without bank account number,19,merchant.json,clearing,Card Clearing,delete,64008637,505456222,500,Failed to create payout entity,
+PayoutEntity-324A-Debit Source-Create payout entity without bank routing number,20,merchant.json,clearing,Card Clearing,764,delete,505456222,500,Failed to create payout entity,
+PayoutEntity-337A-Lock box-Create payout entity without entity type,21,merchant.json,delete,Lockbox Clearing,715,64008637,203456789,400,Event object failed validation,must have required property payout_entity_type
+PayoutEntity-338A-Lock box-Create payout entity without entity name,22,merchant.json,clearing,delete,715,64008637,203456789,400,Event object failed validation,must have required property payout_entity_name
+PayoutEntity-339A-Lock box-Create payout entity without bank account number,23,merchant.json,clearing,Lockbox Clearing,delete,64008637,203456789,500,Failed to create payout entity,
+PayoutEntity-340A-Lock box-Create payout entity without bank routing number,24,merchant.json,clearing,Lockbox Clearing,715,delete,203456789,500,Failed to create payout entity,

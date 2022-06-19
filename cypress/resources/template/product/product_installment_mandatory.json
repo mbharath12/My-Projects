@@ -1,0 +1,20 @@
+{
+  "product_overview": {
+    "product_name": "BNPL 24 Month Standard",
+    "product_type": "INSTALLMENT",
+    "product_short_description": "12mm3apr.",
+    "product_long_description": "Student credit card."
+  },
+  "product_lifecycle_policies": {
+    "payment_due_policies": {},
+    "fee_policies": {},
+    "billing_cycle_policies": {
+      "cycle_interval": "1 month"
+    },
+    "default_attributes": {
+      "default_credit_limit_cents": 600000
+    }
+  },
+  "promotional_policies": {},
+  "post_promotional_policies": {}
+}

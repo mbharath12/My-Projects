@@ -1,0 +1,12 @@
+﻿tc_name,index,product_type,cycle_interval,account_effective_dt,origination_fee_cents,initial_principle_in_cents,late_fee_cents,monthly_fee_cents,annual_fee_cents,payment_amt_cents,payment_effective_dt,check_origination_fee,check_charge,check_payment
+pp489 - statement verification with no origination fees charge annual fees no payment,1,Credit Card,1 month,2021-12-05T02:18:27-08:00,0,300000,0,0,1000,0,,,TRUE,
+pp490 - statement verification with no origination fees charge annual fees payment - annual fees ,2,Credit Card,1 month,2021-12-05T02:18:27-08:00,0,300000,0,0,1000,1000,2022-01-02T02:18:27-08:00,,TRUE,TRUE
+pp491 - statement verification with no origination fees charge annual fees payment - charge,3,Credit Card,1 month,2021-12-05T02:18:27-08:00,0,300000,0,0,1000,300000,2022-01-02T02:18:27-08:00,,TRUE,TRUE
+pp492 - statement verification with no origination fees charge annual fees  payment - annual fees and charge,4,Credit Card,1 month,2021-12-05T02:18:27-08:00,0,300000,0,0,1000,301000,2022-01-02T02:18:27-08:00,,TRUE,TRUE
+pp493 - statement verification with no origination fees charge annual fees payment  - annual fees and partial amount,5,Credit Card,1 month,2021-12-05T02:18:27-08:00,2000,300000,0,0,1000,151000,2022-01-02T02:18:27-08:00,,TRUE,TRUE
+pp494 - statement verification with origination fees charge annual fees and no payment,6,Credit Card,1 month,2021-12-05T02:18:27-08:00,2000,300000,0,0,1000,,2022-01-02T02:18:27-08:00,TRUE,TRUE,
+pp495 - statement verification with origination fees charge annual fees and payment -  annual fees,7,Credit Card,1 month,2021-12-05T02:18:27-08:00,2000,300000,0,0,1000,1000,2022-01-02T02:18:27-08:00,TRUE,TRUE,TRUE
+pp496 - statement verification with origination fees charge annual fees payment - charge ,8,Credit Card,1 month,2021-12-05T02:18:27-08:00,2000,300000,0,0,1000,300000,2022-01-02T02:18:27-08:00,TRUE,TRUE,TRUE
+pp497 - statement verification with origination fees charge annual fees and payment - annual fees and charge ,9,Credit Card,1 month,2021-12-05T02:18:27-08:00,2000,300000,0,0,1000,301000,2022-01-02T02:18:27-08:00,TRUE,TRUE,TRUE
+pp498 - statement verification with origination fees charge annual fees and payment all,10,Credit Card,1 month,2021-12-05T02:18:27-08:00,2000,300000,0,0,1000,3030000,2022-01-02T02:18:27-08:00,TRUE,TRUE,TRUE
+pp499 - statement verification with origination fees charge annual fees payment -  fees and partial principal ,11,Credit Card,1 month,2021-12-05T02:18:27-08:00,2000,300000,0,0,1000,153000,2022-01-02T02:18:27-08:00,TRUE,TRUE,TRUE

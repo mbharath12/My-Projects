@@ -1,0 +1,37 @@
+[
+  {
+    "tc_name": "pp1025 - Multiple payment processor - default payment method as ACH and processor name as REPAY",
+    "index": "1",
+    "edit_processor_config": "account_processor_config_ach_repay.json",
+    "default_payment_process_method": "ACH",
+    "processor_name": "REPAY"
+  },
+  {
+    "tc_name": "pp1026 - Multiple payment processor - default payment method as ACH and processor name as DWOLLA",
+    "index": "2",
+    "edit_processor_config": "account_processor_config_ach_dwolla.json",
+    "default_payment_process_method": "ACH",
+    "processor_name": "DWOLLA"
+  },
+  {
+    "tc_name": "pp1027 - Multiple payment processor - default payment method as ACH and processor name as MODERN TREASURY",
+    "index": "3",
+    "edit_processor_config": "account_processor_config_ach_modern_treasury.json",
+    "default_payment_process_method": "ACH",
+    "processor_name": "MODERN_TREASURY"
+  },
+  {
+    "tc_name": "pp1028 - Multiple payment processor - default payment method as Debit Card and processor name as REPAY",
+    "index": "4",
+    "edit_processor_config": "account_processor_config_debit_card_repay.json",
+    "default_payment_process_method": "DEBIT_CARD",
+    "processor_name": "REPAY"
+  },
+  {
+    "tc_name": "pp1029 - Multiple payment processor - default payment method as Credit Card and processor name as Checkout",
+    "index": "5",
+    "edit_processor_config": "account_processor_config_credit_card_checkout.json",
+    "default_payment_process_method": "CREDIT_CARD",
+    "processor_name": "CHECKOUT"
+  }
+]

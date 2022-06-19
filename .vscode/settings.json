@@ -1,0 +1,21 @@
+{
+  "editor.rulers": [80],
+  // hide in editor
+  "files.exclude": {
+    "**/node_modules": false,
+    "**/.build": false,
+    "**/.history": true,
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "*.lock": false,
+    ".git/": true,
+    ".yarn": false
+  },
+  // Rewrap plugin:
+  "rewrap.autoWrap.enabled": true,
+  "rewrap.doubleSentenceSpacing": false,
+  "rewrap.wholeComment": true,
+  "rewrap.reformat": true,
+  "rewrap.wrappingColumn": 80,
+  "rewrap.autoWrap.notification": "icon"
+}

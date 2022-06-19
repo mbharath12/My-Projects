@@ -1,0 +1,9 @@
+tc_name,index,account_effective_dt,account_effective_dt_time,response_status,error_msg,late_fee_cents,payment_amt_cents,payment_check,line_item_check
+pp245-LateFeeValidation using Installment Product and check LateFee Line-Item displayed,1,-10,0,200,,5000,300000,YES,TRUE
+PP247-Attempt to apply Late fees amount over and above the Credit limit 5000 on an account using Installment Product and verify system throws error,2,-10,0,500,,2900,300000,NO,FALSE
+PP248-Attempt to apply negative fees -29 on an account using Installment Product and confirm Negative Latefee shouldnot be accepted,3,-10,0,500,,2900,300000,NO,TRUE
+PP249-Attempt to apply 0 latefees on an account and confirm the latefee entry is not exist in Line Item,4,-10,0,200,,0,300000,YES,FALSE
+PP250- Attempt to apply 82 late feecents fees on an account and confirm the latefee should not be accepted in Cents,5,-10,0,500,,2900,300000,NO,NO
+PP251-Attempt to apply USD 29.99 latefees on an account and the latefee should get accepted,6,-10,0,200,,2990,300000,YES,TRUE
+PP252-Attempt to apply USD 1000 fees and confirm the latefee should not be accepted.,7,-10,0,500,,2900,300000,NO,NO
+PP246-Late Fee validation - Process when grace period end date falls on a holiday,8,-10,0,200,,5000,300000,YES,TRUE

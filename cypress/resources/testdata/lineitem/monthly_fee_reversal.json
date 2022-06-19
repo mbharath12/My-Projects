@@ -1,0 +1,58 @@
+[
+  {
+    "tc_name": "PP221- Attempt to revert Monthly fees before floating period",
+    "index": "1",
+    "product_type": "CREDIT",
+    "account_effective_dt": "-32",
+    "late_fee_cents": "0",
+    "monthly_fee_cents": "2000",
+    "origination_fee_cents": "0",
+    "principal_amount_cents": "500000",
+    "total_balance_cents": "5020000",
+    "payment_check": "FALSE",
+    "Payment_amount": "0",
+    "total_balance_cents_after_waiver": "500000"
+  },
+  {
+    "tc_name": "PP222-Attempt to revert Monthly fees after floating period",
+    "index": "2",
+    "product_type": "CREDIT",
+    "account_effective_dt": "-33",
+    "late_fee_cents": "0",
+    "monthly_fee_cents": "2000",
+    "origination_fee_cents": "0",
+    "principal_amount_cents": "500000",
+    "total_balance_cents": "5020000",
+    "payment_check": "FALSE",
+    "Payment_amount": "0",
+    "total_balance_cents_after_waiver": "500000"
+  },
+  {
+    "tc_name": "PP223- Attempt to revert Monthly fees after floating period, after a payment has been applied",
+    "index": "3",
+    "product_type": "CREDIT",
+    "account_effective_dt": "-34",
+    "late_fee_cents": "0",
+    "monthly_fee_cents": "2000",
+    "origination_fee_cents": "0",
+    "principal_amount_cents": "500000",
+    "total_balance_cents": "5020000",
+    "payment_check": "TRUE",
+    "Payment_amount": "30000",
+    "total_balance_cents_after_waiver": "470000"
+  },
+  {
+    "tc_name": "PP205- Monthly Fee validation - Verify Waiver of fees for Revolving product",
+    "index": "4",
+    "product_type": "REVOLVING",
+    "account_effective_dt": "-33",
+    "late_fee_cents": "0",
+    "monthly_fee_cents": "2000",
+    "origination_fee_cents": "0",
+    "principal_amount_cents": "500000",
+    "total_balance_cents": "5020000",
+    "payment_check": "FALSE",
+    "Payment_amount": "0",
+    "total_balance_cents_after_waiver": "500000"
+  }
+]

@@ -1,0 +1,3 @@
+tc_name,index,account_json_file_name,account_effective_at,default_payment_process_method,processor_name,payment_effective_dt,autoEnabled
+pp2651 - Authorize.net - validate auto payment line item is pending status ,1,account_payment_processor_ach_repay.json,2021-12-10T02:18:27-08:00,DEBIT_CARD,AUTHORIZE_NET,2021-12-30T09:11:28+00:00,TRUE
+pp2652 - Authorize.net - validate manual payment line item is pending status ,2,account_payment_processor_ach_repay.json,2021-12-15T02:18:27-08:00,DEBIT_CARD,AUTHORIZE_NET,2021-12-30T09:11:28+00:00,FALSE

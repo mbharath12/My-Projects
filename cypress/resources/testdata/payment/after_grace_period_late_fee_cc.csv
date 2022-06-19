@@ -1,0 +1,4 @@
+tc_name,index,product_name,account_effective_dt,account_effective_dt_time,cycle_interval,response_status,origination_fee_cents,late_fee_cents,payment_amt_cents,current_principal_cents,total_balance_cents,total_paid_to_date_cents,error_msg,payment_check,late_Fee_Check,late_fee_neg_cents_check,line_item_check
+PP253-Late fees on Cards set up with monthly cycle interval,1,paymentProductLateFee_cc,-50,0,30 days,200,0,2900,100000,1,0,-100000,,TRUE,TRUE,FALSE,TRUE
+PP255-Late fees on Cards sets up with less than 1 month cycle interval - 15 days,2,paymentProductLateFee_cc,-50,0,15 days,200,0,2900,100000,1,0,-100000,,TRUE,TRUE,FALSE,TRUE
+PP254-Late fees on Cards set up with less than 1 month cycle interval - 7 days,3,paymentProductLateFee_cc,-50,0,7 days,200,0,2900,100000,1,0,-100000,,TRUE,TRUE,FALSE,TRUE

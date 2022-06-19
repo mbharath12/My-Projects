@@ -1,0 +1,14 @@
+﻿tc_name,index,post_promo_len,post_promo_default_interest_rate_percent,delinquent,charge_off,cycle_interval,cycle_due_interval,first_cycle_interval,account_template_name,account_effective_dt,origination_fee_cents,initial_principal_cents,late_fee_cents,payment_reversal_fee_cents,monthly_fee_cents,annual_fee_cents
+PP787 - Interest calculation for Installment Product with payment on time,1,12,3.99,99,9999,1 month,2 days,1 month,account_payment.json,2020-11-06T12:16:16-00:00,0,1000000,0,0,0,0
+PP788 - Interest calculation for Installment Product with delay payment and before grace period,2,12,3.99,99,9999,1 month,2 days,1 month,account_payment.json,2020-11-06T12:16:16-00:00,0,1000000,0,0,0,0
+PP789 - Interest calculation for Installment Product with delayed payment,3,12,3.99,99,9999,1 month,2 days,1 month,account_payment.json,2020-11-06T12:16:16-00:00,0,1000000,299,0,0,0
+PP790 - Interest calculation for Installment Product with payment on time other fees charged paid off separately,4,12,3.99,99,9999,1 month,2 days,1 month,account_payment.json,2020-11-06T12:16:16-00:00,20000,1000000,0,0,0,0
+PP791 - Interest calculation for Installment Product with fee charges not paid,5,10,3.99,99,9999,1 month,2 days,1 month,account_payment.json,2021-02-06T12:16:16-00:00,20000,600000,0,0,0,0
+PP792 - Interest calculation for Installment Product with Part Payments and Late fees charges,6,10,3.99,99,9999,1 month,2 days,1 month,account_payment.json,2021-02-06T12:16:16-00:00,10000,300000,299,0,0,0
+PP794 - Interest calculation for Installment Product  without payments - Suspended and Delinquent,7,10,6,4,10,1 month,2 days,1 month,account_payment.json,2021-03-31T12:16:16-00:00,10000,500000,299,0,0,0
+PP795 - Interest calculation for Installment Product  without payments - Suspended and Delinquent. Subsequently cured,8,10,6,4,5,1 month,2 days,1 month,account_payment.json,2021-05-17T12:16:16-00:00,10000,300000,299,0,0,0
+PP796 - Interest calculation for Installment Product  without payments - Closed/Chargeoff,9,10,4,3,10,1 month,2 days,1 month,account_payment.json,2021-06-17T12:16:16-00:00,10000,300000,299,0,0,0
+PP797 - Interest calculation for Installment Product  with payment reversal,10,10,4,2,10,1 month,2 days,1 month,account_payment.json,2021-07-17T12:16:16-00:00,0,300000,299,0,0,0
+PP798 - Interest calculation for Installment Product  with back dated payments ,11,10,3.99,5,6,1 month,2 days,1 month,account_payment.json,2021-03-17T12:16:16-00:00,10000,3000000,299,0,0,0
+PP818 - Interest calculation for BNPL Product with payment on time,12,4,8,5,6,7 days,-2 days,7 days,account_payment.json,2021-09-20T12:16:16-00:00,0,1500000,0,0,0,0
+PP818B - Interest calculation for BNPL Product with delay payment and before grace period,13,4,8,5,6,7 days,-2 days,7 days,account_payment.json,2021-09-20T12:16:16-00:00,0,1500000,0,0,0,0

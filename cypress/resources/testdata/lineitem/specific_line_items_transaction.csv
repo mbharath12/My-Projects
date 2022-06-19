@@ -1,0 +1,558 @@
+tc_name,index,type,roll_date,effective_at,transaction_date,original_amount_cents,exp_line_item_type,exp_original_amount_cents,exp_balance_cents,exp_principal_cents,exp_interest_balance_cents,exp_deferred_interest_balance_cents,exp_am_deferred_interest_balance_cents,exp_am_interest_balance_cents,exp_total_interest_paid_to_date_cents,exp_description,merchant_name,mcc_code,ext_key,ext_value,exp_status
+PP1498-Get information on a charge line item for a specific revolving account ,1,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP1498-Get information on a charge line item for a specific revolving account ,2,validation,2021-11-08T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP1498-Get information on a charge line item for a specific revolving account ,3,charge,,2021-11-07T11:15:03-05:00,,2000,,,,,,,,,,,,,,,
+PP1498-Get information on a charge line item for a specific revolving account ,4,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP1498-Get information on a charge line item for a specific revolving account ,5,validation,,,2021-11-07T,,CHARGE,2000,2000,2000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2119-Get information on a charge line item for a specific installment account,6,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP2119-Get information on a charge line item for a specific installment account,7,validation,2021-11-09T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,0,0,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2119-Get information on a charge line item for a specific installment account,10,charge,,2021-11-10T11:15:03-05:00,,2000,,,,,,,,,,,,,,,
+PP2119-Get information on a charge line item for a specific installment account,11,getlineitem,,2021-11-10T,,,CHARGE,,,,,,,,,,,,,,
+PP2119-Get information on a charge line item for a specific installment account,12,validation,,,2021-11-10T,,CHARGE,2000,2000,2000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2119-Get information on a charge line item for a specific installment account,8,getlineitem,30,2021-11-07T,,,LOAN,,,,,,,,,,,,,,
+PP2119-Get information on a charge line item for a specific installment account,9,validation,,,,,LOAN,100000,100000,100000,0,0,0,0,0,roll up loan,,,,,VALID
+PP2120-Get information on a charge line item for a specific charge account,13,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP2120-Get information on a charge line item for a specific charge account,14,validation,2021-11-09T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2120-Get information on a charge line item for a specific charge account,15,charge,,2021-11-10T11:15:03-05:00,,2000,,,,,,,,,,,,,,,
+PP2120-Get information on a charge line item for a specific charge account,16,getlineitem,,2021-11-10T,,,CHARGE,,,,,,,,,,,,,,
+PP2120-Get information on a charge line item for a specific charge account,17,validation,,,2021-11-10T,,CHARGE,2000,2000,2000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2121-Get information on a charge line item for a specific credit account,18,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP2121-Get information on a charge line item for a specific credit account,19,validation,2021-11-09T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2121-Get information on a charge line item for a specific credit account,20,charge,,2021-11-10T11:15:03-05:00,,2000,,,,,,,,,,,,,,,
+PP2121-Get information on a charge line item for a specific credit account,21,getlineitem,,2021-11-10T,,,CHARGE,,,,,,,,,,,,,,
+PP2121-Get information on a charge line item for a specific credit account,22,validation,,,2021-11-10T,,CHARGE,2000,2000,2000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP1499-Get information on a charge reversal line item for a specific revolving account,23,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP1499-Get information on a charge reversal line item for a specific revolving account,24,validation,2021-11-08T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP1499-Get information on a charge reversal line item for a specific revolving account,25,charge,,2021-11-07T11:15:03-05:00,,2000,,,,,,,,,,,,,,,
+PP1499-Get information on a charge reversal line item for a specific revolving account,26,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP1499-Get information on a charge reversal line item for a specific revolving account,27,validation,,,2021-11-07T,,CHARGE,2000,2000,2000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP1499-Get information on a charge reversal line item for a specific revolving account,28,debitoffset,,2021-11-12T11:15:03-05:00,,20,,,,,,,,,,,,,,,
+PP1499-Get information on a charge reversal line item for a specific revolving account,29,getlineitem,,2021-11-12T,,,DEBIT_OFFSET,,,,,,,,,,,,,,
+PP1499-Get information on a charge reversal line item for a specific revolving account,30,validation,2021-11-13T12:16:16-04:00,,2021-11-12T,,DEBIT_OFFSET,-20,0,0,0,0,0,0,0,upd payment principal_cents: -20 + 20,,,,,VALID
+PP2122-Get information on a charge reversal line item for a specific installment account,31,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP2122-Get information on a charge reversal line item for a specific installment account,32,validation,2021-11-09T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,0,0,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2122-Get information on a charge reversal line item for a specific installment account,35,charge,,2021-11-10T11:15:03-05:00,,2000,,,,,,,,,,,,,,,
+PP2122-Get information on a charge reversal line item for a specific installment account,36,getlineitem,,2021-11-10T,,,CHARGE,,,,,,,,,,,,,,
+PP2122-Get information on a charge reversal line item for a specific installment account,37,validation,,,2021-11-10T,,CHARGE,2000,2000,2000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2122-Get information on a charge reversal line item for a specific installment account,38,debitoffset,,2021-11-12T11:15:03-05:00,,20,,,,,,,,,,,,,,,
+PP2122-Get information on a charge reversal line item for a specific installment account,39,getlineitem,,2021-11-12T,,,DEBIT_OFFSET,,,,,,,,,,,,,,
+PP2122-Get information on a charge reversal line item for a specific installment account,40,validation,2021-11-13T12:16:16-04:00,,2021-11-12T,,DEBIT_OFFSET,-20,0,0,0,0,0,0,0,upd payment principal_cents: -20 + 20,,,,,VALID
+PP2122-Get information on a charge reversal line item for a specific installment account,33,getlineitem,30,2021-11-07T,,,LOAN,,,,,,,,,,,,,,
+PP2122-Get information on a charge reversal line item for a specific installment account,34,validation,,,,,LOAN,100000,100000,100000,0,0,0,0,0,roll up loan,,,,,VALID
+PP2123-Get information on a charge reversal line item for a specific charge account,41,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP2123-Get information on a charge reversal line item for a specific charge account,42,validation,2021-11-08T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2123-Get information on a charge reversal line item for a specific charge account,43,charge,,2021-11-07T11:15:03-05:00,,2000,,,,,,,,,,,,,,,
+PP2123-Get information on a charge reversal line item for a specific charge account,44,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP2123-Get information on a charge reversal line item for a specific charge account,45,validation,,,2021-11-07T,,CHARGE,2000,2000,2000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2123-Get information on a charge reversal line item for a specific charge account,46,debitoffset,,2021-11-12T11:15:03-05:00,,20,,,,,,,,,,,,,,,
+PP2123-Get information on a charge reversal line item for a specific charge account,47,getlineitem,,2021-11-12T,,,DEBIT_OFFSET,,,,,,,,,,,,,,
+PP2123-Get information on a charge reversal line item for a specific charge account,48,validation,2021-11-13T12:16:16-04:00,,2021-11-12T,,DEBIT_OFFSET,-20,0,0,0,0,0,0,0,upd payment principal_cents: -20 + 20,,,,,VALID
+PP2124-Get information on a charge reversal line item for a specific credit account,49,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP2124-Get information on a charge reversal line item for a specific credit account,50,validation,2021-11-08T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2124-Get information on a charge reversal line item for a specific credit account,51,charge,,2021-11-07T11:15:03-05:00,,2000,,,,,,,,,,,,,,,
+PP2124-Get information on a charge reversal line item for a specific credit account,52,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP2124-Get information on a charge reversal line item for a specific credit account,53,validation,,,2021-11-07T,,CHARGE,2000,2000,2000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2124-Get information on a charge reversal line item for a specific credit account,54,debitoffset,,2021-11-12T11:15:03-05:00,,20,,,,,,,,,,,,,,,
+PP2124-Get information on a charge reversal line item for a specific credit account,55,getlineitem,,2021-11-12T,,,DEBIT_OFFSET,,,,,,,,,,,,,,
+PP2124-Get information on a charge reversal line item for a specific credit account,56,validation,2021-11-13T12:16:16-04:00,,2021-11-12T,,DEBIT_OFFSET,-20,0,0,0,0,0,0,0,upd payment principal_cents: -20 + 20,,,,,VALID
+PP1500-Get information on a payment line item for a specific revolving account,57,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP1500-Get information on a payment line item for a specific revolving account,58,validation,2021-11-08T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP1500-Get information on a payment line item for a specific revolving account,59,payment,,2021-11-07T11:15:03-05:00,,100000,,,,,,,,,,,,,,,
+PP1500-Get information on a payment line item for a specific revolving account,60,getlineitem,,2021-11-07T,,,PAYMENT,,,,,,,,,,,,,,
+PP1500-Get information on a payment line item for a specific revolving account,61,validation,,,2021-11-07T,,PAYMENT,-100000,0,0,0,0,0,0,0,upd payment principal_cents: -100000 + 100000,,,,,VALID
+PP2125-Get information on a payment line item for a specific installment account,62,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP2125-Get information on a payment line item for a specific installment account,63,validation,2021-11-09T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,0,0,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2125-Get information on a payment line item for a specific installment account,66,payment,,2021-11-07T11:15:03-05:00,,100000,,,,,,,,,,,,,,,
+PP2125-Get information on a payment line item for a specific installment account,67,getlineitem,,2021-11-07T,,,PAYMENT,,,,,,,,,,,,,,
+PP2125-Get information on a payment line item for a specific installment account,68,validation,,,2021-11-07T,,PAYMENT,-100000,0,0,0,0,0,0,0,upd payment principal_cents: -100000 + 100000,,,,,VALID
+PP2125-Get information on a payment line item for a specific installment account,64,getlineitem,30,2021-11-07T,,,LOAN,,,,,,,,,,,,,,
+PP2125-Get information on a payment line item for a specific installment account,65,validation,,,,,LOAN,100000,100000,100000,0,0,0,0,0,roll up loan,,,,,VALID
+PP2126-Get information on a payment line item for a specific charge account,69,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP2126-Get information on a payment line item for a specific charge account,70,validation,2021-11-08T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2126-Get information on a payment line item for a specific charge account,71,payment,,2021-11-07T11:15:03-05:00,,100000,,,,,,,,,,,,,,,
+PP2126-Get information on a payment line item for a specific charge account,72,getlineitem,,2021-11-07T,,,PAYMENT,,,,,,,,,,,,,,
+PP2126-Get information on a payment line item for a specific charge account,73,validation,,,2021-11-07T,,PAYMENT,-100000,0,0,0,0,0,0,0,upd payment principal_cents: -100000 + 100000,,,,,VALID
+PP2127-Get information on a payment line item for a specific credit account,74,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP2127-Get information on a payment line item for a specific credit account,75,validation,2021-11-08T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2127-Get information on a payment line item for a specific credit account,76,payment,,2021-11-07T11:15:03-05:00,,100000,,,,,,,,,,,,,,,
+PP2127-Get information on a payment line item for a specific credit account,77,getlineitem,,2021-11-07T,,,PAYMENT,,,,,,,,,,,,,,
+PP2127-Get information on a payment line item for a specific credit account,78,validation,,,2021-11-07T,,PAYMENT,-100000,0,0,0,0,0,0,0,upd payment principal_cents: -100000 + 100000,,,,,VALID
+PP1501-Get information on a payment reversal line item for a specific revolving account,79,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP1501-Get information on a payment reversal line item for a specific revolving account,80,validation,2021-11-08T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP1501-Get information on a payment reversal line item for a specific revolving account,81,payment,,2021-11-07T11:15:03-05:00,,100000,,,,,,,,,,,,,,,
+PP1501-Get information on a payment reversal line item for a specific revolving account,82,getlineitem,,2021-11-07T,,,PAYMENT,,,,,,,,,,,,,,
+PP1501-Get information on a payment reversal line item for a specific revolving account,83,validation,,,2021-11-07T,,PAYMENT,-100000,0,0,0,0,0,0,0,upd payment principal_cents: -100000 + 100000,,,,,VALID
+PP1501-Get information on a payment reversal line item for a specific revolving account,84,paymentreversal,,,,,,,,,,,,,,,,,,,
+PP1501-Get information on a payment reversal line item for a specific revolving account,86,getlineitem,30,0,,,PAYMENT_REVERSAL,,,,,,,,,,,,,,
+PP1501-Get information on a payment reversal line item for a specific revolving account,87,validation,,,,,PAYMENT_REVERSAL,100000,100000,0,0,0,0,0,0,,,,,,VALID
+PP2128-Get information on a payment reversal line item for a specific installment account,88,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP2128-Get information on a payment reversal line item for a specific installment account,89,validation,2021-11-09T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,0,0,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2128-Get information on a payment reversal line item for a specific installment account,92,payment,,2021-11-07T11:15:03-05:00,,100000,,,,,,,,,,,,,,,
+PP2128-Get information on a payment reversal line item for a specific installment account,93,getlineitem,,2021-11-07T,,,PAYMENT,,,,,,,,,,,,,,
+PP2128-Get information on a payment reversal line item for a specific installment account,94,validation,,,2021-11-07T,,PAYMENT,-100000,0,0,0,0,0,0,0,upd payment principal_cents: -100000 + 100000,,,,,VALID
+PP2128-Get information on a payment reversal line item for a specific installment account,95,paymentreversal,,,,,,,,,,,,,,,,,,,
+PP2128-Get information on a payment reversal line item for a specific installment account,97,getlineitem,30,0,,,PAYMENT_REVERSAL,,,,,,,,,,,,,,
+PP2128-Get information on a payment reversal line item for a specific installment account,98,validation,,,,,PAYMENT_REVERSAL,100000,100000,0,0,0,0,0,0,upd payment principal_cents: -100000 + 100000,,,,,VALID
+PP2128-Get information on a payment reversal line item for a specific installment account,90,getlineitem,,2021-11-07T,,,LOAN,,,,,,,,,,,,,,
+PP2128-Get information on a payment reversal line item for a specific installment account,91,validation,,,,,LOAN,100000,100000,100000,0,0,0,0,0,roll up loan,,,,,VALID
+PP2129-Get information on a payment reversal line item for a specific charge account,99,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP2129-Get information on a payment reversal line item for a specific charge account,100,validation,2021-11-08T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2129-Get information on a payment reversal line item for a specific charge account,101,payment,,2021-11-07T11:15:03-05:00,,100000,,,,,,,,,,,,,,,
+PP2129-Get information on a payment reversal line item for a specific charge account,102,getlineitem,,2021-11-07T,,,PAYMENT,,,,,,,,,,,,,,
+PP2129-Get information on a payment reversal line item for a specific charge account,103,validation,,,2021-11-07T,,PAYMENT,-100000,0,0,0,0,0,0,0,upd payment principal_cents: -100000 + 100000,,,,,VALID
+PP2129-Get information on a payment reversal line item for a specific charge account,104,paymentreversal,,,,,,,,,,,,,,,,,,,
+PP2129-Get information on a payment reversal line item for a specific charge account,106,getlineitem,30,0,,,PAYMENT_REVERSAL,,,,,,,,,,,,,,
+PP2129-Get information on a payment reversal line item for a specific charge account,107,validation,,,,,PAYMENT_REVERSAL,100000,100000,0,0,0,0,0,0,,,,,,VALID
+PP2130-Get information on a payment reversal line item for a specific credit account,108,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP2130-Get information on a payment reversal line item for a specific credit account,109,validation,2021-11-08T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2130-Get information on a payment reversal line item for a specific credit account,110,payment,,2021-11-07T11:15:03-05:00,,100000,,,,,,,,,,,,,,,
+PP2130-Get information on a payment reversal line item for a specific credit account,111,getlineitem,,2021-11-07T,,,PAYMENT,,,,,,,,,,,,,,
+PP2130-Get information on a payment reversal line item for a specific credit account,112,validation,,,2021-11-07T,,PAYMENT,-100000,0,0,0,0,0,0,0,upd payment principal_cents: -100000 + 100000,,,,,VALID
+PP2130-Get information on a payment reversal line item for a specific credit account,113,paymentreversal,,,,,,,,,,,,,,,,,,,
+PP2130-Get information on a payment reversal line item for a specific credit account,115,getlineitem,30,0,,,PAYMENT_REVERSAL,,,,,,,,,,,,,,
+PP2130-Get information on a payment reversal line item for a specific credit account,116,validation,,,,,PAYMENT_REVERSAL,100000,100000,0,0,0,0,0,0,,,,,,VALID
+PP1502-Get information on a origination fee line item for a specific revolving account,117,getlineitem,,2021-11-07T,,,ORIG_FEE,,,,,,,,,,,,,,
+PP1502-Get information on a origination fee line item for a specific revolving account,118,validation,,,2021-11-07T,,ORIG_FEE,20000,20000,0,0,0,0,0,0,origination_fee_cents,,,,,VALID
+PP1502-Get information on a origination fee line item for a specific revolving account,119,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP1502-Get information on a origination fee line item for a specific revolving account,120,validation,2021-11-08T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2131-Get information on a origination fee line item for a specific installment account,121,getlineitem,,2021-11-07T,,,ORIG_FEE,,,,,,,,,,,,,,
+PP2131-Get information on a origination fee line item for a specific installment account,122,validation,,,2021-11-07T,,ORIG_FEE,20000,20000,0,0,0,0,0,0,origination_fee_cents,,,,,VALID
+PP2131-Get information on a origination fee line item for a specific installment account,123,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP2131-Get information on a origination fee line item for a specific installment account,124,validation,2021-11-09T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,0,0,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2132-Get information on a origination fee line item for a specific charge account,127,getlineitem,,2021-11-07T,,,ORIG_FEE,,,,,,,,,,,,,,
+PP2132-Get information on a origination fee line item for a specific charge account,128,validation,,,2021-11-07T,,ORIG_FEE,20000,20000,0,0,0,0,0,0,origination_fee_cents,,,,,VALID
+PP2132-Get information on a origination fee line item for a specific charge account,129,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP2132-Get information on a origination fee line item for a specific charge account,130,validation,2021-11-08T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2133-Get information on a origination fee line item for a specific credit account,131,getlineitem,,2021-11-07T,,,ORIG_FEE,,,,,,,,,,,,,,
+PP2133-Get information on a origination fee line item for a specific credit account,132,validation,,,2021-11-07T,,ORIG_FEE,20000,20000,0,0,0,0,0,0,origination_fee_cents,,,,,VALID
+PP2133-Get information on a origination fee line item for a specific credit account,133,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP2133-Get information on a origination fee line item for a specific credit account,134,validation,2021-11-08T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2131-Get information on a origination fee line item for a specific installment account,125,getlineitem,30,2021-11-07T,,,LOAN,,,,,,,,,,,,,,
+PP2131-Get information on a origination fee line item for a specific installment account,126,validation,,,,,LOAN,100000,100000,100000,0,0,0,0,0,roll up loan,,,,,VALID
+PP1503-Get information on a waiver of origination fee line item for a specific revolving account,135,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP1503-Get information on a waiver of origination fee line item for a specific revolving account,136,validation,2021-11-08T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP1503-Get information on a waiver of origination fee line item for a specific revolving account,137,getlineitem,,2021-11-07T,,,ORIG_FEE,,,,,,,,,,,,,,
+PP1503-Get information on a waiver of origination fee line item for a specific revolving account,138,validation,,,2021-11-07T,,ORIG_FEE,20000,20000,0,0,0,0,0,0,origination_fee_cents,,,,,VALID
+PP1503-Get information on a waiver of origination fee line item for a specific revolving account,139,feereversal,,,,,,,,,,,,,,,,,,,
+PP1503-Get information on a waiver of origination fee line item for a specific revolving account,139,getlineitem,30,0,,,FEE_REVERSAL,,,,,,,,,,,,,,
+PP1503-Get information on a waiver of origination fee line item for a specific revolving account,140,validation,,,,,FEE_REVERSAL,-20000,0,0,0,0,0,0,0,upd payment principal_cents: -20000 + 20000,,,,,VALID
+PP2134-Get information on a waiver of origination fee line item for a specific installment account,141,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP2134-Get information on a waiver of origination fee line item for a specific installment account,142,validation,2021-11-09T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,0,0,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2134-Get information on a waiver of origination fee line item for a specific installment account,145,getlineitem,,2021-11-07T,,,ORIG_FEE,,,,,,,,,,,,,,
+PP2134-Get information on a waiver of origination fee line item for a specific installment account,146,validation,,,2021-11-07T,,ORIG_FEE,20000,20000,0,0,0,0,0,0,origination_fee_cents,,,,,VALID
+PP2134-Get information on a waiver of origination fee line item for a specific installment account,147,feereversal,,,,,,,,,,,,,,,,,,,
+PP2134-Get information on a waiver of origination fee line item for a specific installment account,139,getlineitem,30,0,,,FEE_REVERSAL,,,,,,,,,,,,,,
+PP2134-Get information on a waiver of origination fee line item for a specific installment account,148,validation,,,,,FEE_REVERSAL,-20000,0,0,0,0,0,0,0,upd payment principal_cents: -20000 + 20000,,,,,VALID
+PP2134-Get information on a waiver of origination fee line item for a specific installment account,143,getlineitem,,2021-11-07T,,,LOAN,,,,,,,,,,,,,,
+PP2134-Get information on a waiver of origination fee line item for a specific installment account,144,validation,,,,,LOAN,100000,100000,100000,0,0,0,0,0,roll up loan,,,,,VALID
+PP2135-Get information on a waiver of origination fee line item for a specific charge account,149,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP2135-Get information on a waiver of origination fee line item for a specific charge account,150,validation,2021-11-08T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2135-Get information on a waiver of origination fee line item for a specific charge account,151,getlineitem,,2021-11-07T,,,ORIG_FEE,,,,,,,,,,,,,,
+PP2135-Get information on a waiver of origination fee line item for a specific charge account,152,validation,,,2021-11-07T,,ORIG_FEE,20000,20000,0,0,0,0,0,0,origination_fee_cents,,,,,VALID
+PP2135-Get information on a waiver of origination fee line item for a specific charge account,153,feereversal,,,,,,,,,,,,,,,,,,,
+PP2135-Get information on a waiver of origination fee line item for a specific charge account,139,getlineitem,30,0,,,FEE_REVERSAL,,,,,,,,,,,,,,
+PP2135-Get information on a waiver of origination fee line item for a specific charge account,154,validation,,,,,FEE_REVERSAL,-20000,0,0,0,0,0,0,0,upd payment principal_cents: -20000 + 20000,,,,,VALID
+PP2136-Get information on a waiver of origination fee line item for a specific credit account,155,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP2136-Get information on a waiver of origination fee line item for a specific credit account,156,validation,2021-11-08T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2136-Get information on a waiver of origination fee line item for a specific credit account,157,getlineitem,,2021-11-07T,,,ORIG_FEE,,,,,,,,,,,,,,
+PP2136-Get information on a waiver of origination fee line item for a specific credit account,158,validation,,,2021-11-07T,,ORIG_FEE,20000,20000,0,0,0,0,0,0,origination_fee_cents,,,,,VALID
+PP2136-Get information on a waiver of origination fee line item for a specific credit account,159,feereversal,,,,,,,,,,,,,,,,,,,
+PP2136-Get information on a waiver of origination fee line item for a specific credit account,139,getlineitem,30,0,,,FEE_REVERSAL,,,,,,,,,,,,,,
+PP2136-Get information on a waiver of origination fee line item for a specific credit account,160,validation,,,,,FEE_REVERSAL,-20000,0,0,0,0,0,0,0,upd payment principal_cents: -20000 + 20000,,,,,VALID
+PP1504-Get information on a annual fee line item for a specific revolving account,135,getlineitem,,2020-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP1504-Get information on a annual fee line item for a specific revolving account,136,validation,2020-11-08T11:15:03-05:00,,2020-11-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP1504-Get information on a annual fee line item for a specific revolving account,137,getlineitem,2021-01-08T11:15:03-05:00,2020-12-31T,,,YEAR_FEE,,,,,,,,,,,,,,
+PP1504-Get information on a annual fee line item for a specific revolving account,138,validation,,,2020-12-31T,,YEAR_FEE,50000,50000,0,0,0,0,0,0,year_fee_cents,,,,,VALID
+PP2137-Get information on a annual fee line item for a specific installment account,141,getlineitem,,2020-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP2137-Get information on a annual fee line item for a specific installment account,142,validation,2020-11-09T11:15:03-05:00,,2020-11-07T,,CHARGE,100000,0,0,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2137-Get information on a annual fee line item for a specific installment account,145,getlineitem,2021-01-08T11:15:03-05:00,2020-12-31T,,,YEAR_FEE,,,,,,,,,,,,,,
+PP2137-Get information on a annual fee line item for a specific installment account,146,validation,,,2020-12-31T,,YEAR_FEE,50000,50000,0,0,0,0,0,0,year_fee_cents,,,,,VALID
+PP2137-Get information on a annual fee line item for a specific installment account,143,getlineitem,,2021-11-07T,,,LOAN,,,,,,,,,,,,,,
+PP2137-Get information on a annual fee line item for a specific installment account,144,validation,,,,,LOAN,100000,100000,100000,0,0,0,0,0,roll up loan,,,,,VALID
+PP2138-Get information on a annual fee line item for a specific charge account,150,getlineitem,,2020-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP2138-Get information on a annual fee line item for a specific charge account,151,validation,2020-11-08T11:15:03-05:00,,2020-11-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2138-Get information on a annual fee line item for a specific charge account,152,getlineitem,2021-01-08T11:15:03-05:00,2020-12-31T,,,YEAR_FEE,,,,,,,,,,,,,,
+PP2138-Get information on a annual fee line item for a specific charge account,153,validation,,,2020-12-31T,,YEAR_FEE,50000,50000,0,0,0,0,0,0,year_fee_cents,,,,,VALID
+PP2139-Get information on a annual fee line item for a specific credit account,157,getlineitem,,2020-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP2139-Get information on a annual fee line item for a specific credit account,158,validation,2020-11-08T11:15:03-05:00,,2020-11-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2139-Get information on a annual fee line item for a specific credit account,159,getlineitem,2021-01-08T11:15:03-05:00,2020-12-31T,,,YEAR_FEE,,,,,,,,,,,,,,
+PP2139-Get information on a annual fee line item for a specific credit account,160,validation,,,2020-12-31T,,YEAR_FEE,50000,50000,0,0,0,0,0,0,year_fee_cents,,,,,VALID
+PP1505-Get information on a annual fee waiver line item for a specific revolving account,135,getlineitem,,2020-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP1505-Get information on a annual fee waiver line item for a specific revolving account,136,validation,2020-11-08T11:15:03-05:00,,2020-11-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP1505-Get information on a annual fee waiver line item for a specific revolving account,137,getlineitem,2021-01-08T11:15:03-05:00,2020-12-31T,,,YEAR_FEE,,,,,,,,,,,,,,
+PP1505-Get information on a annual fee waiver line item for a specific revolving account,138,validation,,,2020-12-31T,,YEAR_FEE,50000,50000,0,0,0,0,0,0,year_fee_cents,,,,,VALID
+PP1505-Get information on a annual fee waiver line item for a specific revolving account,139,feereversal,,,,,,,,,,,,,,,,,,,
+PP1505-Get information on a annual fee waiver line item for a specific revolving account,139,getlineitem,30,0,,,FEE_REVERSAL,,,,,,,,,,,,,,
+PP1505-Get information on a annual fee waiver line item for a specific revolving account,140,validation,,,,,FEE_REVERSAL,-50000,0,0,0,0,0,0,0,upd payment principal_cents: -50000 + 50000,,,,,VALID
+PP2140-Get information on a annual fee waiver line item for a specific installment account,141,getlineitem,,2020-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP2140-Get information on a annual fee waiver line item for a specific installment account,142,validation,2020-11-09T11:15:03-05:00,,2020-11-07T,,CHARGE,100000,0,0,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2140-Get information on a annual fee waiver line item for a specific installment account,145,getlineitem,2021-01-08T11:15:03-05:00,2020-12-31T,,,YEAR_FEE,,,,,,,,,,,,,,
+PP2140-Get information on a annual fee waiver line item for a specific installment account,146,validation,,,2020-12-31T,,YEAR_FEE,50000,50000,0,0,0,0,0,0,year_fee_cents,,,,,VALID
+PP2140-Get information on a annual fee waiver line item for a specific installment account,147,feereversal,,,,,,,,,,,,,,,,,,,
+PP2140-Get information on a annual fee waiver line item for a specific installment account,148,getlineitem,30,0,,,FEE_REVERSAL,,,,,,,,,,,,,,
+PP2140-Get information on a annual fee waiver line item for a specific installment account,149,validation,,,,,FEE_REVERSAL,-50000,0,0,0,0,0,0,0,upd payment principal_cents: -50000 + 50000,,,,,VALID
+PP2140-Get information on a annual fee waiver line item for a specific installment account,143,getlineitem,,2020-11-07T,,,LOAN,,,,,,,,,,,,,,
+PP2140-Get information on a annual fee waiver line item for a specific installment account,144,validation,,,,,LOAN,100000,100000,100000,0,0,0,0,0,roll up loan,,,,,VALID
+PP2141-Get information on a annual fee waiver line item for a specific charge account,150,getlineitem,,2020-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP2141-Get information on a annual fee waiver line item for a specific charge account,151,validation,2020-11-08T11:15:03-05:00,,2020-11-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2141-Get information on a annual fee waiver line item for a specific charge account,152,getlineitem,2021-01-08T11:15:03-05:00,2020-12-31T,,,YEAR_FEE,,,,,,,,,,,,,,
+PP2141-Get information on a annual fee waiver line item for a specific charge account,153,validation,,,2020-12-31T,,YEAR_FEE,50000,50000,0,0,0,0,0,0,year_fee_cents,,,,,VALID
+PP2141-Get information on a annual fee waiver line item for a specific charge account,154,feereversal,,,,,,,,,,,,,,,,,,,
+PP2141-Get information on a annual fee waiver line item for a specific charge account,155,getlineitem,30,0,,,FEE_REVERSAL,,,,,,,,,,,,,,
+PP2141-Get information on a annual fee waiver line item for a specific charge account,156,validation,,,,,FEE_REVERSAL,-50000,0,0,0,0,0,0,0,upd payment principal_cents: -50000 + 50000,,,,,VALID
+PP2142-Get information on a annual fee waiver line item for a specific credit account,157,getlineitem,,2020-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP2142-Get information on a annual fee waiver line item for a specific credit account,158,validation,2020-11-08T11:15:03-05:00,,2020-11-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2142-Get information on a annual fee waiver line item for a specific credit account,159,getlineitem,2021-01-08T11:15:03-05:00,2020-12-31T,,,YEAR_FEE,,,,,,,,,,,,,,
+PP2142-Get information on a annual fee waiver line item for a specific credit account,160,validation,,,2020-12-31T,,YEAR_FEE,50000,50000,0,0,0,0,0,0,year_fee_cents,,,,,VALID
+PP2142-Get information on a annual fee waiver line item for a specific credit account,161,feereversal,,,,,,,,,,,,,,,,,,,
+PP2142-Get information on a annual fee waiver line item for a specific credit account,162,getlineitem,30,0,,,FEE_REVERSAL,,,,,,,,,,,,,,
+PP2142-Get information on a annual fee waiver line item for a specific credit account,163,validation,,,,,FEE_REVERSAL,-50000,0,0,0,0,0,0,0,upd payment principal_cents: -50000 + 50000,,,,,VALID
+PP1506-Get information on a monthly fee line item for a specific revolving account,135,getlineitem,,2021-10-07T,,,CHARGE,,,,,,,,,,,,,,
+PP1506-Get information on a monthly fee line item for a specific revolving account,136,validation,2021-10-08T11:15:03-05:00,,2021-10-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP1506-Get information on a monthly fee line item for a specific revolving account,137,getlineitem,2021-11-08T11:15:03-05:00,2021-10-31T,,,MONTH_FEE,,,,,,,,,,,,,,
+PP1506-Get information on a monthly fee line item for a specific revolving account,138,validation,,,2021-10-31T,,MONTH_FEE,3000,3000,0,0,0,0,0,0,monthly_fee_cents,,,,,VALID
+PP2143-Get information on a monthly fee line item for a specific installment account,141,getlineitem,,2021-10-07T,,,CHARGE,,,,,,,,,,,,,,
+PP2143-Get information on a monthly fee line item for a specific installment account,142,validation,2021-10-08T11:15:03-05:00,,2021-10-07T,,CHARGE,100000,0,0,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2143-Get information on a monthly fee line item for a specific installment account,145,getlineitem,2021-11-08T11:15:03-05:00,2021-10-31T,,,MONTH_FEE,,,,,,,,,,,,,,
+PP2143-Get information on a monthly fee line item for a specific installment account,146,validation,,,2021-10-31T,,MONTH_FEE,3000,3000,0,0,0,0,0,0,monthly_fee_cents,,,,,VALID
+PP2143-Get information on a monthly fee line item for a specific installment account,143,getlineitem,30,2021-10-07T,,,LOAN,,,,,,,,,,,,,,
+PP2143-Get information on a monthly fee line item for a specific installment account,144,validation,,,,,LOAN,100000,100000,100000,0,0,0,0,0,roll up loan,,,,,VALID
+PP2144-Get information on a monthly fee line item for a specific charge account,150,getlineitem,,2021-10-07T,,,CHARGE,,,,,,,,,,,,,,
+PP2144-Get information on a monthly fee line item for a specific charge account,151,validation,2021-11-08T11:15:03-05:00,,2021-10-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2144-Get information on a monthly fee line item for a specific charge account,152,getlineitem,2021-11-08T11:15:03-05:00,2021-10-31T,,,MONTH_FEE,,,,,,,,,,,,,,
+PP2144-Get information on a monthly fee line item for a specific charge account,153,validation,,,2021-10-31T,,MONTH_FEE,3000,3000,0,0,0,0,0,0,monthly_fee_cents,,,,,VALID
+PP2145-Get information on a monthly fee line item for a specific credit account,157,getlineitem,,2021-10-07T,,,CHARGE,,,,,,,,,,,,,,
+PP2145-Get information on a monthly fee line item for a specific credit account,158,validation,2021-11-08T11:15:03-05:00,,2021-10-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2145-Get information on a monthly fee line item for a specific credit account,159,getlineitem,2021-11-08T11:15:03-05:00,2021-10-31T,,,MONTH_FEE,,,,,,,,,,,,,,
+PP2145-Get information on a monthly fee line item for a specific credit account,160,validation,,,2021-10-31T,,MONTH_FEE,3000,3000,0,0,0,0,0,0,monthly_fee_cents,,,,,VALID
+PP1507-Get information on a monthly fee reversal line item for a specific revolving account,161,getlineitem,,2021-10-07T,,,CHARGE,,,,,,,,,,,,,,
+PP1507-Get information on a monthly fee reversal line item for a specific revolving account,162,validation,2021-10-08T11:15:03-05:00,,2021-10-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP1507-Get information on a monthly fee reversal line item for a specific revolving account,163,getlineitem,2021-11-08T11:15:03-05:00,2021-10-31T,,,MONTH_FEE,,,,,,,,,,,,,,
+PP1507-Get information on a monthly fee reversal line item for a specific revolving account,164,validation,,,2021-10-31T,,MONTH_FEE,3000,3000,0,0,0,0,0,0,monthly_fee_cents,,,,,VALID
+PP1507-Get information on a monthly fee reversal line item for a specific revolving account,165,feereversal,,,,,,,,,,,,,,,,,,,
+PP1507-Get information on a monthly fee reversal line item for a specific revolving account,166,getlineitem,30,0,,,FEE_REVERSAL,,,,,,,,,,,,,,
+PP1507-Get information on a monthly fee reversal line item for a specific revolving account,167,validation,,,,,FEE_REVERSAL,-3000,0,0,0,0,0,0,0,upd payment principal_cents: -3000 + 3000,,,,,VALID
+PP2146-Get information on a monthly fee reversal line item for a specific installment account,168,getlineitem,,2021-10-07T,,,CHARGE,,,,,,,,,,,,,,
+PP2146-Get information on a monthly fee reversal line item for a specific installment account,169,validation,2021-10-08T11:15:03-05:00,,2021-10-07T,,CHARGE,100000,0,0,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2146-Get information on a monthly fee reversal line item for a specific installment account,172,getlineitem,2021-11-08T11:15:03-05:00,2021-10-31T,,,MONTH_FEE,,,,,,,,,,,,,,
+PP2146-Get information on a monthly fee reversal line item for a specific installment account,173,validation,,,2021-10-31T,,MONTH_FEE,3000,3000,0,0,0,0,0,0,monthly_fee_cents,,,,,VALID
+PP2146-Get information on a monthly fee reversal line item for a specific installment account,174,feereversal,,,,,,,,,,,,,,,,,,,
+PP2146-Get information on a monthly fee reversal line item for a specific installment account,175,getlineitem,30,0,,,FEE_REVERSAL,,,,,,,,,,,,,,
+PP2146-Get information on a monthly fee reversal line item for a specific installment account,176,validation,,,,,FEE_REVERSAL,-3000,0,0,0,0,0,0,0,upd payment principal_cents: -3000 + 3000,,,,,VALID
+PP2146-Get information on a monthly fee reversal line item for a specific installment account,170,getlineitem,,2021-10-07T,,,LOAN,,,,,,,,,,,,,,
+PP2146-Get information on a monthly fee reversal line item for a specific installment account,171,validation,,,,,LOAN,100000,100000,100000,0,0,0,0,0,roll up loan,,,,,VALID
+PP2147-Get information on a monthly fee reversal line item for a specific charge account,177,getlineitem,,2021-10-07T,,,CHARGE,,,,,,,,,,,,,,
+PP2147-Get information on a monthly fee reversal line item for a specific charge account,178,validation,2021-10-08T11:15:03-05:00,,2021-10-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2147-Get information on a monthly fee reversal line item for a specific charge account,179,getlineitem,2021-11-08T11:15:03-05:00,2021-10-31T,,,MONTH_FEE,,,,,,,,,,,,,,
+PP2147-Get information on a monthly fee reversal line item for a specific charge account,180,validation,,,2021-10-31T,,MONTH_FEE,3000,3000,0,0,0,0,0,0,monthly_fee_cents,,,,,VALID
+PP2147-Get information on a monthly fee reversal line item for a specific charge account,181,feereversal,,,,,,,,,,,,,,,,,,,
+PP2147-Get information on a monthly fee reversal line item for a specific charge account,182,getlineitem,30,0,,,FEE_REVERSAL,,,,,,,,,,,,,,
+PP2147-Get information on a monthly fee reversal line item for a specific charge account,183,validation,,,,,FEE_REVERSAL,-3000,0,0,0,0,0,0,0,upd payment principal_cents: -3000 + 3000,,,,,VALID
+PP2148-Get information on a monthly fee reversal line item for a specific credit account,184,getlineitem,,2021-10-07T,,,CHARGE,,,,,,,,,,,,,,
+PP2148-Get information on a monthly fee reversal line item for a specific credit account,185,validation,2021-10-08T11:15:03-05:00,,2021-10-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2148-Get information on a monthly fee reversal line item for a specific credit account,186,getlineitem,2021-11-08T11:15:03-05:00,2021-10-31T,,,MONTH_FEE,,,,,,,,,,,,,,
+PP2148-Get information on a monthly fee reversal line item for a specific credit account,187,validation,,,2021-10-31T,,MONTH_FEE,3000,3000,0,0,0,0,0,0,monthly_fee_cents,,,,,VALID
+PP2148-Get information on a monthly fee reversal line item for a specific credit account,188,feereversal,,,,,,,,,,,,,,,,,,,
+PP2148-Get information on a monthly fee reversal line item for a specific credit account,189,getlineitem,30,0,,,FEE_REVERSAL,,,,,,,,,,,,,,
+PP2148-Get information on a monthly fee reversal line item for a specific credit account,190,validation,,,,,FEE_REVERSAL,-3000,0,0,0,0,0,0,0,upd payment principal_cents: -3000 + 3000,,,,,VALID
+PP1508-Attempt to get surcharge lineitem using revolving product,191,getlineitem,2021-12-16T11:15:03-05:00,2021-10-15T,,,CHARGE,,,,,,,,,,,,,,
+PP1508-Attempt to get surcharge lineitem using revolving product,192,validation,,,2021-10-15T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP1508-Attempt to get surcharge lineitem using revolving product,193,getlineitem,,2021-10-31T,,,FEE_SURCHARGE,,,,,,,,,,,,,,
+PP1508-Attempt to get surcharge lineitem using revolving product,194,validation,,,2021-10-31T,,FEE_SURCHARGE,10000,10000,0,0,0,0,0,0,surcharge fee,,,,,VALID
+PP2149-Attempt to get surcharge lineitem using installment product,198,getlineitem,2021-12-15T11:15:03-05:00,2021-10-31T,,,FEE_SURCHARGE,,,,,,,,,,,,,,
+PP2149-Attempt to get surcharge lineitem using installment product,199,validation,,,2021-10-31T,,FEE_SURCHARGE,10000,10000,0,0,0,0,0,0,surcharge fee,,,,,VALID
+PP2149-Attempt to get surcharge lineitem using installment product,200,getlineitem,,2021-10-15T,,,CHARGE,,,,,,,,,,,,,,
+PP2149-Attempt to get surcharge lineitem using installment product,201,validation,,,2021-10-15T,,CHARGE,100000,0,0,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2149-Attempt to get surcharge lineitem using installment product,202,getlineitem,30,2021-10-15T,,,LOAN,,,,,,,,,,,,,,
+PP2149-Attempt to get surcharge lineitem using installment product,203,validation,,,,,LOAN,100000,100000,100000,0,0,0,0,0,roll up loan,,,,,VALID
+PP1509-Attempt to reverse surcharge lineitem using revolving product,207,getlineitem,2021-12-16T11:15:03-05:00,2021-10-15T,,,CHARGE,,,,,,,,,,,,,,
+PP1509-Attempt to reverse surcharge lineitem using revolving product,208,validation,,,2021-10-15T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP1509-Attempt to reverse surcharge lineitem using revolving product,209,getlineitem,,2021-10-31T,,,FEE_SURCHARGE,,,,,,,,,,,,,,
+PP1509-Attempt to reverse surcharge lineitem using revolving product,210,validation,,,2021-10-31T,,FEE_SURCHARGE,10000,10000,0,0,0,0,0,0,surcharge fee,,,,,VALID
+PP1509-Attempt to reverse surcharge lineitem using revolving product,211,feereversal,,,,,,,,,,,,,,,,,,,
+PP1509-Attempt to reverse surcharge lineitem using revolving product,212,getlineitem,30,0,,,FEE_REVERSAL,,,,,,,,,,,,,,
+PP1509-Attempt to reverse surcharge lineitem using revolving product,213,validation,,,,,FEE_REVERSAL,-10000,0,0,0,0,0,0,0,upd payment principal_cents: -10000 + 10000,,,,,VALID
+PP2150-Attempt to reverse surcharge lineitem using installment product,214,getlineitem,2021-12-15T11:15:03-05:00,2021-10-15T,,,CHARGE,,,,,,,,,,,,,,
+PP2150-Attempt to reverse surcharge lineitem using installment product,215,validation,,,2021-10-15T,,CHARGE,100000,0,0,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2150-Attempt to reverse surcharge lineitem using installment product,218,getlineitem,,2021-10-31T,,,FEE_SURCHARGE,,,,,,,,,,,,,,
+PP2150-Attempt to reverse surcharge lineitem using installment product,219,validation,,,2021-10-31T,,FEE_SURCHARGE,10000,10000,0,0,0,0,0,0,surcharge fee,,,,,VALID
+PP2150-Attempt to reverse surcharge lineitem using installment product,220,feereversal,,,,,,,,,,,,,,,,,,,
+PP2150-Attempt to reverse surcharge lineitem using installment product,221,getlineitem,30,0,,,FEE_REVERSAL,,,,,,,,,,,,,,
+PP2150-Attempt to reverse surcharge lineitem using installment product,222,validation,,,,,FEE_REVERSAL,-10000,0,0,0,0,0,0,0,upd payment principal_cents: -10000 + 10000,,,,,VALID
+PP2150-Attempt to reverse surcharge lineitem using installment product,216,getlineitem,,2021-10-15T,,,LOAN,,,,,,,,,,,,,,
+PP2150-Attempt to reverse surcharge lineitem using installment product,217,validation,,,,,LOAN,100000,100000,100000,0,0,0,0,0,roll up loan,,,,,VALID
+PP1510-Attempt to get latefee lineitem using revolving product,223,getlineitem,2021-12-16T11:15:03-05:00,2021-11-15T,,,CHARGE,,,,,,,,,,,,,,
+PP1510-Attempt to get latefee lineitem using revolving product,224,validation,,,2021-11-15T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP1510-Attempt to get latefee lineitem using revolving product,225,getlineitem,,2021-11-24T,,,LATE_FEE,,,,,,,,,,,,,,
+PP1510-Attempt to get latefee lineitem using revolving product,226,validation,2021-12-28T11:15:03-05:00,,2021-11-24T,,LATE_FEE,5800,5800,0,0,0,0,0,0,late fee,,,,,VALID
+PP2151-Attempt to get latefee lineitem using installment product,227,getlineitem,2021-12-16T11:15:03-05:00,2021-11-01T,,,CHARGE,,,,,,,,,,,,,,
+PP2151-Attempt to get latefee lineitem using installment product,228,validation,,,2021-11-01T,,CHARGE,100000,0,0,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2151-Attempt to get latefee lineitem using installment product,231,getlineitem,,2021-11-12T,,,LATE_FEE,,,,,,,,,,,,,,
+PP2151-Attempt to get latefee lineitem using installment product,232,validation,2021-11-20T11:15:03-05:00,,2021-11-12T,,LATE_FEE,5800,5800,0,0,0,0,0,0,late fee,,,,,VALID
+PP2151-Attempt to get latefee lineitem using installment product,229,getlineitem,30,2021-11-01T,,,LOAN,,,,,,,,,,,,,,
+PP2151-Attempt to get latefee lineitem using installment product,230,validation,,,,,LOAN,100000,100000,100000,0,0,0,0,0,roll up loan,,,,,VALID
+PP2152-Attempt to get latefee lineitem using charge product,233,getlineitem,2021-12-16T11:15:03-05:00,2021-10-15T,,,CHARGE,,,,,,,,,,,,,,
+PP2152-Attempt to get latefee lineitem using charge product,234,validation,,,2021-10-15T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2152-Attempt to get latefee lineitem using charge product,235,getlineitem,2021-12-28T11:15:03-05:00,2021-11-19T,,,LATE_FEE,,,,,,,,,,,,,,
+PP2152-Attempt to get latefee lineitem using charge product,236,validation,,,2021-11-19T,,LATE_FEE,5800,5800,0,0,0,0,0,0,late fee,,,,,VALID
+PP2153-Attempt to get latefee lineitem using credit product,237,getlineitem,2021-12-16T11:15:03-05:00,2021-11-15T,,,CHARGE,,,,,,,,,,,,,,
+PP2153-Attempt to get latefee lineitem using credit product,238,validation,,,2021-11-15T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2153-Attempt to get latefee lineitem using credit product,239,getlineitem,2021-12-28T11:15:03-05:00,2021-11-24T,,,LATE_FEE,,,,,,,,,,,,,,
+PP2153-Attempt to get latefee lineitem using credit product,240,validation,,,2021-11-24T,,LATE_FEE,5800,5800,0,0,0,0,0,0,late fee,,,,,VALID
+PP1511-Attempt to reverse latefee lineitem using revolving product,241,getlineitem,2021-12-16T11:15:03-05:00,2021-11-15T,,,CHARGE,,,,,,,,,,,,,,
+PP1511-Attempt to reverse latefee lineitem using revolving product,242,validation,,,2021-11-15T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP1511-Attempt to reverse latefee lineitem using revolving product,243,getlineitem,,2021-11-24T,,,LATE_FEE,,,,,,,,,,,,,,
+PP1511-Attempt to reverse latefee lineitem using revolving product,244,validation,2021-12-28T11:15:03-05:00,,2021-11-24T,,LATE_FEE,5800,5800,0,0,0,0,0,0,late fee,,,,,VALID
+PP1511-Attempt to reverse latefee lineitem using revolving product,245,feereversal,,,,,,,,,,,,,,,,,,,
+PP1511-Attempt to reverse latefee lineitem using revolving product,246,getlineitem,30,0,,,FEE_REVERSAL,,,,,,,,,,,,,,
+PP1511-Attempt to reverse latefee lineitem using revolving product,247,validation,,,,,FEE_REVERSAL,-5800,0,0,0,0,0,0,0,upd payment principal_cents: -5800 + 5800,,,,,VALID
+PP2154-Attempt to reverse latefee lineitem using revolving product,248,getlineitem,2021-12-16T11:15:03-05:00,2021-11-01T,,,CHARGE,,,,,,,,,,,,,,
+PP2154-Attempt to reverse latefee lineitem using revolving product,249,validation,,,2021-11-01T,,CHARGE,100000,0,0,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2154-Attempt to reverse latefee lineitem using revolving product,252,getlineitem,,2021-11-12T,,,LATE_FEE,,,,,,,,,,,,,,
+PP2154-Attempt to reverse latefee lineitem using revolving product,253,validation,2021-11-20T11:15:03-05:00,,2021-11-12T,,LATE_FEE,5800,5800,0,0,0,0,0,0,late fee,,,,,VALID
+PP2154-Attempt to reverse latefee lineitem using revolving product,254,feereversal,,,,,,,,,,,,,,,,,,,
+PP2154-Attempt to reverse latefee lineitem using revolving product,255,getlineitem,30,0,,,FEE_REVERSAL,,,,,,,,,,,,,,
+PP2154-Attempt to reverse latefee lineitem using revolving product,256,validation,,,,,FEE_REVERSAL,-5800,0,0,0,0,0,0,0,upd payment principal_cents: -5800 + 5800,,,,,VALID
+PP2154-Attempt to reverse latefee lineitem using revolving product,250,getlineitem,,2021-11-01T,,,LOAN,,,,,,,,,,,,,,
+PP2154-Attempt to reverse latefee lineitem using revolving product,251,validation,,,,,LOAN,100000,100000,100000,0,0,0,0,0,roll up loan,,,,,VALID
+PP2155-Attempt to reverse latefee lineitem using revolving product,257,getlineitem,2021-12-16T11:15:03-05:00,2021-10-15T,,,CHARGE,,,,,,,,,,,,,,
+PP2155-Attempt to reverse latefee lineitem using revolving product,258,validation,,,2021-10-15T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2155-Attempt to reverse latefee lineitem using revolving product,259,getlineitem,,2021-11-19T,,,LATE_FEE,,,,,,,,,,,,,,
+PP2155-Attempt to reverse latefee lineitem using revolving product,260,validation,2021-12-28T11:15:03-05:00,,2021-11-19T,,LATE_FEE,5800,5800,0,0,0,0,0,0,late fee,,,,,VALID
+PP2155-Attempt to reverse latefee lineitem using revolving product,261,feereversal,,,,,,,,,,,,,,,,,,,
+PP2155-Attempt to reverse latefee lineitem using revolving product,262,getlineitem,30,0,,,FEE_REVERSAL,,,,,,,,,,,,,,
+PP2155-Attempt to reverse latefee lineitem using revolving product,263,validation,,,,,FEE_REVERSAL,-5800,0,0,0,0,0,0,0,upd payment principal_cents: -5800 + 5800,,,,,VALID
+PP2156-Attempt to reverse latefee lineitem using revolving product,264,getlineitem,2021-12-16T11:15:03-05:00,2021-11-15T,,,CHARGE,,,,,,,,,,,,,,
+PP2156-Attempt to reverse latefee lineitem using revolving product,265,validation,,,2021-11-15T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2156-Attempt to reverse latefee lineitem using revolving product,266,getlineitem,,2021-11-24T,,,LATE_FEE,,,,,,,,,,,,,,
+PP2156-Attempt to reverse latefee lineitem using revolving product,267,validation,2021-12-28T11:15:03-05:00,,2021-11-24T,,LATE_FEE,5800,5800,0,0,0,0,0,0,late fee,,,,,VALID
+PP2156-Attempt to reverse latefee lineitem using revolving product,268,feereversal,,,,,,,,,,,,,,,,,,,
+PP2156-Attempt to reverse latefee lineitem using revolving product,269,getlineitem,30,0,,,FEE_REVERSAL,,,,,,,,,,,,,,
+PP2156-Attempt to reverse latefee lineitem using revolving product,270,validation,,,,,FEE_REVERSAL,-5800,0,0,0,0,0,0,0,upd payment principal_cents: -5800 + 5800,,,,,VALID
+PP1512-Attempt to get payment reversal fee lineitem using revolving product,271,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP1512-Attempt to get payment reversal fee lineitem using revolving product,272,validation,2021-11-08T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP1512-Attempt to get payment reversal fee lineitem using revolving product,273,payment,,2021-11-07T11:15:03-05:00,,100000,,,,,,,,,,,,,,,
+PP1512-Attempt to get payment reversal fee lineitem using revolving product,274,getlineitem,,2021-11-07T,,,PAYMENT,,,,,,,,,,,,,,
+PP1512-Attempt to get payment reversal fee lineitem using revolving product,275,validation,,,2021-11-07T,,PAYMENT,-100000,0,0,0,0,0,0,0,upd payment principal_cents: -100000 + 100000,,,,,VALID
+PP1512-Attempt to get payment reversal fee lineitem using revolving product,276,paymentreversal,,,,,,,,,,,,,,,,,,,
+PP1512-Attempt to get payment reversal fee lineitem using revolving product,277,getlineitem,30,0,,,PAYMENT_REVERSAL,,,,,,,,,,,,,,
+PP1512-Attempt to get payment reversal fee lineitem using revolving product,278,validation,,,,,PAYMENT_REVERSAL,100000,100000,0,0,0,0,0,0,,,,,,
+PP1512-Attempt to get payment reversal fee lineitem using revolving product,279,getlineitem,30,0,,,PAYMENT_REVERSAL_FEE,,,,,,,,,,,,,,
+PP1512-Attempt to get payment reversal fee lineitem using revolving product,280,validation,,,,,PAYMENT_REVERSAL_FEE,-1800,0,0,0,0,0,0,0,payment reversal fee,,,,,VALID
+PP2157-Attempt to get payment reversal fee lineitem using installment product,281,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP2157-Attempt to get payment reversal fee lineitem using installment product,282,validation,2021-11-09T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,0,0,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2157-Attempt to get payment reversal fee lineitem using installment product,285,payment,,2021-11-07T11:15:03-05:00,,100000,,,,,,,,,,,,,,,
+PP2157-Attempt to get payment reversal fee lineitem using installment product,286,getlineitem,,2021-11-07T,,,PAYMENT,,,,,,,,,,,,,,
+PP2157-Attempt to get payment reversal fee lineitem using installment product,287,validation,,,2021-11-07T,,PAYMENT,-100000,0,0,0,0,0,0,0,upd payment principal_cents: -100000 + 100000,,,,,VALID
+PP2157-Attempt to get payment reversal fee lineitem using installment product,288,paymentreversal,,,,,,,,,,,,,,,,,,,
+PP2157-Attempt to get payment reversal fee lineitem using installment product,289,getlineitem,30,0,,,PAYMENT_REVERSAL,,,,,,,,,,,,,,
+PP2157-Attempt to get payment reversal fee lineitem using installment product,290,validation,,,,,PAYMENT_REVERSAL,100000,100000,0,0,0,0,0,0,upd payment principal_cents: -100000 + 100000,,,,,VALID
+PP2157-Attempt to get payment reversal fee lineitem using installment product,291,getlineitem,30,0,,,PAYMENT_REVERSAL_FEE,,,,,,,,,,,,,,
+PP2157-Attempt to get payment reversal fee lineitem using installment product,292,validation,,,,,PAYMENT_REVERSAL_FEE,-1800,0,0,0,0,0,0,0,payment reversal fee,,,,,VALID
+PP2157-Attempt to get payment reversal fee lineitem using installment product,283,getlineitem,,2021-11-07T,,,LOAN,,,,,,,,,,,,,,
+PP2157-Attempt to get payment reversal fee lineitem using installment product,284,validation,,,,,LOAN,100000,100000,100000,0,0,0,0,0,roll up loan,,,,,VALID
+PP2158-Attempt to get payment reversal fee lineitem using charge product,293,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP2158-Attempt to get payment reversal fee lineitem using charge product,294,validation,2021-11-08T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2158-Attempt to get payment reversal fee lineitem using charge product,295,payment,,2021-11-07T11:15:03-05:00,,100000,,,,,,,,,,,,,,,
+PP2158-Attempt to get payment reversal fee lineitem using charge product,296,getlineitem,,2021-11-07T,,,PAYMENT,,,,,,,,,,,,,,
+PP2158-Attempt to get payment reversal fee lineitem using charge product,297,validation,,,2021-11-07T,,PAYMENT,-100000,0,0,0,0,0,0,0,upd payment principal_cents: -100000 + 100000,,,,,VALID
+PP2158-Attempt to get payment reversal fee lineitem using charge product,298,paymentreversal,,,,,,,,,,,,,,,,,,,
+PP2158-Attempt to get payment reversal fee lineitem using charge product,299,getlineitem,30,0,,,PAYMENT_REVERSAL,,,,,,,,,,,,,,
+PP2158-Attempt to get payment reversal fee lineitem using charge product,300,validation,,,,,PAYMENT_REVERSAL,100000,100000,0,0,0,0,0,0,,,,,,VALID
+PP2158-Attempt to get payment reversal fee lineitem using charge product,301,getlineitem,30,0,,,PAYMENT_REVERSAL_FEE,,,,,,,,,,,,,,
+PP2158-Attempt to get payment reversal fee lineitem using charge product,302,validation,,,,,PAYMENT_REVERSAL_FEE,-1800,0,0,0,0,0,0,0,payment reversal fee,,,,,VALID
+PP2159-Attempt to get payment reversal fee lineitem using credit product,303,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP2159-Attempt to get payment reversal fee lineitem using credit product,304,validation,2021-11-08T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2159-Attempt to get payment reversal fee lineitem using credit product,305,payment,,2021-11-07T11:15:03-05:00,,100000,,,,,,,,,,,,,,,
+PP2159-Attempt to get payment reversal fee lineitem using credit product,306,getlineitem,,2021-11-07T,,,PAYMENT,,,,,,,,,,,,,,
+PP2159-Attempt to get payment reversal fee lineitem using credit product,307,validation,,,2021-11-07T,,PAYMENT,-100000,0,0,0,0,0,0,0,upd payment principal_cents: -100000 + 100000,,,,,VALID
+PP2159-Attempt to get payment reversal fee lineitem using credit product,308,paymentreversal,,,,,,,,,,,,,,,,,,,
+PP2159-Attempt to get payment reversal fee lineitem using credit product,309,getlineitem,30,0,,,PAYMENT_REVERSAL,,,,,,,,,,,,,,
+PP2159-Attempt to get payment reversal fee lineitem using credit product,310,validation,,,,,PAYMENT_REVERSAL,100000,100000,0,0,0,0,0,0,,,,,,VALID
+PP2159-Attempt to get payment reversal fee lineitem using credit product,311,getlineitem,30,0,,,PAYMENT_REVERSAL_FEE,,,,,,,,,,,,,,
+PP2159-Attempt to get payment reversal fee lineitem using credit product,312,validation,,,,,PAYMENT_REVERSAL_FEE,-1800,0,0,0,0,0,0,0,payment reversal fee,,,,,VALID
+PP1513-Attempt to reverse payment reversal fee lineitem using revolving product,271,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP1513-Attempt to reverse payment reversal fee lineitem using revolving product,272,validation,2021-11-08T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP1513-Attempt to reverse payment reversal fee lineitem using revolving product,273,payment,,2021-11-07T11:15:03-05:00,,100000,,,,,,,,,,,,,,,
+PP1513-Attempt to reverse payment reversal fee lineitem using revolving product,274,getlineitem,,2021-11-07T,,,PAYMENT,,,,,,,,,,,,,,
+PP1513-Attempt to reverse payment reversal fee lineitem using revolving product,275,validation,,,2021-11-07T,,PAYMENT,-100000,0,0,0,0,0,0,0,upd payment principal_cents: -100000 + 100000,,,,,VALID
+PP1513-Attempt to reverse payment reversal fee lineitem using revolving product,276,paymentreversal,,,,,,,,,,,,,,,,,,,
+PP1513-Attempt to reverse payment reversal fee lineitem using revolving product,277,getlineitem,30,0,,,PAYMENT_REVERSAL,,,,,,,,,,,,,,
+PP1513-Attempt to reverse payment reversal fee lineitem using revolving product,278,validation,,,,,PAYMENT_REVERSAL,100000,100000,0,0,0,0,0,0,,,,,,VALID
+PP1513-Attempt to reverse payment reversal fee lineitem using revolving product,279,getlineitem,30,0,,,PAYMENT_REVERSAL_FEE,,,,,,,,,,,,,,
+PP1513-Attempt to reverse payment reversal fee lineitem using revolving product,280,validation,,,,,PAYMENT_REVERSAL_FEE,-1800,0,0,0,0,0,0,0,payment reversal fee,,,,,VALID
+PP1513-Attempt to reverse payment reversal fee lineitem using revolving product,281,feereversal,,,,,,,,,,,,,,,,,,,
+PP1513-Attempt to reverse payment reversal fee lineitem using revolving product,282,getlineitem,30,0,,,FEE_REVERSAL,,,,,,,,,,,,,,
+PP1513-Attempt to reverse payment reversal fee lineitem using revolving product,283,validation,,,,,FEE_REVERSAL,-1800,0,0,0,0,0,0,0,upd payment principal_cents: -1800 + 1800,,,,,VALID
+PP2160-Attempt to reverse payment reversal fee lineitem using installment product,284,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP2160-Attempt to reverse payment reversal fee lineitem using installment product,285,validation,2021-11-09T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,0,0,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2160-Attempt to reverse payment reversal fee lineitem using installment product,288,payment,,2021-11-07T11:15:03-05:00,,100000,,,,,,,,,,,,,,,
+PP2160-Attempt to reverse payment reversal fee lineitem using installment product,289,getlineitem,,2021-11-07T,,,PAYMENT,,,,,,,,,,,,,,
+PP2160-Attempt to reverse payment reversal fee lineitem using installment product,290,validation,,,2021-11-07T,,PAYMENT,-100000,0,0,0,0,0,0,0,upd payment principal_cents: -100000 + 100000,,,,,VALID
+PP2160-Attempt to reverse payment reversal fee lineitem using installment product,291,paymentreversal,,,,,,,,,,,,,,,,,,,
+PP2160-Attempt to reverse payment reversal fee lineitem using installment product,292,getlineitem,30,0,,,PAYMENT_REVERSAL,,,,,,,,,,,,,,
+PP2160-Attempt to reverse payment reversal fee lineitem using installment product,293,validation,,,,,PAYMENT_REVERSAL,100000,100000,0,0,0,0,0,0,upd payment principal_cents: -100000 + 100000,,,,,VALID
+PP2160-Attempt to reverse payment reversal fee lineitem using installment product,294,getlineitem,30,0,,,PAYMENT_REVERSAL_FEE,,,,,,,,,,,,,,
+PP2160-Attempt to reverse payment reversal fee lineitem using installment product,295,validation,,,,,PAYMENT_REVERSAL_FEE,-1800,0,0,0,0,0,0,0,payment reversal fee,,,,,VALID
+PP2160-Attempt to reverse payment reversal fee lineitem using installment product,296,feereversal,,,,,,,,,,,,,,,,,,,
+PP2160-Attempt to reverse payment reversal fee lineitem using installment product,297,getlineitem,30,0,,,FEE_REVERSAL,,,,,,,,,,,,,,
+PP2160-Attempt to reverse payment reversal fee lineitem using installment product,298,validation,,,,,FEE_REVERSAL,-1800,0,0,0,0,0,0,0,upd payment principal_cents: -1800 + 1800,,,,,VALID
+PP2160-Attempt to reverse payment reversal fee lineitem using installment product,286,getlineitem,,2021-11-07T,,,LOAN,,,,,,,,,,,,,,
+PP2160-Attempt to reverse payment reversal fee lineitem using installment product,287,validation,,,,,LOAN,100000,100000,100000,0,0,0,0,0,roll up loan,,,,,VALID
+PP2161-Attempt to reverse payment reversal fee lineitem using charge product,299,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP2161-Attempt to reverse payment reversal fee lineitem using charge product,300,validation,2021-11-08T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2161-Attempt to reverse payment reversal fee lineitem using charge product,301,payment,,2021-11-07T11:15:03-05:00,,100000,,,,,,,,,,,,,,,
+PP2161-Attempt to reverse payment reversal fee lineitem using charge product,302,getlineitem,,2021-11-07T,,,PAYMENT,,,,,,,,,,,,,,
+PP2161-Attempt to reverse payment reversal fee lineitem using charge product,303,validation,,,2021-11-07T,,PAYMENT,-100000,0,0,0,0,0,0,0,upd payment principal_cents: -100000 + 100000,,,,,VALID
+PP2161-Attempt to reverse payment reversal fee lineitem using charge product,304,paymentreversal,,,,,,,,,,,,,,,,,,,
+PP2161-Attempt to reverse payment reversal fee lineitem using charge product,305,getlineitem,30,0,,,PAYMENT_REVERSAL,,,,,,,,,,,,,,
+PP2161-Attempt to reverse payment reversal fee lineitem using charge product,306,validation,,,,,PAYMENT_REVERSAL,100000,100000,0,0,0,0,0,0,,,,,,VALID
+PP2161-Attempt to reverse payment reversal fee lineitem using charge product,307,getlineitem,30,0,,,PAYMENT_REVERSAL_FEE,,,,,,,,,,,,,,
+PP2161-Attempt to reverse payment reversal fee lineitem using charge product,308,validation,,,,,PAYMENT_REVERSAL_FEE,-1800,0,0,0,0,0,0,0,payment reversal fee,,,,,VALID
+PP2161-Attempt to reverse payment reversal fee lineitem using charge product,309,feereversal,,,,,,,,,,,,,,,,,,,
+PP2161-Attempt to reverse payment reversal fee lineitem using charge product,310,getlineitem,30,0,,,FEE_REVERSAL,,,,,,,,,,,,,,
+PP2161-Attempt to reverse payment reversal fee lineitem using charge product,311,validation,,,,,FEE_REVERSAL,-1800,0,0,0,0,0,0,0,upd payment principal_cents: -1800 + 1800,,,,,VALID
+PP2162-Attempt to reverse payment reversal fee lineitem using credit product,312,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP2162-Attempt to reverse payment reversal fee lineitem using credit product,313,validation,2021-11-08T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2162-Attempt to reverse payment reversal fee lineitem using credit product,314,payment,,2021-11-07T11:15:03-05:00,,100000,,,,,,,,,,,,,,,
+PP2162-Attempt to reverse payment reversal fee lineitem using credit product,315,getlineitem,,2021-11-07T,,,PAYMENT,,,,,,,,,,,,,,
+PP2162-Attempt to reverse payment reversal fee lineitem using credit product,316,validation,,,2021-11-07T,,PAYMENT,-100000,0,0,0,0,0,0,0,upd payment principal_cents: -100000 + 100000,,,,,VALID
+PP2162-Attempt to reverse payment reversal fee lineitem using credit product,317,paymentreversal,,,,,,,,,,,,,,,,,,,
+PP2162-Attempt to reverse payment reversal fee lineitem using credit product,318,getlineitem,30,0,,,PAYMENT_REVERSAL,,,,,,,,,,,,,,
+PP2162-Attempt to reverse payment reversal fee lineitem using credit product,319,validation,,,,,PAYMENT_REVERSAL,100000,100000,0,0,0,0,0,0,,,,,,VALID
+PP2162-Attempt to reverse payment reversal fee lineitem using credit product,320,getlineitem,30,0,,,PAYMENT_REVERSAL_FEE,,,,,,,,,,,,,,
+PP2162-Attempt to reverse payment reversal fee lineitem using credit product,321,validation,,,,,PAYMENT_REVERSAL_FEE,-1800,0,0,0,0,0,0,0,payment reversal fee,,,,,VALID
+PP2162-Attempt to reverse payment reversal fee lineitem using credit product,322,feereversal,,,,,,,,,,,,,,,,,,,
+PP2162-Attempt to reverse payment reversal fee lineitem using credit product,323,getlineitem,30,0,,,FEE_REVERSAL,,,,,,,,,,,,,,
+PP2162-Attempt to reverse payment reversal fee lineitem using credit product,324,validation,,,,,FEE_REVERSAL,-1800,0,0,0,0,0,0,0,upd payment principal_cents: -1800 + 1800,,,,,VALID
+PP1514-Attempt to get debit offset lineitem using revolving product,325,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP1514-Attempt to get debit offset lineitem using revolving product,326,validation,2021-11-08T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP1514-Attempt to get debit offset lineitem using revolving product,327,charge,,2021-11-07T11:15:03-05:00,,2000,,,,,,,,,,,,,,,
+PP1514-Attempt to get debit offset lineitem using revolving product,328,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP1514-Attempt to get debit offset lineitem using revolving product,329,validation,,,2021-11-07T,,CHARGE,2000,2000,2000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP1514-Attempt to get debit offset lineitem using revolving product,330,debitoffset,,2021-11-12T11:15:03-05:00,,20,,,,,,,,,,,,,,,
+PP1514-Attempt to get debit offset lineitem using revolving product,331,getlineitem,,2021-11-12T,,,DEBIT_OFFSET,,,,,,,,,,,,,,
+PP1514-Attempt to get debit offset lineitem using revolving product,332,validation,2021-11-13T12:16:16-04:00,,2021-11-12T,,DEBIT_OFFSET,-20,0,0,0,0,0,0,0,upd payment principal_cents: -20 + 20,,,,,VALID
+PP2163-Attempt to get debit offset lineitem using installment product,333,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP2163-Attempt to get debit offset lineitem using installment product,334,validation,2021-11-09T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,0,0,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2163-Attempt to get debit offset lineitem using installment product,337,charge,,2021-11-10T11:15:03-05:00,,2000,,,,,,,,,,,,,,,
+PP2163-Attempt to get debit offset lineitem using installment product,338,getlineitem,,2021-11-10T,,,CHARGE,,,,,,,,,,,,,,
+PP2163-Attempt to get debit offset lineitem using installment product,339,validation,,,2021-11-10T,,CHARGE,2000,2000,2000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2163-Attempt to get debit offset lineitem using installment product,340,debitoffset,,2021-11-12T11:15:03-05:00,,20,,,,,,,,,,,,,,,
+PP2163-Attempt to get debit offset lineitem using installment product,341,getlineitem,,2021-11-12T,,,DEBIT_OFFSET,,,,,,,,,,,,,,
+PP2163-Attempt to get debit offset lineitem using installment product,342,validation,2021-11-13T12:16:16-04:00,,2021-11-12T,,DEBIT_OFFSET,-20,0,0,0,0,0,0,0,upd payment principal_cents: -20 + 20,,,,,VALID
+PP2163-Attempt to get debit offset lineitem using installment product,335,getlineitem,30,2021-11-07T,,,LOAN,,,,,,,,,,,,,,
+PP2163-Attempt to get debit offset lineitem using installment product,336,validation,,,,,LOAN,100000,100000,100000,0,0,0,0,0,roll up loan,,,,,VALID
+PP2164-Attempt to get debit offset lineitem using charge product,343,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP2164-Attempt to get debit offset lineitem using charge product,344,validation,2021-11-08T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2164-Attempt to get debit offset lineitem using charge product,345,charge,,2021-11-07T11:15:03-05:00,,2000,,,,,,,,,,,,,,,
+PP2164-Attempt to get debit offset lineitem using charge product,346,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP2164-Attempt to get debit offset lineitem using charge product,347,validation,,,2021-11-07T,,CHARGE,2000,2000,2000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2164-Attempt to get debit offset lineitem using charge product,348,debitoffset,,2021-11-12T11:15:03-05:00,,20,,,,,,,,,,,,,,,
+PP2164-Attempt to get debit offset lineitem using charge product,349,getlineitem,,2021-11-12T,,,DEBIT_OFFSET,,,,,,,,,,,,,,
+PP2164-Attempt to get debit offset lineitem using charge product,350,validation,2021-11-13T12:16:16-04:00,,2021-11-12T,,DEBIT_OFFSET,-20,0,0,0,0,0,0,0,upd payment principal_cents: -20 + 20,,,,,VALID
+PP2165-Attempt to get debit offset lineitem using credit product,351,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP2165-Attempt to get debit offset lineitem using credit product,352,validation,2021-11-08T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2165-Attempt to get debit offset lineitem using credit product,353,charge,,2021-11-07T11:15:03-05:00,,2000,,,,,,,,,,,,,,,
+PP2165-Attempt to get debit offset lineitem using credit product,354,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP2165-Attempt to get debit offset lineitem using credit product,355,validation,,,2021-11-07T,,CHARGE,2000,2000,2000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2165-Attempt to get debit offset lineitem using credit product,356,debitoffset,,2021-11-12T11:15:03-05:00,,20,,,,,,,,,,,,,,,
+PP2165-Attempt to get debit offset lineitem using credit product,357,getlineitem,,2021-11-12T,,,DEBIT_OFFSET,,,,,,,,,,,,,,
+PP2165-Attempt to get debit offset lineitem using credit product,358,validation,2021-11-13T12:16:16-04:00,,2021-11-12T,,DEBIT_OFFSET,-20,0,0,0,0,0,0,0,upd payment principal_cents: -20 + 20,,,,,VALID
+PP1515-Attempt to get credit offset lineitem using revolving product,325,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP1515-Attempt to get credit offset lineitem using revolving product,326,validation,2021-11-08T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP1515-Attempt to get credit offset lineitem using revolving product,327,charge,,2021-11-07T11:15:03-05:00,,2000,,,,,,,,,,,,,,,
+PP1515-Attempt to get credit offset lineitem using revolving product,328,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP1515-Attempt to get credit offset lineitem using revolving product,329,validation,,,2021-11-07T,,CHARGE,2000,2000,2000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP1515-Attempt to get credit offset lineitem using revolving product,330,creditoffset,,2021-11-12T11:15:03-05:00,,50,,,,,,,,,,,,,,,
+PP1515-Attempt to get credit offset lineitem using revolving product,331,getlineitem,,2021-11-12T,,,CREDIT_OFFSET,,,,,,,,,,,,,,
+PP1515-Attempt to get credit offset lineitem using revolving product,332,validation,2021-11-13T12:16:16-04:00,,2021-11-12T,,CREDIT_OFFSET,50,0,0,0,0,0,0,0,upd payment principal_cents: -50 + 50,,,,,VALID
+PP2166-Attempt to get credit offset lineitem using installment product,333,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP2166-Attempt to get credit offset lineitem using installment product,334,validation,2021-11-09T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,0,0,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2166-Attempt to get credit offset lineitem using installment product,337,charge,,2021-11-10T11:15:03-05:00,,2000,,,,,,,,,,,,,,,
+PP2166-Attempt to get credit offset lineitem using installment product,338,getlineitem,,2021-11-10T,,,CHARGE,,,,,,,,,,,,,,
+PP2166-Attempt to get credit offset lineitem using installment product,339,validation,,,2021-11-10T,,CHARGE,2000,2000,2000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2166-Attempt to get credit offset lineitem using installment product,340,creditoffset,,2021-11-12T11:15:03-05:00,,50,,,,,,,,,,,,,,,
+PP2166-Attempt to get credit offset lineitem using installment product,341,getlineitem,,2021-11-12T,,,CREDIT_OFFSET,,,,,,,,,,,,,,
+PP2166-Attempt to get credit offset lineitem using installment product,342,validation,2021-11-13T12:16:16-04:00,,2021-11-12T,,CREDIT_OFFSET,50,0,0,0,0,0,0,0,upd payment principal_cents: -50 + 50,,,,,VALID
+PP2166-Attempt to get credit offset lineitem using installment product,335,getlineitem,30,2021-11-07T,,,LOAN,,,,,,,,,,,,,,
+PP2166-Attempt to get credit offset lineitem using installment product,336,validation,,,,,LOAN,100000,100000,100000,0,0,0,0,0,roll up loan,,,,,VALID
+PP2167-Attempt to get credit offset lineitem using charge product,343,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP2167-Attempt to get credit offset lineitem using charge product,344,validation,2021-11-08T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2167-Attempt to get credit offset lineitem using charge product,345,charge,,2021-11-07T11:15:03-05:00,,2000,,,,,,,,,,,,,,,
+PP2167-Attempt to get credit offset lineitem using charge product,346,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP2167-Attempt to get credit offset lineitem using charge product,347,validation,,,2021-11-07T,,CHARGE,2000,2000,2000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2167-Attempt to get credit offset lineitem using charge product,348,creditoffset,,2021-11-12T11:15:03-05:00,,50,,,,,,,,,,,,,,,
+PP2167-Attempt to get credit offset lineitem using charge product,349,getlineitem,,2021-11-12T,,,CREDIT_OFFSET,,,,,,,,,,,,,,
+PP2167-Attempt to get credit offset lineitem using charge product,350,validation,2021-11-13T12:16:16-04:00,,2021-11-12T,,CREDIT_OFFSET,50,0,0,0,0,0,0,0,upd payment principal_cents: -50 + 50,,,,,VALID
+PP2168-Attempt to get credit offset lineitem using credit product,351,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP2168-Attempt to get credit offset lineitem using credit product,352,validation,2021-11-08T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2168-Attempt to get credit offset lineitem using credit product,353,charge,,2021-11-07T11:15:03-05:00,,2000,,,,,,,,,,,,,,,
+PP2168-Attempt to get credit offset lineitem using credit product,354,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP2168-Attempt to get credit offset lineitem using credit product,355,validation,,,2021-11-07T,,CHARGE,2000,2000,2000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2168-Attempt to get credit offset lineitem using credit product,356,creditoffset,,2021-11-12T11:15:03-05:00,,50,,,,,,,,,,,,,,,
+PP2168-Attempt to get credit offset lineitem using credit product,357,getlineitem,,2021-11-12T,,,CREDIT_OFFSET,,,,,,,,,,,,,,
+PP2168-Attempt to get credit offset lineitem using credit product,358,validation,2021-11-13T12:16:16-04:00,,2021-11-12T,,CREDIT_OFFSET,50,0,0,0,0,0,0,0,upd payment principal_cents: -50 + 50,,,,,VALID
+PP1524-Verify debit offset transactions are statused asDebit Offset,325,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP1524-Verify debit offset transactions are statused as Debit Offset,326,validation,2021-11-08T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP1524-Verify debit offset transactions are statused as Debit Offset,327,charge,,2021-11-07T11:15:03-05:00,,2000,,,,,,,,,,,,,,,
+PP1524-Verify debit offset transactions are statused as Debit Offset,328,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP1524-Verify debit offset transactions are statused as Debit Offset,329,validation,,,2021-11-07T,,CHARGE,2000,2000,2000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP1524-Verify debit offset transactions are statused as Debit Offset,330,debitoffset,,2021-11-12T11:15:03-05:00,,20,,,,,,,,,,,,,,,
+PP1524-Verify debit offset transactions are statused as Debit Offset,331,getlineitem,,2021-11-12T,,,DEBIT_OFFSET,,,,,,,,,,,,,,
+PP1524-Verify debit offset transactions are statused as Debit Offset,332,validation,2021-11-13T12:16:16-04:00,,2021-11-12T,,DEBIT_OFFSET,-20,0,0,0,0,0,0,0,upd payment principal_cents: -20 + 20,,,,,VALID
+PP1525-Verify credit offset transactions are statused as Credit Offset,333,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP1525-Verify credit offset transactions are statused as Credit Offset,334,validation,2021-11-08T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP1525-Verify credit offset transactions are statused as Credit Offset,335,charge,,2021-11-07T11:15:03-05:00,,2000,,,,,,,,,,,,,,,
+PP1525-Verify credit offset transactions are statused as Credit Offset,336,getlineitem,,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP1525-Verify credit offset transactions are statused as Credit Offset,337,validation,,,2021-11-07T,,CHARGE,2000,2000,2000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP1525-Verify credit offset transactions are statused as Credit Offset,338,creditoffset,,2021-11-12T11:15:03-05:00,,50,,,,,,,,,,,,,,,
+PP1525-Verify credit offset transactions are statused as Credit Offset,339,getlineitem,,2021-11-12T,,,CREDIT_OFFSET,,,,,,,,,,,,,,
+PP1525-Verify credit offset transactions are statused as Credit Offset,340,validation,2021-11-13T12:16:16-04:00,,2021-11-12T,,CREDIT_OFFSET,50,0,0,0,0,0,0,0,upd payment principal_cents: -50 + 50,,,,,VALID
+PP1493-Validate details fetched and displayed for each Line item under line item overview section,223,getlineitem,2021-12-16T11:15:03-05:00,2021-11-15T,,,CHARGE,,,,,,,,,,,,,,
+PP1493-Validate details fetched and displayed for each Line item under line item overview section,224,validation,,,2021-11-15T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP1493-Validate details fetched and displayed for each Line item under line item overview section,225,getlineitem,,2021-11-24T,,,LATE_FEE,,,,,,,,,,,,,,
+PP1493-Validate details fetched and displayed for each Line item under line item overview section,226,validation,2021-12-28T11:15:03-05:00,,2021-11-24T,,LATE_FEE,5800,5800,0,0,0,0,0,0,late fee,,,,,VALID
+PP1494-Validate details fetched and displayed for each Line item under line item Summary section,227,getlineitem,2021-12-16T11:15:03-05:00,2021-11-01T,,,CHARGE,,,,,,,,,,,,,,
+PP1494-Validate details fetched and displayed for each Line item under line item Summary section,228,validation,,,2021-11-01T,,CHARGE,100000,0,0,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP1494-Validate details fetched and displayed for each Line item under line item Summary section,231,getlineitem,,2021-11-12T,,,LATE_FEE,,,,,,,,,,,,,,
+PP1494-Validate details fetched and displayed for each Line item under line item Summary section,232,validation,2021-11-20T11:15:03-05:00,,2021-11-12T,,LATE_FEE,5800,5800,0,0,0,0,0,0,late fee,,,,,VALID
+PP1494-Validate details fetched and displayed for each Line item under line item Summary section,229,getlineitem,30,2021-11-07T,,,LOAN,,,,,,,,,,,,,,
+PP1494-Validate details fetched and displayed for each Line item under line item Summary section,230,validation,,,,,LOAN,100000,100000,100000,0,0,0,0,0,roll up loan,,,,,VALID
+PP1495-Validate details fetched and displayed for each Line item under merchant data section,233,getlineitem,2021-11-16T11:15:03-05:00,2021-11-01T,,,CHARGE,,,,,,,,,,,,,,
+PP1495-Validate details fetched and displayed for each Line item under merchant data section,234,validation,,,2021-11-01T,,CHARGE,100000,0,0,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP1495-Validate details fetched and displayed for each Line item under merchant data section,234,charge,,2021-11-07T11:15:03-05:00,,2000,,,,,,,,,,,,,,,
+PP1495-Validate details fetched and displayed for each Line item under merchant data section,234,getlineitem,2021-12-16T11:15:03-05:00,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP1495-Validate details fetched and displayed for each Line item under merchant data section,234,validation,,,2021-11-07T,,CHARGE,2000,2000,2000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP1495-Validate details fetched and displayed for each Line item under merchant data section,233,getlineitem,2021-11-16T11:15:03-05:00,2021-11-01T,,,CHARGE,,,,,,,,,,,,,,
+PP1495-Validate details fetched and displayed for each Line item under merchant data section,234,validation,,,2021-11-01T,,CHARGE,100000,0,0,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP1495-Validate details fetched and displayed for each Line item under merchant data section,235,charge,,2021-11-07T11:15:03-05:00,,2000,,,,,,,,,,,,,,,
+PP1495-Validate details fetched and displayed for each Line item under merchant data section,236,getlineitem,2021-12-16T11:15:03-05:00,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP1495-Validate details fetched and displayed for each Line item under merchant data section,237,validation,,,2021-11-07T,,CHARGE,2000,2000,2000,0,0,0,0,0,initial_principal_cents,Home Depot,42,,,VALID
+PP2169-Validate details fetched in charge and displayed for each Line item under merchant data section,238,getlineitem,2021-11-16T11:15:03-05:00,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP2169-Validate details fetched in charge and displayed for each Line item under merchant data section,239,validation,,,2021-11-07T,,CHARGE,100000,0,0,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2169-Validate details fetched in charge and displayed for each Line item under merchant data section,240,charge,,2021-11-08T11:15:03-05:00,,2000,,,,,,,,,,,,,,,
+PP2169-Validate details fetched in charge and displayed for each Line item under merchant data section,241,getlineitem,2021-12-16T11:15:03-05:00,2021-11-08T,,,CHARGE,,,,,,,,,,,,,,
+PP2169-Validate details fetched in charge and displayed for each Line item under merchant data section,242,validation,,,2021-11-08T,,CHARGE,2000,2000,2000,0,0,0,0,0,initial_principal_cents,Home Depot,42,,,VALID
+PP2170-Validate details fetched in Credit and displayed for each Line item under merchant data section,243,getlineitem,2021-11-16T11:15:03-05:00,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP2170-Validate details fetched in Credit and displayed for each Line item under merchant data section,244,validation,,,2021-11-07T,,CHARGE,100000,0,0,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP2170-Validate details fetched in Credit and displayed for each Line item under merchant data section,245,charge,,2021-11-08T11:15:03-05:00,,2000,,,,,,,,,,,,,,,
+PP2170-Validate details fetched in Credit and displayed for each Line item under merchant data section,246,getlineitem,2021-12-16T11:15:03-05:00,2021-11-08T,,,CHARGE,,,,,,,,,,,,,,
+PP2170-Validate details fetched in Credit and displayed for each Line item under merchant data section,247,validation,,,2021-11-08T,,CHARGE,2000,2000,2000,0,0,0,0,0,initial_principal_cents,Home Depot,42,,,VALID
+PP1497-Validate details fetched and displayed for each Line item under external fields  section,233,getlineitem,2021-11-16T11:15:03-05:00,2021-11-01T,,,CHARGE,,,,,,,,,,,,,,
+PP1497-Validate details fetched and displayed for each Line item under external fields section,234,validation,,,2021-11-01T,,CHARGE,100000,0,0,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP1497-Validate details fetched and displayed for each Line item under external fields section,235,charge,,2021-11-07T11:15:03-05:00,,2000,,,,,,,,,,,,,,,
+PP1497-Validate details fetched and displayed for each Line item under external fields section,236,getlineitem,2021-12-16T11:15:03-05:00,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP1497-Validate details fetched and displayed for each Line item under external fields section,237,validation,,,2021-11-07T,,CHARGE,2000,2000,2000,0,0,0,0,0,initial_principal_cents,,,Globex Card Processing Account ID,22445702-a389-431f-927d-07b8d0750787,VALID
+PP1516-Validate default value for a line item status is Valid,233,getlineitem,2021-11-16T11:15:03-05:00,2021-11-01T,,,CHARGE,,,,,,,,,,,,,,
+PP1516-Validate default value for a line item status is Valid,234,validation,,,2021-11-01T,,CHARGE,100000,0,0,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP1516-Validate default value for a line item status is Valid,235,charge,,2021-11-07T11:15:03-05:00,,2000,,,,,,,,,,,,,,,
+PP1516-Validate default value for a line item status is Valid,236,getlineitem,2021-12-16T11:15:03-05:00,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP1516-Validate default value for a line item status is Valid,237,validation,,,2021-11-07T,,CHARGE,2000,2000,2000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP1526-Verify payment for which payment processor call has been made and approval status is to confirm is marked as Pending status,233,getlineitem,2021-11-16T11:15:03-05:00,2021-11-01T,,,CHARGE,,,,,,,,,,,,,,
+PP1526-Verify payment for which payment processor call has been made and approval status is to confirm is marked as Pending status,234,validation,,,2021-11-01T,,CHARGE,100000,0,0,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP1526-Verify payment for which payment processor call has been made and approval status is to confirm is marked as Pending status,235,charge,,2021-11-07T11:15:03-05:00,,2000,,,,,,,,,,,,,,,
+PP1526-Verify payment for which payment processor call has been made and approval status is to confirm is marked as Pending status,236,getlineitem,2021-11-16T11:15:03-05:00,2021-11-07T,,,CHARGE,,,,,,,,,,,,,,
+PP1526-Verify payment for which payment processor call has been made and approval status is to confirm is marked as Pending status,237,validation,,,2021-11-07T,,CHARGE,2000,2000,2000,0,0,0,0,0,initial_principal_cents,,,,,VALID
+PP1526-Verify payment for which payment processor call has been made and approval status is to confirm is marked as Pending status,236,getlineitem,,2021-11-06T,,,PAYMENT,,,,,,,,,,,,,,
+PP1526-Verify payment for which payment processor call has been made and approval status is to confirm is marked as Pending status,237,validation,,,2021-11-06T,,PAYMENT,-191,0,0,0,0,0,0,0,auto_pay,,,,,PENDING 

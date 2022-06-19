@@ -1,0 +1,99 @@
+[
+  {
+    "tc_name": "TZ_001 - Validate day light savings time zone for America Denver",
+    "index": "1",
+    "product_time_zone": "America/Denver",
+    "product_req_effective_at": "2017-06-15T20:00:00-06:00",
+    "account_req_effective_at": "2022-06-20T11:00:00-06:00",
+    "account_response_effective_at": "2022-06-20T11:00:00-06:00",
+    "product_interest_calc_time": "01:00:00-06:00",
+    "product_close_of_business_time": "23:59:59-06:00",
+    "response_close_of_business_time": "23:59:59",
+    "response_interest_calc_time": "01:00:00-06"
+  },
+  {
+    "tc_name": "TZ_002 - Validate normal time zone for America Denver",
+    "index": "2",
+    "product_time_zone": "America/Denver",
+    "product_req_effective_at": "2017-12-15T13:00:00-07:00",
+    "account_req_effective_at": "2022-12-15T11:00:00-06:00",
+    "account_response_effective_at": "2022-12-15T10:00:00-07:00",
+    "product_interest_calc_time": "01:00:00-07:00",
+    "product_close_of_business_time": "23:59:59-07:00",
+    "response_close_of_business_time": "23:59:59",
+    "response_interest_calc_time": "01:00:00-07"
+  },
+  {
+    "tc_name": "TZ_003 - Validate day light savings time zone for America Chicago",
+    "index": "3",
+    "product_time_zone": "America/Chicago",
+    "product_req_effective_at": "2017-06-15T11:00:00-05:00",
+    "account_req_effective_at": "2022-06-20T11:00:00-05:00",
+    "account_response_effective_at": "2022-06-20T11:00:00-05:00",
+    "product_interest_calc_time": "01:00:00-05:00",
+    "product_close_of_business_time": "23:59:59-05:00",
+    "response_close_of_business_time": "23:59:59",
+    "response_interest_calc_time": "01:00:00-05"
+  },
+  {
+    "tc_name": "TZ_004 - Validate normal time zone for America Chicago",
+    "index": "4",
+    "product_time_zone": "America/Chicago",
+    "product_req_effective_at": "2017-12-15T13:00:00-06:00",
+    "account_req_effective_at": "2022-12-15T11:00:00-05:00",
+    "account_response_effective_at": "2022-12-15T10:00:00-06:00",
+    "product_interest_calc_time": "01:00:00-06:00",
+    "product_close_of_business_time": "23:59:59-06:00",
+    "response_close_of_business_time": "23:59:59",
+    "response_interest_calc_time": "01:00:00-06"
+  },
+  {
+    "tc_name": "TZ_005 - Validate day light savings time zone for America Detroit",
+    "index": "5",
+    "product_time_zone": "America/Detroit",
+    "product_req_effective_at": "2017-06-15T12:00:00-04:00",
+    "account_req_effective_at": "2022-06-15T12:00:00-04:00",
+    "account_response_effective_at": "2022-06-15T12:00:00-04:00",
+    "product_interest_calc_time": "01:00:00-04:00",
+    "product_close_of_business_time": "23:59:59-04:00",
+    "response_close_of_business_time": "23:59:59",
+    "response_interest_calc_time": "01:00:00-04"
+  },
+  {
+    "tc_name": "TZ_006 - Validate normal time zone for America Detroit",
+    "index": "6",
+    "product_time_zone": "America/Detroit",
+    "product_req_effective_at": "2017-12-15T10:00:00-05:00",
+    "account_req_effective_at": "2022-12-15T10:00:00-05:00",
+    "account_response_effective_at": "2022-12-15T10:00:00-05:00",
+    "product_interest_calc_time": "01:00:00-05:00",
+    "product_close_of_business_time": "23:59:59-05:00",
+    "response_close_of_business_time": "23:59:59",
+    "response_interest_calc_time": "01:00:00-05"
+  },
+  {
+    "tc_name": "TZ_007 - Validate day light savings time zone for America Dawson",
+    "index": "7",
+    "product_time_zone": "America/Dawson",
+    "product_req_effective_at": "2017-06-15T19:00:00-07:00",
+    "account_req_effective_at": "2022-06-15T19:00:00-07:00",
+    "account_response_effective_at": "2022-06-15T19:00:00-07:00",
+    "product_interest_calc_time": "01:00:00-07:00",
+    "product_close_of_business_time": "23:59:59-07:00",
+    "response_close_of_business_time": "23:59:59",
+    "response_interest_calc_time": "01:00:00-07"
+  },
+  {
+    "tc_name": "TZ_008 - Validate normal time zone for America Dawson",
+    "index": "8",
+    "product_time_zone": "America/Dawson",
+    "product_req_effective_at": "2017-12-15T10:00:00-08:00",
+    "account_req_effective_at": "2022-12-15T10:00:00-08:00",
+    "account_response_effective_at": "2022-12-15T11:00:00-07:00",
+    "product_interest_calc_time": "01:00:00-08:00",
+    "product_close_of_business_time": "23:59:59-08:00",
+    "response_close_of_business_time": "23:59:59",
+    "response_interest_calc_time": "01:00:00-08 "
+  }
+]
+

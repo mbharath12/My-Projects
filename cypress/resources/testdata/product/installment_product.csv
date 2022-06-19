@@ -1,0 +1,6 @@
+﻿tc_name,index,no_of_installments,account_response_code,product_effective_at,account_effective_at,check_am_schedule
+TC1168 - Create a Installment Product - 12 installments,1,12,200,2021-03-10T09:11:28+00:00,-10,TRUE
+TC1169 - Create a Installment Product - 24 installments,2,24,200,2021-03-10T09:11:28+00:00,-10,TRUE
+TC1170 - Create a Installment Product - 48 installments,3,48,200,2021-03-10T09:11:28+00:00,-10,TRUE
+TC1171 - Validate effective date should be current date for new products,4,12,200,0,0,TRUE
+TC1173 - Validate Account effective date cannot be allowed older than the linked Product effective date,5,12,400,2021-11-01T09:11:28+00:00,2021-10-09T09:11:28-04:00,FALSE

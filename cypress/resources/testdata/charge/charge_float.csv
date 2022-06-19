@@ -1,0 +1,29 @@
+tc_name,index,float_days,account_effective_dt,account_effective_dt_time,charge1_effective_dt,charge1_effective_dt_time,charge1_amt_cents,multiple_charges,charge2_effective_dt,charge2_effective_dt_time,charge2_amt_cents,total_balance_cents,available_credit_cents,external_fields
+pp283-7 days float-charge on account opening date ,1,7 days,-10,-2,-10,-1,200000,FALSE,0,0,200000,100000,100000,Globex Card Processing Account ID
+pp284-7 days float-charge next day of account opening date ,2,7 days,-10,0,-9,0,200000,FALSE,0,0,200000,100000,100000,Globex Card Processing Account ID
+pp285-7 days float-charge month after account opening date ,3,7 days,-50,0,-8,0,200000,FALSE,0,0,200000,100000,100000,Globex Card Processing Account ID
+pp286-7 days float-charge year after account opening date ,4,7 days,-377,0,-10,0,200000,FALSE,0,0,200000,200000,100000,Globex Card Processing Account ID
+pp291-7 days float-multiple charges non over lapping float times,5,7 days,-10,0,-9,-3,150000,TRUE,-8,0,100000,250000,5000,Globex Card Processing Account ID
+pp292-7 days float-multiple charges over lapping float times,6,7 days,-10,0,-9,0,150000,TRUE,-9,-2,100000,250000,5000,Globex Card Processing Account ID
+pp293-7 days float-multiple charges different agencies on the same day,7,7 days,-10,0,-9,-3,150000,TRUE,-9,-2,100000,250000,5000,Canopy Card Processing Account ID
+P300-14 day float validation-charge on parent card on the day of origination,8,14 days,-17,-2,-17,-1,200000,FALSE,0,0,200000,100000,100000,Globex Card Processing Account ID
+PP301-14 day float validation-charge on parent card on the day after origination,9,14 days,-17,0,-16,0,200000,FALSE,0,0,200000,100000,100000,Globex Card Processing Account ID
+PP302-14 day float validation-charge on parent card a month after origination,10,14 days,-50,0,-17,0,200000,FALSE,0,0,200000,100000,100000,Globex Card Processing Account ID
+PP303-14 day float validation-charge on parent card a year after origination,11,14 days,-387,0,-17,0,200000,FALSE,0,0,200000,200000,100000,Globex Card Processing Account ID
+PP308-14 day float validation-multiple charges on parent card non overlapping float times,12,14 days,-17,0,-16,-3,150000,TRUE,-15,0,100000,250000,5000,Globex Card Processing Account ID
+PP309-14 day float validation-multiple charges on parent card overlapping float times,13,14 days,-17,0,-16,0,150000,TRUE,-16,-2,100000,250000,5000,Globex Card Processing Account ID
+PP310-14 day float validation-multiple charges on parent card with different agencies on the same day,14,14 days,-17,0,-16,-3,150000,TRUE,-16,-2,100000,250000,5000,Canopy Card Processing Account ID
+PP317-21 day float validation-charge on parent card on the day of origination,15,21 days,-24,-2,-24,-1,200000,FALSE,0,0,200000,100000,100000,Globex Card Processing Account ID
+PP318-21 day float validation-charge on parent card on the day after origination,16,21 days,-30,0,-29,0,200000,FALSE,0,0,200000,100000,100000,Globex Card Processing Account ID
+PP319-21 day float validation-charge on parent card a month after origination,17,21 days,-60,0,-30,0,200000,FALSE,0,0,200000,100000,100000,Globex Card Processing Account ID
+PP320-21 day float validation-charge on parent card a year after origination,18,21 days,-400,0,-30,0,200000,FALSE,0,0,200000,200000,100000,Globex Card Processing Account ID
+PP325-21 day float validation-multiple charges on parent card non overlapping float times,19,21 days,-24,0,-23,-3,150000,TRUE,-22,0,100000,250000,5000,Globex Card Processing Account ID
+PP326-21 day float validation-multiple charges on parent card overlapping float times,20,21 days,-24,0,-23,0,150000,TRUE,-23,-2,100000,250000,5000,Globex Card Processing Account ID
+PP327 - 21 day float validation - multiple charges on parent card with different agencies on the same day,21,21 days,-24,0,-23,-3,150000,TRUE,-23,-2,100000,250000,5000,Canopy Card Processing Account ID
+PP334-1 Month float validation-charge on parent card on the day of origination,22,30 days,-40,-2,-40,-1,200000,FALSE,0,0,200000,100000,100000,Globex Card Processing Account ID
+PP335-1 Month float validation-charge on parent card on the day after origination,23,30 days,-40,0,-39,0,200000,FALSE,0,0,200000,100000,100000,Globex Card Processing Account ID
+PP336-1 Month float validation-charge on parent card a month after origination,24,30 days,-70,0,-40,0,200000,FALSE,0,0,200000,100000,100000,Globex Card Processing Account ID
+PP337-1 Month float validation-charge on parent card a year after origination,25,30 days,-450,0,-40,0,200000,FALSE,0,0,200000,200000,100000,Globex Card Processing Account ID
+PP342-1 Month float validation-multiple charges on parent card non overlapping float times,26,30 days,-40,0,-39,-1,150000,TRUE,-38,-2,100000,250000,5000,Globex Card Processing Account ID
+PP343-1 Month float validation-multiple charges on parent card overlapping float times,27,30 days,-40,0,-39,0,150000,TRUE,-39,0,100000,250000,5000,Globex Card Processing Account ID
+PP344-1 Month float validation-multiple charges on parent card with different agencies on the same day,28,30 days,-40,0,-38,0,150000,TRUE,-38,-2,100000,250000,5000,Canopy Card Processing Account ID

@@ -1,0 +1,3170 @@
+[
+    {
+      "account_tc_id": "TC2043 - Verify cycle type details in AM schedule with post promo len as 6 cycle interval 7 days cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_2 - first cycle billing cycle type details",
+      "index": "1",
+      "cycle_number": "1",
+      "exp_cycle_exclusive_end": "2021-11-29T",
+      "exp_min_pay_due_at": "2021-12-01T"
+    },
+    {
+      "account_tc_id": "TC2043 - Verify cycle type details in AM schedule with post promo len as 6 cycle interval 7 days cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_2 - second cycle billing cycle type details",
+      "index": "2",
+      "cycle_number": "2",
+      "exp_cycle_exclusive_end": "2021-12-06T",
+      "exp_min_pay_due_at": "2021-12-08T"
+    },
+    {
+      "account_tc_id": "TC2043 - Verify cycle type details in AM schedule with post promo len as 6 cycle interval 7 days cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_2 - third cycle billing cycle type details",
+      "index": "3",
+      "cycle_number": "3",
+      "exp_cycle_exclusive_end": "2021-12-13T",
+      "exp_min_pay_due_at": "2021-12-15T"
+    },
+    {
+      "account_tc_id": "TC2043 - Verify cycle type details in AM schedule with post promo len as 6 cycle interval 7 days cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_2 - fourth cycle billing cycle type details",
+      "index": "4",
+      "cycle_number": "4",
+      "exp_cycle_exclusive_end": "2021-12-20T",
+      "exp_min_pay_due_at": "2021-12-22T"
+    },
+    {
+      "account_tc_id": "TC2043 - Verify cycle type details in AM schedule with post promo len as 6 cycle interval 7 days cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_2 - fifth cycle billing cycle type details",
+      "index": "5",
+      "cycle_number": "5",
+      "exp_cycle_exclusive_end": "2021-12-27T",
+      "exp_min_pay_due_at": "2021-12-29T"
+    },
+    {
+      "account_tc_id": "TC2043 - Verify cycle type details in AM schedule with post promo len as 6 cycle interval 7 days cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_2 - sixth cycle billing cycle type details",
+      "index": "6",
+      "cycle_number": "6",
+      "exp_cycle_exclusive_end": "2022-01-03T",
+      "exp_min_pay_due_at": "2022-01-05T"
+    },
+    {
+      "account_tc_id": "TC2044 - Verify cycle type details in AM schedule with post promo len as 6 cycle interval 7 days cycle due interval 5 days first cycle 0 days",
+      "tc_name": "DD_3 - first cycle billing cycle type details",
+      "index": "7",
+      "cycle_number": "1",
+      "exp_cycle_exclusive_end": "2021-11-29T",
+      "exp_min_pay_due_at": "2021-12-04T"
+    },
+    {
+      "account_tc_id": "TC2044 - Verify cycle type details in AM schedule with post promo len as 6 cycle interval 7 days cycle due interval 5 days first cycle 0 days",
+      "tc_name": "DD_3 - second cycle billing cycle type details",
+      "index": "8",
+      "cycle_number": "2",
+      "exp_cycle_exclusive_end": "2021-12-06T",
+      "exp_min_pay_due_at": "2021-12-11T"
+    },
+    {
+      "account_tc_id": "TC2044 - Verify cycle type details in AM schedule with post promo len as 6 cycle interval 7 days cycle due interval 5 days first cycle 0 days",
+      "tc_name": "DD_3 - third cycle billing cycle type details",
+      "index": "9",
+      "cycle_number": "3",
+      "exp_cycle_exclusive_end": "2021-12-13T",
+      "exp_min_pay_due_at": "2021-12-18T"
+    },
+    {
+      "account_tc_id": "TC2044 - Verify cycle type details in AM schedule with post promo len as 6 cycle interval 7 days cycle due interval 5 days first cycle 0 days",
+      "tc_name": "DD_3 - fourth cycle billing cycle type details",
+      "index": "10",
+      "cycle_number": "4",
+      "exp_cycle_exclusive_end": "2021-12-20T",
+      "exp_min_pay_due_at": "2021-12-25T"
+    },
+    {
+      "account_tc_id": "TC2044 - Verify cycle type details in AM schedule with post promo len as 6 cycle interval 7 days cycle due interval 5 days first cycle 0 days",
+      "tc_name": "DD_3 - fifth cycle billing cycle type details",
+      "index": "11",
+      "cycle_number": "5",
+      "exp_cycle_exclusive_end": "2021-12-27T",
+      "exp_min_pay_due_at": "2022-01-01T"
+    },
+    {
+      "account_tc_id": "TC2044 - Verify cycle type details in AM schedule with post promo len as 6 cycle interval 7 days cycle due interval 5 days first cycle 0 days",
+      "tc_name": "DD_3 - sixth cycle billing cycle type details",
+      "index": "12",
+      "cycle_number": "6",
+      "exp_cycle_exclusive_end": "2022-01-03T",
+      "exp_min_pay_due_at": "2022-01-08T"
+    },
+    {
+      "account_tc_id": "TC2045 - Verify cycle type details in AM schedule with post promo len as 6 cycle interval 7 days cycle due interval -2 days first cycle 0 days",
+      "tc_name": "DD_4 - first cycle billing cycle type details",
+      "index": "13",
+      "cycle_number": "1",
+      "exp_cycle_exclusive_end": "2021-11-29T",
+      "exp_min_pay_due_at": "2021-12-04T"
+    },
+    {
+      "account_tc_id": "TC2045 - Verify cycle type details in AM schedule with post promo len as 6 cycle interval 7 days cycle due interval -2 days first cycle 0 days",
+      "tc_name": "DD_4 - second cycle billing cycle type details",
+      "index": "14",
+      "cycle_number": "2",
+      "exp_cycle_exclusive_end": "2021-12-06T",
+      "exp_min_pay_due_at": "2021-12-11T"
+    },
+    {
+      "account_tc_id": "TC2045 - Verify cycle type details in AM schedule with post promo len as 6 cycle interval 7 days cycle due interval -2 days first cycle 0 days",
+      "tc_name": "DD_4 - third cycle billing cycle type details",
+      "index": "15",
+      "cycle_number": "3",
+      "exp_cycle_exclusive_end": "2021-12-13T",
+      "exp_min_pay_due_at": "2021-12-18T"
+    },
+    {
+      "account_tc_id": "TC2045 - Verify cycle type details in AM schedule with post promo len as 6 cycle interval 7 days cycle due interval -2 days first cycle 0 days",
+      "tc_name": "DD_4 - fourth cycle billing cycle type details",
+      "index": "16",
+      "cycle_number": "4",
+      "exp_cycle_exclusive_end": "2021-12-20T",
+      "exp_min_pay_due_at": "2021-12-25T"
+    },
+    {
+      "account_tc_id": "TC2045 - Verify cycle type details in AM schedule with post promo len as 6 cycle interval 7 days cycle due interval -2 days first cycle 0 days",
+      "tc_name": "DD_4 - fifth cycle billing cycle type details",
+      "index": "17",
+      "cycle_number": "5",
+      "exp_cycle_exclusive_end": "2021-12-27T",
+      "exp_min_pay_due_at": "2022-01-01T"
+    },
+    {
+      "account_tc_id": "TC2045 - Verify cycle type details in AM schedule with post promo len as 6 cycle interval 7 days cycle due interval -2 days first cycle 0 days",
+      "tc_name": "DD_4 - sixth cycle billing cycle type details",
+      "index": "18",
+      "cycle_number": "6",
+      "exp_cycle_exclusive_end": "2022-01-03T",
+      "exp_min_pay_due_at": "2022-01-08T"
+    },
+    {
+      "account_tc_id": "TC2046 - Verify cycle type details in AM schedule with post promo len as 6 cycle interval 7 days cycle due interval 2 days first cycle 5 days",
+      "tc_name": "DD_5 - first cycle billing cycle type details",
+      "index": "19",
+      "cycle_number": "1",
+      "exp_cycle_exclusive_end": "2021-12-04T",
+      "exp_min_pay_due_at": "2021-12-06T"
+    },
+    {
+      "account_tc_id": "TC2046 - Verify cycle type details in AM schedule with post promo len as 6 cycle interval 7 days cycle due interval 2 days first cycle 5 days",
+      "tc_name": "DD_5 - second cycle billing cycle type details",
+      "index": "20",
+      "cycle_number": "2",
+      "exp_cycle_exclusive_end": "2021-12-11T",
+      "exp_min_pay_due_at": "2021-12-13T"
+    },
+    {
+      "account_tc_id": "TC2046 - Verify cycle type details in AM schedule with post promo len as 6 cycle interval 7 days cycle due interval 2 days first cycle 5 days",
+      "tc_name": "DD_5 - third cycle billing cycle type details",
+      "index": "21",
+      "cycle_number": "3",
+      "exp_cycle_exclusive_end": "2021-12-18T",
+      "exp_min_pay_due_at": "2021-12-20T"
+    },
+    {
+      "account_tc_id": "TC2046 - Verify cycle type details in AM schedule with post promo len as 6 cycle interval 7 days cycle due interval 2 days first cycle 5 days",
+      "tc_name": "DD_5 - fourth cycle billing cycle type details",
+      "index": "22",
+      "cycle_number": "4",
+      "exp_cycle_exclusive_end": "2021-12-25T",
+      "exp_min_pay_due_at": "2021-12-27T"
+    },
+    {
+      "account_tc_id": "TC2046 - Verify cycle type details in AM schedule with post promo len as 6 cycle interval 7 days cycle due interval 2 days first cycle 5 days",
+      "tc_name": "DD_5 - fifth cycle billing cycle type details",
+      "index": "23",
+      "cycle_number": "5",
+      "exp_cycle_exclusive_end": "2022-01-01T",
+      "exp_min_pay_due_at": "2022-01-03T"
+    },
+    {
+      "account_tc_id": "TC2046 - Verify cycle type details in AM schedule with post promo len as 6 cycle interval 7 days cycle due interval 2 days first cycle 5 days",
+      "tc_name": "DD_5 - sixth cycle billing cycle type details",
+      "index": "24",
+      "cycle_number": "6",
+      "exp_cycle_exclusive_end": "2022-01-08T",
+      "exp_min_pay_due_at": "2022-01-10T"
+    },
+    {
+      "account_tc_id": "TC2047 - Verify cycle type details in AM schedule with post promo len as 6 cycle interval 7 days cycle due interval 5 days first cycle 10 days",
+      "tc_name": "DD_6 - first cycle billing cycle type details",
+      "index": "25",
+      "cycle_number": "1",
+      "exp_cycle_exclusive_end": "2021-12-09T",
+      "exp_min_pay_due_at": "2021-12-14T"
+    },
+    {
+      "account_tc_id": "TC2047 - Verify cycle type details in AM schedule with post promo len as 6 cycle interval 7 days cycle due interval 5 days first cycle 10 days",
+      "tc_name": "DD_6 - second cycle billing cycle type details",
+      "index": "26",
+      "cycle_number": "2",
+      "exp_cycle_exclusive_end": "2021-12-16T",
+      "exp_min_pay_due_at": "2021-12-21T"
+    },
+    {
+      "account_tc_id": "TC2047 - Verify cycle type details in AM schedule with post promo len as 6 cycle interval 7 days cycle due interval 5 days first cycle 10 days",
+      "tc_name": "DD_6 - third cycle billing cycle type details",
+      "index": "27",
+      "cycle_number": "3",
+      "exp_cycle_exclusive_end": "2021-12-23T",
+      "exp_min_pay_due_at": "2021-12-28T"
+    },
+    {
+      "account_tc_id": "TC2047 - Verify cycle type details in AM schedule with post promo len as 6 cycle interval 7 days cycle due interval 5 days first cycle 10 days",
+      "tc_name": "DD_6 - fourth cycle billing cycle type details",
+      "index": "28",
+      "cycle_number": "4",
+      "exp_cycle_exclusive_end": "2021-12-30T",
+      "exp_min_pay_due_at": "2022-01-04T"
+    },
+    {
+      "account_tc_id": "TC2047 - Verify cycle type details in AM schedule with post promo len as 6 cycle interval 7 days cycle due interval 5 days first cycle 10 days",
+      "tc_name": "DD_6 - fifth cycle billing cycle type details",
+      "index": "29",
+      "cycle_number": "5",
+      "exp_cycle_exclusive_end": "2022-01-06T",
+      "exp_min_pay_due_at": "2022-01-11T"
+    },
+    {
+      "account_tc_id": "TC2047 - Verify cycle type details in AM schedule with post promo len as 6 cycle interval 7 days cycle due interval 5 days first cycle 10 days",
+      "tc_name": "DD_6 - sixth cycle billing cycle type details",
+      "index": "30",
+      "cycle_number": "6",
+      "exp_cycle_exclusive_end": "2022-01-13T",
+      "exp_min_pay_due_at": "2022-01-18T"
+    },
+    {
+      "account_tc_id": "TC2048 - Verify cycle type details in AM schedule with post promo len as 6 cycle interval 7 days cycle due interval 2 days first cycle 7 days",
+      "tc_name": "DD_7 - first cycle billing cycle type details",
+      "index": "31",
+      "cycle_number": "1",
+      "exp_cycle_exclusive_end": "2021-12-06T",
+      "exp_min_pay_due_at": "2021-12-08T"
+    },
+    {
+      "account_tc_id": "TC2048 - Verify cycle type details in AM schedule with post promo len as 6 cycle interval 7 days cycle due interval 2 days first cycle 7 days",
+      "tc_name": "DD_7 - second cycle billing cycle type details",
+      "index": "32",
+      "cycle_number": "2",
+      "exp_cycle_exclusive_end": "2021-12-13T",
+      "exp_min_pay_due_at": "2021-12-15T"
+    },
+    {
+      "account_tc_id": "TC2048 - Verify cycle type details in AM schedule with post promo len as 6 cycle interval 7 days cycle due interval 2 days first cycle 7 days",
+      "tc_name": "DD_7 - third cycle billing cycle type details",
+      "index": "33",
+      "cycle_number": "3",
+      "exp_cycle_exclusive_end": "2021-12-20T",
+      "exp_min_pay_due_at": "2021-12-22T"
+    },
+    {
+      "account_tc_id": "TC2048 - Verify cycle type details in AM schedule with post promo len as 6 cycle interval 7 days cycle due interval 2 days first cycle 7 days",
+      "tc_name": "DD_7 - fourth cycle billing cycle type details",
+      "index": "34",
+      "cycle_number": "4",
+      "exp_cycle_exclusive_end": "2021-12-27T",
+      "exp_min_pay_due_at": "2021-12-29T"
+    },
+    {
+      "account_tc_id": "TC2048 - Verify cycle type details in AM schedule with post promo len as 6 cycle interval 7 days cycle due interval 2 days first cycle 7 days",
+      "tc_name": "DD_7 - fifth cycle billing cycle type details",
+      "index": "35",
+      "cycle_number": "5",
+      "exp_cycle_exclusive_end": "2022-01-03T",
+      "exp_min_pay_due_at": "2022-01-05T"
+    },
+    {
+      "account_tc_id": "TC2048 - Verify cycle type details in AM schedule with post promo len as 6 cycle interval 7 days cycle due interval 2 days first cycle 7 days",
+      "tc_name": "DD_7 - sixth cycle billing cycle type details",
+      "index": "36",
+      "cycle_number": "6",
+      "exp_cycle_exclusive_end": "2022-01-10T",
+      "exp_min_pay_due_at": "2022-01-12T"
+    },
+    {
+      "account_tc_id": "TC2050 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_9 - first cycle billing cycle type details",
+      "index": "37",
+      "cycle_number": "1",
+      "exp_cycle_exclusive_end": "2021-11-29T",
+      "exp_min_pay_due_at": "2021-12-01T"
+    },
+    {
+      "account_tc_id": "TC2050 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_9 - second cycle billing cycle type details",
+      "index": "38",
+      "cycle_number": "2",
+      "exp_cycle_exclusive_end": "2021-12-13T",
+      "exp_min_pay_due_at": "2021-12-15T"
+    },
+    {
+      "account_tc_id": "TC2050 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_9 - third cycle billing cycle type details",
+      "index": "39",
+      "cycle_number": "3",
+      "exp_cycle_exclusive_end": "2021-12-27T",
+      "exp_min_pay_due_at": "2021-12-29T"
+    },
+    {
+      "account_tc_id": "TC2050 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_9 - fourth cycle billing cycle type details",
+      "index": "40",
+      "cycle_number": "4",
+      "exp_cycle_exclusive_end": "2022-01-10T",
+      "exp_min_pay_due_at": "2022-01-12T"
+    },
+    {
+      "account_tc_id": "TC2050 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_9 - fifth cycle billing cycle type details",
+      "index": "41",
+      "cycle_number": "5",
+      "exp_cycle_exclusive_end": "2022-01-24T",
+      "exp_min_pay_due_at": "2022-01-26T"
+    },
+    {
+      "account_tc_id": "TC2050 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_9 - sixth cycle billing cycle type details",
+      "index": "42",
+      "cycle_number": "6",
+      "exp_cycle_exclusive_end": "2022-02-07T",
+      "exp_min_pay_due_at": "2022-02-09T"
+    },
+    {
+      "account_tc_id": "TC2050 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_9 - seventh cycle billing cycle type details",
+      "index": "43",
+      "cycle_number": "7",
+      "exp_cycle_exclusive_end": "2022-02-21T",
+      "exp_min_pay_due_at": "2022-02-23T"
+    },
+    {
+      "account_tc_id": "TC2050 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_9 - eighth cycle billing cycle type details",
+      "index": "44",
+      "cycle_number": "8",
+      "exp_cycle_exclusive_end": "2022-03-07T",
+      "exp_min_pay_due_at": "2022-03-09T"
+    },
+    {
+      "account_tc_id": "TC2050 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_9 - ninth cycle billing cycle type details",
+      "index": "45",
+      "cycle_number": "9",
+      "exp_cycle_exclusive_end": "2022-03-21T",
+      "exp_min_pay_due_at": "2022-03-23T"
+    },
+    {
+      "account_tc_id": "TC2050 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_9 - tenth cycle billing cycle type details",
+      "index": "46",
+      "cycle_number": "10",
+      "exp_cycle_exclusive_end": "2022-04-04T",
+      "exp_min_pay_due_at": "2022-04-06T"
+    },
+    {
+      "account_tc_id": "TC2050 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_9 - eleventh cycle billing cycle type details",
+      "index": "47",
+      "cycle_number": "11",
+      "exp_cycle_exclusive_end": "2022-04-18T",
+      "exp_min_pay_due_at": "2022-04-20T"
+    },
+    {
+      "account_tc_id": "TC2050 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_9 - twelfth cycle billing cycle type details",
+      "index": "48",
+      "cycle_number": "12",
+      "exp_cycle_exclusive_end": "2022-05-02T",
+      "exp_min_pay_due_at": "2022-05-04T"
+    },
+    {
+      "account_tc_id": "TC2051 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 5 days first cycle 0 days",
+      "tc_name": "DD_10 - first cycle billing cycle type details",
+      "index": "49",
+      "cycle_number": "1",
+      "exp_cycle_exclusive_end": "2021-11-29T",
+      "exp_min_pay_due_at": "2021-12-04T"
+    },
+    {
+      "account_tc_id": "TC2051 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 5 days first cycle 0 days",
+      "tc_name": "DD_10 - second cycle billing cycle type details",
+      "index": "50",
+      "cycle_number": "2",
+      "exp_cycle_exclusive_end": "2021-12-13T",
+      "exp_min_pay_due_at": "2021-12-18T"
+    },
+    {
+      "account_tc_id": "TC2051 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 5 days first cycle 0 days",
+      "tc_name": "DD_10 - third cycle billing cycle type details",
+      "index": "51",
+      "cycle_number": "3",
+      "exp_cycle_exclusive_end": "2021-12-27T",
+      "exp_min_pay_due_at": "2022-01-01T"
+    },
+    {
+      "account_tc_id": "TC2051 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 5 days first cycle 0 days",
+      "tc_name": "DD_10 - fourth cycle billing cycle type details",
+      "index": "52",
+      "cycle_number": "4",
+      "exp_cycle_exclusive_end": "2022-01-10T",
+      "exp_min_pay_due_at": "2022-01-15T"
+    },
+    {
+      "account_tc_id": "TC2051 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 5 days first cycle 0 days",
+      "tc_name": "DD_10 - fifth cycle billing cycle type details",
+      "index": "53",
+      "cycle_number": "5",
+      "exp_cycle_exclusive_end": "2022-01-24T",
+      "exp_min_pay_due_at": "2022-01-29T"
+    },
+    {
+      "account_tc_id": "TC2051 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 5 days first cycle 0 days",
+      "tc_name": "DD_10 - sixth cycle billing cycle type details",
+      "index": "54",
+      "cycle_number": "6",
+      "exp_cycle_exclusive_end": "2022-02-07T",
+      "exp_min_pay_due_at": "2022-02-12T"
+    },
+    {
+      "account_tc_id": "TC2051 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 5 days first cycle 0 days",
+      "tc_name": "DD_10 - seventh cycle billing cycle type details",
+      "index": "55",
+      "cycle_number": "7",
+      "exp_cycle_exclusive_end": "2022-02-21T",
+      "exp_min_pay_due_at": "2022-02-26T"
+    },
+    {
+      "account_tc_id": "TC2051 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 5 days first cycle 0 days",
+      "tc_name": "DD_10 - eighth cycle billing cycle type details",
+      "index": "56",
+      "cycle_number": "8",
+      "exp_cycle_exclusive_end": "2022-03-07T",
+      "exp_min_pay_due_at": "2022-03-12T"
+    },
+    {
+      "account_tc_id": "TC2051 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 5 days first cycle 0 days",
+      "tc_name": "DD_10 - ninth cycle billing cycle type details",
+      "index": "57",
+      "cycle_number": "9",
+      "exp_cycle_exclusive_end": "2022-03-21T",
+      "exp_min_pay_due_at": "2022-03-26T"
+    },
+    {
+      "account_tc_id": "TC2051 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 5 days first cycle 0 days",
+      "tc_name": "DD_10 - tenth cycle billing cycle type details",
+      "index": "58",
+      "cycle_number": "10",
+      "exp_cycle_exclusive_end": "2022-04-04T",
+      "exp_min_pay_due_at": "2022-04-09T"
+    },
+    {
+      "account_tc_id": "TC2051 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 5 days first cycle 0 days",
+      "tc_name": "DD_10 - eleventh cycle billing cycle type details",
+      "index": "59",
+      "cycle_number": "11",
+      "exp_cycle_exclusive_end": "2022-04-18T",
+      "exp_min_pay_due_at": "2022-04-23T"
+    },
+    {
+      "account_tc_id": "TC2051 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 5 days first cycle 0 days",
+      "tc_name": "DD_10 - twelfth cycle billing cycle type details",
+      "index": "60",
+      "cycle_number": "12",
+      "exp_cycle_exclusive_end": "2022-05-02T",
+      "exp_min_pay_due_at": "2022-05-07T"
+    },
+    {
+      "account_tc_id": "TC2052 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval -2 days first cycle 0 days",
+      "tc_name": "DD_11 - first cycle billing cycle type details",
+      "index": "61",
+      "cycle_number": "1",
+      "exp_cycle_exclusive_end": "2021-11-29T",
+      "exp_min_pay_due_at": "2021-12-11T"
+    },
+    {
+      "account_tc_id": "TC2052 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval -2 days first cycle 0 days",
+      "tc_name": "DD_11 - second cycle billing cycle type details",
+      "index": "62",
+      "cycle_number": "2",
+      "exp_cycle_exclusive_end": "2021-12-13T",
+      "exp_min_pay_due_at": "2021-12-25T"
+    },
+    {
+      "account_tc_id": "TC2052 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval -2 days first cycle 0 days",
+      "tc_name": "DD_11 - third cycle billing cycle type details",
+      "index": "63",
+      "cycle_number": "3",
+      "exp_cycle_exclusive_end": "2021-12-27T",
+      "exp_min_pay_due_at": "2022-01-08T"
+    },
+    {
+      "account_tc_id": "TC2052 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval -2 days first cycle 0 days",
+      "tc_name": "DD_11 - fourth cycle billing cycle type details",
+      "index": "64",
+      "cycle_number": "4",
+      "exp_cycle_exclusive_end": "2022-01-10T",
+      "exp_min_pay_due_at": "2022-01-22T"
+    },
+    {
+      "account_tc_id": "TC2052 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval -2 days first cycle 0 days",
+      "tc_name": "DD_11 - fifth cycle billing cycle type details",
+      "index": "65",
+      "cycle_number": "5",
+      "exp_cycle_exclusive_end": "2022-01-24T",
+      "exp_min_pay_due_at": "2022-02-05T"
+    },
+    {
+      "account_tc_id": "TC2052 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval -2 days first cycle 0 days",
+      "tc_name": "DD_11 - sixth cycle billing cycle type details",
+      "index": "66",
+      "cycle_number": "6",
+      "exp_cycle_exclusive_end": "2022-02-07T",
+      "exp_min_pay_due_at": "2022-02-19T"
+    },
+    {
+      "account_tc_id": "TC2052 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval -2 days first cycle 0 days",
+      "tc_name": "DD_11 - seventh cycle billing cycle type details",
+      "index": "67",
+      "cycle_number": "7",
+      "exp_cycle_exclusive_end": "2022-02-21T",
+      "exp_min_pay_due_at": "2022-03-05T"
+    },
+    {
+      "account_tc_id": "TC2052 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval -2 days first cycle 0 days",
+      "tc_name": "DD_11 - eighth cycle billing cycle type details",
+      "index": "68",
+      "cycle_number": "8",
+      "exp_cycle_exclusive_end": "2022-03-07T",
+      "exp_min_pay_due_at": "2022-03-19T"
+    },
+    {
+      "account_tc_id": "TC2052 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval -2 days first cycle 0 days",
+      "tc_name": "DD_11 - ninth cycle billing cycle type details",
+      "index": "69",
+      "cycle_number": "9",
+      "exp_cycle_exclusive_end": "2022-03-21T",
+      "exp_min_pay_due_at": "2022-04-02T"
+    },
+    {
+      "account_tc_id": "TC2052 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval -2 days first cycle 0 days",
+      "tc_name": "DD_11 - tenth cycle billing cycle type details",
+      "index": "70",
+      "cycle_number": "10",
+      "exp_cycle_exclusive_end": "2022-04-04T",
+      "exp_min_pay_due_at": "2022-04-16T"
+    },
+    {
+      "account_tc_id": "TC2052 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval -2 days first cycle 0 days",
+      "tc_name": "DD_11 - eleventh cycle billing cycle type details",
+      "index": "71",
+      "cycle_number": "11",
+      "exp_cycle_exclusive_end": "2022-04-18T",
+      "exp_min_pay_due_at": "2022-04-30T"
+    },
+    {
+      "account_tc_id": "TC2052 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval -2 days first cycle 0 days",
+      "tc_name": "DD_11 - twelfth cycle billing cycle type details",
+      "index": "72",
+      "cycle_number": "12",
+      "exp_cycle_exclusive_end": "2022-05-02T",
+      "exp_min_pay_due_at": "2022-05-14T"
+    },
+    {
+      "account_tc_id": "TC2053 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 2 days first cycle 12 days",
+      "tc_name": "DD_12 - first cycle billing cycle type details",
+      "index": "73",
+      "cycle_number": "1",
+      "exp_cycle_exclusive_end": "2021-12-11T",
+      "exp_min_pay_due_at": "2021-12-13T"
+    },
+    {
+      "account_tc_id": "TC2053 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 2 days first cycle 12 days",
+      "tc_name": "DD_12 - second cycle billing cycle type details",
+      "index": "74",
+      "cycle_number": "2",
+      "exp_cycle_exclusive_end": "2021-12-25T",
+      "exp_min_pay_due_at": "2021-12-27T"
+    },
+    {
+      "account_tc_id": "TC2053 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 2 days first cycle 12 days",
+      "tc_name": "DD_12 - third cycle billing cycle type details",
+      "index": "75",
+      "cycle_number": "3",
+      "exp_cycle_exclusive_end": "2022-01-08T",
+      "exp_min_pay_due_at": "2022-01-10T"
+    },
+    {
+      "account_tc_id": "TC2053 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 2 days first cycle 12 days",
+      "tc_name": "DD_12 - fourth cycle billing cycle type details",
+      "index": "76",
+      "cycle_number": "4",
+      "exp_cycle_exclusive_end": "2022-01-22T",
+      "exp_min_pay_due_at": "2022-01-24T"
+    },
+    {
+      "account_tc_id": "TC2053 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 2 days first cycle 12 days",
+      "tc_name": "DD_12 - fifth cycle billing cycle type details",
+      "index": "77",
+      "cycle_number": "5",
+      "exp_cycle_exclusive_end": "2022-02-05T",
+      "exp_min_pay_due_at": "2022-02-07T"
+    },
+    {
+      "account_tc_id": "TC2053 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 2 days first cycle 12 days",
+      "tc_name": "DD_12 - sixth cycle billing cycle type details",
+      "index": "78",
+      "cycle_number": "6",
+      "exp_cycle_exclusive_end": "2022-02-19T",
+      "exp_min_pay_due_at": "2022-02-21T"
+    },
+    {
+      "account_tc_id": "TC2053 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 2 days first cycle 12 days",
+      "tc_name": "DD_12 - seventh cycle billing cycle type details",
+      "index": "79",
+      "cycle_number": "7",
+      "exp_cycle_exclusive_end": "2022-03-05T",
+      "exp_min_pay_due_at": "2022-03-07T"
+    },
+    {
+      "account_tc_id": "TC2053 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 2 days first cycle 12 days",
+      "tc_name": "DD_12 - eighth cycle billing cycle type details",
+      "index": "80",
+      "cycle_number": "8",
+      "exp_cycle_exclusive_end": "2022-03-19T",
+      "exp_min_pay_due_at": "2022-03-21T"
+    },
+    {
+      "account_tc_id": "TC2053 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 2 days first cycle 12 days",
+      "tc_name": "DD_12 - ninth cycle billing cycle type details",
+      "index": "81",
+      "cycle_number": "9",
+      "exp_cycle_exclusive_end": "2022-04-02T",
+      "exp_min_pay_due_at": "2022-04-04T"
+    },
+    {
+      "account_tc_id": "TC2053 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 2 days first cycle 12 days",
+      "tc_name": "DD_12 - tenth cycle billing cycle type details",
+      "index": "82",
+      "cycle_number": "10",
+      "exp_cycle_exclusive_end": "2022-04-16T",
+      "exp_min_pay_due_at": "2022-04-18T"
+    },
+    {
+      "account_tc_id": "TC2053 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 2 days first cycle 12 days",
+      "tc_name": "DD_12 - eleventh cycle billing cycle type details",
+      "index": "83",
+      "cycle_number": "11",
+      "exp_cycle_exclusive_end": "2022-04-30T",
+      "exp_min_pay_due_at": "2022-05-02T"
+    },
+    {
+      "account_tc_id": "TC2053 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 2 days first cycle 12 days",
+      "tc_name": "DD_12 - twelfth cycle billing cycle type details",
+      "index": "84",
+      "cycle_number": "12",
+      "exp_cycle_exclusive_end": "2022-05-14T",
+      "exp_min_pay_due_at": "2022-05-16T"
+    },
+    {
+      "account_tc_id": "TC2054 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 5 days first cycle 16 days",
+      "tc_name": "DD_13 - first cycle billing cycle type details",
+      "index": "85",
+      "cycle_number": "1",
+      "exp_cycle_exclusive_end": "2021-12-15T",
+      "exp_min_pay_due_at": "2021-12-20T"
+    },
+    {
+      "account_tc_id": "TC2054 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 5 days first cycle 16 days",
+      "tc_name": "DD_13 - second cycle billing cycle type details",
+      "index": "86",
+      "cycle_number": "2",
+      "exp_cycle_exclusive_end": "2021-12-29T",
+      "exp_min_pay_due_at": "2022-01-03T"
+    },
+    {
+      "account_tc_id": "TC2054 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 5 days first cycle 16 days",
+      "tc_name": "DD_13 - third cycle billing cycle type details",
+      "index": "87",
+      "cycle_number": "3",
+      "exp_cycle_exclusive_end": "2022-01-12T",
+      "exp_min_pay_due_at": "2022-01-17T"
+    },
+    {
+      "account_tc_id": "TC2054 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 5 days first cycle 16 days",
+      "tc_name": "DD_13 - fourth cycle billing cycle type details",
+      "index": "88",
+      "cycle_number": "4",
+      "exp_cycle_exclusive_end": "2022-01-26T",
+      "exp_min_pay_due_at": "2022-01-31T"
+    },
+    {
+      "account_tc_id": "TC2054 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 5 days first cycle 16 days",
+      "tc_name": "DD_13 - fifth cycle billing cycle type details",
+      "index": "89",
+      "cycle_number": "5",
+      "exp_cycle_exclusive_end": "2022-02-09T",
+      "exp_min_pay_due_at": "2022-02-14T"
+    },
+    {
+      "account_tc_id": "TC2054 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 5 days first cycle 16 days",
+      "tc_name": "DD_13 - sixth cycle billing cycle type details",
+      "index": "90",
+      "cycle_number": "6",
+      "exp_cycle_exclusive_end": "2022-02-23T",
+      "exp_min_pay_due_at": "2022-02-28T"
+    },
+    {
+      "account_tc_id": "TC2054 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 5 days first cycle 16 days",
+      "tc_name": "DD_13 - seventh cycle billing cycle type details",
+      "index": "91",
+      "cycle_number": "7",
+      "exp_cycle_exclusive_end": "2022-03-09T",
+      "exp_min_pay_due_at": "2022-03-14T"
+    },
+    {
+      "account_tc_id": "TC2054 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 5 days first cycle 16 days",
+      "tc_name": "DD_13 - eighth cycle billing cycle type details",
+      "index": "92",
+      "cycle_number": "8",
+      "exp_cycle_exclusive_end": "2022-03-23T",
+      "exp_min_pay_due_at": "2022-03-28T"
+    },
+    {
+      "account_tc_id": "TC2054 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 5 days first cycle 16 days",
+      "tc_name": "DD_13 - ninth cycle billing cycle type details",
+      "index": "93",
+      "cycle_number": "9",
+      "exp_cycle_exclusive_end": "2022-04-06T",
+      "exp_min_pay_due_at": "2022-04-11T"
+    },
+    {
+      "account_tc_id": "TC2054 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 5 days first cycle 16 days",
+      "tc_name": "DD_13 - tenth cycle billing cycle type details",
+      "index": "94",
+      "cycle_number": "10",
+      "exp_cycle_exclusive_end": "2022-04-20T",
+      "exp_min_pay_due_at": "2022-04-25T"
+    },
+    {
+      "account_tc_id": "TC2054 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 5 days first cycle 16 days",
+      "tc_name": "DD_13 - eleventh cycle billing cycle type details",
+      "index": "95",
+      "cycle_number": "11",
+      "exp_cycle_exclusive_end": "2022-05-04T",
+      "exp_min_pay_due_at": "2022-05-09T"
+    },
+    {
+      "account_tc_id": "TC2054 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 5 days first cycle 16 days",
+      "tc_name": "DD_13 - twelfth cycle billing cycle type details",
+      "index": "96",
+      "cycle_number": "12",
+      "exp_cycle_exclusive_end": "2022-05-18T",
+      "exp_min_pay_due_at": "2022-05-23T"
+    },
+    {
+      "account_tc_id": "TC2055 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 2 days first cycle 14 days",
+      "tc_name": "DD_14 - first cycle billing cycle type details",
+      "index": "97",
+      "cycle_number": "1",
+      "exp_cycle_exclusive_end": "2021-12-13T",
+      "exp_min_pay_due_at": "2021-12-15T"
+    },
+    {
+      "account_tc_id": "TC2055 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 2 days first cycle 14 days",
+      "tc_name": "DD_14 - second cycle billing cycle type details",
+      "index": "98",
+      "cycle_number": "2",
+      "exp_cycle_exclusive_end": "2021-12-27T",
+      "exp_min_pay_due_at": "2021-12-29T"
+    },
+    {
+      "account_tc_id": "TC2055 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 2 days first cycle 14 days",
+      "tc_name": "DD_14 - third cycle billing cycle type details",
+      "index": "99",
+      "cycle_number": "3",
+      "exp_cycle_exclusive_end": "2022-01-10T",
+      "exp_min_pay_due_at": "2022-01-12T"
+    },
+    {
+      "account_tc_id": "TC2055 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 2 days first cycle 14 days",
+      "tc_name": "DD_14 - fourth cycle billing cycle type details",
+      "index": "100",
+      "cycle_number": "4",
+      "exp_cycle_exclusive_end": "2022-01-24T",
+      "exp_min_pay_due_at": "2022-01-26T"
+    },
+    {
+      "account_tc_id": "TC2055 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 2 days first cycle 14 days",
+      "tc_name": "DD_14 - fifth cycle billing cycle type details",
+      "index": "101",
+      "cycle_number": "5",
+      "exp_cycle_exclusive_end": "2022-02-07T",
+      "exp_min_pay_due_at": "2022-02-09T"
+    },
+    {
+      "account_tc_id": "TC2055 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 2 days first cycle 14 days",
+      "tc_name": "DD_14 - sixth cycle billing cycle type details",
+      "index": "102",
+      "cycle_number": "6",
+      "exp_cycle_exclusive_end": "2022-02-21T",
+      "exp_min_pay_due_at": "2022-02-23T"
+    },
+    {
+      "account_tc_id": "TC2055 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 2 days first cycle 14 days",
+      "tc_name": "DD_14 - seventh cycle billing cycle type details",
+      "index": "103",
+      "cycle_number": "7",
+      "exp_cycle_exclusive_end": "2022-03-07T",
+      "exp_min_pay_due_at": "2022-03-09T"
+    },
+    {
+      "account_tc_id": "TC2055 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 2 days first cycle 14 days",
+      "tc_name": "DD_14 - eighth cycle billing cycle type details",
+      "index": "104",
+      "cycle_number": "8",
+      "exp_cycle_exclusive_end": "2022-03-21T",
+      "exp_min_pay_due_at": "2022-03-23T"
+    },
+    {
+      "account_tc_id": "TC2055 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 2 days first cycle 14 days",
+      "tc_name": "DD_14 - ninth cycle billing cycle type details",
+      "index": "105",
+      "cycle_number": "9",
+      "exp_cycle_exclusive_end": "2022-04-04T",
+      "exp_min_pay_due_at": "2022-04-06T"
+    },
+    {
+      "account_tc_id": "TC2055 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 2 days first cycle 14 days",
+      "tc_name": "DD_14 - tenth cycle billing cycle type details",
+      "index": "106",
+      "cycle_number": "10",
+      "exp_cycle_exclusive_end": "2022-04-18T",
+      "exp_min_pay_due_at": "2022-04-20T"
+    },
+    {
+      "account_tc_id": "TC2055 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 2 days first cycle 14 days",
+      "tc_name": "DD_14 - eleventh cycle billing cycle type details",
+      "index": "107",
+      "cycle_number": "11",
+      "exp_cycle_exclusive_end": "2022-05-02T",
+      "exp_min_pay_due_at": "2022-05-04T"
+    },
+    {
+      "account_tc_id": "TC2055 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 14 days cycle due interval 2 days first cycle 14 days",
+      "tc_name": "DD_14 - twelfth cycle billing cycle type details",
+      "index": "108",
+      "cycle_number": "12",
+      "exp_cycle_exclusive_end": "2022-05-16T",
+      "exp_min_pay_due_at": "2022-05-18T"
+    },
+    {
+      "account_tc_id": "TC2057 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_16 - first cycle billing cycle type details",
+      "index": "109",
+      "cycle_number": "1",
+      "exp_cycle_exclusive_end": "2021-11-29T",
+      "exp_min_pay_due_at": "2021-12-01T"
+    },
+    {
+      "account_tc_id": "TC2057 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_16 - second cycle billing cycle type details",
+      "index": "110",
+      "cycle_number": "2",
+      "exp_cycle_exclusive_end": "2021-12-20T",
+      "exp_min_pay_due_at": "2021-12-22T"
+    },
+    {
+      "account_tc_id": "TC2057 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_16 - third cycle billing cycle type details",
+      "index": "111",
+      "cycle_number": "3",
+      "exp_cycle_exclusive_end": "2022-01-10T",
+      "exp_min_pay_due_at": "2022-01-12T"
+    },
+    {
+      "account_tc_id": "TC2057 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_16 - fourth cycle billing cycle type details",
+      "index": "112",
+      "cycle_number": "4",
+      "exp_cycle_exclusive_end": "2022-01-31T",
+      "exp_min_pay_due_at": "2022-02-02T"
+    },
+    {
+      "account_tc_id": "TC2057 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_16 - fifth cycle billing cycle type details",
+      "index": "113",
+      "cycle_number": "5",
+      "exp_cycle_exclusive_end": "2022-02-21T",
+      "exp_min_pay_due_at": "2022-02-23T"
+    },
+    {
+      "account_tc_id": "TC2057 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_16 - sixth cycle billing cycle type details",
+      "index": "114",
+      "cycle_number": "6",
+      "exp_cycle_exclusive_end": "2022-03-14T",
+      "exp_min_pay_due_at": "2022-03-16T"
+    },
+    {
+      "account_tc_id": "TC2057 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_16 - seventh cycle billing cycle type details",
+      "index": "115",
+      "cycle_number": "7",
+      "exp_cycle_exclusive_end": "2022-04-04T",
+      "exp_min_pay_due_at": "2022-04-06T"
+    },
+    {
+      "account_tc_id": "TC2057 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_16 - eighth cycle billing cycle type details",
+      "index": "116",
+      "cycle_number": "8",
+      "exp_cycle_exclusive_end": "2022-04-25T",
+      "exp_min_pay_due_at": "2022-04-27T"
+    },
+    {
+      "account_tc_id": "TC2057 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_16 - ninth cycle billing cycle type details",
+      "index": "117",
+      "cycle_number": "9",
+      "exp_cycle_exclusive_end": "2022-05-16T",
+      "exp_min_pay_due_at": "2022-05-18T"
+    },
+    {
+      "account_tc_id": "TC2057 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_16 - tenth cycle billing cycle type details",
+      "index": "118",
+      "cycle_number": "10",
+      "exp_cycle_exclusive_end": "2022-06-06T",
+      "exp_min_pay_due_at": "2022-06-08T"
+    },
+    {
+      "account_tc_id": "TC2057 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_16 - eleventh cycle billing cycle type details",
+      "index": "119",
+      "cycle_number": "11",
+      "exp_cycle_exclusive_end": "2022-06-27T",
+      "exp_min_pay_due_at": "2022-06-29T"
+    },
+    {
+      "account_tc_id": "TC2057 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_16 - twelfth cycle billing cycle type details",
+      "index": "120",
+      "cycle_number": "12",
+      "exp_cycle_exclusive_end": "2022-07-18T",
+      "exp_min_pay_due_at": "2022-07-20T"
+    },
+    {
+      "account_tc_id": "TC2058 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 5 days first cycle 0 days",
+      "tc_name": "DD_17 - first cycle billing cycle type details",
+      "index": "121",
+      "cycle_number": "1",
+      "exp_cycle_exclusive_end": "2021-11-29T",
+      "exp_min_pay_due_at": "2021-12-04T"
+    },
+    {
+      "account_tc_id": "TC2058 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 5 days first cycle 0 days",
+      "tc_name": "DD_17 - second cycle billing cycle type details",
+      "index": "122",
+      "cycle_number": "2",
+      "exp_cycle_exclusive_end": "2021-12-20T",
+      "exp_min_pay_due_at": "2021-12-25T"
+    },
+    {
+      "account_tc_id": "TC2058 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 5 days first cycle 0 days",
+      "tc_name": "DD_17 - third cycle billing cycle type details",
+      "index": "123",
+      "cycle_number": "3",
+      "exp_cycle_exclusive_end": "2022-01-10T",
+      "exp_min_pay_due_at": "2022-01-15T"
+    },
+    {
+      "account_tc_id": "TC2058 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 5 days first cycle 0 days",
+      "tc_name": "DD_17 - fourth cycle billing cycle type details",
+      "index": "124",
+      "cycle_number": "4",
+      "exp_cycle_exclusive_end": "2022-01-31T",
+      "exp_min_pay_due_at": "2022-02-05T"
+    },
+    {
+      "account_tc_id": "TC2058 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 5 days first cycle 0 days",
+      "tc_name": "DD_17 - fifth cycle billing cycle type details",
+      "index": "125",
+      "cycle_number": "5",
+      "exp_cycle_exclusive_end": "2022-02-21T",
+      "exp_min_pay_due_at": "2022-02-26T"
+    },
+    {
+      "account_tc_id": "TC2058 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 5 days first cycle 0 days",
+      "tc_name": "DD_17 - sixth cycle billing cycle type details",
+      "index": "126",
+      "cycle_number": "6",
+      "exp_cycle_exclusive_end": "2022-03-14T",
+      "exp_min_pay_due_at": "2022-03-19T"
+    },
+    {
+      "account_tc_id": "TC2058 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 5 days first cycle 0 days",
+      "tc_name": "DD_17 - seventh cycle billing cycle type details",
+      "index": "127",
+      "cycle_number": "7",
+      "exp_cycle_exclusive_end": "2022-04-04T",
+      "exp_min_pay_due_at": "2022-04-09T"
+    },
+    {
+      "account_tc_id": "TC2058 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 5 days first cycle 0 days",
+      "tc_name": "DD_17 - eighth cycle billing cycle type details",
+      "index": "128",
+      "cycle_number": "8",
+      "exp_cycle_exclusive_end": "2022-04-25T",
+      "exp_min_pay_due_at": "2022-04-30T"
+    },
+    {
+      "account_tc_id": "TC2058 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 5 days first cycle 0 days",
+      "tc_name": "DD_17 - ninth cycle billing cycle type details",
+      "index": "129",
+      "cycle_number": "9",
+      "exp_cycle_exclusive_end": "2022-05-16T",
+      "exp_min_pay_due_at": "2022-05-21T"
+    },
+    {
+      "account_tc_id": "TC2058 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 5 days first cycle 0 days",
+      "tc_name": "DD_17 - tenth cycle billing cycle type details",
+      "index": "130",
+      "cycle_number": "10",
+      "exp_cycle_exclusive_end": "2022-06-06T",
+      "exp_min_pay_due_at": "2022-06-11T"
+    },
+    {
+      "account_tc_id": "TC2058 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 5 days first cycle 0 days",
+      "tc_name": "DD_17 - eleventh cycle billing cycle type details",
+      "index": "131",
+      "cycle_number": "11",
+      "exp_cycle_exclusive_end": "2022-06-27T",
+      "exp_min_pay_due_at": "2022-07-02T"
+    },
+    {
+      "account_tc_id": "TC2058 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 5 days first cycle 0 days",
+      "tc_name": "DD_17 - twelfth cycle billing cycle type details",
+      "index": "132",
+      "cycle_number": "12",
+      "exp_cycle_exclusive_end": "2022-07-18T",
+      "exp_min_pay_due_at": "2022-07-23T"
+    },
+    {
+      "account_tc_id": "TC2059 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval -5 days first cycle 0 days",
+      "tc_name": "DD_18 - first cycle billing cycle type details",
+      "index": "133",
+      "cycle_number": "1",
+      "exp_cycle_exclusive_end": "2021-11-29T",
+      "exp_min_pay_due_at": "2021-12-15T"
+    },
+    {
+      "account_tc_id": "TC2059 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval -5 days first cycle 0 days",
+      "tc_name": "DD_18 - second cycle billing cycle type details",
+      "index": "134",
+      "cycle_number": "2",
+      "exp_cycle_exclusive_end": "2021-12-20T",
+      "exp_min_pay_due_at": "2022-01-05T"
+    },
+    {
+      "account_tc_id": "TC2059 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval -5 days first cycle 0 days",
+      "tc_name": "DD_18 - third cycle billing cycle type details",
+      "index": "135",
+      "cycle_number": "3",
+      "exp_cycle_exclusive_end": "2022-01-10T",
+      "exp_min_pay_due_at": "2022-01-26T"
+    },
+    {
+      "account_tc_id": "TC2059 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval -5 days first cycle 0 days",
+      "tc_name": "DD_18 - fourth cycle billing cycle type details",
+      "index": "136",
+      "cycle_number": "4",
+      "exp_cycle_exclusive_end": "2022-01-31T",
+      "exp_min_pay_due_at": "2022-02-16T"
+    },
+    {
+      "account_tc_id": "TC2059 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval -5 days first cycle 0 days",
+      "tc_name": "DD_18 - fifth cycle billing cycle type details",
+      "index": "137",
+      "cycle_number": "5",
+      "exp_cycle_exclusive_end": "2022-02-21T",
+      "exp_min_pay_due_at": "2022-03-09T"
+    },
+    {
+      "account_tc_id": "TC2059 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval -5 days first cycle 0 days",
+      "tc_name": "DD_18 - sixth cycle billing cycle type details",
+      "index": "138",
+      "cycle_number": "6",
+      "exp_cycle_exclusive_end": "2022-03-14T",
+      "exp_min_pay_due_at": "2022-03-30T"
+    },
+    {
+      "account_tc_id": "TC2059 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval -5 days first cycle 0 days",
+      "tc_name": "DD_18 - seventh cycle billing cycle type details",
+      "index": "139",
+      "cycle_number": "7",
+      "exp_cycle_exclusive_end": "2022-04-04T",
+      "exp_min_pay_due_at": "2022-04-20T"
+    },
+    {
+      "account_tc_id": "TC2059 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval -5 days first cycle 0 days",
+      "tc_name": "DD_18 - eighth cycle billing cycle type details",
+      "index": "140",
+      "cycle_number": "8",
+      "exp_cycle_exclusive_end": "2022-04-25T",
+      "exp_min_pay_due_at": "2022-05-11T"
+    },
+    {
+      "account_tc_id": "TC2059 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval -5 days first cycle 0 days",
+      "tc_name": "DD_18 - ninth cycle billing cycle type details",
+      "index": "141",
+      "cycle_number": "9",
+      "exp_cycle_exclusive_end": "2022-05-16T",
+      "exp_min_pay_due_at": "2022-06-01T"
+    },
+    {
+      "account_tc_id": "TC2059 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval -5 days first cycle 0 days",
+      "tc_name": "DD_18 - tenth cycle billing cycle type details",
+      "index": "142",
+      "cycle_number": "10",
+      "exp_cycle_exclusive_end": "2022-06-06T",
+      "exp_min_pay_due_at": "2022-06-22T"
+    },
+    {
+      "account_tc_id": "TC2059 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval -5 days first cycle 0 days",
+      "tc_name": "DD_18 - eleventh cycle billing cycle type details",
+      "index": "143",
+      "cycle_number": "11",
+      "exp_cycle_exclusive_end": "2022-06-27T",
+      "exp_min_pay_due_at": "2022-07-13T"
+    },
+    {
+      "account_tc_id": "TC2059 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval -5 days first cycle 0 days",
+      "tc_name": "DD_18 - twelfth cycle billing cycle type details",
+      "index": "144",
+      "cycle_number": "12",
+      "exp_cycle_exclusive_end": "2022-07-18T",
+      "exp_min_pay_due_at": "2022-08-03T"
+    },
+    {
+      "account_tc_id": "TC2060 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 2 days first cycle 15 days",
+      "tc_name": "DD_19 - first cycle billing cycle type details",
+      "index": "145",
+      "cycle_number": "1",
+      "exp_cycle_exclusive_end": "2021-12-14T",
+      "exp_min_pay_due_at": "2021-12-16T"
+    },
+    {
+      "account_tc_id": "TC2060 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 2 days first cycle 15 days",
+      "tc_name": "DD_19 - second cycle billing cycle type details",
+      "index": "146",
+      "cycle_number": "2",
+      "exp_cycle_exclusive_end": "2022-01-04T",
+      "exp_min_pay_due_at": "2022-01-06T"
+    },
+    {
+      "account_tc_id": "TC2060 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 2 days first cycle 15 days",
+      "tc_name": "DD_19 - third cycle billing cycle type details",
+      "index": "147",
+      "cycle_number": "3",
+      "exp_cycle_exclusive_end": "2022-01-25T",
+      "exp_min_pay_due_at": "2022-01-27T"
+    },
+    {
+      "account_tc_id": "TC2060 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 2 days first cycle 15 days",
+      "tc_name": "DD_19 - fourth cycle billing cycle type details",
+      "index": "148",
+      "cycle_number": "4",
+      "exp_cycle_exclusive_end": "2022-02-15T",
+      "exp_min_pay_due_at": "2022-02-17T"
+    },
+    {
+      "account_tc_id": "TC2060 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 2 days first cycle 15 days",
+      "tc_name": "DD_19 - fifth cycle billing cycle type details",
+      "index": "149",
+      "cycle_number": "5",
+      "exp_cycle_exclusive_end": "2022-03-08T",
+      "exp_min_pay_due_at": "2022-03-10T"
+    },
+    {
+      "account_tc_id": "TC2060 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 2 days first cycle 15 days",
+      "tc_name": "DD_19 - sixth cycle billing cycle type details",
+      "index": "150",
+      "cycle_number": "6",
+      "exp_cycle_exclusive_end": "2022-03-29T",
+      "exp_min_pay_due_at": "2022-03-31T"
+    },
+    {
+      "account_tc_id": "TC2060 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 2 days first cycle 15 days",
+      "tc_name": "DD_19 - seventh cycle billing cycle type details",
+      "index": "151",
+      "cycle_number": "7",
+      "exp_cycle_exclusive_end": "2022-04-19T",
+      "exp_min_pay_due_at": "2022-04-21T"
+    },
+    {
+      "account_tc_id": "TC2060 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 2 days first cycle 15 days",
+      "tc_name": "DD_19 - eighth cycle billing cycle type details",
+      "index": "152",
+      "cycle_number": "8",
+      "exp_cycle_exclusive_end": "2022-05-10T",
+      "exp_min_pay_due_at": "2022-05-12T"
+    },
+    {
+      "account_tc_id": "TC2060 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 2 days first cycle 15 days",
+      "tc_name": "DD_19 - ninth cycle billing cycle type details",
+      "index": "153",
+      "cycle_number": "9",
+      "exp_cycle_exclusive_end": "2022-05-31T",
+      "exp_min_pay_due_at": "2022-06-02T"
+    },
+    {
+      "account_tc_id": "TC2060 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 2 days first cycle 15 days",
+      "tc_name": "DD_19 - tenth cycle billing cycle type details",
+      "index": "154",
+      "cycle_number": "10",
+      "exp_cycle_exclusive_end": "2022-06-21T",
+      "exp_min_pay_due_at": "2022-06-23T"
+    },
+    {
+      "account_tc_id": "TC2060 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 2 days first cycle 15 days",
+      "tc_name": "DD_19 - eleventh cycle billing cycle type details",
+      "index": "155",
+      "cycle_number": "11",
+      "exp_cycle_exclusive_end": "2022-07-12T",
+      "exp_min_pay_due_at": "2022-07-14T"
+    },
+    {
+      "account_tc_id": "TC2060 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 2 days first cycle 15 days",
+      "tc_name": "DD_19 - twelfth cycle billing cycle type details",
+      "index": "156",
+      "cycle_number": "12",
+      "exp_cycle_exclusive_end": "2022-08-02T",
+      "exp_min_pay_due_at": "2022-08-04T"
+    },
+    {
+      "account_tc_id": "TC2061 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 5 days first cycle 25 days",
+      "tc_name": "DD_20 - first cycle billing cycle type details",
+      "index": "157",
+      "cycle_number": "1",
+      "exp_cycle_exclusive_end": "2021-12-24T",
+      "exp_min_pay_due_at": "2021-12-29T"
+    },
+    {
+      "account_tc_id": "TC2061 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 5 days first cycle 25 days",
+      "tc_name": "DD_20 - second cycle billing cycle type details",
+      "index": "158",
+      "cycle_number": "2",
+      "exp_cycle_exclusive_end": "2022-01-14T",
+      "exp_min_pay_due_at": "2022-01-19T"
+    },
+    {
+      "account_tc_id": "TC2061 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 5 days first cycle 25 days",
+      "tc_name": "DD_20 - third cycle billing cycle type details",
+      "index": "159",
+      "cycle_number": "3",
+      "exp_cycle_exclusive_end": "2022-02-04T",
+      "exp_min_pay_due_at": "2022-02-09T"
+    },
+    {
+      "account_tc_id": "TC2061 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 5 days first cycle 25 days",
+      "tc_name": "DD_20 - fourth cycle billing cycle type details",
+      "index": "160",
+      "cycle_number": "4",
+      "exp_cycle_exclusive_end": "2022-02-25T",
+      "exp_min_pay_due_at": "2022-03-02T"
+    },
+    {
+      "account_tc_id": "TC2061 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 5 days first cycle 25 days",
+      "tc_name": "DD_20 - fifth cycle billing cycle type details",
+      "index": "161",
+      "cycle_number": "5",
+      "exp_cycle_exclusive_end": "2022-03-18T",
+      "exp_min_pay_due_at": "2022-03-23T"
+    },
+    {
+      "account_tc_id": "TC2061 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 5 days first cycle 25 days",
+      "tc_name": "DD_20 - sixth cycle billing cycle type details",
+      "index": "162",
+      "cycle_number": "6",
+      "exp_cycle_exclusive_end": "2022-04-08T",
+      "exp_min_pay_due_at": "2022-04-13T"
+    },
+    {
+      "account_tc_id": "TC2061 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 5 days first cycle 25 days",
+      "tc_name": "DD_20 - seventh cycle billing cycle type details",
+      "index": "163",
+      "cycle_number": "7",
+      "exp_cycle_exclusive_end": "2022-04-29T",
+      "exp_min_pay_due_at": "2022-05-04T"
+    },
+    {
+      "account_tc_id": "TC2061 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 5 days first cycle 25 days",
+      "tc_name": "DD_20 - eighth cycle billing cycle type details",
+      "index": "164",
+      "cycle_number": "8",
+      "exp_cycle_exclusive_end": "2022-05-20T",
+      "exp_min_pay_due_at": "2022-05-25T"
+    },
+    {
+      "account_tc_id": "TC2061 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 5 days first cycle 25 days",
+      "tc_name": "DD_20 - ninth cycle billing cycle type details",
+      "index": "165",
+      "cycle_number": "9",
+      "exp_cycle_exclusive_end": "2022-06-10T",
+      "exp_min_pay_due_at": "2022-06-15T"
+    },
+    {
+      "account_tc_id": "TC2061 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 5 days first cycle 25 days",
+      "tc_name": "DD_20 - tenth cycle billing cycle type details",
+      "index": "166",
+      "cycle_number": "10",
+      "exp_cycle_exclusive_end": "2022-07-01T",
+      "exp_min_pay_due_at": "2022-07-06T"
+    },
+    {
+      "account_tc_id": "TC2061 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 5 days first cycle 25 days",
+      "tc_name": "DD_20 - eleventh cycle billing cycle type details",
+      "index": "167",
+      "cycle_number": "11",
+      "exp_cycle_exclusive_end": "2022-07-22T",
+      "exp_min_pay_due_at": "2022-07-27T"
+    },
+    {
+      "account_tc_id": "TC2061 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 5 days first cycle 25 days",
+      "tc_name": "DD_20 - twelfth cycle billing cycle type details",
+      "index": "168",
+      "cycle_number": "12",
+      "exp_cycle_exclusive_end": "2022-08-12T",
+      "exp_min_pay_due_at": "2022-08-17T"
+    },
+    {
+      "account_tc_id": "TC2062 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 2 days first cycle 21 days",
+      "tc_name": "DD_21 - first cycle billing cycle type details",
+      "index": "169",
+      "cycle_number": "1",
+      "exp_cycle_exclusive_end": "2021-12-20T",
+      "exp_min_pay_due_at": "2021-12-22T"
+    },
+    {
+      "account_tc_id": "TC2062 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 2 days first cycle 21 days",
+      "tc_name": "DD_21 - second cycle billing cycle type details",
+      "index": "170",
+      "cycle_number": "2",
+      "exp_cycle_exclusive_end": "2022-01-10T",
+      "exp_min_pay_due_at": "2022-01-12T"
+    },
+    {
+      "account_tc_id": "TC2062 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 2 days first cycle 21 days",
+      "tc_name": "DD_21 - third cycle billing cycle type details",
+      "index": "171",
+      "cycle_number": "3",
+      "exp_cycle_exclusive_end": "2022-01-31T",
+      "exp_min_pay_due_at": "2022-02-02T"
+    },
+    {
+      "account_tc_id": "TC2062 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 2 days first cycle 21 days",
+      "tc_name": "DD_21 - fourth cycle billing cycle type details",
+      "index": "172",
+      "cycle_number": "4",
+      "exp_cycle_exclusive_end": "2022-02-21T",
+      "exp_min_pay_due_at": "2022-02-23T"
+    },
+    {
+      "account_tc_id": "TC2062 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 2 days first cycle 21 days",
+      "tc_name": "DD_21 - fifth cycle billing cycle type details",
+      "index": "173",
+      "cycle_number": "5",
+      "exp_cycle_exclusive_end": "2022-03-14T",
+      "exp_min_pay_due_at": "2022-03-16T"
+    },
+    {
+      "account_tc_id": "TC2062 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 2 days first cycle 21 days",
+      "tc_name": "DD_21 - sixth cycle billing cycle type details",
+      "index": "174",
+      "cycle_number": "6",
+      "exp_cycle_exclusive_end": "2022-04-04T",
+      "exp_min_pay_due_at": "2022-04-06T"
+    },
+    {
+      "account_tc_id": "TC2062 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 2 days first cycle 21 days",
+      "tc_name": "DD_21 - seventh cycle billing cycle type details",
+      "index": "175",
+      "cycle_number": "7",
+      "exp_cycle_exclusive_end": "2022-04-25T",
+      "exp_min_pay_due_at": "2022-04-27T"
+    },
+    {
+      "account_tc_id": "TC2062 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 2 days first cycle 21 days",
+      "tc_name": "DD_21 - eighth cycle billing cycle type details",
+      "index": "176",
+      "cycle_number": "8",
+      "exp_cycle_exclusive_end": "2022-05-16T",
+      "exp_min_pay_due_at": "2022-05-18T"
+    },
+    {
+      "account_tc_id": "TC2062 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 2 days first cycle 21 days",
+      "tc_name": "DD_21 - ninth cycle billing cycle type details",
+      "index": "177",
+      "cycle_number": "9",
+      "exp_cycle_exclusive_end": "2022-06-06T",
+      "exp_min_pay_due_at": "2022-06-08T"
+    },
+    {
+      "account_tc_id": "TC2062 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 2 days first cycle 21 days",
+      "tc_name": "DD_21 - tenth cycle billing cycle type details",
+      "index": "178",
+      "cycle_number": "10",
+      "exp_cycle_exclusive_end": "2022-06-27T",
+      "exp_min_pay_due_at": "2022-06-29T"
+    },
+    {
+      "account_tc_id": "TC2062 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 2 days first cycle 21 days",
+      "tc_name": "DD_21 - eleventh cycle billing cycle type details",
+      "index": "179",
+      "cycle_number": "11",
+      "exp_cycle_exclusive_end": "2022-07-18T",
+      "exp_min_pay_due_at": "2022-07-20T"
+    },
+    {
+      "account_tc_id": "TC2062 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 21 days cycle due interval 2 days first cycle 21 days",
+      "tc_name": "DD_21 - twelfth cycle billing cycle type details",
+      "index": "180",
+      "cycle_number": "12",
+      "exp_cycle_exclusive_end": "2022-08-08T",
+      "exp_min_pay_due_at": "2022-08-10T"
+    },
+    {
+      "account_tc_id": "TC2064 - Verify cycle type details in AM schedule with post promo len as 24 cycle interval 30 days cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_23 - first cycle billing cycle type details",
+      "index": "181",
+      "cycle_number": "1",
+      "exp_cycle_exclusive_end": "2021-11-29T",
+      "exp_min_pay_due_at": "2021-12-01T"
+    },
+    {
+      "account_tc_id": "TC2064 - Verify cycle type details in AM schedule with post promo len as 24 cycle interval 30 days cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_23 - second cycle billing cycle type details",
+      "index": "182",
+      "cycle_number": "2",
+      "exp_cycle_exclusive_end": "2021-12-29T",
+      "exp_min_pay_due_at": "2021-12-31T"
+    },
+    {
+      "account_tc_id": "TC2064 - Verify cycle type details in AM schedule with post promo len as 24 cycle interval 30 days cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_23 - third cycle billing cycle type details",
+      "index": "183",
+      "cycle_number": "3",
+      "exp_cycle_exclusive_end": "2022-01-28T",
+      "exp_min_pay_due_at": "2022-01-30T"
+    },
+    {
+      "account_tc_id": "TC2064 - Verify cycle type details in AM schedule with post promo len as 24 cycle interval 30 days cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_23 - fourth cycle billing cycle type details",
+      "index": "184",
+      "cycle_number": "4",
+      "exp_cycle_exclusive_end": "2022-02-27T",
+      "exp_min_pay_due_at": "2022-03-01T"
+    },
+    {
+      "account_tc_id": "TC2064 - Verify cycle type details in AM schedule with post promo len as 24 cycle interval 30 days cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_23 - fifth cycle billing cycle type details",
+      "index": "185",
+      "cycle_number": "5",
+      "exp_cycle_exclusive_end": "2022-03-29T",
+      "exp_min_pay_due_at": "2022-03-31T"
+    },
+    {
+      "account_tc_id": "TC2064 - Verify cycle type details in AM schedule with post promo len as 24 cycle interval 30 days cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_23 - sixth cycle billing cycle type details",
+      "index": "186",
+      "cycle_number": "6",
+      "exp_cycle_exclusive_end": "2022-04-28T",
+      "exp_min_pay_due_at": "2022-04-30T"
+    },
+    {
+      "account_tc_id": "TC2064 - Verify cycle type details in AM schedule with post promo len as 24 cycle interval 30 days cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_23 - seventh cycle billing cycle type details",
+      "index": "187",
+      "cycle_number": "7",
+      "exp_cycle_exclusive_end": "2022-05-28T",
+      "exp_min_pay_due_at": "2022-05-30T"
+    },
+    {
+      "account_tc_id": "TC2064 - Verify cycle type details in AM schedule with post promo len as 24 cycle interval 30 days cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_23 - eighth cycle billing cycle type details",
+      "index": "188",
+      "cycle_number": "8",
+      "exp_cycle_exclusive_end": "2022-06-27T",
+      "exp_min_pay_due_at": "2022-06-29T"
+    },
+    {
+      "account_tc_id": "TC2064 - Verify cycle type details in AM schedule with post promo len as 24 cycle interval 30 days cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_23 - ninth cycle billing cycle type details",
+      "index": "189",
+      "cycle_number": "9",
+      "exp_cycle_exclusive_end": "2022-07-27T",
+      "exp_min_pay_due_at": "2022-07-29T"
+    },
+    {
+      "account_tc_id": "TC2064 - Verify cycle type details in AM schedule with post promo len as 24 cycle interval 30 days cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_23 - tenth cycle billing cycle type details",
+      "index": "190",
+      "cycle_number": "10",
+      "exp_cycle_exclusive_end": "2022-08-26T",
+      "exp_min_pay_due_at": "2022-08-28T"
+    },
+    {
+      "account_tc_id": "TC2064 - Verify cycle type details in AM schedule with post promo len as 24 cycle interval 30 days cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_23 - eleventh cycle billing cycle type details",
+      "index": "191",
+      "cycle_number": "11",
+      "exp_cycle_exclusive_end": "2022-09-25T",
+      "exp_min_pay_due_at": "2022-09-27T"
+    },
+    {
+      "account_tc_id": "TC2064 - Verify cycle type details in AM schedule with post promo len as 24 cycle interval 30 days cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_23 - twelfth cycle billing cycle type details",
+      "index": "192",
+      "cycle_number": "12",
+      "exp_cycle_exclusive_end": "2022-10-25T",
+      "exp_min_pay_due_at": "2022-10-27T"
+    },
+    {
+      "account_tc_id": "TC2065 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 30 days cycle due interval 7 days first cycle 0 days",
+      "tc_name": "DD_24 - first cycle billing cycle type details",
+      "index": "193",
+      "cycle_number": "1",
+      "exp_cycle_exclusive_end": "2021-11-29T",
+      "exp_min_pay_due_at": "2021-12-06T"
+    },
+    {
+      "account_tc_id": "TC2065 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 30 days cycle due interval 7 days first cycle 0 days",
+      "tc_name": "DD_24 - second cycle billing cycle type details",
+      "index": "194",
+      "cycle_number": "2",
+      "exp_cycle_exclusive_end": "2021-12-29T",
+      "exp_min_pay_due_at": "2022-01-05T"
+    },
+    {
+      "account_tc_id": "TC2065 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 30 days cycle due interval 7 days first cycle 0 days",
+      "tc_name": "DD_24 - third cycle billing cycle type details",
+      "index": "195",
+      "cycle_number": "3",
+      "exp_cycle_exclusive_end": "2022-01-28T",
+      "exp_min_pay_due_at": "2022-02-04T"
+    },
+    {
+      "account_tc_id": "TC2065 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 30 days cycle due interval 7 days first cycle 0 days",
+      "tc_name": "DD_24 - fourth cycle billing cycle type details",
+      "index": "196",
+      "cycle_number": "4",
+      "exp_cycle_exclusive_end": "2022-02-27T",
+      "exp_min_pay_due_at": "2022-03-06T"
+    },
+    {
+      "account_tc_id": "TC2065 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 30 days cycle due interval 7 days first cycle 0 days",
+      "tc_name": "DD_24 - fifth cycle billing cycle type details",
+      "index": "197",
+      "cycle_number": "5",
+      "exp_cycle_exclusive_end": "2022-03-29T",
+      "exp_min_pay_due_at": "2022-04-05T"
+    },
+    {
+      "account_tc_id": "TC2065 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 30 days cycle due interval 7 days first cycle 0 days",
+      "tc_name": "DD_24 - sixth cycle billing cycle type details",
+      "index": "198",
+      "cycle_number": "6",
+      "exp_cycle_exclusive_end": "2022-04-28T",
+      "exp_min_pay_due_at": "2022-05-05T"
+    },
+    {
+      "account_tc_id": "TC2065 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 30 days cycle due interval 7 days first cycle 0 days",
+      "tc_name": "DD_24 - seventh cycle billing cycle type details",
+      "index": "199",
+      "cycle_number": "7",
+      "exp_cycle_exclusive_end": "2022-05-28T",
+      "exp_min_pay_due_at": "2022-06-04T"
+    },
+    {
+      "account_tc_id": "TC2065 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 30 days cycle due interval 7 days first cycle 0 days",
+      "tc_name": "DD_24 - eighth cycle billing cycle type details",
+      "index": "200",
+      "cycle_number": "8",
+      "exp_cycle_exclusive_end": "2022-06-27T",
+      "exp_min_pay_due_at": "2022-07-04T"
+    },
+    {
+      "account_tc_id": "TC2065 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 30 days cycle due interval 7 days first cycle 0 days",
+      "tc_name": "DD_24 - ninth cycle billing cycle type details",
+      "index": "201",
+      "cycle_number": "9",
+      "exp_cycle_exclusive_end": "2022-07-27T",
+      "exp_min_pay_due_at": "2022-08-03T"
+    },
+    {
+      "account_tc_id": "TC2065 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 30 days cycle due interval 7 days first cycle 0 days",
+      "tc_name": "DD_24 - tenth cycle billing cycle type details",
+      "index": "202",
+      "cycle_number": "10",
+      "exp_cycle_exclusive_end": "2022-08-26T",
+      "exp_min_pay_due_at": "2022-09-02T"
+    },
+    {
+      "account_tc_id": "TC2065 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 30 days cycle due interval 7 days first cycle 0 days",
+      "tc_name": "DD_24 - eleventh cycle billing cycle type details",
+      "index": "203",
+      "cycle_number": "11",
+      "exp_cycle_exclusive_end": "2022-09-25T",
+      "exp_min_pay_due_at": "2022-10-02T"
+    },
+    {
+      "account_tc_id": "TC2065 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 30 days cycle due interval 7 days first cycle 0 days",
+      "tc_name": "DD_24 - twelfth cycle billing cycle type details",
+      "index": "204",
+      "cycle_number": "12",
+      "exp_cycle_exclusive_end": "2022-10-25T",
+      "exp_min_pay_due_at": "2022-11-01T"
+    },
+    {
+      "account_tc_id": "TC2066 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 30 days cycle due interval -7 days first cycle 0 days",
+      "tc_name": "DD_25 - first cycle billing cycle type details",
+      "index": "205",
+      "cycle_number": "1",
+      "exp_cycle_exclusive_end": "2021-11-29T",
+      "exp_min_pay_due_at": "2021-12-22T"
+    },
+    {
+      "account_tc_id": "TC2066 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 30 days cycle due interval -7 days first cycle 0 days",
+      "tc_name": "DD_25 - second cycle billing cycle type details",
+      "index": "206",
+      "cycle_number": "2",
+      "exp_cycle_exclusive_end": "2021-12-29T",
+      "exp_min_pay_due_at": "2022-01-21T"
+    },
+    {
+      "account_tc_id": "TC2066 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 30 days cycle due interval -7 days first cycle 0 days",
+      "tc_name": "DD_25 - third cycle billing cycle type details",
+      "index": "207",
+      "cycle_number": "3",
+      "exp_cycle_exclusive_end": "2022-01-28T",
+      "exp_min_pay_due_at": "2022-02-20T"
+    },
+    {
+      "account_tc_id": "TC2066 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 30 days cycle due interval -7 days first cycle 0 days",
+      "tc_name": "DD_25 - fourth cycle billing cycle type details",
+      "index": "208",
+      "cycle_number": "4",
+      "exp_cycle_exclusive_end": "2022-02-27T",
+      "exp_min_pay_due_at": "2022-03-22T"
+    },
+    {
+      "account_tc_id": "TC2066 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 30 days cycle due interval -7 days first cycle 0 days",
+      "tc_name": "DD_25 - fifth cycle billing cycle type details",
+      "index": "209",
+      "cycle_number": "5",
+      "exp_cycle_exclusive_end": "2022-03-29T",
+      "exp_min_pay_due_at": "2022-04-21T"
+    },
+    {
+      "account_tc_id": "TC2066 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 30 days cycle due interval -7 days first cycle 0 days",
+      "tc_name": "DD_25 - sixth cycle billing cycle type details",
+      "index": "210",
+      "cycle_number": "6",
+      "exp_cycle_exclusive_end": "2022-04-28T",
+      "exp_min_pay_due_at": "2022-05-21T"
+    },
+    {
+      "account_tc_id": "TC2066 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 30 days cycle due interval -7 days first cycle 0 days",
+      "tc_name": "DD_25 - seventh cycle billing cycle type details",
+      "index": "211",
+      "cycle_number": "7",
+      "exp_cycle_exclusive_end": "2022-05-28T",
+      "exp_min_pay_due_at": "2022-06-20T"
+    },
+    {
+      "account_tc_id": "TC2066 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 30 days cycle due interval -7 days first cycle 0 days",
+      "tc_name": "DD_25 - eighth cycle billing cycle type details",
+      "index": "212",
+      "cycle_number": "8",
+      "exp_cycle_exclusive_end": "2022-06-27T",
+      "exp_min_pay_due_at": "2022-07-20T"
+    },
+    {
+      "account_tc_id": "TC2066 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 30 days cycle due interval -7 days first cycle 0 days",
+      "tc_name": "DD_25 - ninth cycle billing cycle type details",
+      "index": "213",
+      "cycle_number": "9",
+      "exp_cycle_exclusive_end": "2022-07-27T",
+      "exp_min_pay_due_at": "2022-08-19T"
+    },
+    {
+      "account_tc_id": "TC2066 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 30 days cycle due interval -7 days first cycle 0 days",
+      "tc_name": "DD_25 - tenth cycle billing cycle type details",
+      "index": "214",
+      "cycle_number": "10",
+      "exp_cycle_exclusive_end": "2022-08-26T",
+      "exp_min_pay_due_at": "2022-09-18T"
+    },
+    {
+      "account_tc_id": "TC2066 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 30 days cycle due interval -7 days first cycle 0 days",
+      "tc_name": "DD_25 - eleventh cycle billing cycle type details",
+      "index": "215",
+      "cycle_number": "11",
+      "exp_cycle_exclusive_end": "2022-09-25T",
+      "exp_min_pay_due_at": "2022-10-18T"
+    },
+    {
+      "account_tc_id": "TC2066 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 30 days cycle due interval -7 days first cycle 0 days",
+      "tc_name": "DD_25 - twelfth cycle billing cycle type details",
+      "index": "216",
+      "cycle_number": "12",
+      "exp_cycle_exclusive_end": "2022-10-25T",
+      "exp_min_pay_due_at": "2022-11-17T"
+    },
+    {
+      "account_tc_id": "TC2067 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 30 days cycle due interval 2 days first cycle 15 days",
+      "tc_name": "DD_26 - first cycle billing cycle type details",
+      "index": "217",
+      "cycle_number": "1",
+      "exp_cycle_exclusive_end": "2021-12-14T",
+      "exp_min_pay_due_at": "2021-12-16T"
+    },
+    {
+      "account_tc_id": "TC2067 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 30 days cycle due interval 2 days first cycle 15 days",
+      "tc_name": "DD_26 - second cycle billing cycle type details",
+      "index": "218",
+      "cycle_number": "2",
+      "exp_cycle_exclusive_end": "2022-01-13T",
+      "exp_min_pay_due_at": "2022-01-15T"
+    },
+    {
+      "account_tc_id": "TC2067 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 30 days cycle due interval 2 days first cycle 15 days",
+      "tc_name": "DD_26 - third cycle billing cycle type details",
+      "index": "219",
+      "cycle_number": "3",
+      "exp_cycle_exclusive_end": "2022-02-12T",
+      "exp_min_pay_due_at": "2022-02-14T"
+    },
+    {
+      "account_tc_id": "TC2067 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 30 days cycle due interval 2 days first cycle 15 days",
+      "tc_name": "DD_26 - fourth cycle billing cycle type details",
+      "index": "220",
+      "cycle_number": "4",
+      "exp_cycle_exclusive_end": "2022-03-14T",
+      "exp_min_pay_due_at": "2022-03-16T"
+    },
+    {
+      "account_tc_id": "TC2067 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 30 days cycle due interval 2 days first cycle 15 days",
+      "tc_name": "DD_26 - fifth cycle billing cycle type details",
+      "index": "221",
+      "cycle_number": "5",
+      "exp_cycle_exclusive_end": "2022-04-13T",
+      "exp_min_pay_due_at": "2022-04-15T"
+    },
+    {
+      "account_tc_id": "TC2067 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 30 days cycle due interval 2 days first cycle 15 days",
+      "tc_name": "DD_26 - sixth cycle billing cycle type details",
+      "index": "222",
+      "cycle_number": "6",
+      "exp_cycle_exclusive_end": "2022-05-13T",
+      "exp_min_pay_due_at": "2022-05-15T"
+    },
+    {
+      "account_tc_id": "TC2067 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 30 days cycle due interval 2 days first cycle 15 days",
+      "tc_name": "DD_26 - seventh cycle billing cycle type details",
+      "index": "223",
+      "cycle_number": "7",
+      "exp_cycle_exclusive_end": "2022-06-12T",
+      "exp_min_pay_due_at": "2022-06-14T"
+    },
+    {
+      "account_tc_id": "TC2067 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 30 days cycle due interval 2 days first cycle 15 days",
+      "tc_name": "DD_26 - eighth cycle billing cycle type details",
+      "index": "224",
+      "cycle_number": "8",
+      "exp_cycle_exclusive_end": "2022-07-12T",
+      "exp_min_pay_due_at": "2022-07-14T"
+    },
+    {
+      "account_tc_id": "TC2067 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 30 days cycle due interval 2 days first cycle 15 days",
+      "tc_name": "DD_26 - ninth cycle billing cycle type details",
+      "index": "225",
+      "cycle_number": "9",
+      "exp_cycle_exclusive_end": "2022-08-11T",
+      "exp_min_pay_due_at": "2022-08-13T"
+    },
+    {
+      "account_tc_id": "TC2067 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 30 days cycle due interval 2 days first cycle 15 days",
+      "tc_name": "DD_26 - tenth cycle billing cycle type details",
+      "index": "226",
+      "cycle_number": "10",
+      "exp_cycle_exclusive_end": "2022-09-10T",
+      "exp_min_pay_due_at": "2022-09-12T"
+    },
+    {
+      "account_tc_id": "TC2067 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 30 days cycle due interval 2 days first cycle 15 days",
+      "tc_name": "DD_26 - eleventh cycle billing cycle type details",
+      "index": "227",
+      "cycle_number": "11",
+      "exp_cycle_exclusive_end": "2022-10-10T",
+      "exp_min_pay_due_at": "2022-10-12T"
+    },
+    {
+      "account_tc_id": "TC2067 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 30 days cycle due interval 2 days first cycle 15 days",
+      "tc_name": "DD_26 - twelfth cycle billing cycle type details",
+      "index": "228",
+      "cycle_number": "12",
+      "exp_cycle_exclusive_end": "2022-11-09T",
+      "exp_min_pay_due_at": "2022-11-11T"
+    },
+    {
+      "account_tc_id": "TC2068 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 30 days cycle due interval 5 days first cycle 45 days",
+      "tc_name": "DD_27 - first cycle billing cycle type details",
+      "index": "229",
+      "cycle_number": "1",
+      "exp_cycle_exclusive_end": "2022-01-13T",
+      "exp_min_pay_due_at": "2022-01-18T"
+    },
+    {
+      "account_tc_id": "TC2068 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 30 days cycle due interval 5 days first cycle 45 days",
+      "tc_name": "DD_27 - second cycle billing cycle type details",
+      "index": "230",
+      "cycle_number": "2",
+      "exp_cycle_exclusive_end": "2022-02-12T",
+      "exp_min_pay_due_at": "2022-02-17T"
+    },
+    {
+      "account_tc_id": "TC2068 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 30 days cycle due interval 5 days first cycle 45 days",
+      "tc_name": "DD_27 - third cycle billing cycle type details",
+      "index": "231",
+      "cycle_number": "3",
+      "exp_cycle_exclusive_end": "2022-03-14T",
+      "exp_min_pay_due_at": "2022-03-19T"
+    },
+    {
+      "account_tc_id": "TC2068 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 30 days cycle due interval 5 days first cycle 45 days",
+      "tc_name": "DD_27 - fourth cycle billing cycle type details",
+      "index": "232",
+      "cycle_number": "4",
+      "exp_cycle_exclusive_end": "2022-04-13T",
+      "exp_min_pay_due_at": "2022-04-18T"
+    },
+    {
+      "account_tc_id": "TC2068 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 30 days cycle due interval 5 days first cycle 45 days",
+      "tc_name": "DD_27 - fifth cycle billing cycle type details",
+      "index": "233",
+      "cycle_number": "5",
+      "exp_cycle_exclusive_end": "2022-05-13T",
+      "exp_min_pay_due_at": "2022-05-18T"
+    },
+    {
+      "account_tc_id": "TC2068 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 30 days cycle due interval 5 days first cycle 45 days",
+      "tc_name": "DD_27 - sixth cycle billing cycle type details",
+      "index": "234",
+      "cycle_number": "6",
+      "exp_cycle_exclusive_end": "2022-06-12T",
+      "exp_min_pay_due_at": "2022-06-17T"
+    },
+    {
+      "account_tc_id": "TC2068 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 30 days cycle due interval 5 days first cycle 45 days",
+      "tc_name": "DD_27 - seventh cycle billing cycle type details",
+      "index": "235",
+      "cycle_number": "7",
+      "exp_cycle_exclusive_end": "2022-07-12T",
+      "exp_min_pay_due_at": "2022-07-17T"
+    },
+    {
+      "account_tc_id": "TC2068 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 30 days cycle due interval 5 days first cycle 45 days",
+      "tc_name": "DD_27 - eighth cycle billing cycle type details",
+      "index": "236",
+      "cycle_number": "8",
+      "exp_cycle_exclusive_end": "2022-08-11T",
+      "exp_min_pay_due_at": "2022-08-16T"
+    },
+    {
+      "account_tc_id": "TC2068 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 30 days cycle due interval 5 days first cycle 45 days",
+      "tc_name": "DD_27 - ninth cycle billing cycle type details",
+      "index": "237",
+      "cycle_number": "9",
+      "exp_cycle_exclusive_end": "2022-09-10T",
+      "exp_min_pay_due_at": "2022-09-15T"
+    },
+    {
+      "account_tc_id": "TC2068 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 30 days cycle due interval 5 days first cycle 45 days",
+      "tc_name": "DD_27 - tenth cycle billing cycle type details",
+      "index": "238",
+      "cycle_number": "10",
+      "exp_cycle_exclusive_end": "2022-10-10T",
+      "exp_min_pay_due_at": "2022-10-15T"
+    },
+    {
+      "account_tc_id": "TC2068 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 30 days cycle due interval 5 days first cycle 45 days",
+      "tc_name": "DD_27 - eleventh cycle billing cycle type details",
+      "index": "239",
+      "cycle_number": "11",
+      "exp_cycle_exclusive_end": "2022-11-09T",
+      "exp_min_pay_due_at": "2022-11-14T"
+    },
+    {
+      "account_tc_id": "TC2068 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 30 days cycle due interval 5 days first cycle 45 days",
+      "tc_name": "DD_27 - twelfth cycle billing cycle type details",
+      "index": "240",
+      "cycle_number": "12",
+      "exp_cycle_exclusive_end": "2022-12-09T",
+      "exp_min_pay_due_at": "2022-12-14T"
+    },
+    {
+      "account_tc_id": "TC2069 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 30 days cycle due interval 2 days first cycle 30 days",
+      "tc_name": "DD_28 - first cycle billing cycle type details",
+      "index": "241",
+      "cycle_number": "1",
+      "exp_cycle_exclusive_end": "2021-12-29T",
+      "exp_min_pay_due_at": "2021-12-31T"
+    },
+    {
+      "account_tc_id": "TC2069 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 30 days cycle due interval 2 days first cycle 30 days",
+      "tc_name": "DD_28 - second cycle billing cycle type details",
+      "index": "242",
+      "cycle_number": "2",
+      "exp_cycle_exclusive_end": "2022-01-28T",
+      "exp_min_pay_due_at": "2022-01-30T"
+    },
+    {
+      "account_tc_id": "TC2069 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 30 days cycle due interval 2 days first cycle 30 days",
+      "tc_name": "DD_28 - third cycle billing cycle type details",
+      "index": "243",
+      "cycle_number": "3",
+      "exp_cycle_exclusive_end": "2022-02-27T",
+      "exp_min_pay_due_at": "2022-03-01T"
+    },
+    {
+      "account_tc_id": "TC2069 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 30 days cycle due interval 2 days first cycle 30 days",
+      "tc_name": "DD_28 - fourth cycle billing cycle type details",
+      "index": "244",
+      "cycle_number": "4",
+      "exp_cycle_exclusive_end": "2022-03-29T",
+      "exp_min_pay_due_at": "2022-03-31T"
+    },
+    {
+      "account_tc_id": "TC2069 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 30 days cycle due interval 2 days first cycle 30 days",
+      "tc_name": "DD_28 - fifth cycle billing cycle type details",
+      "index": "245",
+      "cycle_number": "5",
+      "exp_cycle_exclusive_end": "2022-04-28T",
+      "exp_min_pay_due_at": "2022-04-30T"
+    },
+    {
+      "account_tc_id": "TC2069 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 30 days cycle due interval 2 days first cycle 30 days",
+      "tc_name": "DD_28 - sixth cycle billing cycle type details",
+      "index": "246",
+      "cycle_number": "6",
+      "exp_cycle_exclusive_end": "2022-05-28T",
+      "exp_min_pay_due_at": "2022-05-30T"
+    },
+    {
+      "account_tc_id": "TC2069 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 30 days cycle due interval 2 days first cycle 30 days",
+      "tc_name": "DD_28 - seventh cycle billing cycle type details",
+      "index": "247",
+      "cycle_number": "7",
+      "exp_cycle_exclusive_end": "2022-06-27T",
+      "exp_min_pay_due_at": "2022-06-29T"
+    },
+    {
+      "account_tc_id": "TC2069 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 30 days cycle due interval 2 days first cycle 30 days",
+      "tc_name": "DD_28 - eighth cycle billing cycle type details",
+      "index": "248",
+      "cycle_number": "8",
+      "exp_cycle_exclusive_end": "2022-07-27T",
+      "exp_min_pay_due_at": "2022-07-29T"
+    },
+    {
+      "account_tc_id": "TC2069 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 30 days cycle due interval 2 days first cycle 30 days",
+      "tc_name": "DD_28 - ninth cycle billing cycle type details",
+      "index": "249",
+      "cycle_number": "9",
+      "exp_cycle_exclusive_end": "2022-08-26T",
+      "exp_min_pay_due_at": "2022-08-28T"
+    },
+    {
+      "account_tc_id": "TC2069 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 30 days cycle due interval 2 days first cycle 30 days",
+      "tc_name": "DD_28 - tenth cycle billing cycle type details",
+      "index": "250",
+      "cycle_number": "10",
+      "exp_cycle_exclusive_end": "2022-09-25T",
+      "exp_min_pay_due_at": "2022-09-27T"
+    },
+    {
+      "account_tc_id": "TC2069 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 30 days cycle due interval 2 days first cycle 30 days",
+      "tc_name": "DD_28 - eleventh cycle billing cycle type details",
+      "index": "251",
+      "cycle_number": "11",
+      "exp_cycle_exclusive_end": "2022-10-25T",
+      "exp_min_pay_due_at": "2022-10-27T"
+    },
+    {
+      "account_tc_id": "TC2069 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 30 days cycle due interval 2 days first cycle 30 days",
+      "tc_name": "DD_28 - twelfth cycle billing cycle type details",
+      "index": "252",
+      "cycle_number": "12",
+      "exp_cycle_exclusive_end": "2022-11-24T",
+      "exp_min_pay_due_at": "2022-11-26T"
+    },
+    {
+      "account_tc_id": "TC2071 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 1 month cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_30 - first cycle billing cycle type details",
+      "index": "253",
+      "cycle_number": "1",
+      "exp_cycle_exclusive_end": "2021-11-29T",
+      "exp_min_pay_due_at": "2021-12-01T"
+    },
+    {
+      "account_tc_id": "TC2071 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 1 month cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_30 - second cycle billing cycle type details",
+      "index": "254",
+      "cycle_number": "2",
+      "exp_cycle_exclusive_end": "2021-12-29T",
+      "exp_min_pay_due_at": "2021-12-31T"
+    },
+    {
+      "account_tc_id": "TC2071 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 1 month cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_30 - third cycle billing cycle type details",
+      "index": "255",
+      "cycle_number": "3",
+      "exp_cycle_exclusive_end": "2022-01-29T",
+      "exp_min_pay_due_at": "2022-01-31T"
+    },
+    {
+      "account_tc_id": "TC2071 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 1 month cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_30 - fourth cycle billing cycle type details",
+      "index": "256",
+      "cycle_number": "4",
+      "exp_cycle_exclusive_end": "2022-02-28T",
+      "exp_min_pay_due_at": "2022-03-02T"
+    },
+    {
+      "account_tc_id": "TC2071 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 1 month cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_30 - fifth cycle billing cycle type details",
+      "index": "257",
+      "cycle_number": "5",
+      "exp_cycle_exclusive_end": "2022-03-29T",
+      "exp_min_pay_due_at": "2022-03-31T"
+    },
+    {
+      "account_tc_id": "TC2071 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 1 month cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_30 - sixth cycle billing cycle type details",
+      "index": "258",
+      "cycle_number": "6",
+      "exp_cycle_exclusive_end": "2022-04-29T",
+      "exp_min_pay_due_at": "2022-05-01T"
+    },
+    {
+      "account_tc_id": "TC2071 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 1 month cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_30 - seventh cycle billing cycle type details",
+      "index": "259",
+      "cycle_number": "7",
+      "exp_cycle_exclusive_end": "2022-05-29T",
+      "exp_min_pay_due_at": "2022-05-31T"
+    },
+    {
+      "account_tc_id": "TC2071 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 1 month cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_30 - eighth cycle billing cycle type details",
+      "index": "260",
+      "cycle_number": "8",
+      "exp_cycle_exclusive_end": "2022-06-29T",
+      "exp_min_pay_due_at": "2022-07-01T"
+    },
+    {
+      "account_tc_id": "TC2071 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 1 month cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_30 - ninth cycle billing cycle type details",
+      "index": "261",
+      "cycle_number": "9",
+      "exp_cycle_exclusive_end": "2022-07-29T",
+      "exp_min_pay_due_at": "2022-07-31T"
+    },
+    {
+      "account_tc_id": "TC2071 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 1 month cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_30 - tenth cycle billing cycle type details",
+      "index": "262",
+      "cycle_number": "10",
+      "exp_cycle_exclusive_end": "2022-08-29T",
+      "exp_min_pay_due_at": "2022-08-31T"
+    },
+    {
+      "account_tc_id": "TC2071 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 1 month cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_30 - eleventh cycle billing cycle type details",
+      "index": "263",
+      "cycle_number": "11",
+      "exp_cycle_exclusive_end": "2022-09-29T",
+      "exp_min_pay_due_at": "2022-10-01T"
+    },
+    {
+      "account_tc_id": "TC2071 - Verify cycle type details in AM schedule with post promo len as 12 cycle interval 1 month cycle due interval 2 days first cycle 0 days",
+      "tc_name": "DD_30 - twelfth cycle billing cycle type details",
+      "index": "264",
+      "cycle_number": "12",
+      "exp_cycle_exclusive_end": "2022-10-29T",
+      "exp_min_pay_due_at": "2022-10-31T"
+    },
+    {
+      "account_tc_id": "TC2072 - Verify cycle type details in AM schedule with post promo len as 24 cycle interval 1 month cycle due interval 7 days first cycle 0 days",
+      "tc_name": "DD_31 - first cycle billing cycle type details",
+      "index": "265",
+      "cycle_number": "1",
+      "exp_cycle_exclusive_end": "2021-11-29T",
+      "exp_min_pay_due_at": "2021-12-06T"
+    },
+    {
+      "account_tc_id": "TC2072 - Verify cycle type details in AM schedule with post promo len as 24 cycle interval 1 month cycle due interval 7 days first cycle 0 days",
+      "tc_name": "DD_31 - second cycle billing cycle type details",
+      "index": "266",
+      "cycle_number": "2",
+      "exp_cycle_exclusive_end": "2021-12-29T",
+      "exp_min_pay_due_at": "2022-01-05T"
+    },
+    {
+      "account_tc_id": "TC2072 - Verify cycle type details in AM schedule with post promo len as 24 cycle interval 1 month cycle due interval 7 days first cycle 0 days",
+      "tc_name": "DD_31 - third cycle billing cycle type details",
+      "index": "267",
+      "cycle_number": "3",
+      "exp_cycle_exclusive_end": "2022-01-29T",
+      "exp_min_pay_due_at": "2022-02-05T"
+    },
+    {
+      "account_tc_id": "TC2072 - Verify cycle type details in AM schedule with post promo len as 24 cycle interval 1 month cycle due interval 7 days first cycle 0 days",
+      "tc_name": "DD_31 - fourth cycle billing cycle type details",
+      "index": "268",
+      "cycle_number": "4",
+      "exp_cycle_exclusive_end": "2022-02-28T",
+      "exp_min_pay_due_at": "2022-03-07T"
+    },
+    {
+      "account_tc_id": "TC2072 - Verify cycle type details in AM schedule with post promo len as 24 cycle interval 1 month cycle due interval 7 days first cycle 0 days",
+      "tc_name": "DD_31 - fifth cycle billing cycle type details",
+      "index": "269",
+      "cycle_number": "5",
+      "exp_cycle_exclusive_end": "2022-03-29T",
+      "exp_min_pay_due_at": "2022-04-05T"
+    },
+    {
+      "account_tc_id": "TC2072 - Verify cycle type details in AM schedule with post promo len as 24 cycle interval 1 month cycle due interval 7 days first cycle 0 days",
+      "tc_name": "DD_31 - sixth cycle billing cycle type details",
+      "index": "270",
+      "cycle_number": "6",
+      "exp_cycle_exclusive_end": "2022-04-29T",
+      "exp_min_pay_due_at": "2022-05-06T"
+    },
+    {
+      "account_tc_id": "TC2072 - Verify cycle type details in AM schedule with post promo len as 24 cycle interval 1 month cycle due interval 7 days first cycle 0 days",
+      "tc_name": "DD_31 - seventh cycle billing cycle type details",
+      "index": "271",
+      "cycle_number": "7",
+      "exp_cycle_exclusive_end": "2022-05-29T",
+      "exp_min_pay_due_at": "2022-06-05T"
+    },
+    {
+      "account_tc_id": "TC2072 - Verify cycle type details in AM schedule with post promo len as 24 cycle interval 1 month cycle due interval 7 days first cycle 0 days",
+      "tc_name": "DD_31 - eighth cycle billing cycle type details",
+      "index": "272",
+      "cycle_number": "8",
+      "exp_cycle_exclusive_end": "2022-06-29T",
+      "exp_min_pay_due_at": "2022-07-06T"
+    },
+    {
+      "account_tc_id": "TC2072 - Verify cycle type details in AM schedule with post promo len as 24 cycle interval 1 month cycle due interval 7 days first cycle 0 days",
+      "tc_name": "DD_31 - ninth cycle billing cycle type details",
+      "index": "273",
+      "cycle_number": "9",
+      "exp_cycle_exclusive_end": "2022-07-29T",
+      "exp_min_pay_due_at": "2022-08-05T"
+    },
+    {
+      "account_tc_id": "TC2072 - Verify cycle type details in AM schedule with post promo len as 24 cycle interval 1 month cycle due interval 7 days first cycle 0 days",
+      "tc_name": "DD_31 - tenth cycle billing cycle type details",
+      "index": "274",
+      "cycle_number": "10",
+      "exp_cycle_exclusive_end": "2022-08-29T",
+      "exp_min_pay_due_at": "2022-09-05T"
+    },
+    {
+      "account_tc_id": "TC2072 - Verify cycle type details in AM schedule with post promo len as 24 cycle interval 1 month cycle due interval 7 days first cycle 0 days",
+      "tc_name": "DD_31 - eleventh cycle billing cycle type details",
+      "index": "275",
+      "cycle_number": "11",
+      "exp_cycle_exclusive_end": "2022-09-29T",
+      "exp_min_pay_due_at": "2022-10-06T"
+    },
+    {
+      "account_tc_id": "TC2072 - Verify cycle type details in AM schedule with post promo len as 24 cycle interval 1 month cycle due interval 7 days first cycle 0 days",
+      "tc_name": "DD_31 - twelfth cycle billing cycle type details",
+      "index": "276",
+      "cycle_number": "12",
+      "exp_cycle_exclusive_end": "2022-10-29T",
+      "exp_min_pay_due_at": "2022-11-05T"
+    },
+    {
+      "account_tc_id": "TC2073 - Verify cycle type details in AM schedule with post promo len as 24 cycle interval 1 month cycle due interval -7 days first cycle 0 days",
+      "tc_name": "DD_32 - first cycle billing cycle type details",
+      "index": "277",
+      "cycle_number": "1",
+      "exp_cycle_exclusive_end": "2021-11-29T",
+      "exp_min_pay_due_at": "2021-12-22T"
+    },
+    {
+      "account_tc_id": "TC2073 - Verify cycle type details in AM schedule with post promo len as 24 cycle interval 1 month cycle due interval -7 days first cycle 0 days",
+      "tc_name": "DD_32 - second cycle billing cycle type details",
+      "index": "278",
+      "cycle_number": "2",
+      "exp_cycle_exclusive_end": "2021-12-29T",
+      "exp_min_pay_due_at": "2022-01-22T"
+    },
+    {
+      "account_tc_id": "TC2073 - Verify cycle type details in AM schedule with post promo len as 24 cycle interval 1 month cycle due interval -7 days first cycle 0 days",
+      "tc_name": "DD_32 - third cycle billing cycle type details",
+      "index": "279",
+      "cycle_number": "3",
+      "exp_cycle_exclusive_end": "2022-01-29T",
+      "exp_min_pay_due_at": "2022-02-21T"
+    },
+    {
+      "account_tc_id": "TC2073 - Verify cycle type details in AM schedule with post promo len as 24 cycle interval 1 month cycle due interval -7 days first cycle 0 days",
+      "tc_name": "DD_32 - fourth cycle billing cycle type details",
+      "index": "280",
+      "cycle_number": "4",
+      "exp_cycle_exclusive_end": "2022-02-28T",
+      "exp_min_pay_due_at": "2022-03-21T"
+    },
+    {
+      "account_tc_id": "TC2073 - Verify cycle type details in AM schedule with post promo len as 24 cycle interval 1 month cycle due interval -7 days first cycle 0 days",
+      "tc_name": "DD_32 - fifth cycle billing cycle type details",
+      "index": "281",
+      "cycle_number": "5",
+      "exp_cycle_exclusive_end": "2022-03-29T",
+      "exp_min_pay_due_at": "2022-04-22T"
+    },
+    {
+      "account_tc_id": "TC2073 - Verify cycle type details in AM schedule with post promo len as 24 cycle interval 1 month cycle due interval -7 days first cycle 0 days",
+      "tc_name": "DD_32 - sixth cycle billing cycle type details",
+      "index": "282",
+      "cycle_number": "6",
+      "exp_cycle_exclusive_end": "2022-04-29T",
+      "exp_min_pay_due_at": "2022-05-22T"
+    },
+    {
+      "account_tc_id": "TC2073 - Verify cycle type details in AM schedule with post promo len as 24 cycle interval 1 month cycle due interval -7 days first cycle 0 days",
+      "tc_name": "DD_32 - seventh cycle billing cycle type details",
+      "index": "283",
+      "cycle_number": "7",
+      "exp_cycle_exclusive_end": "2022-05-29T",
+      "exp_min_pay_due_at": "2022-06-22T"
+    },
+    {
+      "account_tc_id": "TC2073 - Verify cycle type details in AM schedule with post promo len as 24 cycle interval 1 month cycle due interval -7 days first cycle 0 days",
+      "tc_name": "DD_32 - eighth cycle billing cycle type details",
+      "index": "284",
+      "cycle_number": "8",
+      "exp_cycle_exclusive_end": "2022-06-29T",
+      "exp_min_pay_due_at": "2022-07-22T"
+    },
+    {
+      "account_tc_id": "TC2073 - Verify cycle type details in AM schedule with post promo len as 24 cycle interval 1 month cycle due interval -7 days first cycle 0 days",
+      "tc_name": "DD_32 - ninth cycle billing cycle type details",
+      "index": "285",
+      "cycle_number": "9",
+      "exp_cycle_exclusive_end": "2022-07-29T",
+      "exp_min_pay_due_at": "2022-08-22T"
+    },
+    {
+      "account_tc_id": "TC2073 - Verify cycle type details in AM schedule with post promo len as 24 cycle interval 1 month cycle due interval -7 days first cycle 0 days",
+      "tc_name": "DD_32 - tenth cycle billing cycle type details",
+      "index": "286",
+      "cycle_number": "10",
+      "exp_cycle_exclusive_end": "2022-08-29T",
+      "exp_min_pay_due_at": "2022-09-22T"
+    },
+    {
+      "account_tc_id": "TC2073 - Verify cycle type details in AM schedule with post promo len as 24 cycle interval 1 month cycle due interval -7 days first cycle 0 days",
+      "tc_name": "DD_32 - eleventh cycle billing cycle type details",
+      "index": "287",
+      "cycle_number": "11",
+      "exp_cycle_exclusive_end": "2022-09-29T",
+      "exp_min_pay_due_at": "2022-10-22T"
+    },
+    {
+      "account_tc_id": "TC2073 - Verify cycle type details in AM schedule with post promo len as 24 cycle interval 1 month cycle due interval -7 days first cycle 0 days",
+      "tc_name": "DD_32 - twelfth cycle billing cycle type details",
+      "index": "288",
+      "cycle_number": "12",
+      "exp_cycle_exclusive_end": "2022-10-29T",
+      "exp_min_pay_due_at": "2022-11-22T"
+    },
+    {
+      "account_tc_id": "TC2074 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 1 month cycle due interval 2 days first cycle 15 days",
+      "tc_name": "DD_33 - first cycle billing cycle type details",
+      "index": "289",
+      "cycle_number": "1",
+      "exp_cycle_exclusive_end": "2021-12-14T",
+      "exp_min_pay_due_at": "2021-12-16T"
+    },
+    {
+      "account_tc_id": "TC2074 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 1 month cycle due interval 2 days first cycle 15 days",
+      "tc_name": "DD_33 - second cycle billing cycle type details",
+      "index": "290",
+      "cycle_number": "2",
+      "exp_cycle_exclusive_end": "2022-01-14T",
+      "exp_min_pay_due_at": "2022-01-16T"
+    },
+    {
+      "account_tc_id": "TC2074 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 1 month cycle due interval 2 days first cycle 15 days",
+      "tc_name": "DD_33 - third cycle billing cycle type details",
+      "index": "291",
+      "cycle_number": "3",
+      "exp_cycle_exclusive_end": "2022-02-14T",
+      "exp_min_pay_due_at": "2022-02-16T"
+    },
+    {
+      "account_tc_id": "TC2074 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 1 month cycle due interval 2 days first cycle 15 days",
+      "tc_name": "DD_33 - fourth cycle billing cycle type details",
+      "index": "292",
+      "cycle_number": "4",
+      "exp_cycle_exclusive_end": "2022-03-14T",
+      "exp_min_pay_due_at": "2022-03-16T"
+    },
+    {
+      "account_tc_id": "TC2074 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 1 month cycle due interval 2 days first cycle 15 days",
+      "tc_name": "DD_33 - fifth cycle billing cycle type details",
+      "index": "293",
+      "cycle_number": "5",
+      "exp_cycle_exclusive_end": "2022-04-14T",
+      "exp_min_pay_due_at": "2022-04-16T"
+    },
+    {
+      "account_tc_id": "TC2074 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 1 month cycle due interval 2 days first cycle 15 days",
+      "tc_name": "DD_33 - sixth cycle billing cycle type details",
+      "index": "294",
+      "cycle_number": "6",
+      "exp_cycle_exclusive_end": "2022-05-14T",
+      "exp_min_pay_due_at": "2022-05-16T"
+    },
+    {
+      "account_tc_id": "TC2074 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 1 month cycle due interval 2 days first cycle 15 days",
+      "tc_name": "DD_33 - seventh cycle billing cycle type details",
+      "index": "295",
+      "cycle_number": "7",
+      "exp_cycle_exclusive_end": "2022-06-14T",
+      "exp_min_pay_due_at": "2022-06-16T"
+    },
+    {
+      "account_tc_id": "TC2074 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 1 month cycle due interval 2 days first cycle 15 days",
+      "tc_name": "DD_33 - eighth cycle billing cycle type details",
+      "index": "296",
+      "cycle_number": "8",
+      "exp_cycle_exclusive_end": "2022-07-14T",
+      "exp_min_pay_due_at": "2022-07-16T"
+    },
+    {
+      "account_tc_id": "TC2074 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 1 month cycle due interval 2 days first cycle 15 days",
+      "tc_name": "DD_33 - ninth cycle billing cycle type details",
+      "index": "297",
+      "cycle_number": "9",
+      "exp_cycle_exclusive_end": "2022-08-14T",
+      "exp_min_pay_due_at": "2022-08-16T"
+    },
+    {
+      "account_tc_id": "TC2074 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 1 month cycle due interval 2 days first cycle 15 days",
+      "tc_name": "DD_33 - tenth cycle billing cycle type details",
+      "index": "298",
+      "cycle_number": "10",
+      "exp_cycle_exclusive_end": "2022-09-14T",
+      "exp_min_pay_due_at": "2022-09-16T"
+    },
+    {
+      "account_tc_id": "TC2074 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 1 month cycle due interval 2 days first cycle 15 days",
+      "tc_name": "DD_33 - eleventh cycle billing cycle type details",
+      "index": "299",
+      "cycle_number": "11",
+      "exp_cycle_exclusive_end": "2022-10-14T",
+      "exp_min_pay_due_at": "2022-10-16T"
+    },
+    {
+      "account_tc_id": "TC2074 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 1 month cycle due interval 2 days first cycle 15 days",
+      "tc_name": "DD_33 - twelfth cycle billing cycle type details",
+      "index": "300",
+      "cycle_number": "12",
+      "exp_cycle_exclusive_end": "2022-11-14T",
+      "exp_min_pay_due_at": "2022-11-16T"
+    },
+    {
+      "account_tc_id": "TC2075 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 1 month cycle due interval 5 days first cycle 45 days",
+      "tc_name": "DD_34 - first cycle billing cycle type details",
+      "index": "301",
+      "cycle_number": "1",
+      "exp_cycle_exclusive_end": "2022-01-13T",
+      "exp_min_pay_due_at": "2022-01-18T"
+    },
+    {
+      "account_tc_id": "TC2075 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 1 month cycle due interval 5 days first cycle 45 days",
+      "tc_name": "DD_34 - second cycle billing cycle type details",
+      "index": "302",
+      "cycle_number": "2",
+      "exp_cycle_exclusive_end": "2022-02-13T",
+      "exp_min_pay_due_at": "2022-02-18T"
+    },
+    {
+      "account_tc_id": "TC2075 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 1 month cycle due interval 5 days first cycle 45 days",
+      "tc_name": "DD_34 - third cycle billing cycle type details",
+      "index": "303",
+      "cycle_number": "3",
+      "exp_cycle_exclusive_end": "2022-03-13T",
+      "exp_min_pay_due_at": "2022-03-18T"
+    },
+    {
+      "account_tc_id": "TC2075 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 1 month cycle due interval 5 days first cycle 45 days",
+      "tc_name": "DD_34 - fourth cycle billing cycle type details",
+      "index": "304",
+      "cycle_number": "4",
+      "exp_cycle_exclusive_end": "2022-04-13T",
+      "exp_min_pay_due_at": "2022-04-18T"
+    },
+    {
+      "account_tc_id": "TC2075 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 1 month cycle due interval 5 days first cycle 45 days",
+      "tc_name": "DD_34 - fifth cycle billing cycle type details",
+      "index": "305",
+      "cycle_number": "5",
+      "exp_cycle_exclusive_end": "2022-05-13T",
+      "exp_min_pay_due_at": "2022-05-18T"
+    },
+    {
+      "account_tc_id": "TC2075 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 1 month cycle due interval 5 days first cycle 45 days",
+      "tc_name": "DD_34 - sixth cycle billing cycle type details",
+      "index": "306",
+      "cycle_number": "6",
+      "exp_cycle_exclusive_end": "2022-06-13T",
+      "exp_min_pay_due_at": "2022-06-18T"
+    },
+    {
+      "account_tc_id": "TC2075 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 1 month cycle due interval 5 days first cycle 45 days",
+      "tc_name": "DD_34 - seventh cycle billing cycle type details",
+      "index": "307",
+      "cycle_number": "7",
+      "exp_cycle_exclusive_end": "2022-07-13T",
+      "exp_min_pay_due_at": "2022-07-18T"
+    },
+    {
+      "account_tc_id": "TC2075 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 1 month cycle due interval 5 days first cycle 45 days",
+      "tc_name": "DD_34 - eighth cycle billing cycle type details",
+      "index": "308",
+      "cycle_number": "8",
+      "exp_cycle_exclusive_end": "2022-08-13T",
+      "exp_min_pay_due_at": "2022-08-18T"
+    },
+    {
+      "account_tc_id": "TC2075 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 1 month cycle due interval 5 days first cycle 45 days",
+      "tc_name": "DD_34 - ninth cycle billing cycle type details",
+      "index": "309",
+      "cycle_number": "9",
+      "exp_cycle_exclusive_end": "2022-09-13T",
+      "exp_min_pay_due_at": "2022-09-18T"
+    },
+    {
+      "account_tc_id": "TC2075 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 1 month cycle due interval 5 days first cycle 45 days",
+      "tc_name": "DD_34 - tenth cycle billing cycle type details",
+      "index": "310",
+      "cycle_number": "10",
+      "exp_cycle_exclusive_end": "2022-10-13T",
+      "exp_min_pay_due_at": "2022-10-18T"
+    },
+    {
+      "account_tc_id": "TC2075 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 1 month cycle due interval 5 days first cycle 45 days",
+      "tc_name": "DD_34 - eleventh cycle billing cycle type details",
+      "index": "311",
+      "cycle_number": "11",
+      "exp_cycle_exclusive_end": "2022-11-13T",
+      "exp_min_pay_due_at": "2022-11-18T"
+    },
+    {
+      "account_tc_id": "TC2075 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 1 month cycle due interval 5 days first cycle 45 days",
+      "tc_name": "DD_34 - twelfth cycle billing cycle type details",
+      "index": "312",
+      "cycle_number": "12",
+      "exp_cycle_exclusive_end": "2022-12-13T",
+      "exp_min_pay_due_at": "2022-12-18T"
+    },
+    {
+      "account_tc_id": "TC2076 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 1 month cycle due interval 2 days first cycle 1 month",
+      "tc_name": "DD_35 - first cycle billing cycle type details",
+      "index": "313",
+      "cycle_number": "1",
+      "exp_cycle_exclusive_end": "2021-12-29T",
+      "exp_min_pay_due_at": "2021-12-31T"
+    },
+    {
+      "account_tc_id": "TC2076 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 1 month cycle due interval 2 days first cycle 1 month",
+      "tc_name": "DD_35 - second cycle billing cycle type details",
+      "index": "314",
+      "cycle_number": "2",
+      "exp_cycle_exclusive_end": "2022-01-29T",
+      "exp_min_pay_due_at": "2022-01-31T"
+    },
+    {
+      "account_tc_id": "TC2076 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 1 month cycle due interval 2 days first cycle 1 month",
+      "tc_name": "DD_35 - third cycle billing cycle type details",
+      "index": "315",
+      "cycle_number": "3",
+      "exp_cycle_exclusive_end": "2022-02-28T",
+      "exp_min_pay_due_at": "2022-03-02T"
+    },
+    {
+      "account_tc_id": "TC2076 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 1 month cycle due interval 2 days first cycle 1 month",
+      "tc_name": "DD_35 - fourth cycle billing cycle type details",
+      "index": "316",
+      "cycle_number": "4",
+      "exp_cycle_exclusive_end": "2022-03-29T",
+      "exp_min_pay_due_at": "2022-03-31T"
+    },
+    {
+      "account_tc_id": "TC2076 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 1 month cycle due interval 2 days first cycle 1 month",
+      "tc_name": "DD_35 - fifth cycle billing cycle type details",
+      "index": "317",
+      "cycle_number": "5",
+      "exp_cycle_exclusive_end": "2022-04-29T",
+      "exp_min_pay_due_at": "2022-05-01T"
+    },
+    {
+      "account_tc_id": "TC2076 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 1 month cycle due interval 2 days first cycle 1 month",
+      "tc_name": "DD_35 - sixth cycle billing cycle type details",
+      "index": "318",
+      "cycle_number": "6",
+      "exp_cycle_exclusive_end": "2022-05-29T",
+      "exp_min_pay_due_at": "2022-05-31T"
+    },
+    {
+      "account_tc_id": "TC2076 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 1 month cycle due interval 2 days first cycle 1 month",
+      "tc_name": "DD_35 - seventh cycle billing cycle type details",
+      "index": "319",
+      "cycle_number": "7",
+      "exp_cycle_exclusive_end": "2022-06-29T",
+      "exp_min_pay_due_at": "2022-07-01T"
+    },
+    {
+      "account_tc_id": "TC2076 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 1 month cycle due interval 2 days first cycle 1 month",
+      "tc_name": "DD_35 - eighth cycle billing cycle type details",
+      "index": "320",
+      "cycle_number": "8",
+      "exp_cycle_exclusive_end": "2022-07-29T",
+      "exp_min_pay_due_at": "2022-07-31T"
+    },
+    {
+      "account_tc_id": "TC2076 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 1 month cycle due interval 2 days first cycle 1 month",
+      "tc_name": "DD_35 - ninth cycle billing cycle type details",
+      "index": "321",
+      "cycle_number": "9",
+      "exp_cycle_exclusive_end": "2022-08-29T",
+      "exp_min_pay_due_at": "2022-08-31T"
+    },
+    {
+      "account_tc_id": "TC2076 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 1 month cycle due interval 2 days first cycle 1 month",
+      "tc_name": "DD_35 - tenth cycle billing cycle type details",
+      "index": "322",
+      "cycle_number": "10",
+      "exp_cycle_exclusive_end": "2022-09-29T",
+      "exp_min_pay_due_at": "2022-10-01T"
+    },
+    {
+      "account_tc_id": "TC2076 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 1 month cycle due interval 2 days first cycle 1 month",
+      "tc_name": "DD_35 - eleventh cycle billing cycle type details",
+      "index": "323",
+      "cycle_number": "11",
+      "exp_cycle_exclusive_end": "2022-10-29T",
+      "exp_min_pay_due_at": "2022-10-31T"
+    },
+    {
+      "account_tc_id": "TC2076 - Verify cycle type details in AM schedule with post promo len as 36 cycle interval 1 month cycle due interval 2 days first cycle 1 month",
+      "tc_name": "DD_35 - twelfth cycle billing cycle type details",
+      "index": "324",
+      "cycle_number": "12",
+      "exp_cycle_exclusive_end": "2022-11-29T",
+      "exp_min_pay_due_at": "2022-12-01T"
+    },
+    {
+      "account_tc_id": "TC2077 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 1 month cycle due interval 25 days first cycle 0 days",
+      "tc_name": "DD_36 - first cycle billing cycle type details",
+      "index": "325",
+      "cycle_number": "1",
+      "exp_cycle_exclusive_end": "2021-11-29T",
+      "exp_min_pay_due_at": "2021-12-24T"
+    },
+    {
+      "account_tc_id": "TC2077 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 1 month cycle due interval 25 days first cycle 0 days",
+      "tc_name": "DD_36 - second cycle billing cycle type details",
+      "index": "326",
+      "cycle_number": "2",
+      "exp_cycle_exclusive_end": "2021-12-29T",
+      "exp_min_pay_due_at": "2022-01-23T"
+    },
+    {
+      "account_tc_id": "TC2077 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 1 month cycle due interval 25 days first cycle 0 days",
+      "tc_name": "DD_36 - third cycle billing cycle type details",
+      "index": "327",
+      "cycle_number": "3",
+      "exp_cycle_exclusive_end": "2022-01-29T",
+      "exp_min_pay_due_at": "2022-02-23T"
+    },
+    {
+      "account_tc_id": "TC2077 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 1 month cycle due interval 25 days first cycle 0 days",
+      "tc_name": "DD_36 - fourth cycle billing cycle type details",
+      "index": "328",
+      "cycle_number": "4",
+      "exp_cycle_exclusive_end": "2022-02-28T",
+      "exp_min_pay_due_at": "2022-03-25T"
+    },
+    {
+      "account_tc_id": "TC2077 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 1 month cycle due interval 25 days first cycle 0 days",
+      "tc_name": "DD_36 - fifth cycle billing cycle type details",
+      "index": "329",
+      "cycle_number": "5",
+      "exp_cycle_exclusive_end": "2022-03-29T",
+      "exp_min_pay_due_at": "2022-04-23T"
+    },
+    {
+      "account_tc_id": "TC2077 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 1 month cycle due interval 25 days first cycle 0 days",
+      "tc_name": "DD_36 - sixth cycle billing cycle type details",
+      "index": "330",
+      "cycle_number": "6",
+      "exp_cycle_exclusive_end": "2022-04-29T",
+      "exp_min_pay_due_at": "2022-05-24T"
+    },
+    {
+      "account_tc_id": "TC2077 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 1 month cycle due interval 25 days first cycle 0 days",
+      "tc_name": "DD_36 - seventh cycle billing cycle type details",
+      "index": "331",
+      "cycle_number": "7",
+      "exp_cycle_exclusive_end": "2022-05-29T",
+      "exp_min_pay_due_at": "2022-06-23T"
+    },
+    {
+      "account_tc_id": "TC2077 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 1 month cycle due interval 25 days first cycle 0 days",
+      "tc_name": "DD_36 - eighth cycle billing cycle type details",
+      "index": "332",
+      "cycle_number": "8",
+      "exp_cycle_exclusive_end": "2022-06-29T",
+      "exp_min_pay_due_at": "2022-07-24T"
+    },
+    {
+      "account_tc_id": "TC2077 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 1 month cycle due interval 25 days first cycle 0 days",
+      "tc_name": "DD_36 - ninth cycle billing cycle type details",
+      "index": "333",
+      "cycle_number": "9",
+      "exp_cycle_exclusive_end": "2022-07-29T",
+      "exp_min_pay_due_at": "2022-08-23T"
+    },
+    {
+      "account_tc_id": "TC2077 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 1 month cycle due interval 25 days first cycle 0 days",
+      "tc_name": "DD_36 - tenth cycle billing cycle type details",
+      "index": "334",
+      "cycle_number": "10",
+      "exp_cycle_exclusive_end": "2022-08-29T",
+      "exp_min_pay_due_at": "2022-09-23T"
+    },
+    {
+      "account_tc_id": "TC2077 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 1 month cycle due interval 25 days first cycle 0 days",
+      "tc_name": "DD_36 - eleventh cycle billing cycle type details",
+      "index": "335",
+      "cycle_number": "11",
+      "exp_cycle_exclusive_end": "2022-09-29T",
+      "exp_min_pay_due_at": "2022-10-24T"
+    },
+    {
+      "account_tc_id": "TC2077 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 1 month cycle due interval 25 days first cycle 0 days",
+      "tc_name": "DD_36 - twelfth cycle billing cycle type details",
+      "index": "336",
+      "cycle_number": "12",
+      "exp_cycle_exclusive_end": "2022-10-29T",
+      "exp_min_pay_due_at": "2022-11-23T"
+    },
+    {
+      "account_tc_id": "TC2078 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 1 month cycle due interval -5 days first cycle 0 days",
+      "tc_name": "DD_37 - first cycle billing cycle type details",
+      "index": "337",
+      "cycle_number": "1",
+      "exp_cycle_exclusive_end": "2021-11-29T",
+      "exp_min_pay_due_at": "2021-12-24T"
+    },
+    {
+      "account_tc_id": "TC2078 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 1 month cycle due interval -5 days first cycle 0 days",
+      "tc_name": "DD_37 - second cycle billing cycle type details",
+      "index": "338",
+      "cycle_number": "2",
+      "exp_cycle_exclusive_end": "2021-12-29T",
+      "exp_min_pay_due_at": "2022-01-24T"
+    },
+    {
+      "account_tc_id": "TC2078 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 1 month cycle due interval -5 days first cycle 0 days",
+      "tc_name": "DD_37 - third cycle billing cycle type details",
+      "index": "339",
+      "cycle_number": "3",
+      "exp_cycle_exclusive_end": "2022-01-29T",
+      "exp_min_pay_due_at": "2022-02-23T"
+    },
+    {
+      "account_tc_id": "TC2078 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 1 month cycle due interval -5 days first cycle 0 days",
+      "tc_name": "DD_37 - fourth cycle billing cycle type details",
+      "index": "340",
+      "cycle_number": "4",
+      "exp_cycle_exclusive_end": "2022-02-28T",
+      "exp_min_pay_due_at": "2022-03-23T"
+    },
+    {
+      "account_tc_id": "TC2078 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 1 month cycle due interval -5 days first cycle 0 days",
+      "tc_name": "DD_37 - fifth cycle billing cycle type details",
+      "index": "341",
+      "cycle_number": "5",
+      "exp_cycle_exclusive_end": "2022-03-29T",
+      "exp_min_pay_due_at": "2022-04-24T"
+    },
+    {
+      "account_tc_id": "TC2078 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 1 month cycle due interval -5 days first cycle 0 days",
+      "tc_name": "DD_37 - sixth cycle billing cycle type details",
+      "index": "342",
+      "cycle_number": "6",
+      "exp_cycle_exclusive_end": "2022-04-29T",
+      "exp_min_pay_due_at": "2022-05-24T"
+    },
+    {
+      "account_tc_id": "TC2078 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 1 month cycle due interval -5 days first cycle 0 days",
+      "tc_name": "DD_37 - seventh cycle billing cycle type details",
+      "index": "343",
+      "cycle_number": "7",
+      "exp_cycle_exclusive_end": "2022-05-29T",
+      "exp_min_pay_due_at": "2022-06-24T"
+    },
+    {
+      "account_tc_id": "TC2078 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 1 month cycle due interval -5 days first cycle 0 days",
+      "tc_name": "DD_37 - eighth cycle billing cycle type details",
+      "index": "344",
+      "cycle_number": "8",
+      "exp_cycle_exclusive_end": "2022-06-29T",
+      "exp_min_pay_due_at": "2022-07-24T"
+    },
+    {
+      "account_tc_id": "TC2078 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 1 month cycle due interval -5 days first cycle 0 days",
+      "tc_name": "DD_37 - ninth cycle billing cycle type details",
+      "index": "345",
+      "cycle_number": "9",
+      "exp_cycle_exclusive_end": "2022-07-29T",
+      "exp_min_pay_due_at": "2022-08-24T"
+    },
+    {
+      "account_tc_id": "TC2078 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 1 month cycle due interval -5 days first cycle 0 days",
+      "tc_name": "DD_37 - tenth cycle billing cycle type details",
+      "index": "346",
+      "cycle_number": "10",
+      "exp_cycle_exclusive_end": "2022-08-29T",
+      "exp_min_pay_due_at": "2022-09-24T"
+    },
+    {
+      "account_tc_id": "TC2078 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 1 month cycle due interval -5 days first cycle 0 days",
+      "tc_name": "DD_37 - eleventh cycle billing cycle type details",
+      "index": "347",
+      "cycle_number": "11",
+      "exp_cycle_exclusive_end": "2022-09-29T",
+      "exp_min_pay_due_at": "2022-10-24T"
+    },
+    {
+      "account_tc_id": "TC2078 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 1 month cycle due interval -5 days first cycle 0 days",
+      "tc_name": "DD_37 - twelfth cycle billing cycle type details",
+      "index": "348",
+      "cycle_number": "12",
+      "exp_cycle_exclusive_end": "2022-10-29T",
+      "exp_min_pay_due_at": "2022-11-24T"
+    },
+    {
+      "account_tc_id": "TC2079 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 3 months cycle due interval 5 days first cycle 0 days",
+      "tc_name": "DD_38 - first cycle billing cycle type details",
+      "index": "349",
+      "cycle_number": "1",
+      "exp_cycle_exclusive_end": "2021-12-01T",
+      "exp_min_pay_due_at": "2021-12-06T"
+    },
+    {
+      "account_tc_id": "TC2079 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 3 months cycle due interval 5 days first cycle 0 days",
+      "tc_name": "DD_38 - second cycle billing cycle type details",
+      "index": "350",
+      "cycle_number": "2",
+      "exp_cycle_exclusive_end": "2022-03-01T",
+      "exp_min_pay_due_at": "2022-03-06T"
+    },
+    {
+      "account_tc_id": "TC2079 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 3 months cycle due interval 5 days first cycle 0 days",
+      "tc_name": "DD_38 - third cycle billing cycle type details",
+      "index": "351",
+      "cycle_number": "3",
+      "exp_cycle_exclusive_end": "2022-06-01T",
+      "exp_min_pay_due_at": "2022-06-06T"
+    },
+    {
+      "account_tc_id": "TC2079 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 3 months cycle due interval 5 days first cycle 0 days",
+      "tc_name": "DD_38 - fourth cycle billing cycle type details",
+      "index": "352",
+      "cycle_number": "4",
+      "exp_cycle_exclusive_end": "2022-09-01T",
+      "exp_min_pay_due_at": "2022-09-06T"
+    },
+    {
+      "account_tc_id": "TC2079 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 3 months cycle due interval 5 days first cycle 0 days",
+      "tc_name": "DD_38 - fifth cycle billing cycle type details",
+      "index": "353",
+      "cycle_number": "5",
+      "exp_cycle_exclusive_end": "2022-12-01T",
+      "exp_min_pay_due_at": "2022-12-06T"
+    },
+    {
+      "account_tc_id": "TC2079 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 3 months cycle due interval 5 days first cycle 0 days",
+      "tc_name": "DD_38 - sixth cycle billing cycle type details",
+      "index": "354",
+      "cycle_number": "6",
+      "exp_cycle_exclusive_end": "2023-03-01T",
+      "exp_min_pay_due_at": "2023-03-06T"
+    },
+    {
+      "account_tc_id": "TC2079 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 3 months cycle due interval 5 days first cycle 0 days",
+      "tc_name": "DD_38 - seventh cycle billing cycle type details",
+      "index": "355",
+      "cycle_number": "7",
+      "exp_cycle_exclusive_end": "2023-06-01T",
+      "exp_min_pay_due_at": "2023-06-06T"
+    },
+    {
+      "account_tc_id": "TC2079 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 3 months cycle due interval 5 days first cycle 0 days",
+      "tc_name": "DD_38 - eighth cycle billing cycle type details",
+      "index": "356",
+      "cycle_number": "8",
+      "exp_cycle_exclusive_end": "2023-09-01T",
+      "exp_min_pay_due_at": "2023-09-06T"
+    },
+    {
+      "account_tc_id": "TC2079 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 3 months cycle due interval 5 days first cycle 0 days",
+      "tc_name": "DD_38 - ninth cycle billing cycle type details",
+      "index": "357",
+      "cycle_number": "9",
+      "exp_cycle_exclusive_end": "2023-12-01T",
+      "exp_min_pay_due_at": "2023-12-06T"
+    },
+    {
+      "account_tc_id": "TC2079 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 3 months cycle due interval 5 days first cycle 0 days",
+      "tc_name": "DD_38 - tenth cycle billing cycle type details",
+      "index": "358",
+      "cycle_number": "10",
+      "exp_cycle_exclusive_end": "2024-03-01T",
+      "exp_min_pay_due_at": "2024-03-06T"
+    },
+    {
+      "account_tc_id": "TC2079 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 3 months cycle due interval 5 days first cycle 0 days",
+      "tc_name": "DD_38 - eleventh cycle billing cycle type details",
+      "index": "359",
+      "cycle_number": "11",
+      "exp_cycle_exclusive_end": "2024-06-01T",
+      "exp_min_pay_due_at": "2024-06-06T"
+    },
+    {
+      "account_tc_id": "TC2079 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 3 months cycle due interval 5 days first cycle 0 days",
+      "tc_name": "DD_38 - twelth cycle billing cycle type details",
+      "index": "360",
+      "cycle_number": "12",
+      "exp_cycle_exclusive_end": "2024-09-01T",
+      "exp_min_pay_due_at": "2024-09-06T"
+    },
+    {
+      "account_tc_id": "TC2080 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 3 months cycle due interval 10 days first cycle 3 months",
+      "tc_name": "DD_39 - first cycle billing cycle type details",
+      "index": "361",
+      "cycle_number": "1",
+      "exp_cycle_exclusive_end": "2022-03-01T",
+      "exp_min_pay_due_at": "2022-03-11T"
+    },
+    {
+      "account_tc_id": "TC2080 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 3 months cycle due interval 10 days first cycle 3 months",
+      "tc_name": "DD_39 - second cycle billing cycle type details",
+      "index": "362",
+      "cycle_number": "2",
+      "exp_cycle_exclusive_end": "2022-06-01T",
+      "exp_min_pay_due_at": "2022-06-11T"
+    },
+    {
+      "account_tc_id": "TC2080 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 3 months cycle due interval 10 days first cycle 3 months",
+      "tc_name": "DD_39 - third cycle billing cycle type details",
+      "index": "363",
+      "cycle_number": "3",
+      "exp_cycle_exclusive_end": "2022-09-01T",
+      "exp_min_pay_due_at": "2022-09-11T"
+    },
+    {
+      "account_tc_id": "TC2080 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 3 months cycle due interval 10 days first cycle 3 months",
+      "tc_name": "DD_39 - fourth cycle billing cycle type details",
+      "index": "364",
+      "cycle_number": "4",
+      "exp_cycle_exclusive_end": "2022-12-01T",
+      "exp_min_pay_due_at": "2022-12-11T"
+    },
+    {
+      "account_tc_id": "TC2080 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 3 months cycle due interval 10 days first cycle 3 months",
+      "tc_name": "DD_39 - fifth cycle billing cycle type details",
+      "index": "365",
+      "cycle_number": "5",
+      "exp_cycle_exclusive_end": "2023-03-01T",
+      "exp_min_pay_due_at": "2023-03-11T"
+    },
+    {
+      "account_tc_id": "TC2080 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 3 months cycle due interval 10 days first cycle 3 months",
+      "tc_name": "DD_39 - sixth cycle billing cycle type details",
+      "index": "366",
+      "cycle_number": "6",
+      "exp_cycle_exclusive_end": "2023-06-01T",
+      "exp_min_pay_due_at": "2023-06-11T"
+    },
+    {
+      "account_tc_id": "TC2080 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 3 months cycle due interval 10 days first cycle 3 months",
+      "tc_name": "DD_39 - seventh cycle billing cycle type details",
+      "index": "367",
+      "cycle_number": "7",
+      "exp_cycle_exclusive_end": "2023-09-01T",
+      "exp_min_pay_due_at": "2023-09-11T"
+    },
+    {
+      "account_tc_id": "TC2080 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 3 months cycle due interval 10 days first cycle 3 months",
+      "tc_name": "DD_39 - eighth cycle billing cycle type details",
+      "index": "368",
+      "cycle_number": "8",
+      "exp_cycle_exclusive_end": "2023-12-01T",
+      "exp_min_pay_due_at": "2023-12-11T"
+    },
+    {
+      "account_tc_id": "TC2080 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 3 months cycle due interval 10 days first cycle 3 months",
+      "tc_name": "DD_39 - ninth cycle billing cycle type details",
+      "index": "369",
+      "cycle_number": "9",
+      "exp_cycle_exclusive_end": "2024-03-01T",
+      "exp_min_pay_due_at": "2024-03-11T"
+    },
+    {
+      "account_tc_id": "TC2080 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 3 months cycle due interval 10 days first cycle 3 months",
+      "tc_name": "DD_39 - tenth cycle billing cycle type details",
+      "index": "370",
+      "cycle_number": "10",
+      "exp_cycle_exclusive_end": "2024-06-01T",
+      "exp_min_pay_due_at": "2024-06-11T"
+    },
+    {
+      "account_tc_id": "TC2080 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 3 months cycle due interval 10 days first cycle 3 months",
+      "tc_name": "DD_39 - eleventh cycle billing cycle type details",
+      "index": "371",
+      "cycle_number": "11",
+      "exp_cycle_exclusive_end": "2024-09-01T",
+      "exp_min_pay_due_at": "2024-09-11T"
+    },
+    {
+      "account_tc_id": "TC2080 - Verify cycle type details in AM schedule with post promo len as 48 cycle interval 3 months cycle due interval 10 days first cycle 3 months",
+      "tc_name": "DD_39 - twelth cycle billing cycle type details",
+      "index": "372",
+      "cycle_number": "12",
+      "exp_cycle_exclusive_end": "2024-12-01T",
+      "exp_min_pay_due_at": "2024-12-11T"
+    },
+    {
+      "account_tc_id": "TC2081 - Verify cycle type details in AM schedule with post promo len as 56 cycle interval 3 months cycle due interval 10 days first cycle 4 months",
+      "tc_name": "DD_40 - first cycle billing cycle type details",
+      "index": "373",
+      "cycle_number": "1",
+      "exp_cycle_exclusive_end": "2022-04-01T",
+      "exp_min_pay_due_at": "2022-04-11T"
+    },
+    {
+      "account_tc_id": "TC2081 - Verify cycle type details in AM schedule with post promo len as 56 cycle interval 3 months cycle due interval 10 days first cycle 4 months",
+      "tc_name": "DD_40 - second cycle billing cycle type details",
+      "index": "374",
+      "cycle_number": "2",
+      "exp_cycle_exclusive_end": "2022-07-01T",
+      "exp_min_pay_due_at": "2022-07-11T"
+    },
+    {
+      "account_tc_id": "TC2081 - Verify cycle type details in AM schedule with post promo len as 56 cycle interval 3 months cycle due interval 10 days first cycle 4 months",
+      "tc_name": "DD_40 - third cycle billing cycle type details",
+      "index": "375",
+      "cycle_number": "3",
+      "exp_cycle_exclusive_end": "2022-10-01T",
+      "exp_min_pay_due_at": "2022-10-11T"
+    },
+    {
+      "account_tc_id": "TC2081 - Verify cycle type details in AM schedule with post promo len as 56 cycle interval 3 months cycle due interval 10 days first cycle 4 months",
+      "tc_name": "DD_40 - fourth cycle billing cycle type details",
+      "index": "376",
+      "cycle_number": "4",
+      "exp_cycle_exclusive_end": "2023-01-01T",
+      "exp_min_pay_due_at": "2023-01-11T"
+    },
+    {
+      "account_tc_id": "TC2081 - Verify cycle type details in AM schedule with post promo len as 56 cycle interval 3 months cycle due interval 10 days first cycle 4 months",
+      "tc_name": "DD_40 - fifth cycle billing cycle type details",
+      "index": "377",
+      "cycle_number": "5",
+      "exp_cycle_exclusive_end": "2023-04-01T",
+      "exp_min_pay_due_at": "2023-04-11T"
+    },
+    {
+      "account_tc_id": "TC2081 - Verify cycle type details in AM schedule with post promo len as 56 cycle interval 3 months cycle due interval 10 days first cycle 4 months",
+      "tc_name": "DD_40 - sixth cycle billing cycle type details",
+      "index": "378",
+      "cycle_number": "6",
+      "exp_cycle_exclusive_end": "2023-07-01T",
+      "exp_min_pay_due_at": "2023-07-11T"
+    },
+    {
+      "account_tc_id": "TC2081 - Verify cycle type details in AM schedule with post promo len as 56 cycle interval 3 months cycle due interval 10 days first cycle 4 months",
+      "tc_name": "DD_40 - seventh cycle billing cycle type details",
+      "index": "379",
+      "cycle_number": "7",
+      "exp_cycle_exclusive_end": "2023-10-01T",
+      "exp_min_pay_due_at": "2023-10-11T"
+    },
+    {
+      "account_tc_id": "TC2081 - Verify cycle type details in AM schedule with post promo len as 56 cycle interval 3 months cycle due interval 10 days first cycle 4 months",
+      "tc_name": "DD_40 - eighth cycle billing cycle type details",
+      "index": "380",
+      "cycle_number": "8",
+      "exp_cycle_exclusive_end": "2024-01-01T",
+      "exp_min_pay_due_at": "2024-01-11T"
+    },
+    {
+      "account_tc_id": "TC2081 - Verify cycle type details in AM schedule with post promo len as 56 cycle interval 3 months cycle due interval 10 days first cycle 4 months",
+      "tc_name": "DD_40 - ninth cycle billing cycle type details",
+      "index": "381",
+      "cycle_number": "9",
+      "exp_cycle_exclusive_end": "024-04-01T",
+      "exp_min_pay_due_at": "2024-04-11T"
+    },
+    {
+      "account_tc_id": "TC2081 - Verify cycle type details in AM schedule with post promo len as 56 cycle interval 3 months cycle due interval 10 days first cycle 4 months",
+      "tc_name": "DD_40 - tenth cycle billing cycle type details",
+      "index": "382",
+      "cycle_number": "10",
+      "exp_cycle_exclusive_end": "2024-07-01T",
+      "exp_min_pay_due_at": "2024-07-11T"
+    },
+    {
+      "account_tc_id": "TC2081 - Verify cycle type details in AM schedule with post promo len as 56 cycle interval 3 months cycle due interval 10 days first cycle 4 months",
+      "tc_name": "DD_40 - eleventh cycle billing cycle type details",
+      "index": "383",
+      "cycle_number": "11",
+      "exp_cycle_exclusive_end": "2024-10-01T",
+      "exp_min_pay_due_at": "2024-10-11T"
+    },
+    {
+      "account_tc_id": "TC2081 - Verify cycle type details in AM schedule with post promo len as 56 cycle interval 3 months cycle due interval 10 days first cycle 4 months",
+      "tc_name": "DD_40 - twelth cycle billing cycle type details",
+      "index": "384",
+      "cycle_number": "12",
+      "exp_cycle_exclusive_end": "2025-01-01T",
+      "exp_min_pay_due_at": "2025-01-11T"
+    },
+    {
+      "account_tc_id": "TC2082 - Verify cycle type details in AM schedule with post promo len as 56 cycle interval 3 months cycle due interval -10 days first cycle 0 days",
+      "tc_name": "DD_41 - first cycle billing cycle type details",
+      "index": "385",
+      "cycle_number": "1",
+      "exp_cycle_exclusive_end": "2021-12-01T",
+      "exp_min_pay_due_at": "2022-02-19T"
+    },
+    {
+      "account_tc_id": "TC2082 - Verify cycle type details in AM schedule with post promo len as 56 cycle interval 3 months cycle due interval -10 days first cycle 0 days",
+      "tc_name": "DD_41 - second cycle billing cycle type details",
+      "index": "386",
+      "cycle_number": "2",
+      "exp_cycle_exclusive_end": "2022-03-01T",
+      "exp_min_pay_due_at": "2022-05-22T"
+    },
+    {
+      "account_tc_id": "TC2082 - Verify cycle type details in AM schedule with post promo len as 56 cycle interval 3 months cycle due interval -10 days first cycle 0 days",
+      "tc_name": "DD_41 - third cycle billing cycle type details",
+      "index": "387",
+      "cycle_number": "3",
+      "exp_cycle_exclusive_end": "2022-06-01T",
+      "exp_min_pay_due_at": "2022-08-22T"
+    },
+    {
+      "account_tc_id": "TC2082 - Verify cycle type details in AM schedule with post promo len as 56 cycle interval 3 months cycle due interval -10 days first cycle 0 days",
+      "tc_name": "DD_41 - fourth cycle billing cycle type details",
+      "index": "388",
+      "cycle_number": "4",
+      "exp_cycle_exclusive_end": "2022-09-01T",
+      "exp_min_pay_due_at": "2022-11-21T"
+    },
+    {
+      "account_tc_id": "TC2082 - Verify cycle type details in AM schedule with post promo len as 56 cycle interval 3 months cycle due interval -10 days first cycle 0 days",
+      "tc_name": "DD_41 - fifth cycle billing cycle type details",
+      "index": "389",
+      "cycle_number": "5",
+      "exp_cycle_exclusive_end": "2022-12-01T",
+      "exp_min_pay_due_at": "2023-02-19T"
+    },
+    {
+      "account_tc_id": "TC2082 - Verify cycle type details in AM schedule with post promo len as 56 cycle interval 3 months cycle due interval -10 days first cycle 0 days",
+      "tc_name": "DD_41 - sixth cycle billing cycle type details",
+      "index": "390",
+      "cycle_number": "6",
+      "exp_cycle_exclusive_end": "2023-03-01T",
+      "exp_min_pay_due_at": "2023-05-22T"
+    },
+    {
+      "account_tc_id": "TC2082 - Verify cycle type details in AM schedule with post promo len as 56 cycle interval 3 months cycle due interval -10 days first cycle 0 days",
+      "tc_name": "DD_41 - seventh cycle billing cycle type details",
+      "index": "391",
+      "cycle_number": "7",
+      "exp_cycle_exclusive_end": "2023-06-01T",
+      "exp_min_pay_due_at": "2023-08-22T"
+    },
+    {
+      "account_tc_id": "TC2082 - Verify cycle type details in AM schedule with post promo len as 56 cycle interval 3 months cycle due interval -10 days first cycle 0 days",
+      "tc_name": "DD_41 - eighth cycle billing cycle type details",
+      "index": "392",
+      "cycle_number": "8",
+      "exp_cycle_exclusive_end": "2023-09-01T",
+      "exp_min_pay_due_at": "2023-11-21T"
+    },
+    {
+      "account_tc_id": "TC2082 - Verify cycle type details in AM schedule with post promo len as 56 cycle interval 3 months cycle due interval -10 days first cycle 0 days",
+      "tc_name": "DD_41 - ninth cycle billing cycle type details",
+      "index": "393",
+      "cycle_number": "9",
+      "exp_cycle_exclusive_end": "2023-12-01T",
+      "exp_min_pay_due_at": "2024-02-20T"
+    },
+    {
+      "account_tc_id": "TC2082 - Verify cycle type details in AM schedule with post promo len as 56 cycle interval 3 months cycle due interval -10 days first cycle 0 days",
+      "tc_name": "DD_41 - tenth cycle billing cycle type details",
+      "index": "394",
+      "cycle_number": "10",
+      "exp_cycle_exclusive_end": "2024-03-01T",
+      "exp_min_pay_due_at": "2024-05-22T"
+    },
+    {
+      "account_tc_id": "TC2082 - Verify cycle type details in AM schedule with post promo len as 56 cycle interval 3 months cycle due interval -10 days first cycle 0 days",
+      "tc_name": "DD_41 - eleventh cycle billing cycle type details",
+      "index": "395",
+      "cycle_number": "11",
+      "exp_cycle_exclusive_end": "2024-06-01T",
+      "exp_min_pay_due_at": "2024-08-22T"
+    },
+    {
+      "account_tc_id": "TC2082 - Verify cycle type details in AM schedule with post promo len as 56 cycle interval 3 months cycle due interval -10 days first cycle 0 days",
+      "tc_name": "DD_41- twelth cycle billing cycle type details",
+      "index": "396",
+      "cycle_number": "12",
+      "exp_cycle_exclusive_end": "2024-09-01T",
+      "exp_min_pay_due_at": "2024-11-21T"
+    }
+  ]

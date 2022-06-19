@@ -1,0 +1,19 @@
+﻿account_tc_id,transaction_type,index,cycle_number,amount,effective_at,lineitem_amount,lineitem2_amount,stmt_loans_principal_cents,stmt_fees_balance_cents,stmt_total_balance_cents,stmt_charges_principal_cents
+PP2734 - Validate late fee line in statements for revolving account,stmt_balance_validation,1,1,,,0,0,0,2500,102500,100000
+PP2734A - Validate late fee line in statements for revolving account with org_fee,stmt_balance_validation,2,1,,,0,0,0,5000,105000,100000
+PP2734B - Create charge and verify late fee line in statements for revolving account,charge,3,1,500,2021-09-10T02:18:27-08:00,,,,,,
+PP2734B - Create charge and verify late fee line in statements for revolving account,stmt_balance_validation,4,2,,,500,0,0,2500,103000,100500
+PP2734C - Create less than min payment and verify late fee line in statements,payment,5,1,20,2021-09-10T02:18:27-08:00,,,,,,
+PP2734C - Create less than min payment and verify late fee line in statements,stmt_balance_validation,6,2,,,0,20,0,2500,102480,99980
+PP2734D - Validate late fee line in statements for installment account,stmt_balance_validation,7,1,,,0,0,100000,2500,102500,0
+PP2734E - Validate late fee line in statements for installment account with org_fee,stmt_balance_validation,8,1,,,0,0,100000,5000,105000,0
+PP2734F - Create charge and verify late fee line in statements for installment account,charge,9,1,500,2021-09-10T02:18:27-08:00,,,,,,
+PP2734F - Create charge and verify late fee line in statements for installment account,stmt_balance_validation,10,2,,,500,0,100000,2500,103000,500
+PP2734G - Create less than min payment and verify late fee line in statements,payment,11,1,20,2021-09-10T02:18:27-08:00,,,,,,
+PP2734G - Create less than min payment and verify late fee line in statements,stmt_balance_validation,12,2,,,0,20,99980,2500,102480,0
+PP2734H - Create charge and less than min payment and verify late fee line in revolving account statements,charge,13,1,500,2021-09-10T02:18:27-08:00,,,,,,
+PP2734H - Create charge and less than min payment and verify late fee line in revolving account statements,payment,14,2,20,2021-09-10T02:18:27-08:00,,,,,,
+PP2734H - Create charge and less than min payment and verify late fee line in revolving account statements,stmt_balance_validation,15,3,,,500,20,0,2500,102980,100480
+PP2734I - Create charge and less than min payment and verify late fee line in installment account statements,charge,16,1,500,2021-09-10T02:18:27-08:00,,,,,,
+PP2734I - Create charge and less than min payment and verify late fee line in installment account statements,payment,17,2,20,2021-09-10T02:18:27-08:00,,,,,,
+PP2734I - Create charge and less than min payment and verify late fee line in installment account statements,stmt_balance_validation,18,3,,,500,20,99980,2500,102980,500

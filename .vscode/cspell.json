@@ -1,0 +1,39 @@
+{
+  "version": "0.1",
+  "minWordLength": 5,
+  "enabledLanguageIds": ["javascript", "markdown", "plaintext", "typescript"],
+  "ignorePaths": [
+    "**/yarn.lock",
+    "**/node_modules/**",
+    "**/vscode-extension/**",
+    "**/.git/objects/**",
+    ".vscode",
+    ".vscode-insiders"
+  ],
+  "words": [
+    "ashburn",
+    "automock",
+    "autopay",
+    "Bluth",
+    "cano",
+    "canopyservicing",
+    "direnv",
+    "dotenv",
+    "envrc",
+    "hashids",
+    "inheritdoc",
+    "lcov",
+    "loadimpact",
+    "Multitenancy",
+    "neckbeard",
+    "Paulo",
+    "pnpify",
+    "pnref",
+    "privacydotcom",
+    "Serializers",
+    "TAPI",
+    "tsdoc",
+    "tsignore",
+    "unmocked"
+  ]
+}

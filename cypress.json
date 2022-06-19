@@ -1,0 +1,31 @@
+{
+  "watchForFileChanges": false,
+  "video": false,
+  "screenshotOnRunFailure": false,
+  "fixturesFolder":"cypress/resources",
+  "integrationFolder":"cypress/api/integration",
+  "baseUrl": "https://localhost:5000/",
+  "supportFile": "cypress/support/index.ts",
+  "env": {
+    "CLIENT_ID": "",
+    "CLIENT_SECRET": "",
+    "templateFolderPath":"template",
+    "tempFolderPath":"tempFile",
+    "testDataFolderPath":"cypress/resources/testdata",
+    "resourceFolderPath":"cypress/resources",
+    "tags":"regression",
+    "PLAID_TOKEN":"",
+    "PLAID_ACCOUNT_ID": "",
+    "MERCHANT_NAME": "",
+    "TRANSACTION_KEY": "",
+    "lithic_api_key": "",
+    "enableStrictEntityClientIdFlagOn": false,
+    "bhgFlagOn": false,
+    "TIME_ZONE":"America/New_York",
+    "webBaseUrl": "https://localhost:5000/",
+    "webEmailID": "",
+    "webPassword": ""
+  },
+  "projectId": "umqbuu",
+  "retries": 0
+}

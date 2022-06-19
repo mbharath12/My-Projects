@@ -1,0 +1,9 @@
+{
+  "payout_entity_id": "payoutentity-{{$randomUUID}}",
+  "payout_entity_type": "merchant",
+  "payout_entity_name": "MERCHANT",
+  "bank_account_number": "00002351",
+  "bank_routing_number": "215545677",
+  "irs_tin": "482456323",
+  "bank_account_type": "CHECKING"
+}

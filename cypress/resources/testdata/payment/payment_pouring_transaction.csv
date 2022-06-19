@@ -1,0 +1,265 @@
+tc_name,index,transaction_type,roll_date,effective_at,transaction_date,original_amount_cents,exp_line_item_type,stmt_to_validate,product_type,fee_balance,am_int_cents,int_bal_cents,principal_balance,total_balance
+PP146 - PaymentPouring in Installment loan,1,payment,,2022-02-12T08:49:48+00:00,,33500,,,,,,,,
+PP146 - PaymentPouring in Installment loan,2,validateLineItem,,,,33500,PAYMENT,,,,,,,
+PP146 - PaymentPouring in Installment loan,3,rollTimeForward,2022-02-16T08:49:48+00:00,,,,,,,,,,,
+PP146 - PaymentPouring in Installment loan,4,getStatementID,,,,,,1,,,,,,
+PP146 - PaymentPouring in Installment loan,5,validateStatement,,,,,,,installment,0,68,0,90076,90144
+PP147 - PaymentPouring in Credit card,6,payment,,2022-02-12T08:49:48+00:00,,33500,,,,,,,,
+PP147 - PaymentPouring in Credit card,7,validateLineItem,,,,33500,PAYMENT,,,,,,,
+PP147 - PaymentPouring in Credit card,8,rollTimeForward,2022-02-16T08:49:48+00:00,,,,,,,,,,,
+PP147 - PaymentPouring in Credit card,9,getStatementID,,,,,,1,,,,,,
+PP147 - PaymentPouring in Credit card,10,validateStatement,,,,,,,credit,0,0,51,90057,90108
+PP148 - PaymentPouring in Revolving LOC,11,payment,,2022-02-12T08:49:48+00:00,,33500,,,,,,,,
+PP148 - PaymentPouring in Revolving LOC,12,validateLineItem,,,,33500,PAYMENT,,,,,,,
+PP148 - PaymentPouring in Revolving LOC,13,rollTimeForward,2022-02-16T08:49:48+00:00,,,,,,,,,,,
+PP148 - PaymentPouring in Revolving LOC,14,getStatementID,,,,,,1,,,,,,
+PP148 - PaymentPouring in Revolving LOC,15,validateStatement,,,,,,,revolving,0,0,51,90057,90108
+PP149 - PaymentPouring in Credit card,16,payment,,2022-02-12T08:49:48+00:00,,10000,,,,,,,,
+PP149 - PaymentPouring in Credit card,17,validateLineItem,,,,10000,PAYMENT,,,,,,,
+PP149 - PaymentPouring in Credit card,18,rollTimeForward,2022-02-16T08:49:48+00:00,,,,,,,,,,,
+PP149 - PaymentPouring in Credit card,19,getStatementID,,,,,,1,,,,,,
+PP149 - PaymentPouring in Credit card,20,validateStatement,,,,,,,credit,0,0,51,90057,90108
+PP150 - PaymentPouring Charge Card,21,payment,,2022-02-12T08:49:48+00:00,,120000,,,,,,,,
+PP150 - PaymentPouring Charge Card,22,validateLineItem,,,,120000,PAYMENT,,,,,,,
+PP150 - PaymentPouring Charge Card,23,rollTimeForward,2022-02-16T08:49:48+00:00,,,,,,,,,,,
+PP150 - PaymentPouring Charge Card,24,getStatementID,,,,,,1,,,,,,
+PP150 - PaymentPouring Charge Card,25,validateStatement,,,,,,,credit,0,0,0,57,57
+PP146A - PaymentPouring in Installment loan,26,payment,,2022-02-12T08:49:48+00:00,,10000,,,,,,,,
+PP146A - PaymentPouring in Installment loan,27,validateLineItem,,,,10000,PAYMENT,,,,,,,
+PP146A - PaymentPouring in Installment loan,28,rollTimeForward,2022-02-16T08:49:48+00:00,,,,,,,,,,,
+PP146A - PaymentPouring in Installment loan,29,getStatementID,,,,,,1,,,,,,
+PP146A - PaymentPouring in Installment loan,30,validateStatement,,,,,,,installment,13500,152,0,100000,113652
+PP159 - PaymentPouring in CreditCard,31,payment,,2022-02-12T08:49:48+00:00,,10000,,,,,,,,
+PP159 - PaymentPouring in CreditCard,32,validateLineItem,,,,10000,PAYMENT,,,,,,,
+PP159 - PaymentPouring in CreditCard,33,rollTimeForward,2022-02-16T08:49:48+00:00,,,,,,,,,,,
+PP159 - PaymentPouring in CreditCard,34,getStatementID,,,,,,1,,,,,,
+PP159 - PaymentPouring in CreditCard,35,validateStatement,,,,,,,credit,0,0,51,90057,90108
+PP159A - PaymentPouring in CreditCard,36,payment,,2022-02-12T08:49:48+00:00,,110000,,,,,,,,
+PP159A - PaymentPouring in CreditCard,37,validateLineItem,,,,110000,PAYMENT,,,,,,,
+PP159A - PaymentPouring in CreditCard,38,rollTimeForward,2022-02-16T08:49:48+00:00,,,,,,,,,,,
+PP159A - PaymentPouring in CreditCard,39,getStatementID,,,,,,1,,,,,,
+PP159A - PaymentPouring in CreditCard,40,validateStatement,,,,,,,credit,0,0,0,0,-9943
+PP160 - PaymentPouring in Charge Card,41,payment,,2022-02-12T08:49:48+00:00,,120057,,,,,,,,
+PP160 - PaymentPouring in Charge Card,42,validateLineItem,,,,120057,PAYMENT,,,,,,,
+PP160 - PaymentPouring in Charge Card,43,rollTimeForward,2022-02-16T08:49:48+00:00,,,,,,,,,,,
+PP160 - PaymentPouring in Charge Card,44,getStatementID,,,,,,1,,,,,,
+PP160 - PaymentPouring in Charge Card,45,validateStatement,,,,,,,Charge,0,0,0,0,0
+PP1155 - PaymentPouring in Installment loan with 14D cycle interval,46,payment,,2022-02-10T08:49:48+00:00,,50500,,,,,,,,
+PP1155 - PaymentPouring in Installment loan with 14D cycle interval,47,validateLineItem,,,,50500,PAYMENT,,,,,,,
+PP1155 - PaymentPouring in Installment loan with 14D cycle interval,48,rollTimeForward,2022-02-16T08:49:48+00:00,,,,,,,,,,,
+PP1155 - PaymentPouring in Installment loan with 14D cycle interval,49,getStatementID,,,,,,1,,,,,,
+PP1155 - PaymentPouring in Installment loan with 14D cycle interval,50,validateStatement,,,,,,,installment,11300,1530,0,500000,512830
+PP1156 - PaymentPouring in Installment loan with 14D cycle interval,51,payment,,2022-02-10T08:49:48+00:00,,12500,,,,,,,,
+PP1156 - PaymentPouring in Installment loan with 14D cycle interval,52,validateLineItem,,,,12500,PAYMENT,,,,,,,
+PP1156 - PaymentPouring in Installment loan with 14D cycle interval,53,rollTimeForward,2022-02-16T08:49:48+00:00,,,,,,,,,,,
+PP1156 - PaymentPouring in Installment loan with 14D cycle interval,54,getStatementID,,,,,,1,,,,,,
+PP1156 - PaymentPouring in Installment loan with 14D cycle interval,55,validateStatement,,,,,,,installment,0,830,0,500000,500830
+PP1157 - PaymentPouring in Credit/Revolving with 14D cycle interval,56,payment,,2022-02-10T08:49:48+00:00,,26500,,,,,,,,
+PP1157 - PaymentPouring in Credit/Revolving with 14D cycle interval,57,validateLineItem,,,,26500,PAYMENT,,,,,,,
+PP1157 - PaymentPouring in Credit/Revolving with 14D cycle interval,58,rollTimeForward,2022-02-16T08:49:48+00:00,,,,,,,,,,,
+PP1157 - PaymentPouring in Credit/Revolving with 14D cycle interval,59,getStatementID,,,,,,1,,,,,,
+PP1157 - PaymentPouring in Credit/Revolving with 14D cycle interval,60,validateStatement,,,,,,,credit,0,0,650,500000,500650
+PP1158 - PaymentPouring in Revolving with 14D cycle interval,61,payment,,2022-02-10T08:49:48+00:00,,53200,,,,,,,,
+PP1158 - PaymentPouring in Revolving with 14D cycle interval,62,validateLineItem,,,,53200,PAYMENT,,,,,,,
+PP1158 - PaymentPouring in Revolving with 14D cycle interval,63,rollTimeForward,2022-02-16T08:49:48+00:00,,,,,,,,,,,
+PP1158 - PaymentPouring in Revolving with 14D cycle interval,64,getStatementID,,,,,,1,,,,,,
+PP1158 - PaymentPouring in Revolving with 14D cycle interval,65,validateStatement,,,,,,,credit,0,0,567,493375,493942
+PP1159 - PaymentPouring in charge with 14D cycle interval,66,payment,,2022-02-10T08:49:48+00:00,,22900,,,,,,,,
+PP1159 - PaymentPouring in charge with 14D cycle interval,67,validateLineItem,,,,22900,PAYMENT,,,,,,,
+PP1159 - PaymentPouring in charge with 14D cycle interval,68,rollTimeForward,2022-02-16T08:49:48+00:00,,,,,,,,,,,
+PP1159 - PaymentPouring in charge with 14D cycle interval,69,getStatementID,,,,,,1,,,,,,
+PP1159 - PaymentPouring in charge with 14D cycle interval,70,validateStatement,,,,,,,charge,3100,0,1150,500000,504250
+PP1160 - PaymentPouring in installment with 30D cycle interval,71,payment,,2022-02-08T08:49:48+00:00,,28100,,,,,,,,
+PP1160 - PaymentPouring in installment with 30D cycle interval,72,validateLineItem,,,,28100,PAYMENT,,,,,,,
+PP1160 - PaymentPouring in installment with 30D cycle interval,73,rollTimeForward,2022-02-16T08:49:48+00:00,,,,,,,,,,,
+PP1160 - PaymentPouring in installment with 30D cycle interval,74,getStatementID,,,,,,1,,,,,,
+PP1160 - PaymentPouring in installment with 30D cycle interval,75,validateStatement,,,,,,,installment,11700,1994,0,300000,313694
+PP1161 - PaymentPouring in Revolving with 30D cycle interval,76,payment,,2022-02-08T08:49:48+00:00,,33100,,,,,,,,
+PP1161 - PaymentPouring in Revolving with 30D cycle interval,77,validateLineItem,,,,33100,PAYMENT,,,,,,,
+PP1161 - PaymentPouring in Revolving with 30D cycle interval,78,rollTimeForward,2022-02-16T08:49:48+00:00,,,,,,,,,,,
+PP1161 - PaymentPouring in Revolving with 30D cycle interval,79,getStatementID,,,,,,1,,,,,,
+PP1161 - PaymentPouring in Revolving with 30D cycle interval,80,validateStatement,,,,,,,revolving,5900,0,1500,300000,307400
+PP1162 - PaymentPouring in Charge with 30D cycle interval,81,payment,,2022-02-08T08:49:48+00:00,,12500,,,,,,,,
+PP1162 - PaymentPouring in Charge with 30D cycle interval,82,validateLineItem,,,,12500,PAYMENT,,,,,,,
+PP1162 - PaymentPouring in Charge with 30D cycle interval,83,rollTimeForward,2022-02-16T08:49:48+00:00,,,,,,,,,,,
+PP1162 - PaymentPouring in Charge with 30D cycle interval,84,getStatementID,,,,,,1,,,,,,
+PP1162 - PaymentPouring in Charge with 30D cycle interval,85,validateStatement,,,,,,,Charge,26500,0,1500,300000,328000
+PP1163 - PaymentPouring in Installment from the Account Effective date,86,payment,,2022-01-26T08:49:48+00:00,,146000,,,,,,,,
+PP1163 - PaymentPouring in Installment from the Account Effective date,87,validateLineItem,,,,146000,PAYMENT,,,,,,,
+PP1163 - PaymentPouring in Installment from the Account Effective date,88,rollTimeForward,2022-02-05T08:49:48+00:00,,,,,,,,,,,
+PP1163 - PaymentPouring in Installment from the Account Effective date,89,getStatementID,,,,,,11,,,,,,
+PP1163 - PaymentPouring in Installment from the Account Effective date,90,validateStatement,,,,,,,installment,16900,11964,0,300000,328864
+PP1164 - PaymentPouring in Charge from the Account Effective date,91,payment,,2022-01-26T08:49:48+00:00,,146000,,,,,,,,
+PP1164 - PaymentPouring in Charge from the Account Effective date,92,validateLineItem,,,,146000,PAYMENT,,,,,,,
+PP1164 - PaymentPouring in Charge from the Account Effective date,93,rollTimeForward,2022-02-05T08:49:48+00:00,,,,,,,,,,,
+PP1164 - PaymentPouring in Charge from the Account Effective date,94,getStatementID,,,,,,11,,,,,,
+PP1164 - PaymentPouring in Charge from the Account Effective date,95,validateStatement,,,,,,,charge,16900,0,9000,300000,325900
+PP1350 - PaymentPouring in Installment loan with the Cycle_Interval of 7 days,96,payment,,2022-02-12T08:49:48+00:00,,30000,,,,,,,,
+PP1350 - PaymentPouring in Installment loan with the Cycle_Interval of 7 days,97,validateLineItem,,,,30000,PAYMENT,,,,,,,
+PP1350 - PaymentPouring in Installment loan with the Cycle_Interval of 7 days,98,rollTimeForward,2022-02-16T08:49:48+00:00,,,,,,,,,,,
+PP1350 - PaymentPouring in Installment loan with the Cycle_Interval of 7 days,99,getStatementID,,,,,,1,,,,,,
+PP1350 - PaymentPouring in Installment loan with the Cycle_Interval of 7 days,100,validateStatement,,,,,,,installment,0,68,0,90076,90144
+PP1351 - PaymentPouring in Installment loan with the Cycle_Interval of 7 days,101,payment,,2022-02-12T08:49:48+00:00,,20000,,,,,,,,
+PP1351 - PaymentPouring in Installment loan with the Cycle_Interval of 7 days,102,validateLineItem,,,,20000,PAYMENT,,,,,,,
+PP1351 - PaymentPouring in Installment loan with the Cycle_Interval of 7 days,103,rollTimeForward,2022-02-16T08:49:48+00:00,,,,,,,,,,,
+PP1351 - PaymentPouring in Installment loan with the Cycle_Interval of 7 days,104,getStatementID,,,,,,1,,,,,,
+PP1351 - PaymentPouring in Installment loan with the Cycle_Interval of 7 days,105,validateStatement,,,,,,,installment,0,63,0,83576,83639
+PP1352 - PaymentPouring in Installment loan with the Cycle_Interval of 7 days,106,payment,,2022-02-12T08:49:48+00:00,,30000,,,,,,,,
+PP1352 - PaymentPouring in Installment loan with the Cycle_Interval of 7 days,107,validateLineItem,,,,30000,PAYMENT,,,,,,,
+PP1352 - PaymentPouring in Installment loan with the Cycle_Interval of 7 days,108,rollTimeForward,2022-02-16T08:49:48+00:00,,,,,,,,,,,
+PP1352 - PaymentPouring in Installment loan with the Cycle_Interval of 7 days,109,getStatementID,,,,,,1,,,,,,
+PP1352 - PaymentPouring in Installment loan with the Cycle_Interval of 7 days,110,validateStatement,,,,,,,installment,0,53,0,70076,70129
+PP1353 - PaymentPouring in Installment loan with the Cycle_Interval of 7 days,111,payment,,2022-02-12T08:49:48+00:00,,100,,,,,,,,
+PP1353 - PaymentPouring in Installment loan with the Cycle_Interval of 7 days,112,validateLineItem,,,,100,PAYMENT,,,,,,,
+PP1353 - PaymentPouring in Installment loan with the Cycle_Interval of 7 days,113,rollTimeForward,2022-02-16T08:49:48+00:00,,,,,,,,,,,
+PP1353 - PaymentPouring in Installment loan with the Cycle_Interval of 7 days,114,getStatementID,,,,,,1,,,,,,
+PP1353 - PaymentPouring in Installment loan with the Cycle_Interval of 7 days,115,validateStatement,,,,,,,installment,19900,152,0,100000,120052
+PP1354 - PaymentPouring in Installment loan with the Cycle_Interval of 7 days,116,payment,,2022-02-12T08:49:48+00:00,,0,,,,,,,,
+PP1354 - PaymentPouring in Installment loan with the Cycle_Interval of 7 days,117,validateLineItem,,,,0,PAYMENT,,,,,,,
+PP1354 - PaymentPouring in Installment loan with the Cycle_Interval of 7 days,118,rollTimeForward,2022-02-16T08:49:48+00:00,,,,,,,,,,,
+PP1354 - PaymentPouring in Installment loan with the Cycle_Interval of 7 days,119,getStatementID,,,,,,1,,,,,,
+PP1354 - PaymentPouring in Installment loan with the Cycle_Interval of 7 days,120,validateStatement,,,,,,,installment,23500,152,0,100000,123652
+PP1355 - PaymentPouring in Credit card with the Cycle_Interval of 7 days,121,payment,,2022-02-12T08:49:48+00:00,,20000,,,,,,,,
+PP1355 - PaymentPouring in Credit card with the Cycle_Interval of 7 days,122,validateLineItem,,,,20000,PAYMENT,,,,,,,
+PP1355 - PaymentPouring in Credit card with the Cycle_Interval of 7 days,123,rollTimeForward,2022-02-16T08:49:48+00:00,,,,,,,,,,,
+PP1355 - PaymentPouring in Credit card with the Cycle_Interval of 7 days,124,getStatementID,,,,,,1,,,,,,
+PP1355 - PaymentPouring in Credit card with the Cycle_Interval of 7 days,125,validateStatement,,,,,,,credit,0,0,46,80057,80103
+PP1356 - PaymentPouring in Credit card with the Cycle_Interval of 7 days,126,payment,,2022-02-12T08:49:48+00:00,,50000,,,,,,,,
+PP1356 - PaymentPouring in Credit card with the Cycle_Interval of 7 days,127,validateLineItem,,,,50000,PAYMENT,,,,,,,
+PP1356 - PaymentPouring in Credit card with the Cycle_Interval of 7 days,128,rollTimeForward,2022-02-16T08:49:48+00:00,,,,,,,,,,,
+PP1356 - PaymentPouring in Credit card with the Cycle_Interval of 7 days,129,getStatementID,,,,,,1,,,,,,
+PP1356 - PaymentPouring in Credit card with the Cycle_Interval of 7 days,130,validateStatement,,,,,,,credit,0,0,28,50057,50085
+PP1357 - PaymentPouring in Revolving card with the Cycle_Interval of 7 days,131,payment,,2022-02-12T08:49:48+00:00,,15000,,,,,,,,
+PP1357 - PaymentPouring in Revolving card with the Cycle_Interval of 7 days,132,validateLineItem,,,,15000,PAYMENT,,,,,,,
+PP1357 - PaymentPouring in Revolving card with the Cycle_Interval of 7 days,133,rollTimeForward,2022-02-16T08:49:48+00:00,,,,,,,,,,,
+PP1357 - PaymentPouring in Revolving card with the Cycle_Interval of 7 days,134,getStatementID,,,,,,1,,,,,,
+PP1357 - PaymentPouring in Revolving card with the Cycle_Interval of 7 days,135,validateStatement,,,,,,,revolving,0,0,48,85057,85105
+PP1358 - PaymentPouring in Revolving card with the Cycle_Interval of 7 days,136,payment,,2022-02-12T08:49:48+00:00,,100,,,,,,,,
+PP1358 - PaymentPouring in Revolving card with the Cycle_Interval of 7 days,137,validateLineItem,,,,100,PAYMENT,,,,,,,
+PP1358 - PaymentPouring in Revolving card with the Cycle_Interval of 7 days,138,rollTimeForward,2022-02-16T08:49:48+00:00,,,,,,,,,,,
+PP1358 - PaymentPouring in Revolving card with the Cycle_Interval of 7 days,139,getStatementID,,,,,,1,,,,,,
+PP1358 - PaymentPouring in Revolving card with the Cycle_Interval of 7 days,140,validateStatement,,,,,,,revolving,9900,0,114,100000,110014
+PP1359 - PaymentPouring in Credit card with the Cycle_Interval of 7 days,141,payment,,2022-02-12T08:49:48+00:00,,100000,,,,,,,,
+PP1359 - PaymentPouring in Credit card with the Cycle_Interval of 7 days,142,validateLineItem,,,,100000,PAYMENT,,,,,,,
+PP1359 - PaymentPouring in Credit card with the Cycle_Interval of 7 days,143,rollTimeForward,2022-02-16T08:49:48+00:00,,,,,,,,,,,
+PP1359 - PaymentPouring in Credit card with the Cycle_Interval of 7 days,144,getStatementID,,,,,,1,,,,,,
+PP1359 - PaymentPouring in Credit card with the Cycle_Interval of 7 days,145,validateStatement,,,,,,,credit,0,0,0,57,57
+PP1360 - PaymentPouring in Charge card with the Cycle_Interval of 7 days,146,payment,,2022-02-12T08:49:48+00:00,,100,,,,,,,,
+PP1360 - PaymentPouring in Charge card with the Cycle_Interval of 7 days,147,validateLineItem,,,,100,PAYMENT,,,,,,,
+PP1360 - PaymentPouring in Charge card with the Cycle_Interval of 7 days,148,rollTimeForward,2022-02-16T08:49:48+00:00,,,,,,,,,,,
+PP1360 - PaymentPouring in Charge card with the Cycle_Interval of 7 days,149,getStatementID,,,,,,1,,,,,,
+PP1360 - PaymentPouring in Charge card with the Cycle_Interval of 7 days,150,validateStatement,,,,,,,charge,19900,0,114,100000,120014
+PP1361 - PaymentPouring in Charge card with the Cycle_Interval of 7 days,151,payment,,2022-02-12T08:49:48+00:00,,150000,,,,,,,,
+PP1361 - PaymentPouring in Charge card with the Cycle_Interval of 7 days,152,validateLineItem,,,,150000,PAYMENT,,,,,,,
+PP1361 - PaymentPouring in Charge card with the Cycle_Interval of 7 days,153,rollTimeForward,2022-02-16T08:49:48+00:00,,,,,,,,,,,
+PP1361 - PaymentPouring in Charge card with the Cycle_Interval of 7 days,154,getStatementID,,,,,,1,,,,,,
+PP1361 - PaymentPouring in Charge card with the Cycle_Interval of 7 days,155,validateStatement,,,,,,,charge,0,0,0,0,-29943
+PP1362 - PaymentPouring in Installment loan with the Cycle_Interval of 14 days,156,payment,,2022-02-10T08:49:48+00:00,,56000,,,,,,,,
+PP1362 - PaymentPouring in Installment loan with the Cycle_Interval of 14 days,157,validateLineItem,,,,56000,PAYMENT,,,,,,,
+PP1362 - PaymentPouring in Installment loan with the Cycle_Interval of 14 days,158,rollTimeForward,2022-02-16T08:49:48+00:00,,,,,,,,,,,
+PP1362 - PaymentPouring in Installment loan with the Cycle_Interval of 14 days,159,getStatementID,,,,,,1,,,,,,
+PP1362 - PaymentPouring in Installment loan with the Cycle_Interval of 14 days,160,validateStatement,,,,,,,installment,0,1530,0,500000,501530
+PP1363 - PaymentPouring in Installment loan with the Cycle_Interval of 14 days,161,payment,,2022-02-10T08:49:48+00:00,,11800,,,,,,,,
+PP1363 - PaymentPouring in Installment loan with the Cycle_Interval of 14 days,162,validateLineItem,,,,11800,PAYMENT,,,,,,,
+PP1363 - PaymentPouring in Installment loan with the Cycle_Interval of 14 days,163,rollTimeForward,2022-02-16T08:49:48+00:00,,,,,,,,,,,
+PP1363 - PaymentPouring in Installment loan with the Cycle_Interval of 14 days,164,getStatementID,,,,,,1,,,,,,
+PP1363 - PaymentPouring in Installment loan with the Cycle_Interval of 14 days,165,validateStatement,,,,,,,installment,0,1530,0,500000,501530
+PP1364 - PaymentPouring in Installment loan with the Cycle_Interval of 14 days,166,payment,,2022-02-10T08:49:48+00:00,,10800,,,,,,,,
+PP1364 - PaymentPouring in Installment loan with the Cycle_Interval of 14 days,167,validateLineItem,,,,10800,PAYMENT,,,,,,,
+PP1364 - PaymentPouring in Installment loan with the Cycle_Interval of 14 days,168,rollTimeForward,2022-02-16T08:49:48+00:00,,,,,,,,,,,
+PP1364 - PaymentPouring in Installment loan with the Cycle_Interval of 14 days,169,getStatementID,,,,,,1,,,,,,
+PP1364 - PaymentPouring in Installment loan with the Cycle_Interval of 14 days,170,validateStatement,,,,,,,installment,45000,1530,0,500000,546530
+PP1365 - PaymentPouring in Installment loan with the Cycle_Interval of 14 days,171,payment,,2022-02-10T08:49:48+00:00,,100000,,,,,,,,
+PP1365 - PaymentPouring in Installment loan with the Cycle_Interval of 14 days,172,validateLineItem,,,,100000,PAYMENT,,,,,,,
+PP1365 - PaymentPouring in Installment loan with the Cycle_Interval of 14 days,173,rollTimeForward,2022-02-16T08:49:48+00:00,,,,,,,,,,,
+PP1365 - PaymentPouring in Installment loan with the Cycle_Interval of 14 days,174,getStatementID,,,,,,1,,,,,,
+PP1365 - PaymentPouring in Installment loan with the Cycle_Interval of 14 days,175,validateStatement,,,,,,,installment,0,613,0,400765,401378
+PP1366 - PaymentPouring in Installment loan with the Cycle_Interval of 14 days,176,payment,,2022-02-10T08:49:48+00:00,,100,,,,,,,,
+PP1366 - PaymentPouring in Installment loan with the Cycle_Interval of 14 days,177,validateLineItem,,,,100,PAYMENT,,,,,,,
+PP1366 - PaymentPouring in Installment loan with the Cycle_Interval of 14 days,178,rollTimeForward,2022-02-16T08:49:48+00:00,,,,,,,,,,,
+PP1366 - PaymentPouring in Installment loan with the Cycle_Interval of 14 days,179,getStatementID,,,,,,1,,,,,,
+PP1366 - PaymentPouring in Installment loan with the Cycle_Interval of 14 days,180,validateStatement,,,,,,,installment,0,1430,0,500000,501430
+PP1367 - PaymentPouring in Installment loan with the Cycle_Interval of 14 days,181,payment,,2022-02-10T08:49:48+00:00,,100,,,,,,,,
+PP1367 - PaymentPouring in Installment loan with the Cycle_Interval of 14 days,182,validateLineItem,,,,100,PAYMENT,,,,,,,
+PP1367 - PaymentPouring in Installment loan with the Cycle_Interval of 14 days,183,rollTimeForward,2022-02-16T08:49:48+00:00,,,,,,,,,,,
+PP1367 - PaymentPouring in Installment loan with the Cycle_Interval of 14 days,184,getStatementID,,,,,,1,,,,,,
+PP1367 - PaymentPouring in Installment loan with the Cycle_Interval of 14 days,185,validateStatement,,,,,,,installment,61700,1530,0,500000,563230
+PP1368 - PaymentPouring in credit card with the Cycle_Interval of 14 days,186,payment,,2022-02-10T08:49:48+00:00,,6000,,,,,,,,
+PP1368 - PaymentPouring in credit card with the Cycle_Interval of 14 days,187,validateLineItem,,,,6000,PAYMENT,,,,,,,
+PP1368 - PaymentPouring in credit card with the Cycle_Interval of 14 days,188,rollTimeForward,2022-02-16T08:49:48+00:00,,,,,,,,,,,
+PP1368 - PaymentPouring in credit card with the Cycle_Interval of 14 days,189,getStatementID,,,,,,1,,,,,,
+PP1368 - PaymentPouring in credit card with the Cycle_Interval of 14 days,190,validateStatement,,,,,,,credit,0,0,1150,500000,501150
+PP1369 - PaymentPouring in credit card with the Cycle_Interval of 14 days,191,payment,,2022-02-10T08:49:48+00:00,,100000,,,,,,,,
+PP1369 - PaymentPouring in credit card with the Cycle_Interval of 14 days,192,validateLineItem,,,,100000,PAYMENT,,,,,,,
+PP1369 - PaymentPouring in credit card with the Cycle_Interval of 14 days,193,rollTimeForward,2022-02-16T08:49:48+00:00,,,,,,,,,,,
+PP1369 - PaymentPouring in credit card with the Cycle_Interval of 14 days,194,getStatementID,,,,,,1,,,,,,
+PP1369 - PaymentPouring in credit card with the Cycle_Interval of 14 days,195,validateStatement,,,,,,,credit,0,0,460,400575,401035
+PP1370 - PaymentPouring in credit card with the Cycle_Interval of 14 days,196,payment,,2022-02-10T08:49:48+00:00,,100,,,,,,,,
+PP1370 - PaymentPouring in credit card with the Cycle_Interval of 14 days,197,validateLineItem,,,,100,PAYMENT,,,,,,,
+PP1370 - PaymentPouring in credit card with the Cycle_Interval of 14 days,198,rollTimeForward,2022-02-16T08:49:48+00:00,,,,,,,,,,,
+PP1370 - PaymentPouring in credit card with the Cycle_Interval of 14 days,199,getStatementID,,,,,,1,,,,,,
+PP1370 - PaymentPouring in credit card with the Cycle_Interval of 14 days,200,validateStatement,,,,,,,credit,25900,0,1150,500000,527050
+PP1371 - PaymentPouring in Revolving card with the Cycle_Interval of 14 days,201,payment,,2022-02-10T08:49:48+00:00,,6000,,,,,,,,
+PP1371 - PaymentPouring in Revolving card with the Cycle_Interval of 14 days,202,validateLineItem,,,,6000,PAYMENT,,,,,,,
+PP1371 - PaymentPouring in Revolving card with the Cycle_Interval of 14 days,203,rollTimeForward,2022-02-16T08:49:48+00:00,,,,,,,,,,,
+PP1371 - PaymentPouring in Revolving card with the Cycle_Interval of 14 days,204,getStatementID,,,,,,1,,,,,,
+PP1371 - PaymentPouring in Revolving card with the Cycle_Interval of 14 days,205,validateStatement,,,,,,,revolving,0,0,1150,500000,501150
+PP1372 - PaymentPouring in Revolving card with the Cycle_Interval of 14 days,206,payment,,2022-02-10T08:49:48+00:00,,6000,,,,,,,,
+PP1372 - PaymentPouring in Revolving card with the Cycle_Interval of 14 days,207,validateLineItem,,,,6000,PAYMENT,,,,,,,
+PP1372 - PaymentPouring in Revolving card with the Cycle_Interval of 14 days,208,rollTimeForward,2022-02-16T08:49:48+00:00,,,,,,,,,,,
+PP1372 - PaymentPouring in Revolving card with the Cycle_Interval of 14 days,209,getStatementID,,,,,,1,,,,,,
+PP1372 - PaymentPouring in Revolving card with the Cycle_Interval of 14 days,210,validateStatement,,,,,,,revolving,0,0,1150,500000,501150
+PP1373 - PaymentPouring in Revolving card with the Cycle_Interval of 14 days,211,payment,,2022-02-10T08:49:48+00:00,,100000,,,,,,,,
+PP1373 - PaymentPouring in Revolving card with the Cycle_Interval of 14 days,212,validateLineItem,,,,100000,PAYMENT,,,,,,,
+PP1373 - PaymentPouring in Revolving card with the Cycle_Interval of 14 days,213,rollTimeForward,2022-02-16T08:49:48+00:00,,,,,,,,,,,
+PP1373 - PaymentPouring in Revolving card with the Cycle_Interval of 14 days,214,getStatementID,,,,,,1,,,,,,
+PP1373 - PaymentPouring in Revolving card with the Cycle_Interval of 14 days,215,validateStatement,,,,,,,revolving,0,0,460,400575,401035
+PP1374 - PaymentPouring in Revolving card with the Cycle_Interval of 14 days,216,payment,,2022-02-10T08:49:48+00:00,,100,,,,,,,,
+PP1374 - PaymentPouring in Revolving card with the Cycle_Interval of 14 days,217,validateLineItem,,,,100,PAYMENT,,,,,,,
+PP1374 - PaymentPouring in Revolving card with the Cycle_Interval of 14 days,218,rollTimeForward,2022-02-16T08:49:48+00:00,,,,,,,,,,,
+PP1374 - PaymentPouring in Revolving card with the Cycle_Interval of 14 days,219,getStatementID,,,,,,1,,,,,,
+PP1374 - PaymentPouring in Revolving card with the Cycle_Interval of 14 days,220,validateStatement,,,,,,,revolving,25900,0,1150,500000,527050
+PP1375 - PaymentPouring in charge card with the Cycle_Interval of 14 days,221,payment,,2022-02-10T08:49:48+00:00,,5000,,,,,,,,
+PP1375 - PaymentPouring in charge card with the Cycle_Interval of 14 days,222,validateLineItem,,,,5000,PAYMENT,,,,,,,
+PP1375 - PaymentPouring in charge card with the Cycle_Interval of 14 days,223,rollTimeForward,2022-02-16T08:49:48+00:00,,,,,,,,,,,
+PP1375 - PaymentPouring in charge card with the Cycle_Interval of 14 days,224,getStatementID,,,,,,1,,,,,,
+PP1375 - PaymentPouring in charge card with the Cycle_Interval of 14 days,225,validateStatement,,,,,,,charge,1000,0,1150,500000,502150
+PP1376 - PaymentPouring in charge card with the Cycle_Interval of 14 days,226,payment,,2022-02-10T08:49:48+00:00,,20000,,,,,,,,
+PP1376 - PaymentPouring in charge card with the Cycle_Interval of 14 days,227,validateLineItem,,,,20000,PAYMENT,,,,,,,
+PP1376 - PaymentPouring in charge card with the Cycle_Interval of 14 days,228,rollTimeForward,2022-02-16T08:49:48+00:00,,,,,,,,,,,
+PP1376 - PaymentPouring in charge card with the Cycle_Interval of 14 days,229,getStatementID,,,,,,1,,,,,,
+PP1376 - PaymentPouring in charge card with the Cycle_Interval of 14 days,230,validateStatement,,,,,,,charge,0,0,1150,500000,501150
+PP1377 - PaymentPouring in charge card with the Cycle_Interval of 14 days,231,payment,,2022-02-10T08:49:48+00:00,,100000,,,,,,,,
+PP1377 - PaymentPouring in charge card with the Cycle_Interval of 14 days,232,validateLineItem,,,,100000,PAYMENT,,,,,,,
+PP1377 - PaymentPouring in charge card with the Cycle_Interval of 14 days,233,rollTimeForward,2022-02-16T08:49:48+00:00,,,,,,,,,,,
+PP1377 - PaymentPouring in charge card with the Cycle_Interval of 14 days,234,getStatementID,,,,,,1,,,,,,
+PP1377 - PaymentPouring in charge card with the Cycle_Interval of 14 days,235,validateStatement,,,,,,,charge,0,0,460,400575,401035
+PP1378 - PaymentPouring in charge card with the Cycle_Interval of 14,236,payment,,2022-02-10T08:49:48+00:00,,100000,,,,,,,,
+PP1378 - PaymentPouring in charge card with the Cycle_Interval of 14,237,validateLineItem,,,,100000,PAYMENT,,,,,,,
+PP1378 - PaymentPouring in charge card with the Cycle_Interval of 14,238,rollTimeForward,2022-02-16T08:49:48+00:00,,,,,,,,,,,
+PP1378 - PaymentPouring in charge card with the Cycle_Interval of 14,239,getStatementID,,,,,,1,,,,,,
+PP1378 - PaymentPouring in charge card with the Cycle_Interval of 14,240,validateStatement,,,,,,,charge,0,0,490,426575,427065
+PP161 - PaymentPouring Reversal in Installment Loan- Payment re-allocation to different Balance buckets based on the Product Config parameters,241,payment,,-6,,33500,,,,,,,,
+PP161 - PaymentPouring Reversal in Installment Loan- Payment re-allocation to different Balance buckets based on the Product Config parameters,242,,,,,33500,PAYMENT,,,,,,,
+PP161 - PaymentPouring Reversal in Installment Loan- Payment re-allocation to different Balance buckets based on the Product Config parameters,243,rollTimeForward,4,,,,,,,,,,,
+PP161 - PaymentPouring Reversal in Installment Loan- Payment re-allocation to different Balance buckets based on the Product Config parameters,244,getStatementID,,,,,,1,,,,,,
+PP161 - PaymentPouring Reversal in Installment Loan- Payment re-allocation to different Balance buckets based on the Product Config parameters,245,validateStatement,,,,,,,installment,0,66,0,86576,86642
+PP161 - PaymentPouring Reversal in Installment Loan- Payment re-allocation to different Balance buckets based on the Product Config parameters,246,paymentReversal,,,,,,,,,,,,
+PP161 - PaymentPouring Reversal in Installment Loan- Payment re-allocation to different Balance buckets based on the Product Config parameters,247,rollTimeForward,12,,,,,,,,,,,
+PP161 - PaymentPouring Reversal in Installment Loan- Payment re-allocation to different Balance buckets based on the Product Config parameters,248,validateLineItem,,,,-13424,PAYMENT_REVERSAL,,,,,,,
+PP161 - PaymentPouring Reversal in Installment Loan- Payment re-allocation to different Balance buckets based on the Product Config parameters,249,validateLineItem,,,,-76,PAYMENT_REVERSAL_INTEREST,,,,,,,
+PP161 - PaymentPouring Reversal in Installment Loan- Payment re-allocation to different Balance buckets based on the Product Config parameters,250,validateLineItem,,,,-23500,PAYMENT_REVERSAL_FEE,,,,,,,
+PP161 - PaymentPouring Reversal in Installment Loan- Payment re-allocation to different Balance buckets based on the Product Config parameters,251,getStatementID,,,,,,2,,,,,,
+PP161 - PaymentPouring Reversal in Installment Loan- Payment re-allocation to different Balance buckets based on the Product Config parameters,252,validateStatement,,,,,,,installment,27000,264,0,86576,127340
+PP162 - PaymentPouring Reversal in Revolving Product,253,payment,,-6,,14500,,,,,,,,
+PP162 - PaymentPouring Reversal in Revolving Product,254,validateLineItem,,,,14500,PAYMENT,,,,,,,
+PP162 - PaymentPouring Reversal in Revolving Product,255,rollTimeForward,4,,,,,,,,,,,
+PP162 - PaymentPouring Reversal in Revolving Product,256,getStatementID,,,,,,1,,,,,,
+PP162 - PaymentPouring Reversal in Revolving Product,257,validateStatement,,,,,,,revolving,0,0,54,95557,95611
+PP162 - PaymentPouring Reversal in Revolving Product,258,paymentReversal,,,,,,,,,,,,
+PP162 - PaymentPouring Reversal in Revolving Product,259,rollTimeForward,12,,,,,,,,,,,
+PP162 - PaymentPouring Reversal in Revolving Product,260,validateLineItem,,,,-4443,PAYMENT_REVERSAL,,,,,,,
+PP162 - PaymentPouring Reversal in Revolving Product,261,validateLineItem,,,,-57,PAYMENT_REVERSAL_INTEREST,,,,,,,
+PP162 - PaymentPouring Reversal in Revolving Product,262,validateLineItem,,,,-10000,PAYMENT_REVERSAL_FEE,,,,,,,
+PP162 - PaymentPouring Reversal in Revolving Product,263,getStatementID,,,,,,2,,,,,,
+PP162 - PaymentPouring Reversal in Revolving Product,264,validateStatement,,,,,,,revolving,10000,0,216,95557,110273

@@ -1,0 +1,26 @@
+[
+  {
+    "tc_name": "PP1058 - Validate migration for Installment accounts with Customer and Account details as in the Legacy system",
+    "index": "1",
+    "product_type": "payment_product.json",
+    "account_effective_dt": "2021-11-01T05:18:27-05:00"
+  },
+  {
+    "tc_name": "PP1059 - Validate migration for Revolving accounts with Customer and Account details as in the Legacy system",
+    "index": "2",
+    "product_type": "product_revolving.json",
+    "account_effective_dt": "2021-11-06T00:00:00-05:00"
+  },
+  {
+    "tc_name": "PP1060 - Validate migration for Multi Adv Revolving accounts with Customer and Account details as in the Legacy system",
+    "index": "3",
+    "product_type": "multi_advance_product.json",
+    "account_effective_dt": "2021-11-01T05:18:27-05:00"
+  },
+  {
+    "tc_name": "PP1062 - Validate migration for Charge card product with Customer and Account details as in the Legacy system",
+    "index": "4",
+    "product_type": "product_charge.json",
+    "account_effective_dt": "2021-11-06T00:00:00-05:00"
+  }
+]

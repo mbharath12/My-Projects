@@ -1,0 +1,51 @@
+tc_name,index,check_payment_reversal,product_type,account_effective_dt,cycle_interval,cycle_due_interval,account_effective_dt_time,initial_principal_cents,origination_fee_cents,late_fee_cents,monthly_fee_cents,Annual_fee_cents,promo_int,promo_len,promo_min_pay_type,promo_default_interest_rate_percent,promo_min_pay_percent,payment_effective_date,payment_amt_cents,payment_rev,fee_balance,fee_balance_rev,principal_balance,principal_balance_rev,am_int_cents,am_int_cents_rev,int_bal_cents,int_bal_cents_rev,total_balance,available_credit_cents
+PP146 - Payment Pouring in Installment loan,1,FALSE,installment,-14,7 days ,2 days,0,100000,20000,3500,0,0,0,0,NONE,0,0,0,33500,,0,,90076,,68,,,,90144,NULL
+PP147 - Payment Pouring in Credit card,2,FALSE,Credit,-14,7 days ,2 days,0,100000,20000,0,0,0,3,20,PERCENT_PRINCIPAL,3,5,0,28500,,0,,91557,,,,52,,91609,NULL
+PP148 - Payment Pouring in Revolving LOC,3,FALSE,Revolving,-14,7 days ,2 days,0,100000,10000,0,0,0,3,999999,PERCENT_INTEREST,10,100,0,14500,,0,,95557,,,,54,,95611,NULL
+PP149 - Payment Pouring in Credit card,4,FALSE,Credit,-14,7 days ,2 days,0,100000,0,0,0,0,3,20,PERCENT_PRINCIPAL,3,5,0,10000,,0,,90057,,,,51,,90108,NULL
+PP150 - Payment Pouring Charge Card,5,FALSE,Charge,-14,7 days ,2 days,0,100000,20000,0,0,0,3,99999,PERCENT_PRINCIPAL,0,100,0,120057,,0,,0,,,,0,,0,NULL
+PP146A - Payment Pouring  in Installment loan,6,FALSE,installment,-14,7 days ,2 days,0,100000,20000,3500,0,0,0,0,NONE,0,0,0,10000,,13500,,100000,,152,,,,113652,NULL
+PP159 - Payment Pouring in CreditCard,7,FALSE,Credit,-14,7 days ,2 days,0,100000,0,0,0,0,3,20,PERCENT_PRINCIPAL,3,5,0,10000,,0,,90057,,,,51,,90108,209943
+PP159A - Payment Pouring in CreditCard,8,FALSE,Credit,-14,7 days ,2 days,0,100000,0,0,0,0,3,20,PERCENT_PRINCIPAL,3,5,0,110000,,0,,0,,,,0,,0,300000
+PP160 - Payment Pouring in Charge Card,9,FALSE,Charge,-14,7 days ,2 days,0,100000,20000,0,0,0,3,99999,PERCENT_PRINCIPAL,0,100,0,120057,,0,,0,,,,0,,0,300000
+PP1155 - Payment Pouring in Installment loan with 14D cycle interval,12,FALSE,installment,-30,14 days,2 days,0,500000,50000,5800,6000,0,0,0,NONE,0,0,-2,50500,,11300,,500000,,1530,,,,512830,NULL
+PP1156 - Payment Pouring in Installment loan  with 14D cycle interval,13,FALSE,installment,-30,14 days,2 days,0,500000,0,5800,6000,0,0,0,NONE,0,0,-2,12500,,0,,500000,,830,,,,500830,NULL
+PP1157 - Payment Pouring in Credit/Revolving  with 14D cycle interval,14,FALSE,Credit,-30,14 days,2 days,0,500000,20000,0,6000,0,3,20,PERCENT_PRINCIPAL,3,5,-2,26500,,0,,500000,,,,650,,500650,NULL
+PP1158 - Payment Pouring in Revolving with 14D cycle interval,15,FALSE,Revolving,-30,14 days,2 days,0,500000,40000,0,6000,0,3,999999,PERCENT_INTEREST,10,100,-2,53200,,0,,493375,,,,567,,493942,NULL
+PP1159 - Payment Pouring in charge with 14D cycle interval,16,FALSE,Charge,-30,14 days,2 days,0,500000,20000,0,6000,0,3,99999,PERCENT_PRINCIPAL,0,100,-2,22900,,3100,,500000,,,,1150,,504250,NULL
+PP1160 - Payment Pouring in installment with 30D cycle interval,17,FALSE,installment,-65,30 days,5 days,0,300000,10000,5800,12000,0,0,0,NONE,0,0,-10,28100,,11700,,300000,,1994,,,,313694,NULL
+PP1161 - Payment Pouring in Revolving with 30D cycle interval,18,FALSE,Revolving,-65,30 days,5 days,0,300000,15000,0,12000,0,3,999999,PERCENT_INTEREST,10,100,-10,33100,,5900,,300000,,,,1500,,307400,NULL
+PP1162 - Payment Pouring in Charge with 30D cycle interval,19,FALSE,Charge,-65,30 days,5 days,0,300000,15000,0,12000,0,3,99999,PERCENT_PRINCIPAL,0,100,-10,12500,,26500,,300000,,,,1500,,328000,NULL
+PP1163 - Payment Pouring in Installment from the Account Effective date,20,FALSE,installment,-367,30 days,5 days,0,300000,15000,2900,6000,50000,0,0,NONE,0,0,-10,146000,,25800,,300000,,1994,,,,471800,NULL
+PP1164 - Payment Pouring in Charge from the Account Effective date,21,FALSE,Charge,-367,30 days,5 days,0,300000,15000,2900,6000,50000,3,99999,PERCENT_PRINCIPAL,0,100,-10,200000,,28200,,300000,,,,1500,,329700,NULL
+PP161 - Payment Pouring Reversal in Installment Loan- Payment re-allocation to different Balance buckets based on the Product Config parameters,10,TRUE,installment,-14,7 days ,2 days,0,100000,20000,3500,0,0,0,0,NONE,0,0,0,33500,33500,0,23500,90076,100000,68,14400,,,90144,NULL
+PP162 - Payment Pouring Reversal in Revolving Product,11,TRUE,Revolving,-14,7 days ,2 days,0,100000,10000,0,0,0,3,999999,PERCENT_INTEREST,10,100,0,14500,14500,0,100,95557,100000,,,54,111,95611,NULL
+PP1350 - PaymentPouring in Installment loan with the Cycle_Interval of 7 days,21,FALSE,installment,-14,7 days ,2 days,0,100000,20000,0,0,0,0,0,NONE,0,0,0,30000,,0,,90076,,68,,,,90144,NULL
+PP1351 - PaymentPouring in Installment loan with the Cycle_Interval of 7 days,22,FALSE,installment,-14,7 days ,2 days,0,100000,0,3500,0,0,0,0,NONE,0,0,0,20000,,0,,83576,,63,,,,83639,NULL
+PP1352 - PaymentPouring in Installment loan with the Cycle_Interval of 7 days,23,FALSE,installment,-14,7 days ,2 days,0,100000,0,0,0,0,0,0,NONE,0,0,0,30000,,0,,70076,,53,,,,70129,NULL
+PP1353 - PaymentPouring in Installment loan with the Cycle_Interval of 7 days,24,FALSE,installment,-14,7 days ,2 days,0,100000,20000,0,0,0,0,0,NONE,0,0,0,100,,19900,,100000,,152,,,,120052,NULL
+PP1354 - PaymentPouring in Installment loan with the Cycle_Interval of 7 days,25,FALSE,installment,-14,7 days ,2 days,0,100000,20000,3500,0,0,0,0,NONE,0,0,0,0,,23500,,100000,,152,,,,123652,NULL
+PP1355 - PaymentPouring in Credit card with the Cycle_Interval of 7 days,26,FALSE,Credit,-14,7 days ,2 days,0,100000,0,0,0,0,3,20,PERCENT_PRINCIPAL,3,5,0,20000,,0,,80057,,,,46,,80103,NULL
+PP1356 - PaymentPouring in Credit card with the Cycle_Interval of 7 days,27,FALSE,Credit,-14,7 days ,2 days,0,100000,0,0,0,0,3,20,PERCENT_PRINCIPAL,3,5,0,50000,,0,,50057,,,,28,,50085,NULL
+PP1357 - PaymentPouring in Revolving card with the Cycle_Interval of 7 days,28,FALSE,Revolving,-14,7 days ,2 days,0,100000,0,0,0,0,3,999999,PERCENT_INTEREST,10,100,0,15000,,0,,85057,,,,48,,85105,NULL
+PP1358 - PaymentPouring in Revolving card with the Cycle_Interval of 7 days,29,FALSE,Revolving,-14,7 days ,2 days,0,100000,10000,0,0,0,3,999999,PERCENT_INTEREST,10,100,0,100,,9900,,100000,,,,114,,110014,NULL
+PP1359 - PaymentPouring in Credit card with the Cycle_Interval of 7 days,30,FALSE,Credit,-14,7 days ,2 days,0,100000,0,0,0,0,3,20,PERCENT_PRINCIPAL,3,5,0,100000,,0,,57,,,,0,,57,NULL
+PP1360 - PaymentPouring in Charge card with the Cycle_Interval of 7 days,31,FALSE,Charge,-14,7 days ,2 days,0,100000,20000,0,0,0,3,99999,PERCENT_PRINCIPAL,0,100,0,100,,19900,,100000,,,,114,,120014,NULL
+PP1361 - PaymentPouring in Charge card with the Cycle_Interval of 7 days,32,FALSE,Charge,-14,7 days ,2 days,0,100000,20000,0,0,0,3,99999,PERCENT_PRINCIPAL,0,100,0,150000,,0,,0,,,,0,,0,300000
+PP1362 - PaymentPouring in Installment loan with the Cycle_Interval of 14 days,33,FALSE,installment,-30,14 days,2 days,0,500000,50000,0,6000,0,0,0,NONE,0,0,-2,56000,,0,,500000,,1530,,,,501530,NULL
+PP1363 - PaymentPouring in Installment loan with the Cycle_Interval of 14 days,34,FALSE,installment,-30,14 days,2 days,0,500000,0,5800,6000,0,0,0,NONE,0,0,-2,11800,,0,,500000,,1530,,,,501530,NULL
+PP1364 - PaymentPouring in Installment loan with the Cycle_Interval of 14 days,35,FALSE,installment,-30,14 days,2 days,0,500000,50000,5800,0,0,0,0,NONE,0,0,-2,10800,,45000,,500000,,1530,,,,546530,NULL
+PP1365 - PaymentPouring in Installment loan with the Cycle_Interval of 14 days,36,FALSE,installment,-30,14 days,2 days,0,500000,0,0,0,0,0,0,NONE,0,0,-2,100000,,0,,400765,,613,,,,401378,NULL
+PP1366 - PaymentPouring in Installment loan with the Cycle_Interval of 14 days,37,FALSE,installment,-30,14 days,2 days,0,500000,0,0,0,0,0,0,NONE,0,0,-2,100,,0,,500000,,1430,,,,501430,NULL
+PP1367 - PaymentPouring in Installment loan with the Cycle_Interval of 14 days,38,FALSE,installment,-30,14 days,2 days,0,500000,50000,5800,6000,0,0,0,NONE,0,0,-2,100,,61700,,500000,,1530,,,,563230,NULL
+PP1368 - PaymentPouring in credit card with the Cycle_Interval of 14 days,39,FALSE,Credit,-30,14 days,2 days,0,500000,0,0,6000,0,3,20,PERCENT_PRINCIPAL,3,5,-2,6000,,0,,500000,,,,1150,,501150,NULL
+PP1369 - PaymentPouring in credit card with the Cycle_Interval of 14 days,40,FALSE,Credit,-30,14 days,2 days,0,500000,0,0,0,0,3,20,PERCENT_PRINCIPAL,3,5,-2,100000,,0,,400575,,,,460,,401035,NULL
+PP1370 - PaymentPouring in credit card with the Cycle_Interval of 14 days,41,FALSE,Credit,-30,14 days,2 days,0,500000,20000,0,6000,0,3,20,PERCENT_PRINCIPAL,3,5,-2,100,,25900,,500000,,,,1150,,527050,NULL
+PP1371 - PaymentPouring in Revolving card with the Cycle_Interval of 14 days,42,FALSE,Revolving,-30,14 days,2 days,0,500000,0,0,6000,0,3,999999,PERCENT_INTEREST,10,100,-2,6000,,0,,500000,,,,1150,,501150,NULL
+PP1372 - PaymentPouring in Revolving card with the Cycle_Interval of 14 days,43,FALSE,Revolving,-30,14 days,2 days,0,500000,0,0,6000,0,3,999999,PERCENT_INTEREST,10,100,-2,6000,,0,,500000,,,,1150,,501150,NULL
+PP1373 - PaymentPouring in Revolving card with the Cycle_Interval of 14 days,44,FALSE,Revolving,-30,14 days,2 days,0,500000,0,0,0,0,3,999999,PERCENT_INTEREST,10,100,-2,100000,,0,,400575,,,,460,,401035,NULL
+PP1374 - PaymentPouring in Revolving card with the Cycle_Interval of 14 days,45,FALSE,Revolving,-30,14 days,2 days,0,500000,20000,0,6000,0,3,999999,PERCENT_INTEREST,10,100,-2,100,,25900,,500000,,,,1150,,527050,NULL
+PP1375 - PaymentPouring in charge card with the Cycle_Interval of 14 days,46,FALSE,Charge,-30,14 days,2 days,0,500000,0,0,6000,0,3,99999,PERCENT_PRINCIPAL,0,100,-2,5000,,1000,,500000,,,,1150,,502150,NULL
+PP1376 - PaymentPouring in charge card with the Cycle_Interval of 14 days,47,FALSE,Charge,-30,14 days,2 days,0,500000,20000,0,0,0,3,99999,PERCENT_PRINCIPAL,0,100,-2,20000,,0,,500000,,,,1150,,501150,NULL
+PP1377 - PaymentPouring in charge card with the Cycle_Interval of 14 days,48,FALSE,Charge,-30,14 days,2 days,0,500000,0,0,0,0,3,99999,PERCENT_PRINCIPAL,0,100,-2,100000,,0,,400575,,,,460,,401035,NULL
+PP1378 - PaymentPouring in charge card with the Cycle_Interval of 14,49,FALSE,Charge,-30,14 days,2days,0,500000,20000,0,6000,0,3,99999,PERCENT_PRINCIPAL,0,100,-2,100,,25900,,500000,,,,1150,,527050,NULL

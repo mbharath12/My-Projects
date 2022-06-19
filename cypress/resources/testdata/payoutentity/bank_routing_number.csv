@@ -1,0 +1,19 @@
+tc_name,index,payout_entity_file_name,exp_payout_entity_type,exp_payout_entity_name,exp_bank_account_number,exp_bank_routing_number,exp_irs_tin,response,error_code,error_message
+PayoutEntity281A - merchant - Verify bank routing number should be 9 digits,1,merchant.json,merchant,MERCHANT,2351,215545677,482456323,200,,
+PayoutEntity281B - merchant - Verify bank routing number should be 8 digits,2,merchant.json,merchant,MERCHANT,2351,21554567,482456323,400,bad_request,bank_routing_number failed the checksum test
+PayoutEntity281C - merchant - Verify bank routing number should be 10 digits,3,merchant.json,merchant,MERCHANT,2351,2155456778,482456323,400,bad_request,bank_routing_number failed the checksum test
+PayoutEntity298A - lender - Verify bank routing number should be 9 digits,4,merchant.json,lender,BHG Funding Account,8000,64008637,113456444,200,,
+PayoutEntity298B - lender - Verify bank routing number should be 8 digits,5,merchant.json,lender,BHG Funding Account,8000,6400863,113456444,400,bad_request,bank_routing_number failed the checksum test
+PayoutEntity298C - lender - Verify bank routing number should be 10 digits,6,merchant.json,lender,BHG Funding Account,8000,640086378,113456444,400,bad_request,bank_routing_number failed the checksum test
+PayoutEntity266A - organization - Verify bank routing number should be 9 digits,7,merchant.json,organization,BHG Operating,3790,64008637,113456444,200,,
+PayoutEntity266B - organization - Verify bank routing number should be 8 digits,8,merchant.json,organization,BHG Operating,3790,6400863,113456444,400,bad_request,bank_routing_number failed the checksum test
+PayoutEntity266C - organization - Verify bank routing number should be 10 digits,9,merchant.json,organization,BHG Operating,3790,640086379,113456444,400,bad_request,bank_routing_number failed the checksum test
+PayoutEntity315A - ACHSource - Verify bank routing number should be 9 digits,10,merchant.json,clearing,ACH Clearing,6814,64008637,102456545,200,,
+PayoutEntity315B - ACHSource - Verify bank routing number should be 8 digits,11,merchant.json,clearing,ACH Clearing,6814,6400863,102456545,400,bad_request,bank_routing_number failed the checksum test
+PayoutEntity315C - ACHSource - Verify bank routing number should be 10 digits,12,merchant.json,clearing,ACH Clearing,6814,640086375,102456545,400,bad_request,bank_routing_number failed the checksum test
+PayoutEntity331A - DebitSource - Verify bank routing number should be 9 digits,13,merchant.json,clearing,Card Clearing,7647,64008637,505456222,200,,
+PayoutEntity331B - DebitSource - Verify bank routing number should be 8 digits,14,merchant.json,clearing,Card Clearing,7640,6400863,505456222,400,bad_request,bank_routing_number failed the checksum test
+PayoutEntity331C - DebitSource - Verify bank routing number should be 10 digits,15,merchant.json,clearing,Card Clearing,7647,640086378,505456222,400,bad_request,bank_routing_number failed the checksum test
+PayoutEntity347A - LockBox - Verify bank routing number should be 9 digits,16,merchant.json,clearing,Lockbox Clearing,715,64008637,203456789,200,,
+PayoutEntity347B - LockBox - Verify bank routing number should be 8 digits,17,merchant.json,clearing,Lockbox Clearing,715,6400863,203456789,400,bad_request,bank_routing_number failed the checksum test
+PayoutEntity347C - LockBox - Verify bank routing number should be 10 digits,18,merchant.json,clearing,Lockbox Clearing,715,640086379,203456789,400,bad_request,bank_routing_number failed the checksum test

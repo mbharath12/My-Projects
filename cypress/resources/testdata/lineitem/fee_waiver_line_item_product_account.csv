@@ -1,0 +1,22 @@
+tc_name,index,product_type,exp_product_file_name,promo_int,promo_len,promo_min_pay_type,promo_default_interest_rate_percent,promo_min_pay_percent,account_effective_dt,delinquent,charge_off,cycle_interval,cycle_due_interval,credit_limit_cents,initial_principal_cents,origination_fee_cents,late_fee_cents,payment_reversal_fee_cents,monthly_fee_cents,annual_fee_cents
+PP1485-Attempt to revert Origination fee using revolving product,1,Revolving,product_revolving.json,3,999999,PERCENT_INTEREST,10,100,2021-11-07T11:15:03-05:00,99,99999,7 days,-2 days,300000,100000,20000,0,0,0,0
+PP2027-Attempt to revert Origination fee using installment product,2,Installment,payment_product.json,0,0,NONE,0,0,2021-11-07T11:15:03-05:00,99,99999,7 days,-2 days,300000,100000,20000,0,0,0,0
+PP2028-Attempt to revert Origination fee using charge product,3,Charge,product_charge.json,3,99999,PERCENT_PRINCIPAL,0,100,2021-11-07T11:15:03-05:00,99,99999,7 days,-2 days,300000,100000,20000,0,0,0,0
+PP2029-Attempt to revert Origination fee using credit product,4,Credit,product_credit.json,3,20,PERCENT_PRINCIPAL,3,5,2021-11-07T11:15:03-05:00,99,99999,7 days,-2 days,300000,100000,20000,0,0,0,0
+PP1486-Attempt to revert Monthly fee using revolving product,5,Revolving,product_revolving.json,3,999999,PERCENT_INTEREST,10,100,2021-10-22T12:16:08-04:00,99,99999,14 days,-2 days,300000,100000,0,0,0,20000,0
+PP2030-Attempt to revert Monthly fee using installment product,6,Installment,payment_product.json,0,0,NONE,0,0,2021-10-22T12:16:08-04:00,99,99999,14 days,-2 days,300000,100000,0,0,0,20000,0
+PP2031-Attempt to revert Monthly fee using charge product,7,Charge,product_charge.json,3,99999,PERCENT_PRINCIPAL,0,100,2021-10-22T12:16:08-04:00,99,99999,14 days,-2 days,300000,100000,0,0,0,20000,0
+PP2032-Attempt to revert Monthly fee using credit product,8,Credit,product_credit.json,3,20,PERCENT_PRINCIPAL,3,5,2021-10-22T12:16:08-04:00,99,99999,14 days,-2 days,300000,100000,0,0,0,20000,0
+PP1487-Attempt to revert Annual fee using revolving product,9,Revolving,product_revolving.json,3,999999,PERCENT_INTEREST,10,100,2020-09-11T12:16:16-04:00,99,99999,1 month,-5 days,300000,100000,0,0,0,0,11500
+PP2033-Attempt to revert Annual fee using Installment product,10,Installment,payment_product.json,0,0,NONE,0,0,2020-09-11T12:16:16-04:00,99,99999,1 month,-5 days,300000,100000,0,0,0,0,11500
+PP2034-Attempt to revert Annual fee using charge product,11,Charge,product_charge.json,3,99999,PERCENT_PRINCIPAL,0,100,2020-09-11T12:16:16-04:00,99,99999,1 month,-5 days,300000,100000,0,0,0,0,11500
+PP2035-Attempt to revert Annual fee using credit product,12,Credit,product_credit.json,3,20,PERCENT_PRINCIPAL,3,5,2020-09-11T12:16:16-04:00,99,99999,1 month,-5 days,300000,100000,0,0,0,0,11500
+PP1488-Attempt to revert Late fee using revolving product,13,Revolving,product_revolving.json,3,999999,PERCENT_INTEREST,10,100,2021-11-15T11:15:03-05:00,99,99999,7 days,2 days,300000,100000,0,5800,0,0,0
+PP2036-Attempt to revert Late fee using Installment product,14,Installment,payment_product.json,0,0,NONE,0,0,2021-11-01T11:15:03-05:01,99,99999,7 days,2 days,300000,100000,0,5800,0,0,0
+PP2037-Attempt to revert Late fee using Charge product,15,Charge,product_charge.json,3,99999,PERCENT_PRINCIPAL,0,100,2021-10-15T11:15:03-05:02,99,99999,1 month,2 days,300000,100000,0,5800,0,0,0
+PP2038-Attempt to revert Late fee using credit product,16,Credit,product_credit.json,3,20,PERCENT_PRINCIPAL,3,5,2021-11-15T11:15:03-05:03,99,99999,7 days,2 days,300000,100000,0,5800,0,0,0
+PP1489-Attempt to revert Payment reversal fees using revolving product,17,Revolving,product_revolving.json,3,999999,PERCENT_INTEREST,10,100,2021-11-15T11:15:03-05:00,99,99999,7 days,2 days,300000,100000,0,0,3000,0,0
+PP2039-Attempt to revert Payment reversal fees using installment product,18,Installment,payment_product.json,0,0,NONE,0,0,2021-11-15T11:15:03-05:01,99,99999,7 days,2 days,300000,100000,0,0,3000,0,0
+PP2040-Attempt to revert Payment reversal fees using charge product,19,Charge,product_charge.json,3,99999,PERCENT_PRINCIPAL,0,100,2021-11-15T11:15:03-05:02,99,99999,7 days,2 days,300000,100000,0,0,3000,0,0
+PP2041-Attempt to revert Payment reversal fees using credit product,20,Credit,product_credit.json,3,20,PERCENT_PRINCIPAL,3,5,2021-11-15T11:15:03-05:03,99,99999,7 days,2 days,300000,100000,0,0,3000,0,0
+PP1490-Attempt to revert surcharge reversal fees using revolving product,21,Revolving,product_revolving_surcharge.json,3,999999,PERCENT_INTEREST,10,100,2021-10-15T11:15:03-05:00,99,99999,1 month,-5 days,300000,100000,0,0,0,0,0

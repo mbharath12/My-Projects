@@ -1,0 +1,4 @@
+tc_name,index,product_type,account_json_file_name,account_effective_at,edit_config,default_payment_process_method,processor_name,modify_field,modify_value
+PP870 - Update after account onboarding - REPAY - ACH with new source Account details,1,revolving,account_payment_processor_ach_repay.json,2021-03-20T09:11:28+00:00,account_processor_config_ach_repay.json,ACH,REPAY,repay_account_number,987654123
+PP871E - Update after account onboarding - REPAY - Debit Card with new source Account details,2,revolving,account_payment_processor_debit_card_repay.json,2021-03-20T09:11:28+00:00,account_processor_config_debit_card_repay.json,DEBIT_CARD,REPAY,repay_card_number,4622940000000010
+PP993 -  Update after account onboarding - Checkout - Credit card with new Credit card details,3,credit,account_payment_processor_credit_card_checkout.json,2021-03-20T09:11:28+00:00,account_processor_config_credit_card_checkout.json,CREDIT_CARD,CHECKOUT,card_number,4343430000000000

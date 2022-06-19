@@ -1,0 +1,9 @@
+{
+  "payout_entity_id": "clear-ach-{{$randomUUID}}",
+  "payout_entity_type": "clearing",
+  "payout_entity_name": "ACH Clearing",
+  "bank_account_number": "00000681",
+  "bank_routing_number": "064008637",
+  "irs_tin": "N102456545",
+  "bank_account_type": "CHECKING"
+}

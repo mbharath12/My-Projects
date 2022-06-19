@@ -1,0 +1,37 @@
+{
+  "effective_at": "2016-11-27T13:19:56+00:00",
+  "product_overview": {
+    "product_name": "Daily Due",
+    "product_type": "REVOLVING",
+    "product_short_description": "1Day13apr.",
+    "product_long_description": "credit card.",
+    "product_color": "#0000FF"
+  },
+  "product_lifecycle_policies": {
+    "payment_due_policies": {
+      "delinquent_on_n_consecutive_late_fees": 20,
+      "charge_off_on_n_consecutive_late_fees": 20
+    },
+    "fee_policies": {
+      "late_fee_grace": "0 days"
+    },
+    "billing_cycle_policies": {
+      "cycle_interval": "1 month",
+      "cycle_due_interval": "1 month",
+      "close_of_business_time": "22:00:00-00:00",
+      "product_time_zone": "America/Los_Angeles"
+    },
+    "interest_policies": {
+      "interest_calc_time": "11:21:04-08:00"
+    },
+    "default_attributes": {
+      "default_credit_limit_cents": 6000
+    }
+  },
+  "promotional_policies": {
+    "promo_len": 0
+  },
+  "post_promotional_policies": {
+    "post_promo_len": 10
+  }
+}

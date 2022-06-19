@@ -1,0 +1,11 @@
+﻿tc_name,index,account_effective_dt,origination_fee_cents,initial_principle_in_cents,late_fee_cents,monthly_fee_cents,annual_fee_cents
+PP2733 - statement with manual fee and verify balances,1,2021-12-05T02:18:27-08:00,0,300000,0,0,0
+PP2733A - Manual fee for two cycle and check the statements,2,2021-12-05T02:18:27-08:00,0,300000,0,0,0
+PP2733B - Manual fee and payment in same cycle,3,2021-12-05T02:18:27-08:00,0,300000,0,0,0
+PP2733C - Manual fee and payment in second cycle,4,2021-12-05T02:18:27-08:00,0,300000,0,0,0
+PP2733D - Manual fee and payment in next cycle,5,2021-12-05T02:18:27-08:00,0,300000,0,0,0
+PP2733E - Manual fee for two cycles and payment in second cycle,6,2021-12-05T02:18:27-08:00,0,300000,0,0,0
+PP2733F - Manual fee payment of partial principle in same cycle,7,2021-12-05T02:18:27-08:00,0,300000,0,0,0
+PP2733G - Manual fee payment of partial principle in next cycle,8,2021-12-05T02:18:27-08:00,0,300000,0,0,0
+PP2733H - Manual fee and full payment for same cycle,9,2021-12-05T02:18:27-08:00,0,300000,0,0,0
+PP2733I - Manual fee and full payment for next cycle,10,2021-12-05T02:18:27-08:00,0,300000,0,0,0

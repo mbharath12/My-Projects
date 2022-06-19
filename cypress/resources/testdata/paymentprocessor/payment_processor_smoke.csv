@@ -1,0 +1,6 @@
+tc_name,index,product_type,account_json_file_name,account_effective_at,default_payment_process_method,processor_name
+PP865 - Configured during account onboarding - REPAY - ACH with Account details,1,revolving,account_payment_processor_ach_repay.json,2021-03-20T09:11:28+00:00,ACH,REPAY
+PP871 - Configured during account onboarding - REPAY - Debit card with Account detail,2,revolving,account_payment_processor_debit_card_repay.json,2021-03-20T09:11:28+00:00,DEBIT_CARD,REPAY
+PP914 - Configured during account onboarding - DWOLLA - ACH with Account detail,3,revolving,account_payment_processor_ach_dwolla.json,2021-03-20T09:11:28+00:00,ACH,DWOLLA
+PP951 - Configured during account onboarding - Modern Treasury - ACH with Account detail,4,revolving,account_payment_processor_ach_modern_treasury.json,2021-03-20T09:11:28+00:00,ACH,MODERN_TREASURY
+PP988 - Configured during account onboarding - CheckOut - credit card with Account detail,5,credit,account_payment_processor_credit_card_checkout.json,2021-03-20T09:11:28+00:00,CREDIT_CARD,CHECKOUT

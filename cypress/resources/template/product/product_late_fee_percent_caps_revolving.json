@@ -1,0 +1,47 @@
+{
+  "effective_at": "2016-12-27T13:19:56+00:00",
+  "product_overview": {
+    "product_name": "Daily Due",
+    "product_type": "REVOLVING",
+    "product_short_description": "overdraft",
+    "product_long_description": "Revolving LOC.",
+    "product_color": "#0000FF"
+  },
+  "product_lifecycle_policies": {
+    "payment_due_policies": {
+      "delinquent_on_n_consecutive_late_fees": 99,
+      "charge_off_on_n_consecutive_late_fees": 99999
+    },
+    "fee_policies": {
+      "late_fee_grace": "0 days"
+    },
+    "billing_cycle_policies": {
+      "cycle_interval": "2 months",
+      "cycle_due_interval": "2 days",
+      "first_cycle_interval": "0 days",
+      "close_of_business_time": "17:00:00-05:00",
+      "product_time_zone": "America/Chicago"
+    },
+    "interest_policies": {
+      "interest_calc_time": "11:21:04-08:00"
+    },
+    "default_attributes": {
+      "default_credit_limit_cents": 6000
+    }
+  },
+  "promotional_policies": {
+    "promo_len": 6,
+    "promo_min_pay_type": "PERCENT_INTEREST",
+    "promo_purchase_window_len": 0,
+    "promo_interest_deferred": false,
+    "promo_default_interest_rate_percent": 13.99,
+    "promo_min_pay_percent": 50,
+    "promo_apr_range_inclusive_lower": 0,
+    "promo_apr_range_inclusive_upper": 0
+  },
+  "post_promotional_policies": {
+    "post_promo_len": 12,
+    "post_promo_default_interest_rate_percent": 9,
+    "post_promo_min_pay_type": "AM"
+  }
+}

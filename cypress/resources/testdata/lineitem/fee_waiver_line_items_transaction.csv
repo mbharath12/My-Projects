@@ -1,0 +1,120 @@
+tc_name,index,type,roll_date,effective_at,transaction_date,original_amount_cents,exp_line_item_type,exp_original_amount_cents,exp_balance_cents,exp_principal_cents,exp_interest_balance_cents,exp_deferred_interest_balance_cents,exp_am_deferred_interest_balance_cents,exp_am_interest_balance_cents,exp_total_interest_paid_to_date_cents,exp_description
+PP1485-Attempt to revert Origination fee using revolving product,1,getlineitem,,2021-11-07T,,,ORIG_FEE,,,,,,,,,origination_fee_cents
+PP1485-Attempt to revert Origination fee using revolving product,2,validation,,,2021-11-07T,,ORIG_FEE,20000,20000,0,0,0,0,0,0,origination_fee_cents
+PP1485-Attempt to revert Origination fee using revolving product,3,validation,,,2021-11-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents
+PP1485-Attempt to revert Origination fee using revolving product,4,charge,,2021-11-07T11:15:03-05:00,,2000,,,,,,,,,,
+PP1485-Attempt to revert Origination fee using revolving product,5,validation,,,2021-11-07T,,CHARGE,2000,2000,2000,0,0,0,0,0,initial_principal_cents
+PP1485-Attempt to revert Origination fee using revolving product,6,feereversal,,,,,,,,,,,,,,
+PP1485-Attempt to revert Origination fee using revolving product,7,validation,2021-12-09T11:15:03-05:00,,,,FEE_REVERSAL,-20000,0,0,0,0,0,0,0,upd payment principal_cents: -20000 + 20000
+PP2027-Attempt to revert Origination fee using installment product,8,getlineitem,,2021-11-07T,,,ORIG_FEE,,,,,,,,,origination_fee_cents
+PP2027-Attempt to revert Origination fee using installment product,9,validation,,,2021-11-07T,,ORIG_FEE,20000,20000,0,0,0,0,0,0,origination_fee_cents
+PP2027-Attempt to revert Origination fee using installment product,10,validation,2021-11-09T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,0,0,0,0,0,0,0,initial_principal_cents
+PP2027-Attempt to revert Origination fee using installment product,11,validation,,,2021-11-07T,,LOAN,100000,100000,100000,0,0,0,0,0,roll up loan
+PP2027-Attempt to revert Origination fee using installment product,12,validation,2021-11-09T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,0,0,0,0,0,0,0,initial_principal_cents
+PP2027-Attempt to revert Origination fee using installment product,13,charge,,2021-11-10T11:15:03-05:00,,2000,,,,,,,,,,
+PP2027-Attempt to revert Origination fee using installment product,14,validation,2021-10-11T11:15:03-05:00,,2021-11-10T,,CHARGE,2000,2000,2000,0,0,0,0,0,initial_principal_cents
+PP2027-Attempt to revert Origination fee using installment product,15,feereversal,,,,,,,,,,,,,,
+PP2027-Attempt to revert Origination fee using installment product,16,validation,2021-12-09T11:15:03-05:00,,,,FEE_REVERSAL,-20000,0,0,0,0,0,0,0,upd payment principal_cents: -20000 + 20000
+PP2028-Attempt to revert Origination fee using charge product,17,getlineitem,,2021-11-07T,,,ORIG_FEE,,,,,,,,,origination_fee_cents
+PP2028-Attempt to revert Origination fee using charge product,18,validation,,,2021-11-07T,,ORIG_FEE,20000,20000,0,0,0,0,0,0,origination_fee_cents
+PP2028-Attempt to revert Origination fee using charge product,19,validation,2021-11-09T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents
+PP2028-Attempt to revert Origination fee using charge product,20,charge,,2021-11-10T11:15:03-05:00,,2000,,,,,,,,,,
+PP2028-Attempt to revert Origination fee using charge product,21,validation,2021-10-11T11:15:03-05:00,,2021-11-10T,,CHARGE,2000,2000,2000,0,0,0,0,0,initial_principal_cents
+PP2028-Attempt to revert Origination fee using charge product,22,feereversal,,,,,,,,,,,,,,
+PP2028-Attempt to revert Origination fee using charge product,23,validation,2021-12-09T11:15:03-05:00,,,,FEE_REVERSAL,-20000,0,0,0,0,0,0,0,upd payment principal_cents: -20000 + 20000
+PP2029-Attempt to revert Origination fee using credit product,24,getlineitem,,2021-11-07T,,,ORIG_FEE,,,,,,,,,origination_fee_cents
+PP2029-Attempt to revert Origination fee using credit product,25,validation,,,2021-11-07T,,ORIG_FEE,20000,20000,0,0,0,0,0,0,origination_fee_cents
+PP2029-Attempt to revert Origination fee using credit product,26,validation,2021-11-09T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents
+PP2029-Attempt to revert Origination fee using credit product,27,charge,,2021-11-10T11:15:03-05:00,,2000,,,,,,,,,,
+PP2029-Attempt to revert Origination fee using credit product,28,validation,2021-10-11T11:15:03-05:00,,2021-11-10T,,CHARGE,2000,2000,2000,0,0,0,0,0,initial_principal_cents
+PP2029-Attempt to revert Origination fee using credit product,29,feereversal,,,,,,,,,,,,,,
+PP2029-Attempt to revert Origination fee using credit product,30,validation,2021-12-09T11:15:03-05:00,,,,FEE_REVERSAL,-20000,0,0,0,0,0,0,0,upd payment principal_cents: -20000 + 20000
+PP1486-Attempt to revert Monthly fee using revolving product,31,validation,2021-11-24T11:15:03-05:00,,2021-10-22T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents
+PP1486-Attempt to revert Monthly fee using revolving product,32,getlineitem,,2021-10-31T,,,MONTH_FEE,,,,,,,,,
+PP1486-Attempt to revert Monthly fee using revolving product,33,validation,,,2021-10-31T,,MONTH_FEE,20000,20000,0,0,0,0,0,0,monthly_fee_cents
+PP1486-Attempt to revert Monthly fee using revolving product,34,feereversal,,,,,,,,,,,,,,
+PP1486-Attempt to revert Monthly fee using revolving product,35,validation,2021-12-09T11:15:03-05:00,,,,FEE_REVERSAL,-20000,0,0,0,0,0,0,0,upd payment principal_cents: -20000 + 20000
+PP2030-Attempt to revert Monthly fee using installment product,36,validation,2021-10-23T11:15:03-05:00,,2021-10-22T,,CHARGE,100000,0,0,0,0,0,0,0,initial_principal_cents
+PP2030-Attempt to revert Monthly fee using installment product,37,validation,2021-11-24T11:15:03-05:00,,2021-10-22T,,LOAN,100000,100000,100000,0,0,0,0,0,roll up loan
+PP2030-Attempt to revert Monthly fee using installment product,38,getlineitem,,2021-10-31T,,,MONTH_FEE,,,,,,,,,
+PP2030-Attempt to revert Monthly fee using installment product,39,validation,,,2021-10-31T,,MONTH_FEE,20000,20000,0,0,0,0,0,0,monthly_fee_cents
+PP2030-Attempt to revert Monthly fee using installment product,40,feereversal,,,,,,,,,,,,,,
+PP2030-Attempt to revert Monthly fee using installment product,41,validation,2021-12-30T11:15:03-05:00,,,,FEE_REVERSAL,-20000,0,0,0,0,0,0,0,upd payment principal_cents: -20000 + 20000
+PP2031-Attempt to revert Monthly fee using charge product,42,validation,2021-11-10T11:15:03-05:00,,2021-10-22T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents
+PP2031-Attempt to revert Monthly fee using charge product,43,getlineitem,,2021-10-31T,,,MONTH_FEE,,,,,,,,,
+PP2031-Attempt to revert Monthly fee using charge product,44,validation,,,2021-10-31T,,MONTH_FEE,20000,20000,0,0,0,0,0,0,monthly_fee_cents
+PP2031-Attempt to revert Monthly fee using charge product,45,feereversal,,,,,,,,,,,,,,
+PP2031-Attempt to revert Monthly fee using charge product,46,validation,2021-12-09T11:15:03-05:00,,,,FEE_REVERSAL,-20000,0,0,0,0,0,0,0,upd payment principal_cents: -20000 + 20000
+PP2032-Attempt to revert Monthly fee using credit product,47,validation,2021-11-30T11:15:03-05:00,,2021-10-22T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents
+PP2032-Attempt to revert Monthly fee using credit product,48,getlineitem,,2021-10-31T,,,MONTH_FEE,,,,,,,,,
+PP2032-Attempt to revert Monthly fee using credit product,49,validation,,,2021-10-31T,,MONTH_FEE,20000,20000,0,0,0,0,0,0,monthly_fee_cents
+PP2032-Attempt to revert Monthly fee using credit product,50,feereversal,,,,,,,,,,,,,,
+PP2032-Attempt to revert Monthly fee using credit product,51,validation,2021-12-09T11:15:03-05:00,,,,FEE_REVERSAL,-20000,0,0,0,0,0,0,0,upd payment principal_cents: -20000 + 20000
+PP1487-Attempt to revert Annual fee using revolving product,52,validation,2021-01-08T12:16:08-04:00,,2020-09-11T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents
+PP1487-Attempt to revert Annual fee using revolving product,53,getlineitem,,2020-12-31T,,,YEAR_FEE,,,,,,,,,
+PP1487-Attempt to revert Annual fee using revolving product,54,validation,,,2020-12-31T,,YEAR_FEE,11500,11500,0,0,0,0,0,0,year_fee_cents
+PP1487-Attempt to revert Annual fee using revolving product,55,feereversal,,,,,,,,,,,,,,
+PP1487-Attempt to revert Annual fee using revolving product,56,validation,2022-02-10T11:15:03-05:00,,,,FEE_REVERSAL,-11500,0,0,0,0,0,0,0,upd payment principal_cents: -11500 + 11500
+PP2033-Attempt to revert Annual fee using Installment product,56,validation,,,2020-09-11T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents
+PP2033-Attempt to revert Annual fee using Installment product,56,validation,2021-01-08T12:16:08-04:00,,2020-09-11T,,LOAN,100000,100000,100000,0,0,0,0,0,roll up loan
+PP2033-Attempt to revert Annual fee using Installment product,53,getlineitem,,2020-12-31T,,,YEAR_FEE,,,,,,,,,
+PP2033-Attempt to revert Annual fee using Installment product,54,validation,,,2020-12-31T,,YEAR_FEE,11500,11500,0,0,0,0,0,0,year_fee_cents
+PP2033-Attempt to revert Annual fee using Installment product,55,feereversal,,,,,,,,,,,,,,
+PP2033-Attempt to revert Annual fee using Installment product,56,validation,2022-02-10T11:15:03-05:00,,,,FEE_REVERSAL,-11500,0,0,0,0,0,0,0,upd payment principal_cents: -11500 + 11500
+PP2034-Attempt to revert Annual fee using charge product,57,validation,2021-11-10T11:15:03-05:00,,2020-09-11T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents
+PP2034-Attempt to revert Annual fee using charge product,58,getlineitem,,2020-12-31T,,,YEAR_FEE,,,,,,,,,
+PP2034-Attempt to revert Annual fee using charge product,59,validation,,,2020-12-31T,,YEAR_FEE,11500,11500,0,0,0,0,0,0,year_fee_cents
+PP2034-Attempt to revert Annual fee using charge product,60,feereversal,,,,,,,,,,,,,,
+PP2034-Attempt to revert Annual fee using charge product,61,validation,2022-02-10T11:15:03-05:00,,,,FEE_REVERSAL,-11500,0,0,0,0,0,0,0,upd payment principal_cents: -11500 + 11500
+PP2035-Attempt to revert Annual fee using credit product,62,validation,2021-11-10T11:15:03-05:00,,2020-09-11T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents
+PP2035-Attempt to revert Annual fee using credit product,63,getlineitem,,2020-12-31T,,,YEAR_FEE,,,,,,,,,
+PP2035-Attempt to revert Annual fee using credit product,64,validation,,,2020-12-31T,,YEAR_FEE,11500,11500,0,0,0,0,0,0,year_fee_cents
+PP2035-Attempt to revert Annual fee using credit product,65,feereversal,,,,,,,,,,,,,,
+PP2035-Attempt to revert Annual fee using credit product,66,validation,2022-02-10T11:15:03-05:00,,,,FEE_REVERSAL,-11500,0,0,0,0,0,0,0,upd payment principal_cents: -11500 + 11500
+PP1488-Attempt to revert Late fee using revolving product,31,validation,2021-11-30T11:15:03-05:00,,2021-11-15T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents
+PP1488-Attempt to revert Late fee using revolving product,32,getlineitem,,2021-11-24T,,,LATE_FEE,,,,,,,,,
+PP1488-Attempt to revert Late fee using revolving product,33,validation,2021-12-28T11:15:03-05:00,,2021-11-24T,,LATE_FEE,5800,5800,0,0,0,0,0,0,late fee
+PP1488-Attempt to revert Late fee using revolving product,34,feereversal,,,,,,,,,,,,,,
+PP1488-Attempt to revert Late fee using revolving product,35,validation,2022-12-09T11:15:03-05:00,,,,FEE_REVERSAL,-5800,0,0,0,0,0,0,0,upd payment principal_cents: -5800 + 5800
+PP2036-Attempt to revert Late fee using Installment product,36,validation,2021-11-04T11:15:03-05:00,,2021-11-01T,,CHARGE,100000,0,0,0,0,0,0,0,initial_principal_cents
+PP2036-Attempt to revert Late fee using Installment product,37,validation,2021-11-16T11:15:03-05:00,,2021-11-01T,,LOAN,100000,100000,100000,0,0,0,0,0,roll up loan
+PP2036-Attempt to revert Late fee using Installment product,38,getlineitem,,2021-11-12T,,,LATE_FEE,,,,,,,,,
+PP2036-Attempt to revert Late fee using Installment product,39,validation,2021-11-20T11:15:03-05:00,,2021-11-12T,,LATE_FEE,5800,5800,0,0,0,0,0,0,late fee
+PP2036-Attempt to revert Late fee using Installment product,40,feereversal,,,,,,,,,,,,,,
+PP2036-Attempt to revert Late fee using Installment product,41,validation,2022-12-09T11:15:03-05:00,,,,FEE_REVERSAL,-5800,0,0,0,0,0,0,0,upd payment principal_cents: -5800 + 5800
+PP2037-Attempt to revert Late fee using Charge product,31,validation,2021-11-30T11:15:03-05:00,,2021-10-15T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents
+PP2037-Attempt to revert Late fee using Charge product,32,getlineitem,,2021-11-19T,,,LATE_FEE,,,,,,,,,
+PP2037-Attempt to revert Late fee using Charge product,33,validation,2021-12-28T11:15:03-05:00,,2021-11-19T,,LATE_FEE,5800,5800,0,0,0,0,0,0,late fee
+PP2037-Attempt to revert Late fee using Charge product,34,feereversal,,,,,,,,,,,,,,
+PP2037-Attempt to revert Late fee using Charge product,35,validation,2022-12-09T11:15:03-05:00,,,,FEE_REVERSAL,-5800,0,0,0,0,0,0,0,upd payment principal_cents: -5800 + 5800
+PP2038-Attempt to revert Late fee using credit product,31,validation,2021-11-30T11:15:03-05:00,,2021-11-15T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents
+PP2038-Attempt to revert Late fee using credit product,32,getlineitem,,2021-11-24T,,,LATE_FEE,,,,,,,,,
+PP2038-Attempt to revert Late fee using credit product,33,validation,2021-12-28T11:15:03-05:00,,2021-11-24T,,LATE_FEE,5800,5800,0,0,0,0,0,0,late fee
+PP2038-Attempt to revert Late fee using credit product,34,feereversal,,,,,,,,,,,,,,
+PP2038-Attempt to revert Late fee using credit product,35,validation,2021-12-09T11:15:03-05:00,,,,FEE_REVERSAL,-5800,0,0,0,0,0,0,0,upd payment principal_cents: -5800 + 5800
+PP1489-Attempt to revert Payment reversal fees using revolving product,31,validation,2021-11-30T11:15:03-05:00,,2021-11-15T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents
+PP1489-Attempt to revert Payment reversal fees using revolving product,32,getlineitem,,2021-11-24T,,,PAYMENT_REVERSAL_FEE,,,,,,,,,
+PP1489-Attempt to revert Payment reversal fees using revolving product,33,validation,2021-12-28T11:15:03-05:00,,2021-11-24T,,PAYMENT_REVERSAL_FEE,3000,3000,0,0,0,0,0,0,payment reversal fee
+PP1489-Attempt to revert Payment reversal fees using revolving product,34,feereversal,,,,,,,,,,,,,,
+PP1489-Attempt to revert Payment reversal fees using revolving product,35,validation,2022-12-09T11:15:03-05:00,,,,FEE_REVERSAL,-3000,0,0,0,0,0,0,0,upd payment principal_cents: -3000 + 3000
+PP2039-Attempt to revert Payment reversal fees using installment product,36,validation,2021-11-30T11:15:03-05:00,,2021-11-15T,,CHARGE,100000,0,0,0,0,0,0,0,initial_principal_cents
+PP2039-Attempt to revert Payment reversal fees using installment product,37,validation,2021-11-30T11:15:03-05:00,,2021-11-15T,,LOAN,100000,100000,100000,0,0,0,0,0,roll up loan
+PP2039-Attempt to revert Payment reversal fees using installment product,38,getlineitem,,2021-11-19T,,,PAYMENT_REVERSAL_FEE,,,,,,,,,
+PP2039-Attempt to revert Payment reversal fees using installment product,39,validation,2021-11-20T11:15:03-05:00,,2021-11-19T,,PAYMENT_REVERSAL_FEE,3000,3000,0,0,0,0,0,0,payment reversal fee
+PP2039-Attempt to revert Payment reversal fees using installment product,40,feereversal,,,,,,,,,,,,,,
+PP2039-Attempt to revert Payment reversal fees using installment product,41,validation,2021-12-09T11:15:03-05:00,,,,FEE_REVERSAL,-3000,0,0,0,0,0,0,0,upd payment principal_cents: -3000 + 3000
+PP2040-Attempt to revert Payment reversal fees using charge product,42,validation,2021-11-30T11:15:03-05:00,,2021-11-15T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents
+PP2040-Attempt to revert Payment reversal fees using charge product,43,getlineitem,,2021-11-26T,,,PAYMENT_REVERSAL_FEE,,,,,,,,,
+PP2040-Attempt to revert Payment reversal fees using charge product,44,validation,2021-12-28T11:15:03-05:00,,2021-11-26T,,PAYMENT_REVERSAL_FEE,3000,3000,0,0,0,0,0,0,payment reversal fee
+PP2040-Attempt to revert Payment reversal fees using charge product,45,feereversal,,,,,,,,,,,,,,
+PP2040-Attempt to revert Payment reversal fees using charge product,46,validation,2021-12-09T11:15:03-05:00,,,,FEE_REVERSAL,-3000,0,0,0,0,0,0,0,upd payment principal_cents: -3000 + 3000
+PP2041-Attempt to revert Payment reversal fees using credit product,47,validation,2021-11-30T11:15:03-05:00,,2021-11-15T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents
+PP2041-Attempt to revert Payment reversal fees using credit product,48,getlineitem,,2021-11-24T,,,PAYMENT_REVERSAL_FEE,,,,,,,,,
+PP2041-Attempt to revert Payment reversal fees using credit product,49,validation,2021-12-28T11:15:03-05:00,,2021-11-24T,,PAYMENT_REVERSAL_FEE,3000,3000,0,0,0,0,0,0,payment reversal fee
+PP2041-Attempt to revert Payment reversal fees using credit product,50,feereversal,,,,,,,,,,,,,,
+PP2041-Attempt to revert Payment reversal fees using credit product,51,validation,2021-12-09T11:15:03-05:00,,,,FEE_REVERSAL,-3000,0,0,0,0,0,0,0,upd payment principal_cents: -3000 + 3000
+PP1490-Attempt to revert surcharge reversal fees using revolving product,53,validation,2021-11-19T11:15:03-05:00,,2021-10-15T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents
+PP1490-Attempt to revert surcharge reversal fees using revolving product,54,getlineitem,,2021-10-31T,,,FEE_SURCHARGE,,,,,,,,,
+PP1490-Attempt to revert surcharge reversal fees using revolving product,55,validation,2021-12-28T11:15:03-05:00,,2021-10-31T,,FEE_SURCHARGE,10000,10000,0,0,0,0,0,0,surcharge fee
+PP1490-Attempt to revert surcharge reversal fees using revolving product,56,feereversal,,,,,,,,,,,,,,
+PP1490-Attempt to revert surcharge reversal fees using revolving product,57,validation,2021-12-09T11:15:03-05:00,,,,FEE_REVERSAL,-10000,0,0,0,0,0,0,0,upd payment principal_cents: -10000 + 10000

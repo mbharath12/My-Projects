@@ -1,0 +1,43 @@
+{
+  "effective_at": "2021-09-01T02:18:27-08:00",
+  "product_id": "{{product_id}}",
+  "external_fields": [
+    {
+      "key": "Channel",
+      "value": "mobile"
+    }
+  ],
+  "cycle_type": {
+    "first_cycle_interval": "11 days",
+    "late_fee_grace": "2 days",
+    "surcharge_fee_interval": "1 month",
+      "default_surcharge_fee_structure": [
+        {"surcharge_start_inclusive_cents": 0, "surcharge_end_exclusive_cents": 5000000, "percent_surcharge": 2}
+      ] 
+  },
+  
+  "summary": {
+    "credit_limit_cents": 300000,
+    "max_approved_credit_limit_cents": 300000,
+    "late_fee_cents": 0,
+    "payment_reversal_fee_cents": 0,
+    "initial_principal_cents": 0,
+    "origination_fee_cents": 0,
+    "monthly_fee_cents": 0,
+    "annual_fee_cents": 0
+  },
+  "promo_overview": {
+    "promo_impl_interest_rate_percent": 0
+  },
+  "post_promo_overview": {},
+  "associated_entities": {
+    "merchant_name": "Amorphous Corp",
+    "lender_name": "Federal Globex Lending Corp"
+  },
+  "assign_customers": [
+    {
+      "customer_id": "{{customer_id}}",
+      "customer_account_role": "PRIMARY"
+    }
+  ]
+}

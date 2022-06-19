@@ -1,0 +1,43 @@
+module.exports = {
+  extends: [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:cypress/recommended",
+  ],
+  ignorePatterns: ["node_modules", ".build"],
+  env: {node: true},
+  parser: "@typescript-eslint/parser",
+  parserOptions: {
+    project: "./tsconfig.json",
+    tsconfigRootDir: "./",
+    sourceType: "module",
+    ecmaVersion: 2018,
+  },
+  plugins: ["@typescript-eslint"],
+  globals: {
+    console: true,
+    crypto: true,
+    expect: true,
+    describe: true,
+    test: true,
+    it: true,
+  },
+  rules: {
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/ban-types": "off",
+    "@typescript-eslint/no-unused-vars": "warn",
+    "no-useless-return": "warn",
+    "no-console": "error",
+    "no-trailing-spaces": "warn",
+    "operator-linebreak": "warn",
+    "object-curly-spacing": "warn",
+  },
+  settings: {
+    "import/parsers": {"@typescript-eslint/parser": [".ts", ".tsx"]},
+    "import/resolver": {typescript: {}},
+  },
+  ignorePatterns: [".eslintrc.js"],
+};

@@ -1,0 +1,50 @@
+[
+  {
+    "tc_name": "pp1414A - Verify credit report portfolio type and account type for installment",
+    "index": "1",
+    "product_type": "payment_product.json",
+    "account_effective_at": "2021-10-15T02:18:27-08:00",
+    "portfolio_type": "I",
+    "account_type": "01"
+  },
+  {
+    "tc_name": "pp1415 - Verify credit report portfolio type and account type for credit",
+    "index": "2",
+    "product_type": "product_credit.json",
+    "account_effective_at": "2021-09-30T02:18:27-08:00",
+    "portfolio_type": "I",
+    "account_type": "01"
+  },
+  {
+    "tc_name": "pp1416 - Verify credit report portfolio type and account type for charge card",
+    "index": "3",
+    "product_type": "product_charge.json",
+    "account_effective_at": "2021-09-10T02:18:27-08:00",
+    "portfolio_type": "C",
+    "account_type": "15"
+  },
+  {
+    "tc_name": "pp1417 - Verify credit report portfolio type and account type for revolving loc",
+    "index": "4",
+    "product_type": "product_revolving.json",
+    "account_effective_at": "2021-09-10T02:18:27-08:00",
+    "portfolio_type": "I",
+    "account_type": "01"
+  },
+  {
+    "tc_name": "pp1418 - Verify credit report portfolio type and account type for bnpl",
+    "index": "5",
+    "product_type": "product1.json",
+    "account_effective_at": "2021-09-10T02:18:27-08:00",
+    "portfolio_type": "C",
+    "account_type": "15"
+  },
+  {
+    "tc_name": "pp1419 - Verify credit report portfolio type and account type for multi advance",
+    "index": "6",
+    "product_type": "multi_advance_product.json",
+    "account_effective_at": "2021-08-10T02:18:27-08:00",
+    "portfolio_type": "I",
+    "account_type": "01"
+  }
+]

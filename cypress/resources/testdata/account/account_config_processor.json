@@ -1,0 +1,90 @@
+[
+  {
+    "tc_name": "pp1257 - verify Payment Processor name set to none",
+    "index": "1",
+    "account_json_file_name": "account_payment_processor_ach_repay.json",
+    "account_effective_at": "2021-08-10T02:18:27-08:00",
+    "payment_processor_name": "NONE",
+    "default_payment_processor_method": "ACH",
+    "check_payment_process_method": "",
+    "autoEnabled": "TRUE",
+    "status_code": "404"
+  },
+  {
+    "tc_name": "pp1258 - verify Payment Processor setup for ACH",
+    "index": "2",
+    "account_json_file_name": "account_payment_processor_ach_repay.json",
+    "account_effective_at": "2021-08-15T02:18:27-08:00",
+    "payment_processor_name": "REPAY",
+    "default_payment_processor_method": "ACH",
+    "check_payment_process_method": "ACH",
+    "autoEnabled": "TRUE",
+    "status_code": "200"
+  },
+  {
+    "tc_name": "pp1259 - verify Payment Processor setup for Debitcard",
+    "index": "3",
+    "account_json_file_name": "account_payment_processor_debit_card_repay.json",
+    "account_effective_at": "2021-08-15T02:18:27-08:00",
+    "payment_processor_name": "REPAY",
+    "default_payment_processor_method": "DEBIT_CARD",
+    "check_payment_process_method": "DEBIT_CARD",
+    "autoEnabled": "TRUE",
+    "status_code": "200"
+  },
+  {
+    "tc_name": "pp1263 - verify Payment Processor setup for DWOLLA",
+    "index": "4",
+    "account_json_file_name": "account_payment_processor_ach_dwolla.json",
+    "account_effective_at": "2021-08-10T02:18:27-08:00",
+    "payment_processor_name": "DWOLLA",
+    "default_payment_processor_method": "ACH",
+    "check_payment_process_method": "ACH",
+    "autoEnabled": "TRUE",
+    "status_code": "200"
+  },
+  {
+    "tc_name": "pp1264 - verify Payment Processor setup for Moderntreasury",
+    "index": "5",
+    "account_json_file_name": "account_payment_processor_ach_modern_treasury.json",
+    "account_effective_at": "2021-08-10T02:18:27-08:00",
+    "payment_processor_name": "MODERN_TREASURY",
+    "default_payment_processor_method": "ACH",
+    "check_payment_process_method": "ACH",
+    "autoEnabled": "TRUE",
+    "status_code": "200"
+  },
+  {
+    "tc_name": "pp1268 - verify Payment Processor setup for Checkout",
+    "index": "6",
+    "account_json_file_name": "account_payment_processor_credit_card_checkout.json",
+    "account_effective_at": "2021-08-05T02:18:27-08:00",
+    "payment_processor_name": "CHECKOUT",
+    "default_payment_processor_method": "CREDIT_CARD",
+    "check_payment_process_method": "CREDIT_CARD",
+    "autoEnabled": "TRUE",
+    "status_code": "200"
+  },
+  {
+    "tc_name": "pp1272 - verify autopay is not triggered for the account default_payment_processor is set to None and Auto Pay enabled field is set to True",
+    "index": "7",
+    "account_json_file_name": "account_payment_processor_debit_card_repay.json",
+    "account_effective_at": "2021-08-05T02:18:27-08:00",
+    "payment_processor_name": "REPAY",
+    "default_payment_processor_method": "NONE",
+    "check_payment_process_method": "",
+    "autoEnabled": "TRUE",
+    "status_code": "400"
+  },
+  {
+    "tc_name": "pp1273 - verify autopay is not triggered for the account default_payment_processor is set to None and Auto Pay enabled field is set to false",
+    "index": "8",
+    "account_json_file_name": "account_payment_processor_debit_card_repay.json",
+    "account_effective_at": "2021-08-05T02:18:27-08:00",
+    "payment_processor_name": "REPAY",
+    "default_payment_processor_method": "NONE",
+    "check_payment_process_method": "DEBIT_CARD",
+    "autoEnabled": "FALSE",
+    "status_code": "200"
+  }
+]

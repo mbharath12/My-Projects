@@ -1,0 +1,57 @@
+[
+  {
+    "tc_name": "API_132 - create account without repay_card_number",
+    "index": "1",
+    "repay_card_number": "delete",
+    "repay_exp_date": "722",
+    "repay_name_on_card": "John Doe",
+    "repay_street": "1234 Main Street",
+    "repay_zip": "85281",
+    "error_message": "Event object failed validation",
+    "detailed_error_message": "must have required property repay_card_number"
+  },
+  {
+    "tc_name": "API_133 - create account without repay_exp_date",
+    "index": "2",
+    "repay_card_number": "4620000000000000",
+    "repay_exp_date": "delete",
+    "repay_name_on_card": "John Doe",
+    "repay_street": "1234 Main Street",
+    "repay_zip": "85281",
+    "error_message": "Event object failed validation",
+    "detailed_error_message": "must have required property repay_exp_date"
+  },
+  {
+    "tc_name": "API_135- create account without repay_name_on_card",
+    "index": "3",
+    "repay_card_number": "4620000000000000",
+    "repay_exp_date": "722",
+    "repay_name_on_card": "delete",
+    "repay_street": "1234 Main Street",
+    "repay_zip": "85281",
+    "error_message": "Event object failed validation",
+    "detailed_error_message": "must have required property repay_name_on_card"
+  },
+  {
+    "tc_name": "API_136- create account without repay_street",
+    "index": "4",
+    "repay_card_number": "4620000000000000",
+    "repay_exp_date": "722",
+    "repay_name_on_card": "John Doe",
+    "repay_street": "delete",
+    "repay_zip": "85281",
+    "error_message": "Event object failed validation",
+    "detailed_error_message": "must have required property repay_street"
+  },
+  {
+    "tc_name": "API_137- create account without repay_zip",
+    "index": "5",
+    "repay_card_number": "4620000000000000",
+    "repay_exp_date": "722",
+    "repay_name_on_card": "John Doe",
+    "repay_street": "1234 Main Street",
+    "repay_zip": "delete",
+    "error_message": "Event object failed validation",
+    "detailed_error_message": "must have required property repay_zip"
+  }
+]

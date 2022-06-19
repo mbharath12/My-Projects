@@ -1,0 +1,71 @@
+tc_name,index,type,roll_date,effective_at,transaction_date,original_amount_cents,exp_line_item_type,exp_original_amount_cents,exp_balance_cents,exp_principal_cents,exp_interest_balance_cents,exp_deferred_interest_balance_cents,exp_am_deferred_interest_balance_cents,exp_am_interest_balance_cents,exp_total_interest_paid_to_date_cents,exp_description
+PP1483-Get Charge and Charge return Line items for a specific account on Revolving account,1,validation,2021-11-09T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents
+PP1483-Get Charge and Charge return Line items for a specific account on Revolving account,2,charge,,2021-11-10T11:15:03-05:00,,2000,,,,,,,,,,
+PP1483-Get Charge and Charge return Line items for a specific account on Revolving account,3,validation,2021-10-11T11:15:03-05:00,,2021-11-10T,,CHARGE,2000,2000,2000,0,0,0,0,0,initial_principal_cents
+PP1483-Get Charge and Charge return Line items for a specific account on Revolving account,4,debitoffset,,2021-11-12T11:15:03-05:00,,20,,,,,,,,,,
+PP1483-Get Charge and Charge return Line items for a specific account on Revolving account,5,validation,2021-11-13T12:16:16-04:00,,2021-11-12T,,DEBIT_OFFSET,-20,0,0,0,0,0,0,0,upd payment principal_cents: -20 + 20
+PP1945-Get Charge and Charge return Line items for a specific account on Installment account,6,validation,2021-11-09T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,0,0,0,0,0,0,0,initial_principal_cents
+PP1945-Get Charge and Charge return Line items for a specific account on Installment account,8,validation,2021-11-09T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,0,0,0,0,0,0,0,initial_principal_cents
+PP1945-Get Charge and Charge return Line items for a specific account on Installment account,9,charge,,2021-11-10T11:15:03-05:00,,2000,,,,,,,,,,
+PP1945-Get Charge and Charge return Line items for a specific account on Installment account,10,validation,2021-10-11T11:15:03-05:00,,2021-11-10T,,CHARGE,2000,2000,2000,0,0,0,0,0,initial_principal_cents
+PP1945-Get Charge and Charge return Line items for a specific account on Installment account,11,debitoffset,,2021-11-12T11:15:03-05:00,,20,,,,,,,,,,
+PP1945-Get Charge and Charge return Line items for a specific account on Installment account,12,validation,2021-11-13T12:16:16-04:00,,2021-11-12T,,DEBIT_OFFSET,-20,0,0,0,0,0,0,0,upd payment principal_cents: -20 + 20
+PP1945-Get Charge and Charge return Line items for a specific account on Installment account,13,validation,30,,,,LOAN,100000,100000,100000,0,0,0,0,0,roll up loan
+PP1946-Get Charge and Charge return Line items for a specific account on charge account,13,validation,2021-11-09T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents
+PP1946-Get Charge and Charge return Line items for a specific account on charge account,14,charge,,2021-11-10T11:15:03-05:00,,2000,,,,,,,,,,
+PP1946-Get Charge and Charge return Line items for a specific account on charge account,15,validation,2021-10-11T11:15:03-05:00,,2021-11-10T,,CHARGE,2000,2000,2000,0,0,0,0,0,initial_principal_cents
+PP1946-Get Charge and Charge return Line items for a specific account on charge account,16,debitoffset,,2021-11-12T11:15:03-05:00,,20,,,,,,,,,,
+PP1946-Get Charge and Charge return Line items for a specific account on charge account,17,validation,2021-11-13T12:16:16-04:00,,2021-11-12T,,DEBIT_OFFSET,-20,0,0,0,0,0,0,0,upd payment principal_cents: -20 + 20
+PP1947-Get Charge and Charge return Line items for a specific account on credit account,18,validation,2021-11-09T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents
+PP1947-Get Charge and Charge return Line items for a specific account on credit account,19,charge,,2021-11-10T11:15:03-05:00,,2000,,,,,,,,,,
+PP1947-Get Charge and Charge return Line items for a specific account on credit account,20,validation,2021-10-11T11:15:03-05:00,,2021-11-10T,,CHARGE,2000,2000,2000,0,0,0,0,0,initial_principal_cents
+PP1947-Get Charge and Charge return Line items for a specific account on credit account,21,debitoffset,,2021-11-12T11:15:03-05:00,,20,,,,,,,,,,
+PP1947-Get Charge and Charge return Line items for a specific account on credit account,22,validation,2021-11-13T12:16:16-04:00,,2021-11-12T,,DEBIT_OFFSET,-20,0,0,0,0,0,0,0,upd payment principal_cents: -20 + 20
+PP1484-Get Payment and Payment reversal Line items for a specific account on Revolving account ,23,validation,2021-11-09T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents
+PP1484-Get Payment and Payment reversal Line items for a specific account on Revolving account ,24,payment,,2021-11-12T11:15:03-05:00,,100000,,,,,,,,,,
+PP1484-Get Payment and Payment reversal Line items for a specific account on Revolving account ,25,validation,2021-11-13T11:15:03-05:00,,2021-11-12T,,PAYMENT,-100000,0,0,0,0,0,0,0,upd payment principal_cents: -100000 + 100000
+PP1484-Get Payment and Payment reversal Line items for a specific account on Revolving account ,26,paymentreversal,,,,,,,,,,,,,,
+PP1484-Get Payment and Payment reversal Line items for a specific account on Revolving account ,27,validation,30,,,,PAYMENT_REVERSAL,100000,100000,0,0,0,0,0,0,
+PP1948-Get Payment and Payment reversal Line items for a specific account on Installment account ,28,validation,2021-11-09T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,0,0,0,0,0,0,0,initial_principal_cents
+PP1948-Get Payment and Payment reversal Line items for a specific account on Installment account ,30,validation,2021-11-09T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,0,0,0,0,0,0,0,initial_principal_cents
+PP1948-Get Payment and Payment reversal Line items for a specific account on Installment account ,29,validation,30,,,,LOAN,100000,100000,100000,0,0,0,0,0,roll up loan
+PP1948-Get Payment and Payment reversal Line items for a specific account on Installment account ,31,payment,,2021-11-12T11:15:03-05:00,,100000,,,100000,0,,,,,,
+PP1948-Get Payment and Payment reversal Line items for a specific account on Installment account ,32,validation,2021-11-13T11:15:03-05:00,,2021-11-12T,,PAYMENT,-100000,0,0,0,0,0,0,0,"paid am loan: 100000, di 0"
+PP1948-Get Payment and Payment reversal Line items for a specific account on Installment account ,33,paymentreversal,,,,,,,,,,,,,,
+PP1948-Get Payment and Payment reversal Line items for a specific account on Installment account ,34,validation,30,,,,PAYMENT_REVERSAL,100000,100000,0,0,0,0,0,0,
+PP1949-Get Payment and Payment reversal Line items for a specific account on Charge account ,23,validation,30,,,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents
+PP1949-Get Payment and Payment reversal Line items for a specific account on Charge account ,24,payment,,-15,,100000,,,,,,,,,,
+PP1949-Get Payment and Payment reversal Line items for a specific account on Charge account ,25,validation,,,,,PAYMENT,-100000,0,0,0,0,0,0,0,upd payment principal_cents: -100000 + 100000
+PP1949-Get Payment and Payment reversal Line items for a specific account on Charge account ,26,paymentreversal,,,,,,,,,,,,,,
+PP1949-Get Payment and Payment reversal Line items for a specific account on Charge account ,27,validation,30,,,,PAYMENT_REVERSAL,100000,100000,0,0,0,0,0,0,
+PP1950-Get Payment and Payment reversal Line items for a specific account on Credit account ,23,validation,30,,,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents
+PP1950-Get Payment and Payment reversal Line items for a specific account on Credit account ,24,payment,,-15,,100000,,,,,,,,,,
+PP1950-Get Payment and Payment reversal Line items for a specific account on Credit account ,25,validation,,,,,PAYMENT,-100000,0,0,0,0,0,0,0,upd payment principal_cents: -100000 + 100000
+PP1950-Get Payment and Payment reversal Line items for a specific account on Credit account ,26,paymentreversal,,,,,,,,,,,,,,
+PP1950-Get Payment and Payment reversal Line items for a specific account on Credit account ,27,validation,30,,,,PAYMENT_REVERSAL,100000,100000,0,0,0,0,0,0,
+PP1482-Get multiple Line items for a specific account on Revolving product,28,validation,,,2021-11-07T,,ORIG_FEE,20000,20000,0,0,0,0,0,0,origination_fee_cents
+PP1482-Get multiple Line items for a specific account on Revolving product,29,validation,,,2021-11-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents
+PP1482-Get multiple Line items for a specific account on Revolving product,30,charge,,2021-11-07T11:15:03-05:00,,2000,,,,,,,,,,
+PP1482-Get multiple Line items for a specific account on Revolving product,31,validation,,,2021-11-07T,,CHARGE,2000,2000,2000,0,0,0,0,0,initial_principal_cents
+PP1482-Get multiple Line items for a specific account on Revolving product,32,debitoffset,,2021-11-07T11:15:03-05:00,,20,,,,,,,,,,
+PP1482-Get multiple Line items for a specific account on Revolving product,33,validation,,,2021-11-07T,,DEBIT_OFFSET,-20,-20,0,0,0,0,0,0,upd payment principal_cents: -20 + 20
+PP1951-Get multiple Line items for a specific account on Installment product,34,validation,,,2021-11-07T,,ORIG_FEE,20000,20000,0,0,0,0,0,0,origination_fee_cents
+PP1951-Get multiple Line items for a specific account on Installment product,35,validation,2021-11-09T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,0,0,0,0,0,0,0,initial_principal_cents
+PP1951-Get multiple Line items for a specific account on Installment product,37,validation,2021-11-09T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,0,0,0,0,0,0,0,initial_principal_cents
+PP1951-Get multiple Line items for a specific account on Installment product,38,charge,,2021-11-10T11:15:03-05:00,,2000,,,,,,,,,,
+PP1951-Get multiple Line items for a specific account on Installment product,39,validation,2021-10-11T11:15:03-05:00,,2021-11-10T,,CHARGE,2000,2000,2000,0,0,0,0,0,initial_principal_cents
+PP1951-Get multiple Line items for a specific account on Installment product,40,debitoffset,,2021-11-12T11:15:03-05:00,,20,,,,,,,,,,
+PP1951-Get multiple Line items for a specific account on Installment product,41,validation,2021-11-13T12:16:16-04:00,,2021-11-12T,,DEBIT_OFFSET,-20,0,0,0,0,0,0,0,upd payment principal_cents: -20 + 20
+PP1951-Get multiple Line items for a specific account on Installment product,36,validation,30,,,,LOAN,100000,100000,100000,0,0,0,0,0,roll up loan
+PP1952-Get multiple Line items for a specific account on Charge product,42,validation,,,2021-11-07T,,ORIG_FEE,20000,20000,0,0,0,0,0,0,origination_fee_cents
+PP1952-Get multiple Line items for a specific account on Charge product,43,validation,2021-11-09T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents
+PP1952-Get multiple Line items for a specific account on Charge product,44,charge,,2021-11-10T11:15:03-05:00,,2000,,,,,,,,,,
+PP1952-Get multiple Line items for a specific account on Charge product,45,validation,2021-10-11T11:15:03-05:00,,2021-11-10T,,CHARGE,2000,2000,2000,0,0,0,0,0,initial_principal_cents
+PP1952-Get multiple Line items for a specific account on Charge product,46,debitoffset,,2021-11-12T11:15:03-05:00,,20,,,,,,,,,,
+PP1952-Get multiple Line items for a specific account on Charge product,47,validation,2021-11-13T12:16:16-04:00,,2021-11-12T,,DEBIT_OFFSET,-20,0,0,0,0,0,0,0,upd payment principal_cents: -20 + 20
+PP1953-Get multiple Line items for a specific account on Credit product,48,validation,,,2021-11-07T,,ORIG_FEE,20000,20000,0,0,0,0,0,0,origination_fee_cents
+PP1953-Get multiple Line items for a specific account on Credit product,49,validation,2021-11-09T11:15:03-05:00,,2021-11-07T,,CHARGE,100000,100000,100000,0,0,0,0,0,initial_principal_cents
+PP1953-Get multiple Line items for a specific account on Credit product,50,charge,,2021-11-10T11:15:03-05:00,,2000,,,,,,,,,,
+PP1953-Get multiple Line items for a specific account on Credit product,51,validation,2021-10-11T11:15:03-05:00,,2021-11-10T,,CHARGE,2000,2000,2000,0,0,0,0,0,initial_principal_cents
+PP1953-Get multiple Line items for a specific account on Credit product,52,debitoffset,,2021-11-12T11:15:03-05:00,,20,,,,,,,,,,
+PP1953-Get multiple Line items for a specific account on Credit product,53,validation,2021-11-13T12:16:16-04:00,,2021-11-12T,,DEBIT_OFFSET,-20,0,0,0,0,0,0,0,upd payment principal_cents: -20 + 20

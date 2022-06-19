@@ -1,0 +1,47 @@
+[
+  {
+    "tc_name": "TC1168 - Create a Installment Product - 12 installments",
+    "index": "1",
+    "no_of_installments": "12",
+    "account_response_code": "200",
+    "product_effective_at": "2021-03-10T09:11:28+00:00",
+    "account_effective_at": "-10",
+    "check_am_schedule": "TRUE"
+  },
+  {
+    "tc_name": "TC1169 - Create a Installment Product - 24 installments",
+    "index": "2",
+    "no_of_installments": "24",
+    "account_response_code": "200",
+    "product_effective_at": "2021-03-10T09:11:28+00:00",
+    "account_effective_at": "-10",
+    "check_am_schedule": "TRUE"
+  },
+  {
+    "tc_name": "TC1170 - Create a Installment Product - 48 installments",
+    "index": "3",
+    "no_of_installments": "48",
+    "account_response_code": "200",
+    "product_effective_at": "2021-03-10T09:11:28+00:00",
+    "account_effective_at": "-10",
+    "check_am_schedule": "TRUE"
+  },
+  {
+    "tc_name": "TC1171 - Validate effective date should be current date for new products",
+    "index": "4",
+    "no_of_installments": "12",
+    "account_response_code": "200",
+    "product_effective_at": "0",
+    "account_effective_at": "0",
+    "check_am_schedule": "TRUE"
+  },
+  {
+    "tc_name": "TC1173 - Validate Account effective date cannot be allowed older than the linked Product effective date",
+    "index": "5",
+    "no_of_installments": "12",
+    "account_response_code": "400",
+    "product_effective_at": "0",
+    "account_effective_at": "-3",
+    "check_am_schedule": "FALSE"
+  }
+]

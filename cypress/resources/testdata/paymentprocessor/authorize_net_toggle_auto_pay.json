@@ -1,0 +1,22 @@
+[
+  {
+    "tc_name": "PP2267 - Authorize.net - Edit the Payment Processor config for an account - toggle Autopay from true to false",
+    "index": "1",
+    "account_effective_at": "2021-11-20T09:11:28+00:00",
+    "edit_config": "account_processor_config_debit_card_authorize_net.json",
+    "default_payment_process_method": "DEBIT_CARD",
+    "processor_name": "AUTHORIZE_NET",
+    "autoEnabled": "TRUE",
+    "toggleAutoEnabled": "FALSE"
+  },
+  {
+    "tc_name": "PP2268 - Authorize.net - Edit the Payment Processor config for an account - toggle Autopay from false to true",
+    "index": "2",
+    "account_effective_at": "2021-11-20T09:11:28+00:00",
+    "edit_config": "account_processor_config_debit_card_authorize_net.json",
+    "default_payment_process_method": "DEBIT_CARD",
+    "processor_name": "AUTHORIZE_NET",
+    "autoEnabled": "FALSE",
+    "toggleAutoEnabled": "TRUE"
+  }
+]

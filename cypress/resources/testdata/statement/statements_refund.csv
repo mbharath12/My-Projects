@@ -1,0 +1,9 @@
+﻿tc_name,index,product_type,product_json,account_effective_dt,origination_fee_cents,initial_principle_in_cents,late_fee_cents,monthly_fee_cents,annual_fee_cents,promo_impl_interest_rate_percent,post_promo_impl_interest_rate_percent,post_promo_impl_am_len
+PP2735 - Refund on revolving account and verify statement balances,1,Revolving,product_revolving.json,2021-11-05T02:18:27-08:00,0,200000,0,0,0,0,0,0
+PP2736 - Refund on revolving account with fees and verify statement balances,2,Revolving,product_revolving.json,2021-11-05T02:18:27-08:00,2500,200000,0,0,0,0,0,0
+PP2737 - Refund on revolving account with interest and verify statement balances,3,Revolving,product_revolving.json,2021-11-05T02:18:27-08:00,0,200000,0,0,0,50,0,0
+PP2738 - Refund on revolving account with both interest and fees and verify statement balances,4,Revolving,product_revolving.json,2021-11-05T02:18:27-08:00,2500,200000,0,0,0,50,0,0
+PP2739 - Refund on installment account and verify statement balances,5,installment,product_installment.json,2021-11-05T02:18:27-08:00,0,200000,0,0,0,0,0,1
+PP2740 - Refund on installment account with fees and verify statement balances,6,installment,product_installment.json,2021-11-05T02:18:27-08:00,2500,200000,0,0,0,0,0,1
+PP2741 - Refund on installment account with interest and verify statement balances,7,installment,product_installment.json,2021-11-05T02:18:27-08:00,0,200000,0,0,0,0,40,1
+PP2742 - Refund on installment account with both interest and fees and verify statement balances,8,installment,product_installment.json,2021-11-05T02:18:27-08:00,2500,200000,0,0,0,0,40,1

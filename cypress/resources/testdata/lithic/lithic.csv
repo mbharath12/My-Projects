@@ -1,0 +1,21 @@
+tc_name,index,cycle_interval,cycle_due_interval,type,state,memo,spend_limit,exp_type,exp_state,exp_status,exp_customer_role,exp_orig_fee,exp_min_pay_cents
+LC01 - Verify the API key is generated for the Organization,1,7 days,2 days,UNLOCKED,OPEN,UNLOCKED card,1000000,UNLOCKED,OPEN,ACTIVE,PRIMARY,20000,-1
+LC02 - Verify the Response for the Create new account end point contains the Account Status as Active,2,7 days,2 days,UNLOCKED,OPEN,UNLOCKED card,5000000,UNLOCKED,OPEN,ACTIVE,PRIMARY,20000,-1
+LC03 - Verify the customer id is same as the one created in the Lithic processing,3,7 days,2 days,MERCHANT_LOCKED,OPEN,MERCHANT LOCKED card,6000000,MERCHANT_LOCKED,OPEN,ACTIVE,PRIMARY,20000,-1
+LC04 - Verify the customer account role is same as the one created in the Lithic processing,4,7 days,2 days,SINGLE_USE,OPEN,SINGLE USE card,2000000,SINGLE_USE,OPEN,ACTIVE,PRIMARY,20000,-1
+LC05 - Verify the account id is same as the one created in the Lithic processing,5,7 days,2 days,UNLOCKED,OPEN,UNLOCKED card,3000000,UNLOCKED,OPEN,ACTIVE,PRIMARY,20000,-1
+LC06 - Verify the State of a new card can be Open,6,7 days,2 days,SINGLE_USE,OPEN,SINGLE USE card,3500000,SINGLE_USE,OPEN,ACTIVE,PRIMARY,20000,-1
+LC07 - Verify the State of a new card can be Paused,7,7 days,2 days,UNLOCKED,PAUSED,UNLOCKED card,4000000,UNLOCKED,PAUSED,ACTIVE,PRIMARY,20000,-1
+LC08 - Verify type of card that can be created by Lithic can be Unlocked,8,7 days,2 days,UNLOCKED,OPEN,UNLOCKED card,8000000,UNLOCKED,OPEN,ACTIVE,PRIMARY,20000,-1
+LC09 - Verify type of card that can be created by Lithic can be Merchant locked,9,7 days,2 days,MERCHANT_LOCKED,OPEN,MERCHANT LOCKED card,7000000,MERCHANT_LOCKED,OPEN,ACTIVE,PRIMARY,20000,-1
+LC010 - Verify type of card that can be created by Lithic can be Single use card,10,7 days,2 days,SINGLE_USE,PAUSED,SINGLE USE card,8500000,SINGLE_USE,PAUSED,ACTIVE,PRIMARY,20000,-1
+LC011 - Verify last four of the card,11,7 days,2 days,UNLOCKED,OPEN,UNLOCKED card,7500000,UNLOCKED,OPEN,ACTIVE,PRIMARY,20000,-1
+LC012 - Verify memo of the unlocked card,12,7 days,2 days,UNLOCKED,OPEN,UNLOCKED card,6500000,UNLOCKED,OPEN,ACTIVE,PRIMARY,20000,-1
+LC013 - Verify memo of the single use card,13,7 days,2 days,SINGLE_USE,OPEN,SINGLE USE card,5500000,SINGLE_USE,OPEN,ACTIVE,PRIMARY,20000,-1
+LC014 - Verify memo of the merchant card,14,7 days,2 days,MERCHANT_LOCKED,OPEN,MERCHANT LOCKED card,4500000,MERCHANT_LOCKED,OPEN,ACTIVE,PRIMARY,20000,-1
+LC015 - Verify token of the single use card,15,7 days,2 days,SINGLE_USE,OPEN,SINGLE USE card,500000,SINGLE_USE,OPEN,ACTIVE,PRIMARY,20000,-1
+LC016 - Verify token of the merchant card,16,7 days,2 days,MERCHANT_LOCKED,OPEN,MERCHANT LOCKED card,200000,MERCHANT_LOCKED,OPEN,ACTIVE,PRIMARY,20000,-1
+LC017 - Verify token of the unlocked card,17,7 days,2 days,UNLOCKED,OPEN,UNLOCKED card,9500000,UNLOCKED,OPEN,ACTIVE,PRIMARY,20000,-1
+LC018 - Verify the calculated Minimum payment due for the first cycle,18,1 month,5 days,UNLOCKED,OPEN,UNLOCKED card,10000000,UNLOCKED,OPEN,ACTIVE,PRIMARY,20000,20000
+LC019 - Verify the origination fees specified for the account is charged to the account,19,1 month,5 days,UNLOCKED,OPEN,UNLOCKED card,600000,UNLOCKED,OPEN,ACTIVE,PRIMARY,20000,-1
+LC020 - Verify the Spend limit for a Cardholder setup at Lithic will override the limit set up in this parameter,20,1 month,5 days,UNLOCKED,OPEN,UNLOCKED card,6200000,UNLOCKED,OPEN,ACTIVE,PRIMARY,20000,-1

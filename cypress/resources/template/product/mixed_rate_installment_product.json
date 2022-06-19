@@ -1,0 +1,51 @@
+{
+  "effective_at": "2020-03-10T09:11:28+00:00",
+  "product_overview": {
+    "product_name": "MULTIADVANCEPRODUCT",
+    "product_type": "MIXED_RATE_INSTALLMENT",
+    "product_short_description": "10w0",
+    "product_long_description": "Used for testing payment api",
+    "product_color": "#0000FF"
+  },
+  "product_lifecycle_policies": {
+    "payment_due_policies": {
+      "delinquent_on_n_consecutive_late_fees": 6,
+      "charge_off_on_n_consecutive_late_fees": 99999999
+    },
+    "fee_policies": {
+      "late_fee_grace": "2 day"
+    },
+    "billing_cycle_policies": {
+      "cycle_interval": "7 days",
+      "cycle_due_interval": "-5 days",
+      "first_cycle_interval": "7 days",
+      "close_of_business_time": "23:59:59-05:00",
+      "product_time_zone": "America/New_York"
+    },
+    "interest_policies": {
+      "interest_calc_time": "11:21:04-08:00"
+    },
+    "default_attributes": {
+      "default_credit_limit_cents": 7500
+    }
+  },
+  "promotional_policies": {
+    "promo_len": 6,
+    "promo_min_pay_type": "NONE",
+    "promo_purchase_window_len": 0,
+    "promo_interest_deferred": false,
+    "promo_default_interest_rate_percent": 0,
+    "promo_min_pay_percent": 0,
+    "promo_apr_range_inclusive_lower": 0,
+    "promo_apr_range_inclusive_upper": 0
+  },
+  "post_promotional_policies": {
+    "post_promo_len": 10,
+    "post_promo_min_pay_type": "AM",
+    "post_promo_apr_range_inclusive_lower": 3.99,
+    "post_promo_apr_range_inclusive_upper": 20.61,
+    "post_promo_am_len_range_inclusive_lower": 10,
+    "post_promo_am_len_range_inclusive_upper": 30,
+    "post_promo_default_interest_rate_percent": 3.99
+  }
+}

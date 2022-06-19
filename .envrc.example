@@ -1,0 +1,9 @@
+# This is an example of a .envrc file which uses direnv to set asdf
+# versioned environment tools, as well as loading dotenv environment config
+# files.
+#
+# This is optional, but recommended if you use asdf to manage your node, go, and
+# yarn versions.
+
+use asdf
+dotenv

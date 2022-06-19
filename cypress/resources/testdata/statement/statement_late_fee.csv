@@ -1,0 +1,11 @@
+tc_name,index,product_json_file,account_effective_dt,origination_fee_cents,initial_principal_cents,late_fee_cents,monthly_fee_cents,annual_fee_cents,promo_min_pay_type,promo_default_interest_rate_percent,promo_min_pay_percent
+PP2734 - Validate late fee line in statements for revolving account,1,multi_advance_product.json,2021-08-01T02:18:27-08:00,0,100000,2500,0,0,PERCENT_PRINCIPAL,3,10
+PP2734A - Validate late fee line in statements for revolving account with org_fee,2,multi_advance_product.json,2021-08-01T02:18:27-08:00,2500,100000,2500,0,0,PERCENT_PRINCIPAL,3,10
+PP2734B - Create charge and verify late fee line in statements for revolving account,3,multi_advance_product.json,2021-08-01T02:18:27-08:00,0,100000,2500,0,0,PERCENT_PRINCIPAL,3,10
+PP2734C - Create less than min payment and verify late fee line in statements,4,multi_advance_product.json,2021-08-01T02:18:27-08:00,0,100000,2500,0,0,PERCENT_PRINCIPAL,3,10
+PP2734D - Validate late fee line in statements for installment account,5,product_installment.json,2021-08-01T02:18:27-08:00,0,100000,2500,0,0,NONE,0,0
+PP2734E - Validate late fee line in statements for installment account with org_fee,6,product_installment.json,2021-08-01T02:18:27-08:00,2500,100000,2500,0,0,NONE,0,0
+PP2734F - Create charge and verify late fee line in statements for installment account,7,product_installment.json,2021-08-01T02:18:27-08:00,0,100000,2500,0,0,NONE,0,0
+PP2734G - Create less than min payment and verify late fee line in statements,8,product_installment.json,2021-08-01T02:18:27-08:00,0,100000,2500,0,0,NONE,0,0
+PP2734H - Create charge and less than min payment and verify late fee line in revolving account statements,9,multi_advance_product.json,2021-08-01T02:18:27-08:00,0,100000,2500,0,0,PERCENT_PRINCIPAL,3,10
+PP2734I - Create charge and less than min payment and verify late fee line in installment account statements,10,product_installment.json,2021-08-01T02:18:27-08:00,0,100000,2500,0,0,NONE,0,0

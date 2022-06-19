@@ -1,0 +1,54 @@
+[
+  {
+    "tc_name": "pp1283 - Verify account summary parameters for installment product",
+    "index": "1",
+    "product_type": "REVOLVING",
+    "account_effective_at": "2020-12-01T02:18:27-08:00",
+    "credit_limit_cents": "400000",
+    "late_fee_cents": "2000",
+    "origination_fee_cents": "3000",
+    "annual_fee_cents": "2000",
+    "monthly_fee_cents": "2000",
+    "initial_principal_cents": "300000",
+    "status_code": "200"
+  },
+  {
+    "tc_name": "pp1283A - Verify account summary parameters for revolving product",
+    "index": "2",
+    "product_type": "CREDIT",
+    "account_effective_at": "2020-12-01T02:18:27-08:00",
+    "credit_limit_cents": "400000",
+    "late_fee_cents": "2000",
+    "origination_fee_cents": "3000",
+    "annual_fee_cents": "2000",
+    "monthly_fee_cents": "2000",
+    "initial_principal_cents": "300000",
+    "status_code": "200"
+  },
+  {
+    "tc_name": "pp1296 - Verify initial Principal cents for an account cannot be more than the Credit limit for installment product",
+    "index": "3",
+    "product_type": "REVOLVING",
+    "account_effective_at": "2021-11-01T02:18:27-08:00",
+    "credit_limit_cents": "400000",
+    "late_fee_cents": "0",
+    "origination_fee_cents": "0",
+    "annual_fee_cents": "0",
+    "monthly_fee_cents": "0",
+    "initial_principal_cents": "600000",
+    "status_code": "500"
+  },
+  {
+    "tc_name": "pp1296A - Verify initial Principal cents for an account cannot be more than the Credit limit for revolving product",
+    "index": "4",
+    "product_type": "CREDIT",
+    "account_effective_at": "2021-11-01T02:18:27-08:00",
+    "credit_limit_cents": "400000",
+    "late_fee_cents": "0",
+    "origination_fee_cents": "0",
+    "annual_fee_cents": "0",
+    "monthly_fee_cents": "0",
+    "initial_principal_cents": "600000",
+    "status_code": "500"
+  }
+]
