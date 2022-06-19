@@ -1,0 +1,6 @@
+{
+  "Id": MODEL_ID,
+  "Name": "MODEL_NAME",
+  "CheckoutLoginId": "stungala",
+  "CheckoutTime": "MODEL_CHECK_OUT_TIME"
+}

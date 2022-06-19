@@ -1,0 +1,3 @@
+KeywordTestcases\Desktop\A_Test_Prerequisites.robot
+KeywordTestcases\Desktop\TS-03 Expert Capture Wizard.robot
+KeywordTestcases\Desktop\TS-04 Expert_Index_Wizard.robot

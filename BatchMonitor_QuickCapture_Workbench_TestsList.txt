@@ -1,0 +1,4 @@
+KeywordTestcases\Desktop\A_Test_Prerequisites.robot
+KeywordTestcases\Desktop\TS-05_Batch_Monitor_Wizard.robot
+KeywordTestcases\Desktop\TS-02 Quick Capture Wizard.robot
+KeywordTestcases\Desktop\TS-06_Workbench_Wizard.robot

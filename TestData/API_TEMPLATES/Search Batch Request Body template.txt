@@ -1,0 +1,2 @@
+{"BatchIds":null,"Locators":null,"FromCreateTime":null,"ToCreateTime":null,"BatchFields":null,"DocumentFields":null,"ApplicationCodes":["APPLICATIONCODE"],"BatchContentTypeStepCodes":[{"Key":"BCTCODE","Value":"WORKFLOWCODE"}],"StatusCodes":["InProcess","New","Suspended"],"LoginIds":["stungala"],"Priority":null,"SiteName":null,"StationName":null,"ForOpen":true,"MaxRecords":1000}
+
