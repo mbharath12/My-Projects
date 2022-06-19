@@ -1,0 +1,8 @@
+KeywordTestcases\API\API_Test_Prerequisites.robot
+KeywordTestcases\API\TS-01_Expert_Capture_API.robot
+KeywordTestcases\API\TS-02_Quick_Capture_API.robot
+KeywordTestcases\API\TS-03_Send_To_Encapture_API.robot
+KeywordTestcases\API\TS-04_Work_Bench_API.robot
+KeywordTestcases\API\TS-05_Expert_Index_From_Expert_Capture_API.robot
+KeywordTestcases\API\TS-06_Expert_Index_From_Quick_Capture_API.robot
+KeywordTestcases\API\TS-07_Expert_Index_From_Send_To_Encapture_API.robot

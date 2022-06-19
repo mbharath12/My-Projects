@@ -1,0 +1,24 @@
+*** Variables ***
+${ENCAPTURE_ADMIN_URL}    https://qa01.encapture.com/encapture/Main
+${API_BASE_URL}    https://qa01.encapture.com/encapture
+${BROWSER}        chrome
+${ADMIN_USER_ID}    vsunkara
+${ADMIN_USER_PASWORD}    EncaptureQA5
+${CREATE_DATA_SOURCES_AND_CONNECTIONS}    False
+${CLEAR_LINE_OF_BUSINESS_AND_BATCH_CONTENT_TYPE}    False
+${TESTDATA_FOLDER}    ${EXECDIR}\\TestData
+${ADMIN_PORTAL_TESTDATA}    ${TESTDATA_FOLDER}\\AdminPortal\\AdminPortalTestData.xlsx
+${CAPTURE_WIZARD_TESTDATA}    ${TESTDATA_FOLDER}\\CaptureWizard\\CaptureWizardTestData.xlsx
+${INDEX_WIZARD_TESTDATA}    ${TESTDATA_FOLDER}\\ExpertIndex\\ExpertIndexWizardTestData.xlsx
+${WORKBENCH_TESTDATA}    ${TESTDATA_FOLDER}\\Workbench\\WorkbenchTestData.xlsx
+${DATA_CONFIGURATION_TESTDATA}    ${TESTDATA_FOLDER}\\AdminPortal\\DataSourceTestData.xlsx
+${IMPORT_API_TESTDATA}    ${TESTDATA_FOLDER}\\AdminPortal\\EncaptureConfigurationAPI.xml
+${IMPORT_UI_TESTDATA}    ${TESTDATA_FOLDER}\\AdminPortal\\EncaptureConfigurationAdmin.xml
+${IMPORT_DS_TESTDATA}    ${TESTDATA_FOLDER}\\AdminPortal\\EncaptureConfigurationAllDS.xml
+${LONG_WAIT}      45s
+${MEDIUM_WAIT}    20s
+${SHORT_WAIT}     10s
+${SIKULI_SHORT_WAIT}    5
+${BATCH_CUSTOM_FIELD}    tlpBatchFields
+${DOCUMENT_CUSTOM_FIELD}    tlpDocumentFields
+${HEADLESS}       False
