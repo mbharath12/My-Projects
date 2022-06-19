@@ -1,0 +1,52 @@
+<project basedir="." default="runTS" name="SampleAnt">
+	<property environment="env" />
+	<property name="ECLIPSE_HOME" value="" />
+	<property name="target" value="1.8" />
+	<property name="source" value="1.8" />
+	
+	<property name="build.dir" value="${basedir}/build" />
+	<property name="lib.dir" value="${basedir}/jar" />
+	<property name="src.dir" value="${basedir}/src" />
+<!-- 	<property name="Var_Execute_Or_Terminate" value="${ExecuteOrTerminate}" /> -->
+	<target name="setClassPath">
+		<path id="classpath_jars">
+			<pathelement path="${basedir}/" />
+			<fileset dir="${lib.dir}" includes="**/*.jar" />
+		</path>
+		<pathconvert pathsep=":" property="test.classpath" refid="classpath_jars" />
+	</target>
+	<target name="loadTestNG" depends="setClassPath">
+		<taskdef resource="testngtasks" classpath="${test.classpath}" />
+		<!-- <taskdef name="testng" classpath="${test.classpath}" classname="org.testng.TestNGAntTask" /> -->
+	</target>
+	<target name="init">
+		<mkdir dir="${build.dir}" />
+	</target>
+	<target name="clean">
+		<echo message="deleting existing build....................." />
+		<delete dir="${build.dir}" />
+	</target>
+	
+	
+	
+	<target name="runTS" depends="compile">
+	<echo message="${Var_Execute_Or_Terminate}"/>
+		<java fork="true" classname="com.codetantra.testscripts.ProjectRunner" classpath="${test.classpath}:$				{build.dir}">			
+	<!-- 			<arg value="${Var_Execute_Or_Terminate}" /> -->
+		</java>
+	</target>
+
+
+	<target name="compile" depends="clean,init,setClassPath,loadTestNG">
+		<echo message="classpath:${test.classpath}" />
+		<echo message="compiling.................." />
+		<javac includeantruntime="false" destdir="${build.dir}" srcdir="${src.dir}" classpath="${test.classpath}"/>
+		<manifest file="MANIFEST.MF">
+				<attribute name="Main-Class" value="com.codetantra.testscripts.ProjectRunner"/>
+				<attribute name="Class-Path" value="${test.classpath}" />
+		</manifest>
+		<jar destfile="ct.jar" basedir="${build.dir}" filesetmanifest="skip" manifest="MANIFEST.MF">
+			<zipgroupfileset dir="${lib.dir}" includes="**/*.jar"/>
+		</jar>
+	</target>
+</project>

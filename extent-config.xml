@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+	<configuration>
+		<!-- report theme -->
+		<!-- standard, dark -->
+		<theme>standard</theme>
+ 
+		<!-- document encoding -->
+		<!-- defaults to UTF-8 -->
+		<encoding>UTF-8</encoding>
+ 
+		<!-- protocol for script and stylesheets -->
+		<!-- defaults to https -->
+		<protocol>https</protocol>
+ 
+		<!-- report name - displayed at top-nav -->
+		<reportName><![CDATA[<img src='/home/ramana/Downloads/ct-automation/CT_logo.jpg'/>]]></reportName>
+	
+		<!-- report headline - displayed at top-nav, after reportHeadline -->
+		<reportHeadline />
+ 
+		<!-- global date format override -->
+		<!-- defaults to yyyy-MM-dd -->
+		<dateFormat>yyyy-MM-dd</dateFormat>
+ 
+		<!-- global time format override -->
+		<!-- defaults to HH:mm:ss.SSS-->
+		<timeFormat>HH:mm:ss.SSS</timeFormat>
+ 
+		<!-- custom javascript -->
+		<scripts>
+      <![CDATA[
+        $(document).ready(function() {
+          
+        });
+      ]]>
+		</scripts>
+ 
+		<!-- custom styles -->
+		<styles>
+            <![CDATA[
+                .report-name { padding-left: 10px; } .report-name > img { float: left;height: 90%;margin-right: 30px;margin-top: 0px;width: auto; } span[class*="label blue darken-3"]	{display:none} 
+                 span[class*="label suite-start-time blue darken-3"] {font-size: 100%} div#charts-row > div:last-child {display:none} a[class*="brand-logo blue darken-3"] {text-indent: -9999px;
+  				line-height: 0; padding-left:0px; width:0px;} a[class*="brand-logo blue darken-3"]:after {content: 'CodeTantra UI Automation'; text-indent: 0;line-height: initial;display: block;font-size:20px; }
+  				div#charts-row > div:first-child {width:100%} div[class$="test-content"]  > .test-desc {font-style: italic;}
+  				
+            ]]>
+		</styles>
+
+	</configuration>
+</extentreports>

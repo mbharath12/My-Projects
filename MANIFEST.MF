@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.10.5
+Created-By: 1.8.0_201-b09 (Oracle Corporation)
+Main-Class: com.codetantra.testscripts.ProjectRunner
+Class-Path: D:\ctautomation:D:\ctautomation\jar\activation-1.1.1.jar:D
+ :\ctautomation\jar\commons-codec-1.11.jar:D:\ctautomation\jar\commons
+ -collections4-4.2.jar:D:\ctautomation\jar\commons-compress-1.18.jar:D
+ :\ctautomation\jar\commons-io-1.3.2.jar:D:\ctautomation\jar\commons-l
+ ogging-1.2.jar:D:\ctautomation\jar\commons-math3-3.6.1.jar:D:\ctautom
+ ation\jar\curvesapi-1.05.jar:D:\ctautomation\jar\extentreports-3.1.5.
+ jar:D:\ctautomation\jar\freemarker-2.3.28.jar:D:\ctautomation\jar\htm
+ lunit-driver-2.35.1.jar:D:\ctautomation\jar\itextpdf-5.5.13.jar:D:\ct
+ automation\jar\javaFw_v1.9.jar:D:\ctautomation\jar\jaxb-api-2.3.0.jar
+ :D:\ctautomation\jar\jaxb-core-2.3.0.1.jar:D:\ctautomation\jar\jaxb-i
+ mpl-2.3.0.1.jar:D:\ctautomation\jar\jdom2-2.0.6.jar:D:\ctautomation\j
+ ar\jsoup-1.12.1.jar:D:\ctautomation\jar\junit-4.12.jar:D:\ctautomatio
+ n\jar\log4j-1.2.17.jar:D:\ctautomation\jar\mongo-java-driver-3.10.2.j
+ ar:D:\ctautomation\jar\poi-4.0.1.jar:D:\ctautomation\jar\poi-examples
+ -4.0.1.jar:D:\ctautomation\jar\poi-excelant-4.0.1.jar:D:\ctautomation
+ \jar\poi-ooxml-4.0.1.jar:D:\ctautomation\jar\poi-ooxml-schemas-4.0.1.
+ jar:D:\ctautomation\jar\poi-scratchpad-4.0.1.jar:D:\ctautomation\jar\
+ selenium-server-standalone-3.141.59.jar:D:\ctautomation\jar\sqlite-jd
+ bc-3.27.2.1.jar:D:\ctautomation\jar\testng-6.14.3.jar:D:\ctautomation
+ \jar\xmlbeans-3.0.2.jar
+
