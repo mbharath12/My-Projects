@@ -1,0 +1,98 @@
+[
+  {
+    "tc_name": "pp245-LateFeeValidation using Installment Product and check LateFee Line-Item displayed",
+    "index": "1",
+    "account_effective_dt": "-10",
+    "account_effective_dt_time": "0",
+    "response_status": "200",
+    "error_msg": "",
+    "late_fee_cents": "5000",
+    "payment_amt_cents": "300000",
+    "payment_check": "YES",
+    "line_item_check": "TRUE"
+  },
+  {
+    "tc_name": "PP247-Attempt to apply Late fees amount over and above the Credit limit 5000 on an account using Installment Product and verify system throws error",
+    "index": "2",
+    "account_effective_dt": "-10",
+    "account_effective_dt_time": "0",
+    "response_status": "500",
+    "error_msg": "",
+    "late_fee_cents": "2900",
+    "payment_amt_cents": "300000",
+    "payment_check": "NO",
+    "line_item_check": "FALSE"
+  },
+  {
+    "tc_name": "PP248-Attempt to apply negative fees -29 on an account using Installment Product and confirm Negative Latefee shouldnot be accepted",
+    "index": "3",
+    "account_effective_dt": "-10",
+    "account_effective_dt_time": "0",
+    "response_status": "500",
+    "error_msg": "",
+    "late_fee_cents": "2900",
+    "payment_amt_cents": "300000",
+    "payment_check": "NO",
+    "line_item_check": "TRUE"
+  },
+  {
+    "tc_name": "PP249-Attempt to apply 0 latefees on an account and confirm the latefee entry is not exist in Line Item",
+    "index": "4",
+    "account_effective_dt": "-10",
+    "account_effective_dt_time": "0",
+    "response_status": "200",
+    "error_msg": "",
+    "late_fee_cents": "0",
+    "payment_amt_cents": "300000",
+    "payment_check": "YES",
+    "line_item_check": "FALSE"
+  },
+  {
+    "tc_name": "PP250- Attempt to apply 82 late feecents fees on an account and confirm the latefee should not be accepted in Cents",
+    "index": "5",
+    "account_effective_dt": "-10",
+    "account_effective_dt_time": "0",
+    "response_status": "500",
+    "error_msg": "",
+    "late_fee_cents": "2900",
+    "payment_amt_cents": "300000",
+    "payment_check": "NO",
+    "line_item_check": "NO"
+  },
+  {
+    "tc_name": "PP251-Attempt to apply USD 29.99 latefees on an account and the latefee should get accepted",
+    "index": "6",
+    "account_effective_dt": "-10",
+    "account_effective_dt_time": "0",
+    "response_status": "200",
+    "error_msg": "",
+    "late_fee_cents": "2990",
+    "payment_amt_cents": "300000",
+    "payment_check": "YES",
+    "line_item_check": "TRUE"
+  },
+  {
+    "tc_name": "PP252-Attempt to apply USD 1000 fees and confirm the latefee should not be accepted.",
+    "index": "7",
+    "account_effective_dt": "-10",
+    "account_effective_dt_time": "0",
+    "response_status": "500",
+    "error_msg": "",
+    "late_fee_cents": "2900",
+    "payment_amt_cents": "300000",
+    "payment_check": "NO",
+    "line_item_check": "NO"
+  },
+  {
+    "tc_name": "PP246-Late Fee validation - Process when grace period end date falls on a holiday",
+    "index": "8",
+    "account_effective_dt": "-10",
+    "account_effective_dt_time": "0",
+    "response_status": "200",
+    "error_msg": "",
+    "late_fee_cents": "5000",
+    "payment_amt_cents": "300000",
+    "payment_check": "YES",
+    "line_item_check": "TRUE"
+  }
+]

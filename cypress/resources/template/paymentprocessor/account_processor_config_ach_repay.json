@@ -1,0 +1,14 @@
+{
+  "ach": {
+    "payment_processor_name": "REPAY",
+    "repay_config": {
+      "repay_check_type": "PERSONAL",
+      "repay_account_type": "CHECKING",
+      "repay_transit_number": "999999992",
+      "repay_account_number": "987654321",
+      "repay_name_on_check": "Lucille Bluth"
+    }
+  },
+  "autopay_enabled": true,
+  "default_payment_processor_method": "ACH"
+}

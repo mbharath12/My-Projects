@@ -1,0 +1,8 @@
+{
+  "tokenUrl": "https://rc-api.canopyservicing.com/auth/token",
+  "createProductUrl": "https://rc-api.canopyservicing.com/products",
+  "createCustUrl": "https://rc-api.canopyservicing.com/customers",
+  "accountsUrl": "https://rc-api.canopyservicing.com/accounts",
+  "apiUsersUrl": "https://rc-api.canopyservicing.com/api_users",
+"organizationUrl": "https://rc-api.canopyservicing.com/organization"
+}

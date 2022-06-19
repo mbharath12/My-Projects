@@ -1,0 +1,31 @@
+tc_name,index,payout_entity_file_name,exp_payout_entity_type,exp_payout_entity_name,exp_bank_account_number,exp_bank_routing_number,exp_irs_tin,bank_account_type,response,exp_bank_account_type,error_code,error_message
+PayoutEntity469 - merchant - Verify bank account type should accept CHECKINGS,1,merchant.json,merchant,MERCHANT,2351,215545677,482456323,CHECKING,200,CHECKING,,
+PayoutEntity470 - merchant - Verify bank account type should accept SAVINGS,2,merchant.json,merchant,MERCHANT,2351,215545677,482456323,SAVINGS,200,SAVINGS,,
+PayoutEntity471 - merchant - Verify bank account type should accept GL,3,merchant.json,merchant,MERCHANT,2351,215545677,482456323,GL,200,GL,,
+PayoutEntity472 - merchant - Verify bank account type should have CHECKING as default,4,merchant.json,merchant,MERCHANT,2351,215545677,482456323,delete,200,CHECKING,,
+PayoutEntity473 - merchant - Verify bank account type should not accept invalid format,5,merchant.json,merchant,MERCHANT,2351,215545677,482456323,XXX,400,,server_error,Event object failed validation
+PayoutEntity291 - lender - Verify bank account type should accept CHECKING,6,merchant.json,lender,BHG Funding Account,8000,64008637,113456444,CHECKING,200,CHECKING,,
+PayoutEntity292 - lender - Verify bank account type should accept SAVINGS,7,merchant.json,lender,BHG Funding Account,8000,64008637,113456444,SAVINGS,200,SAVINGS,,
+PayoutEntity293 - lender - Verify bank account type should accept GL,8,merchant.json,lender,BHG Funding Account,8000,64008637,113456444,GL,200,GL,,
+PayoutEntity294 - lender - Verify bank account type should have CHECKING as default,9,merchant.json,lender,BHG Funding Account,8000,64008637,113456444,delete,200,CHECKING,,
+PayoutEntity295 - lender - Verify bank account type should not accept invalid format,10,merchant.json,lender,BHG Funding Account,8000,64008637,113456444,XXX,400,,server_error,Event object failed validation
+PayoutEntity313 - general - Verify bank account type should accept CHECKING,11,merchant.json,organization,BHG Operating,3790,64008637,113456444,CHECKING,200,CHECKING,,
+PayoutEntity314 - general - Verify bank account type should accept SAVINGS,12,merchant.json,organization,BHG Operating,3790,64008637,113456444,SAVINGS,200,SAVINGS,,
+PayoutEntity315 - general - Verify bank account type should accept GL,13,merchant.json,organization,BHG Operating,3790,64008637,113456444,GL,200,GL,,
+PayoutEntity316 - general - Verify bank account type should have CHECKING as default,14,merchant.json,organization,BHG Operating,3790,64008637,113456444,delete,200,CHECKING,,
+PayoutEntity317 - general - Verify bank account type should not accept invalid format,15,merchant.json,organization,BHG Operating,3790,64008637,113456444,XXX,400,,server_error,Event object failed validation
+PayoutEntity334 - ACHSource - Verify bank account type should accept CHECKING,16,merchant.json,clearing,ACH Clearing,6814,64008637,102456545,CHECKING,200,CHECKING,,
+PayoutEntity335 - ACHSource - Verify bank account type should accept SAVINGS,17,merchant.json,clearing,ACH Clearing,6814,64008637,102456545,SAVINGS,200,SAVINGS,,
+PayoutEntity336 - ACHSource - Verify bank account type should accept GL,18,merchant.json,clearing,ACH Clearing,6814,64008637,102456545,GL,200,GL,,
+PayoutEntity337 - ACHSource - Verify bank account type should have CHECKING as default,19,merchant.json,clearing,ACH Clearing,6814,64008637,102456545,delete,200,CHECKING,,
+PayoutEntity338 - ACHSource - Verify bank account type should not accept invalid format,20,merchant.json,clearing,ACH Clearing,6814,64008637,102456545,XXX,400,,server_error,Event object failed validation
+PayoutEntity355 - DebitSource - Verify bank account type should accept CHECKING,21,merchant.json,clearing,Card Clearing,7647,64008637,505456222,CHECKING,200,CHECKING,,
+PayoutEntity356 - DebitSource - Verify bank account type should accept SAVINGS,22,merchant.json,clearing,Card Clearing,7647,64008637,505456222,SAVINGS,200,SAVINGS,,
+PayoutEntity357 - DebitSource - Verify bank account type should accept GL,23,merchant.json,clearing,Card Clearing,7647,64008637,505456222,GL,200,GL,,
+PayoutEntity358 - DebitSource - Verify bank account type should have CHECKING as default,24,merchant.json,clearing,Card Clearing,7647,64008637,505456222,delete,200,CHECKING,,
+PayoutEntity359 - DebitSource - Verify bank account type should not accept invalid format,25,merchant.json,clearing,Card Clearing,7647,64008637,505456222,XXX,400,,server_error,Event object failed validation
+PayoutEntity376 - LockBox - Verify bank account type should accept CHECKING,26,merchant.json,clearing,Lockbox Clearing,715,64008637,203456789,CHECKING,200,CHECKING,,
+PayoutEntity377 - LockBox - Verify bank account type should accept SAVINGS,27,merchant.json,clearing,Lockbox Clearing,715,64008637,203456789,SAVINGS,200,SAVINGS,,
+PayoutEntity378 - LockBox - Verify bank account type should accept GL,28,merchant.json,clearing,Lockbox Clearing,715,64008637,203456789,GL,200,GL,,
+PayoutEntity379 - LockBox - Verify bank account type should have CHECKING as default,29,merchant.json,clearing,Lockbox Clearing,715,64008637,203456789,delete,200,CHECKING,,
+PayoutEntity380 - LockBox - Verify bank account type should not accept invalid format,30,merchant.json,clearing,Lockbox Clearing,715,64008637,203456789,XXX,400,,server_error,Event object failed validation

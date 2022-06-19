@@ -1,0 +1,10 @@
+tc_name,index,key_name,error_message,detailed_error_message
+API_001 - create product without product overview section header key,1,product_overview,Event object failed validation,must have required property product_overview
+API_004 - create product without product name key,2,product_name,Event object failed validation,must have required property product_name
+API_005 - create product without product type key,3,product_type,Event object failed validation,must have required property product_type
+API_010 - create product without product short description key,4,product_short_description,Event object failed validation,must have required property product_short_description
+API_011 - create product without product long description key,5,product_long_description,Event object failed validation,must have required property product_long_description
+API_014 - create product without product lifecycle policies section header key,6,product_lifecycle_policies,Event object failed validation,must have required property product_lifecycle_policies
+API_034 - create product without cycle interval,7,cycle_interval,Event object failed validation,must have required property cycle_interval
+API_046 - create product without default credit limit,8,default_credit_limit_cents,Event object failed validation,must have required property default_credit_limit_cents
+API_049 - create product without promotional policies section header key,9,promotional_policies,Event object failed validation,must have required property promotional_policies

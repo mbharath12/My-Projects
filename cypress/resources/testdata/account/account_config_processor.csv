@@ -1,0 +1,9 @@
+tc_name,index,account_json_file_name,account_effective_at,payment_processor_name,default_payment_processor_method,check_payment_process_method,autoEnabled,status_code
+pp1257 - verify Payment Processor name set to none,1,account_payment_processor_ach_repay.json,2021-08-10T02:18:27-08:00,NONE,ACH,,TRUE,404
+pp1258 - verify Payment Processor setup for ACH,2,account_payment_processor_ach_repay.json,2021-08-15T02:18:27-08:00,REPAY,ACH,ACH,TRUE,200
+pp1259 - verify Payment Processor setup for Debit card,3,account_payment_processor_debit_card_repay.json,2021-08-15T02:18:27-08:00,REPAY,DEBIT_CARD,DEBIT_CARD,TRUE,200
+pp1263 - verify Payment Processor setup for DWOLLA,4,account_payment_processor_ach_dwolla.json,2021-08-10T02:18:27-08:00,DWOLLA,ACH,ACH,TRUE,200
+pp1264 - verify Payment Processor setup for Modern treasury,5,account_payment_processor_ach_modern_treasury.json,2021-08-10T02:18:27-08:00,MODERN_TREASURY,ACH,ACH,TRUE,200
+pp1268 - verify Payment Processor setup for Checkout,6,account_payment_processor_credit_card_checkout.json,2021-08-05T02:18:27-08:00,CHECKOUT,CREDIT_CARD,CREDIT_CARD,TRUE,200
+pp1272 - verify autopay is not triggered for the account default_payment_processor is set to None and Auto Pay enabled field is set to True,7,account_payment_processor_debit_card_repay.json,2021-08-05T02:18:27-08:00,REPAY,NONE,,TRUE,400
+pp1273 - verify autopay is not triggered for the account default_payment_processor is set to None and Auto Pay enabled field is set to false,8,account_payment_processor_debit_card_repay.json,2021-08-05T02:18:27-08:00,REPAY,NONE,DEBIT_CARD,FALSE,200

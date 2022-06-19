@@ -1,0 +1,11 @@
+{
+    "line_item_id": "li-{{$randomAdjective}}-{{$randomBsNoun}}",
+    "original_amount_cents": 100099,
+    "effective_at": "2021-08-23T16:58:00+00:00",
+    "external_fields": [
+        {
+            "key": "experiment",
+            "value": "entity-client-id"
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "tc_name": "PP2255 - Verify get specific account response for installment product",
+    "index": "1",
+    "product_type": "Installment",
+    "product_json_file": "payment_product.json",
+    "account_effective_at": "2020-12-01T02:18:27-08:00",
+    "initial_principal_cents": "300000",
+    "account_status": "ACTIVE"
+  },
+  {
+    "tc_name": "PP2255A - Verify get specific account response for revolving product",
+    "index": "2",
+    "product_type": "Revolving",
+    "product_json_file": "product_revolving.json",
+    "account_effective_at": "2020-12-01T02:18:27-08:00",
+    "initial_principal_cents": "300000",
+    "account_status": "ACTIVE"
+  },
+  {
+    "tc_name": "PP2255B - Verify get specific account response for charge card product",
+    "index": "3",
+    "product_type": "charge card",
+    "product_json_file": "product_charge.json",
+    "account_effective_at": "2021-11-01T02:18:27-08:00",
+    "initial_principal_cents": "600000",
+    "account_status": "ACTIVE"
+  },
+  {
+    "tc_name": "PP2255C - Verify get specific account response for mixed rate  product",
+    "index": "4",
+    "product_type": "multi_advance_product",
+    "product_json_file": "mixed_rate_installment_product.json",
+    "account_effective_at": "2021-11-01T02:18:27-08:00",
+    "initial_principal_cents": "600000",
+    "account_status": "ACTIVE"
+  }
+]

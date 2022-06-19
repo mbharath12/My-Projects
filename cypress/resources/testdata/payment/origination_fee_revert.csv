@@ -1,0 +1,10 @@
+tc_name,index,product_type,do_payment,response_status,account_effective_dt,payment_effective_dt,payment_amt_cents,origination_fee_cents
+pp167-Verify Origination fees can be waived,1,INSTALLMENT,FALSE,200,-2,0,0,3500
+pp189-Attempt to revert origination fees after floating period,2,CREDIT,FALSE,200,-8,0,0,3500
+pp190-Attempt to revert origination fees after floating period- when there is a payment done during the Float days,3,CREDIT,TRUE,500,-8,-5,2000,0
+pp191-Attempt to revert origination fees after floating period- when there is a payment done after the Float days,4,CREDIT,TRUE,500,-8,-1,2000,0
+pp192-Attempt to revert origination fees 5 days after account opening,5,INSTALLMENT,FALSE,200,-5,0,0,3500
+pp193-Attempt to revert origination fees 1 month after account opening,6,INSTALLMENT,FALSE,200,-32,0,0,3500
+pp194-Attempt to revert origination fees 1 year after account opening,7,INSTALLMENT,FALSE,200,-370,0,0,3500
+PP166-Verify Origination fees is set up at Account level,8,INSTALLMENT,FALSE,200,-2,0,0,3500
+PP168-Verify Origination fees is charged automatically while onboarding a new account,9,INSTALLMENT,FALSE,200,-2,0,0,3500

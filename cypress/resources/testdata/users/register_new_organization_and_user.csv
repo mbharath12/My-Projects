@@ -1,0 +1,7 @@
+tc_name,index,randromEmail,name_first,name_last,password,email,organization_name,expected_status_code,error_message
+PP2237 Validate error for invalid first_name format,1,TRUE,,Martins,newSecretPassword123!,harrie2t@acmecorporation.com,Acme Corporation,200,
+PP2238 Validate error when last_name format,2,TRUE,Harriet,,newSecretPassword123!,harriett@acmecorporation.com,Acme Corporation,200,
+PP2239 Validate error for invalid password,3,FALSE,Harriet,Martins,,harriet@acmecorrporation.com,Acme Corporation,500,Password cannot be empty
+PP2240 Validate error for invalid email,4,FALSE,Harriet,Martins,newSecretPassword123!,,Acme Corporation,400,Event object failed validation
+PP2242 Validate error for invalid organization_name,5,TRUE,Harriet,Harriet,newSecretPassword123!,harriet@acmecorpporation.com,,200,
+PP2136 Verify the status in the response as Success,6,TRUE,Harriet,Harriet,newSecretPassword123!,harriet@acmecorporatioon.com,Acme Corporation,200,

@@ -1,0 +1,74 @@
+[
+  {
+    "tc_name": "PP2237 Validate error for invalid first_name format",
+    "index": "1",
+    "randromEmail": "TRUE",
+    "name_first": "",
+    "name_last": "Martins",
+    "password": "newSecretPassword123!",
+    "email": "haarrie2t@ac41mecorporration.com",
+    "organization_name": "Acme Corporation",
+    "expected_status_code": "200",
+    "error_message": ""
+  },
+  {
+    "tc_name": "PP2238 Validate error when last_name format",
+    "index": "2",
+    "randromEmail": "TRUE",
+    "name_first": "Harriet",
+    "name_last": "",
+    "password": "newSecretPassword123!",
+    "email": "harriet@acmeccorporation.com",
+    "organization_name": "Acme Corporation",
+    "expected_status_code": "200",
+    "error_message": ""
+  },
+  {
+    "tc_name": "PP2239 Validate error for invalid password",
+    "index": "3",
+    "randromEmail": "FALSE",
+    "name_first": "Harriet",
+    "name_last": "Martins",
+    "password": "",
+    "email": "harriet@acmecorrporation.com",
+    "organization_name": "Acme Corporation",
+    "expected_status_code": "500",
+    "error_message": "Password cannot be empty"
+  },
+  {
+    "tc_name": "PP2240 Validate error for invalid email",
+    "index": "4",
+    "randromEmail": "FALSE",
+    "name_first": "Harriet",
+    "name_last": "Martins",
+    "password": "newSecretPassword123!",
+    "email": "",
+    "organization_name": "Acme Corporation",
+    "expected_status_code": "400",
+    "error_message": "Event object failed validation"
+  },
+  {
+    "tc_name": "PP2242 Validate error for invalid organization_name",
+    "index": "5",
+    "randromEmail": "TRUE",
+    "name_first": "Harriet",
+    "name_last": "Harriet",
+    "password": "newSecretPassword123!",
+    "email": "harrieeet@acmecorpporation.com",
+    "organization_name": "",
+    "expected_status_code": "200",
+    "error_message": ""
+  },
+  {
+    "tc_name": "PP2136 Verify the status in the response as Success",
+    "index": "6",
+    "randromEmail": "TRUE",
+    "name_first": "Harriet",
+    "name_last": "Harriet",
+    "password": "newSecretPassword123!",
+    "email": "harriettt@aacmecorporatioon.com",
+    "organization_name": "Acme Corporation",
+    "expected_status_code": "200",
+    "error_message": ""
+  }
+]

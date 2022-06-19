@@ -1,0 +1,13 @@
+{
+  "tokenUrl": "https://perfom-api.us.canopyservicing.com/auth/token",
+  "tokenUrlRC": "https://perfom-api.us.canopyservicing.com/auth/token",
+  "createProductUrl": "https://perfom-api.us.canopyservicing.com/products",
+  "createCustUrl": "https://perfom-api.us.canopyservicing.com/customers",
+  "accountsUrl": "https://perfom-api.us.canopyservicing.com/accounts",
+  "apiUsersUrl": "https://perfom-api.us.canopyservicing.com/api_users",
+  "organizationUrl": "https://perfom-api.us.canopyservicing.com/organization",
+  "apiBaseUrl": "https://perfom-api.us.canopyservicing.com",
+  "clientId": "51bqoisatgur30i8os8am5v17m",
+  "clientSecret": "os6q9ci3vrmrdi76o17bqv77mrqcquv9avbr37aja3b56c07nsf"
+}
+

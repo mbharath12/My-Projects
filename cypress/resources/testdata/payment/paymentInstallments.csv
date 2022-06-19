@@ -1,0 +1,94 @@
+﻿tc_name,index,account_effective_dt,account_effective_dt_time,origination_fee_cents,late_fee_cents,payment_amt_cents,current_principal_cents,fee_balance_cents,total_balance_cents,total_paid_to_date_cents,Validations
+pp1 - fully repayment without origination fee on account opening,1,0,-2,0,0,300000,0,0,0,-300000,"payment_amt_cents should be full principal amount.
+current_principal_cents should be loan amount - repayment amount
+total_balance_cents should be  loan amount - repayment amount
+total_paid_to_date_cents should be  payment amount in "
+pp2 - half repayment without origination fee on account opening,2,0,-2,0,0,150000,150000,0,150000,-150000,"payment_amt_cents should be half of principal amount.
+current_principal_cents should be loan amount - repayment amount
+total_balance_cents should be  loan amount - repayment amount
+total_paid_to_date_cents should be payment amount"
+pp3 - 5 % repayment without origination fee on account opening,3,0,-2,0,0,15000,285000,0,285000,-15000,"payment_amt_cents should be 5% of principal amount.
+current_principal_cents should be loan amount - repayment amount
+total_paid_to_date_cents should be payment amount"
+pp7 - fully repayment with origination fee on account opening,4,0,-2,5000,0,305000,0,0,0,-305000,"payment_amt_cents should be full principal amount + origination fee amount
+current_principal_cents should be loan amount - repayment amount
+total_balance_cents should be  loan amount - repayment amount+origination fee
+total_paid_to_date_cents should be payment amount"
+pp8 - half repayment with origination fee on account opening,5,0,-2,5000,0,155000,150000,0,150000,-155000,"payment_amt_cents should be half of principal amount + origination fee amount
+current_principal_cents should be loan amount - repayment amount
+total_balance_cents should be  loan amount - repayment amount+origination fee
+total_paid_to_date_cents should be payment amount"
+pp9 - 5 % repayment with origination fee on account opening,6,0,-2,5000,0,20000,285000,0,285000,-20000,"payment_amt_cents should be 5% of principal amount + origination fee amount
+current_principal_cents should be loan amount - repayment amount+origination fee
+total_paid_to_date_cents should be payment amount"
+pp10 - fully repayment without origination fee on next day of account opening,7,-1,0,0,0,300000,0,0,0,-300000,"payment_amt_cents should be full principal amount.
+current_principal_cents should be loan amount - repayment amount
+total_balance_cents should be  loan amount - repayment amount
+total_paid_to_date_cents should be payment amount"
+pp11 - half repayment without origination fee on next day of account opening,8,-1,0,0,0,150000,150000,0,150000,-150000,"payment_amt_cents should be half of principal amount.
+current_principal_cents should be loan amount - repayment amount
+total_balance_cents should be  loan amount - repayment amount
+total_paid_to_date_cents should be payment amount"
+pp12 - 5 % repayment without origination fee on next day of account opening,9,-1,0,0,0,15000,285000,0,285000,-15000,"payment_amt_cents should be 5% of principal amount.
+current_principal_cents should be loan amount - repayment amount
+total_paid_to_date_cents should be payment amount"
+pp16 - fully repayment with origination fee on next day of account opening,10,-1,0,5000,0,305000,0,0,0,-305000,"payment_amt_cents should be full principal amount + origination fee amount
+current_principal_cents should be loan amount - repayment amount
+total_balance_cents should be  loan amount - repayment amount + origination fee
+total_paid_to_date_cents should be payment amount"
+pp17 - half repayment with origination fee on next day of account opening,11,-1,0,5000,0,155000,150000,0,150000,-155000,"payment_amt_cents should be half of principal amount + origination fee amount
+current_principal_cents should be loan amount - repayment amount
+total_balance_cents should be  loan amount - repayment amount
++ origination fee
+total_paid_to_date_cents should be payment amount"
+pp18 - 5 % repayment with origination fee on next day of account opening,12,-1,0,5000,0,20000,285000,0,285000,-20000,"payment_amt_cents should be 5% of principal amount + origination fee amount
+current_principal_cents should be loan amount - repayment amount + origination fee
+total_paid_to_date_cents should be payment amount"
+pp55 - fully repayment without origination fee one day before grace period,13,-8,0,0,0,300000,0,0,0,-300000,"payment_amt_cents should be full principal amount.
+current_principal_cents should be loan amount - repayment amount
+total_balance_cents should be  loan amount - repayment amount
+total_paid_to_date_cents should be payment amount"
+pp56 - half repayment without origination fee one day before grace period,14,-8,0,0,0,150000,150000,0,150000,-150000,"payment_amt_cents should be half of principal amount.
+current_principal_cents should be loan amount - repayment amount
+total_balance_cents should be  loan amount - repayment amount
+total_paid_to_date_cents should be payment amount"
+pp57 - 5% repayment without origination fee one day before grace period,15,-8,0,0,0,15000,285000,0,285000,-15000,"payment_amt_cents should be 5% of principal amount.
+current_principal_cents should be loan amount - repayment amount
+total_balance_cents should be  loan amount - repayment amount
+total_paid_to_date_cents should be payment amount"
+pp61 - fully repayment with origination fee one day before grace period,16,-8,0,5000,0,305000,0,0,0,-305000,"payment_amt_cents should be full principal amount + origination fee amount
+current_principal_cents should be loan amount - repayment amount
+total_balance_cents should be  loan amount - repayment amount+origination fee
+total_paid_to_date_cents should be payment amount"
+pp62 - half repayment with origination fee one day before grace period,17,-8,0,5000,0,155000,150000,0,150000,-155000,"payment_amt_cents should be half of principal amount + origination fee amount
+current_principal_cents should be loan amount - repayment amount
+total_balance_cents should be  loan amount - repayment amount+origination fee
+total_paid_to_date_cents should be payment amount"
+pp63 - 5% repayment with origination fee one day before grace period,18,-8,0,5000,0,20000,285000,0,285000,-20000,"payment_amt_cents should be 5% of principal amount + origination fee amount
+current_principal_cents should be loan amount - repayment amount
+total_balance_cents should be  loan amount - repayment amount+origination fee
+total_paid_to_date_cents should be payment amount"
+pp64 - fully repayment without origination fee on the day of grace period ends,19,-9,0,0,0,300000,0,0,0,-300000,"payment_amt_cents should be full principal amount.
+current_principal_cents should be loan amount - repayment amount
+total_balance_cents should be  loan amount - repayment amount
+total_paid_to_date_cents should be payment amount"
+pp65 - half repayment without origination fee one day before grace period,20,-9,0,0,0,150000,150000,0,150000,-150000,"payment_amt_cents should be half of principal amount.
+current_principal_cents should be loan amount - repayment amount
+total_balance_cents should be  loan amount - repayment amount
+total_paid_to_date_cents should be payment amount"
+pp66 - 5% repayment without origination fee one day before grace period,21,-9,0,0,0,15000,285000,0,285000,-15000,"payment_amt_cents should be 5% of principal amount.
+current_principal_cents should be loan amount - repayment amount
+total_balance_cents should be  loan amount - repayment amount
+total_paid_to_date_cents should be payment amount"
+pp70 - fully repayment with origination fee on the day of grace period ends,22,-9,0,5000,0,305000,0,0,0,-305000,"payment_amt_cents should be full principal amount + origination fee amount
+current_principal_cents should be loan amount - repayment amount +monthly fee
+total_balance_cents should be  loan amount - repayment amount+origination fee
+total_paid_to_date_cents should be payment amount"
+pp71 - half repayment with origination fee one day before grace period,23,-9,0,5000,0,155000,150000,0,150000,-155000,"payment_amt_cents should be half of principal amount + origination fee amount
+current_principal_cents should be loan amount - repayment amount
+total_balance_cents should be  loan amount - repayment amount+origination fee
+total_paid_to_date_cents should be payment amount"
+pp72 - 5% repayment with origination fee one day before grace period,24,-9,0,5000,0,20000,285000,0,285000,-20000,"payment_amt_cents should be 5% of principal amount + origination fee amount
+current_principal_cents should be loan amount - repayment amount
+total_balance_cents should be  loan amount - repayment amount+origination fee
+total_paid_to_date_cents should be payment amount"

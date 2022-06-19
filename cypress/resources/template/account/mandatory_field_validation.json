@@ -1,0 +1,9 @@
+{
+  "product_id": "{{product_id}}",
+
+  "assign_customers": [
+    {
+      "customer_id": "{{customer_id}}"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+    "autopay_enabled": true,
+    "default_payment_processor_method": "DEBIT_CARD",
+    "debit_card": {
+        "payment_processor_name": "REPAY",
+        "repay_config": {
+            "repay_card_number": "4622941000000005",
+            "repay_exp_date": "0722",
+            "repay_name_on_card": "John Doe",
+            "repay_street": "1234 Main Street",
+            "repay_zip": "85281"
+        }
+    }
+}

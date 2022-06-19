@@ -1,0 +1,11 @@
+﻿tc_name,index,account_effective_dt,origination_fee_cents,response_status,error_msg
+pp170 - attempt to apply negative fees,1,-3,-2000,200,
+pp171 - attempt to apply 0 fees,2,-3,0,200,
+pp172 - attempt to apply 2 cents fees,3,-3,2,500,A server error has occurred.
+pp173 - attempt to apply USD 29.99 fees,4,-3,2999,200,
+pp174 - attempt to apply USD 35 fees,5,-3,3500,200,
+pp175 - attempt to apply USD 50 fees,6,-3,5000,200,
+pp176 - attempt to apply USD 100 fees,7,-3,1000,200,
+pp177 - attempt to apply USD 1000 fees,8,-3,100000,500,A server error has occurred.
+pp178 - attempt to apply USD 1000000  fees,9,-3,100000000,500,A server error has occurred.
+pp179 - attempt to apply more than the approved credit limit,10,-3,410000,500,A server error has occurred.

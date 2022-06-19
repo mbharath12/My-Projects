@@ -1,0 +1,51 @@
+tc_name,index,product_type,exp_product_file,account_effective_dt,cycle_interval,cycle_due_interval,account_effective_dt_time,initial_principal_cents,origination_fee_cents,late_fee_cents,monthly_fee_cents,Annual_fee_cents,promo_int,promo_len,promo_min_pay_type,promo_default_interest_rate_percent,promo_min_pay_percent,delinquent,charge_off
+PP146 - PaymentPouring in Installment loan,1,installment,payment_product.json,2022-01-31T08:49:48+00:00,7 days ,2 days,0,100000,20000,3500,0,0,0,0,NONE,0,0,30,99
+PP147 - PaymentPouring in Credit card,2,Credit,product_credit.json,2022-01-31T08:49:48+00:00,7 days ,2 days,0,100000,20000,3500,0,0,3,20,PERCENT_PRINCIPAL,3,5,30,99
+PP148 - PaymentPouring in Revolving LOC,3,Revolving,product_revolving.json,2022-01-31T08:49:48+00:00,7 days ,2 days,0,100000,20000,3500,0,0,3,999999,PERCENT_INTEREST,10,100,30,99
+PP149 - PaymentPouring in Credit card,4,Credit,product_credit.json,2022-01-31T08:49:48+00:00,7 days ,2 days,0,100000,0,0,0,0,3,20,PERCENT_PRINCIPAL,3,5,30,99
+PP150 - PaymentPouring Charge Card,5,Charge,product_charge.json,2022-01-31T08:49:48+00:00,7 days ,2 days,0,100000,20000,0,0,0,3,99999,PERCENT_PRINCIPAL,0,100,30,99
+PP146A - PaymentPouring in Installment loan,6,installment,payment_product.json,2022-01-31T08:49:48+00:00,7 days ,2 days,0,100000,20000,3500,0,0,0,0,NONE,0,0,30,99
+PP159 - PaymentPouring in CreditCard,7,Credit,product_credit.json,2022-01-31T08:49:48+00:00,7 days ,2 days,0,100000,0,0,0,0,3,20,PERCENT_PRINCIPAL,3,5,30,99
+PP159A - PaymentPouring in CreditCard,8,Credit,product_credit.json,2022-01-31T08:49:48+00:00,7 days ,2 days,0,100000,0,0,0,0,3,20,PERCENT_PRINCIPAL,3,5,30,99
+PP160 - PaymentPouring in Charge Card,9,Charge,product_charge.json,2022-01-31T08:49:48+00:00,7 days ,2 days,0,100000,20000,0,0,0,3,20,PERCENT_PRINCIPAL,3,5,30,99
+PP1155 - PaymentPouring in Installment loan with 14D cycle interval,10,installment,payment_product.json,2022-01-14T08:49:48+00:00,14 days,2 days,0,500000,50000,5800,6000,0,0,0,NONE,0,0,30,99
+PP1156 - PaymentPouring in Installment loan with 14D cycle interval,11,installment,payment_product.json,2022-01-14T08:49:48+00:00,14 days,2 days,0,500000,0,5800,6000,0,0,0,NONE,0,0,30,99
+PP1157 - PaymentPouring in Credit/Revolving with 14D cycle interval,12,Credit,product_credit.json,2022-01-14T08:49:48+00:00,14 days,2 days,0,500000,20000,0,6000,0,3,20,PERCENT_PRINCIPAL,3,5,30,99
+PP1158 - PaymentPouring in Revolving with 14D cycle interval,13,Revolving,product_revolving.json,2022-01-14T08:49:48+00:00,14 days,2 days,0,500000,40000,0,6000,0,3,999999,PERCENT_INTEREST,10,100,30,99
+PP1159 - PaymentPouring in charge with 14D cycle interval,14,Charge,product_charge.json,2022-01-14T08:49:48+00:00,14 days,2 days,0,500000,20000,0,6000,0,3,99999,PERCENT_PRINCIPAL,0,100,30,99
+PP1160 - PaymentPouring in installment with 30D cycle interval,15,installment,payment_product.json,2021-12-10T08:49:48+00:00,30 days,5 days,0,300000,10000,5800,12000,0,0,0,NONE,0,0,30,99
+PP1161 - PaymentPouring in Revolving with 30D cycle interval,16,Revolving,product_revolving.json,2021-12-10T08:49:48+00:00,30 days,5 days,0,300000,15000,0,12000,0,3,999999,PERCENT_INTEREST,10,100,30,99
+PP1162 - PaymentPouring in Charge with 30D cycle interval,17,Charge,product_charge.json,2021-12-10T08:49:48+00:00,30 days,5 days,0,300000,15000,0,12000,0,3,99999,PERCENT_PRINCIPAL,0,100,30,99
+PP1163 - PaymentPouring in Installment from the Account Effective date,18,installment,payment_product.json,2021-02-01T08:49:48+00:00,30 days,5 days,0,300000,15000,2900,6000,50000,0,0,NONE,0,0,30,99
+PP1164 - PaymentPouring in Charge from the Account Effective date,19,Charge,product_charge.json,2021-02-01T08:49:48+00:00,30 days,5 days,0,300000,15000,2900,6000,50000,3,99999,PERCENT_PRINCIPAL,0,100,30,99
+PP1350 - PaymentPouring in Installment loan with the Cycle_Interval of 7 days,20,installment,payment_product.json,2022-01-31T08:49:48+00:00,7 days ,2 days,0,100000,20000,0,0,0,0,0,NONE,0,0,30,99
+PP1351 - PaymentPouring in Installment loan with the Cycle_Interval of 7 days,21,installment,payment_product.json,2022-01-31T08:49:48+00:00,7 days ,2 days,0,100000,0,3500,0,0,0,0,NONE,0,0,30,99
+PP1352 - PaymentPouring in Installment loan with the Cycle_Interval of 7 days,22,installment,payment_product.json,2022-01-31T08:49:48+00:00,7 days ,2 days,0,100000,0,0,0,0,0,0,NONE,0,0,30,99
+PP1353 - PaymentPouring in Installment loan with the Cycle_Interval of 7 days,23,installment,payment_product.json,2022-01-31T08:49:48+00:00,7 days ,2 days,0,100000,20000,0,0,0,0,0,NONE,0,0,30,99
+PP1354 - PaymentPouring in Installment loan with the Cycle_Interval of 7 days,24,installment,payment_product.json,2022-01-31T08:49:48+00:00,7 days ,2 days,0,100000,20000,3500,0,0,0,0,NONE,0,0,30,99
+PP1355 - PaymentPouring in Credit card with the Cycle_Interval of 7 days,25,Credit,product_credit.json,2022-01-31T08:49:48+00:00,7 days ,2 days,0,100000,0,0,0,0,3,20,PERCENT_PRINCIPAL,3,5,30,99
+PP1356 - PaymentPouring in Credit card with the Cycle_Interval of 7 days,26,Credit,product_credit.json,2022-01-31T08:49:48+00:00,7 days ,2 days,0,100000,0,0,0,0,3,20,PERCENT_PRINCIPAL,3,5,30,99
+PP1357 - PaymentPouring in Revolving card with the Cycle_Interval of 7 days,27,Revolving,product_revolving.json,2022-01-31T08:49:48+00:00,7 days ,2 days,0,100000,0,0,0,0,3,999999,PERCENT_INTEREST,10,100,30,99
+PP1358 - PaymentPouring in Revolving card with the Cycle_Interval of 7 days,28,Revolving,product_revolving.json,2022-01-31T08:49:48+00:00,7 days ,2 days,0,100000,10000,0,0,0,3,999999,PERCENT_INTEREST,10,100,30,99
+PP1359 - PaymentPouring in Credit card with the Cycle_Interval of 7 days,29,Credit,product_credit.json,2022-01-31T08:49:48+00:00,7 days ,2 days,0,100000,0,0,0,0,3,20,PERCENT_PRINCIPAL,3,5,30,99
+PP1360 - PaymentPouring in Charge card with the Cycle_Interval of 7 days,30,Charge,product_charge.json,2022-01-31T08:49:48+00:00,7 days ,2 days,0,100000,20000,0,0,0,3,99999,PERCENT_PRINCIPAL,0,100,30,99
+PP1361 - PaymentPouring in Charge card with the Cycle_Interval of 7 days,31,Charge,product_charge.json,2022-01-31T08:49:48+00:00,7 days ,2 days,0,100000,20000,0,0,0,3,99999,PERCENT_PRINCIPAL,0,100,30,99
+PP1362 - PaymentPouring in Installment loan with the Cycle_Interval of 14 days,32,installment,payment_product.json,2022-01-14T08:49:48+00:00,14 days,2 days,0,500000,50000,0,6000,0,0,0,NONE,0,0,30,99
+PP1363 - PaymentPouring in Installment loan with the Cycle_Interval of 14 days,33,installment,payment_product.json,2022-01-14T08:49:48+00:00,14 days,2 days,0,500000,0,5800,6000,0,0,0,NONE,0,0,30,99
+PP1364 - PaymentPouring in Installment loan with the Cycle_Interval of 14 days,34,installment,payment_product.json,2022-01-14T08:49:48+00:00,14 days,2 days,0,500000,50000,5800,0,0,0,0,NONE,0,0,30,99
+PP1365 - PaymentPouring in Installment loan with the Cycle_Interval of 14 days,35,installment,payment_product.json,2022-01-14T08:49:48+00:00,14 days,2 days,0,500000,0,0,0,0,0,0,NONE,0,0,30,99
+PP1366 - PaymentPouring in Installment loan with the Cycle_Interval of 14 days,36,installment,payment_product.json,2022-01-14T08:49:48+00:00,14 days,2 days,0,500000,0,0,0,0,0,0,NONE,0,0,30,99
+PP1367 - PaymentPouring in Installment loan with the Cycle_Interval of 14 days,37,installment,payment_product.json,2022-01-14T08:49:48+00:00,14 days,2 days,0,500000,50000,5800,6000,0,0,0,NONE,0,0,30,99
+PP1368 - PaymentPouring in credit card with the Cycle_Interval of 14 days,38,Credit,product_credit.json,2022-01-14T08:49:48+00:01,14 days,2 days,0,500000,0,0,6000,0,3,20,PERCENT_PRINCIPAL,3,5,30,99
+PP1369 - PaymentPouring in credit card with the Cycle_Interval of 14 days,39,Credit,product_credit.json,2022-01-14T08:49:48+00:02,14 days,2 days,0,500000,0,0,0,0,3,20,PERCENT_PRINCIPAL,3,5,30,99
+PP1370 - PaymentPouring in credit card with the Cycle_Interval of 14 days,40,Credit,product_credit.json,2022-01-14T08:49:48+00:03,14 days,2 days,0,500000,20000,0,6000,0,3,20,PERCENT_PRINCIPAL,3,5,30,99
+PP1371 - PaymentPouring in Revolving card with the Cycle_Interval of 14 days,41,Revolving,product_revolving.json,2022-01-14T08:49:48+00:04,14 days,2 days,0,500000,0,0,6000,0,3,999999,PERCENT_INTEREST,10,100,30,99
+PP1372 - PaymentPouring in Revolving card with the Cycle_Interval of 14 days,42,Revolving,product_revolving.json,2022-01-14T08:49:48+00:05,14 days,2 days,0,500000,0,0,6000,0,3,999999,PERCENT_INTEREST,10,100,30,99
+PP1373 - PaymentPouring in Revolving card with the Cycle_Interval of 14 days,43,Revolving,product_revolving.json,2022-01-14T08:49:48+00:06,14 days,2 days,0,500000,0,0,0,0,3,999999,PERCENT_INTEREST,10,100,30,99
+PP1374 - PaymentPouring in Revolving card with the Cycle_Interval of 14 days,44,Revolving,product_revolving.json,2022-01-14T08:49:48+00:07,14 days,2 days,0,500000,20000,0,6000,0,3,999999,PERCENT_INTEREST,10,100,30,99
+PP1375 - PaymentPouring in charge card with the Cycle_Interval of 14 days,45,Charge,product_charge.json,2022-01-14T08:49:48+00:08,14 days,2 days,0,500000,0,0,6000,0,3,99999,PERCENT_PRINCIPAL,0,100,30,99
+PP1376 - PaymentPouring in charge card with the Cycle_Interval of 14 days,46,Charge,product_charge.json,2022-01-14T08:49:48+00:09,14 days,2 days,0,500000,20000,0,0,0,3,99999,PERCENT_PRINCIPAL,0,100,30,99
+PP1377 - PaymentPouring in charge card with the Cycle_Interval of 14 days,47,Charge,product_charge.json,2022-01-14T08:49:48+00:10,14 days,2 days,0,500000,0,0,0,0,3,99999,PERCENT_PRINCIPAL,0,100,30,99
+PP1378 - PaymentPouring in charge card with the Cycle_Interval of 14,48,Charge,product_charge.json,2022-01-14T08:49:48+00:11,14 days,2 days,0,500000,20000,0,6000,0,3,99999,PERCENT_PRINCIPAL,0,100,30,99
+PP161 - PaymentPouring Reversal in Installment Loan- Payment re-allocation to different Balance buckets based on the Product Config parameters,49,installment,payment_product.json,-14,7 days ,2 days,0,100000,20000,3500,0,0,0,0,NONE,0,0,30,99
+PP162 - PaymentPouring Reversal in Revolving Product,50,Revolving,product_revolving.json,-14,7 days ,2 days,0,100000,10000,0,0,0,3,999999,PERCENT_INTEREST,10,100,30,99

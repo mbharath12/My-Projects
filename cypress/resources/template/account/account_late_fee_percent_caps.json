@@ -1,0 +1,22 @@
+{
+  "summary": {
+    "credit_limit_cents": 500000,
+    "max_approved_credit_limit_cents": 400000,
+    "late_fee_cents": 2900,
+    "payment_reversal_fee_cents": 2900,
+    "origination_fee_cents": 0,
+    "annual_fee_cents": 0,
+    "monthly_fee_cents": 0,
+    "late_fee_cap_percent": 4,
+    "initial_principal_cents": 6000000
+  },
+  "effective_at": "2021-10-20T12:16:16-05:00",
+  "external_fields": [],
+  "product_id": "{{product_id}}",
+  "assign_customers": [
+    {
+      "customer_id": "{{customer_id}}",
+      "customer_account_role": "PRIMARY"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+tc_name,index,product_file,account_effective_dt,origination_fee_cents,initial_principal_cents,late_fee_cents,monthly_fee_cents,annual_fee_cents
+PP2743 - Verify all transaction line items in statements for revolving account,1,product_revolving.json,-26,50000,100000,0,500,0
+PP2744 - Do excess payment for an revolving account and check in statements,2,product_revolving.json,-26,50000,100000,0,500,0
+PP2745 - Do excess payment for an revolving account without fees and check in statements,3,product_revolving.json,-26,0,100000,0,0,0
+PP2743A - Verify all transaction line items in statements for installment account,4,product_installment.json,-26,50000,100000,0,500,0
+PP2744A - Do excess payment for an installment account and check in statements,5,product_installment.json,-26,50000,100000,0,500,0
+PP2745A - Do excess payment for an installment account without fees and check in statements,6,product_installment.json,-26,0,100000,0,0,0

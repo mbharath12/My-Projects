@@ -1,0 +1,42 @@
+[
+  {
+    "tc_name": "pp913 - REPAY - autopay should not be triggered for default payment processor method is set to none",
+    "index": "1",
+    "account_json_file_name": "account_payment_processor_ach_repay.json",
+    "account_effective_at": "2021-08-10T02:18:27-08:00",
+    "check_payment_process_method": "ACH",
+    "check_processor_name": "REPAY"
+  },
+  {
+    "tc_name": "pp913A - Debit - autopay should not be triggered for default payment processor method is set to none",
+    "index": "2",
+    "account_json_file_name": "account_payment_processor_debit_card_repay.json",
+    "account_effective_at": "2021-08-15T02:18:27-08:00",
+    "check_payment_process_method": "DEBIT_CARD",
+    "check_processor_name": "REPAY"
+  },
+  {
+    "tc_name": "pp950 - Dwolla - autopay should not be triggered for default payment processor method is set to none",
+    "index": "3",
+    "account_json_file_name": "account_payment_processor_ach_dwolla.json",
+    "account_effective_at": "2021-08-10T02:18:27-08:00",
+    "check_payment_process_method": "ACH",
+    "check_processor_name": "DWOLLA"
+  },
+  {
+    "tc_name": "pp987 - Modern treasury - autopay should not be triggered for default payment processor method is set to none",
+    "index": "4",
+    "account_json_file_name": "account_payment_processor_ach_modern_treasury.json",
+    "account_effective_at": "2021-08-10T02:18:27-08:00",
+    "check_payment_process_method": "ACH",
+    "check_processor_name": "MODERN_TREASURY"
+  },
+  {
+    "tc_name": "pp1024 - Checkout - autopay should not be triggered for default payment processor method is set to none",
+    "index": "5",
+    "account_json_file_name": "account_payment_processor_credit_card_checkout.json",
+    "account_effective_at": "2021-08-05T02:18:27-08:00",
+    "check_payment_process_method": "CREDIT_CARD",
+    "check_processor_name": "CHECKOUT"
+  }
+]

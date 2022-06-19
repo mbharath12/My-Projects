@@ -1,0 +1,6 @@
+﻿tc_name,index,repay_card_number,repay_exp_date,repay_name_on_card,repay_street,repay_zip,error_message,detailed_error_message
+API_132 - create account without repay_card_number,1,delete,7.22E+02,John Doe,1234 Main Street,85281,Event object failed validation,must have required property repay_card_number
+API_133 - create account without repay_exp_date,2,4.62E+15,delete,John Doe,1234 Main Street,85281,Event object failed validation,must have required property repay_exp_date
+API_135- create account without repay_name_on_card,3,4.62E+15,7.22E+02,delete,1234 Main Street,85281,Event object failed validation,must have required property repay_name_on_card
+API_136- create account without repay_street,4,4.62E+15,7.22E+02,John Doe,delete,85281,Event object failed validation,must have required property repay_street
+API_137- create account without repay_zip,5,4.62E+15,7.22E+02,John Doe,1234 Main Street,delete,Event object failed validation,must have required property repay_zip

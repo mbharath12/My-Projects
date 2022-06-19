@@ -1,0 +1,167 @@
+[
+  {
+    "tc_name": "PP903 - ACH - Verify REPAY call for Revolving account in Promotion period where partial principal payments have been set up",
+    "index": "1",
+    "promo_len": "0",
+    "promo_min_pay_type": "PERCENT_PRINCIPAL",
+    "promo_min_pay_percent": "20",
+    "account_json_file_name": "account_payment_processor_ach_repay.json",
+    "account_effective_at": "2021-03-20T09:11:28+00:00",
+    "default_payment_process_method": "ACH",
+    "processor_name": "REPAY"
+  },
+  {
+    "tc_name": "PP904 - ACH - Verify REPAY call  for Revolving account in Promotion period where partial principal payments have been set up",
+    "index": "2",
+    "promo_len": "0",
+    "promo_min_pay_type": "PERCENT_INTEREST",
+    "promo_min_pay_percent": "100",
+    "account_json_file_name": "account_payment_processor_ach_repay.json",
+    "account_effective_at": "2021-03-20T09:11:28+00:00",
+    "default_payment_process_method": "ACH",
+    "processor_name": "REPAY"
+  },
+  {
+    "tc_name": "PP905 - ACH - Verify REPAY call  for Revolving account in Promotion period where Percent interest payments have been set up",
+    "index": "3",
+    "promo_len": "0",
+    "promo_min_pay_type": "NONE",
+    "promo_min_pay_percent": "0",
+    "account_json_file_name": "account_payment_processor_ach_repay.json",
+    "account_effective_at": "2021-03-20T09:11:28+00:00",
+    "default_payment_process_method": "ACH",
+    "processor_name": "REPAY"
+  },
+  {
+    "tc_name": "PP903A - Debit card - Verify REPAY call for Revolving account in Promotion period where partial principal payments have been set up",
+    "index": "4",
+    "promo_len": "0",
+    "promo_min_pay_type": "PERCENT_PRINCIPAL",
+    "promo_min_pay_percent": "20",
+    "account_json_file_name": "account_payment_processor_debit_card_repay.json",
+    "account_effective_at": "2021-03-20T09:11:28+00:00",
+    "default_payment_process_method": "DEBIT_CARD",
+    "processor_name": "REPAY"
+  },
+  {
+    "tc_name": "PP904A - Debit card - Verify REPAY call  for Revolving account in Promotion period where partial principal payments have been set up",
+    "index": "5",
+    "promo_len": "0",
+    "promo_min_pay_type": "PERCENT_INTEREST",
+    "promo_min_pay_percent": "100",
+    "account_json_file_name": "account_payment_processor_debit_card_repay.json",
+    "account_effective_at": "2021-03-20T09:11:28+00:00",
+    "default_payment_process_method": "DEBIT_CARD",
+    "processor_name": "REPAY"
+  },
+  {
+    "tc_name": "PP905A - Debit card - Verify REPAY call  for Revolving account in Promotion period where Percent interest payments have been set up",
+    "index": "6",
+    "promo_len": "0",
+    "promo_min_pay_type": "NONE",
+    "promo_min_pay_percent": "0",
+    "account_json_file_name": "account_payment_processor_debit_card_repay.json",
+    "account_effective_at": "2021-03-20T09:11:28+00:00",
+    "default_payment_process_method": "DEBIT_CARD",
+    "processor_name": "REPAY"
+  },
+  {
+    "tc_name": "PP940 - Dwolla - Verify Dwolla call created for Revolving account in Promotion period where partial principal payments have been set up",
+    "index": "7",
+    "promo_len": "0",
+    "promo_min_pay_type": "PERCENT_PRINCIPAL",
+    "promo_min_pay_percent": "20",
+    "account_json_file_name": "account_payment_processor_ach_dwolla.json",
+    "account_effective_at": "2021-03-20T09:11:28+00:00",
+    "default_payment_process_method": "ACH",
+    "processor_name": "DWOLLA"
+  },
+  {
+    "tc_name": "PP941 - Dwolla - Verify Dwolla call created for Revolving account in Promotion period where partial principal payments have been set up",
+    "index": "8",
+    "promo_len": "0",
+    "promo_min_pay_type": "PERCENT_INTEREST",
+    "promo_min_pay_percent": "100",
+    "account_json_file_name": "account_payment_processor_ach_dwolla.json",
+    "account_effective_at": "2021-03-20T09:11:28+00:00",
+    "default_payment_process_method": "ACH",
+    "processor_name": "DWOLLA"
+  },
+  {
+    "tc_name": "PP942 - Dwolla - Verify Dwolla call created for Revolving account in Promotion period where Percent interest payments have been set up",
+    "index": "9",
+    "promo_len": "0",
+    "promo_min_pay_type": "NONE",
+    "promo_min_pay_percent": "0",
+    "account_json_file_name": "account_payment_processor_ach_dwolla.json",
+    "account_effective_at": "2021-03-20T09:11:28+00:00",
+    "default_payment_process_method": "ACH",
+    "processor_name": "DWOLLA"
+  },
+  {
+    "tc_name": "PP977 - Modern Treasury - Verify Modern Treasury call created for Revolving account in Promotion period where partial principal payments have been set up",
+    "index": "10",
+    "promo_len": "0",
+    "promo_min_pay_type": "PERCENT_PRINCIPAL",
+    "promo_min_pay_percent": "20",
+    "account_json_file_name": "account_payment_processor_ach_modern_treasury.json",
+    "account_effective_at": "2021-03-20T09:11:28+00:00",
+    "default_payment_process_method": "ACH",
+    "processor_name": "MODERN_TREASURY"
+  },
+  {
+    "tc_name": "PP978 - Modern Treasury - Verify Modern Treasury call created for Revolving account in Promotion period where partial principal payments have been set up",
+    "index": "11",
+    "promo_len": "0",
+    "promo_min_pay_type": "PERCENT_INTEREST",
+    "promo_min_pay_percent": "100",
+    "account_json_file_name": "account_payment_processor_ach_modern_treasury.json",
+    "account_effective_at": "2021-03-20T09:11:28+00:00",
+    "default_payment_process_method": "ACH",
+    "processor_name": "MODERN_TREASURY"
+  },
+  {
+    "tc_name": "PP979 - Modern Treasury - Verify Modern Treasury call created for Revolving account in Promotion period where Percent interest payments have been set up",
+    "index": "12",
+    "promo_len": "0",
+    "promo_min_pay_type": "NONE",
+    "promo_min_pay_percent": "0",
+    "account_json_file_name": "account_payment_processor_ach_modern_treasury.json",
+    "account_effective_at": "2021-03-20T09:11:28+00:00",
+    "default_payment_process_method": "ACH",
+    "processor_name": "MODERN_TREASURY"
+  },
+  {
+    "tc_name": "PP1014 - Checkout - Verify Checkout call created for Revolving account in Promotion period where partial principal payments have been set up",
+    "index": "13",
+    "promo_len": "0",
+    "promo_min_pay_type": "PERCENT_PRINCIPAL",
+    "promo_min_pay_percent": "20",
+    "account_json_file_name": "account_payment_processor_credit_card_checkout.json",
+    "account_effective_at": "2021-03-20T09:11:28+00:00",
+    "default_payment_process_method": "CREDIT_CARD",
+    "processor_name": "CHECKOUT"
+  },
+  {
+    "tc_name": "PP1015 - Checkout - Verify Checkout call created for Revolving account in Promotion period where partial principal payments have been set up",
+    "index": "14",
+    "promo_len": "0",
+    "promo_min_pay_type": "PERCENT_INTEREST",
+    "promo_min_pay_percent": "100",
+    "account_json_file_name": "account_payment_processor_credit_card_checkout.json",
+    "account_effective_at": "2021-03-20T09:11:28+00:00",
+    "default_payment_process_method": "CREDIT_CARD",
+    "processor_name": "CHECKOUT"
+  },
+  {
+    "tc_name": "PP1016 - Checkout - Verify Checkout call created for Revolving account in Promotion period where Percent interest payments have been set up",
+    "index": "15",
+    "promo_len": "0",
+    "promo_min_pay_type": "NONE",
+    "promo_min_pay_percent": "0",
+    "account_json_file_name": "account_payment_processor_credit_card_checkout.json",
+    "account_effective_at": "2021-03-20T09:11:28+00:00",
+    "default_payment_process_method": "CREDIT_CARD",
+    "processor_name": "CHECKOUT"
+  }
+]

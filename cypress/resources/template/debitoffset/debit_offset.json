@@ -1,0 +1,17 @@
+{
+  "original_amount_cents": 20,
+  "external_fields": [
+    {
+      "key": "canopy_comment",
+      "value": "manual_return"
+    },
+    {
+      "key": "merchant_name",
+      "value": "arecott construction & concrete"
+    },
+    {
+      "key": "artis_note",
+      "value": "Consumer Refund"
+    }
+  ]
+}

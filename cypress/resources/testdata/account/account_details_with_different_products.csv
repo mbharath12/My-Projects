@@ -1,0 +1,5 @@
+﻿tc_name,index,product_type,product_json_file,account_effective_at,initial_principal_cents,account_status
+PP2255 - Verify get specific account response for installment product,1,Installment,payment_product.json,2020-12-01T02:18:27-08:00,300000,ACTIVE
+PP2255A - Verify get specific account response for revolving product,2,Revolving,product_revolving.json,2020-12-01T02:18:27-08:00,300000,ACTIVE
+PP2255B - Verify get specific account response for charge card product,3,charge card,product_charge.json,2021-11-01T02:18:27-08:00,600000,ACTIVE
+PP2255C - Verify get specific account response for mixed rate  product,4,multi_advance_product,mixed_rate_installment_product.json,2021-11-01T02:18:27-08:00,600000,ACTIVE

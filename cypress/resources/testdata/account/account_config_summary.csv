@@ -1,0 +1,5 @@
+﻿tc_name,index,product_type,account_effective_at,credit_limit_cents,late_fee_cents,origination_fee_cents,annual_fee_cents,monthly_fee_cents,initial_principal_cents,status_code
+pp1283 - Verify account summary parameters for installment product,1,REVOLVING,2020-12-01T02:18:27-08:00,400000,2000,3000,2000,2000,300000,200
+pp1283A - Verify account summary parameters for revolving product,2,CREDIT,2020-12-01T02:18:27-08:00,400000,2000,3000,2000,2000,300000,200
+pp1296 - Verify initial Principal cents for an account cannot be more than the Credit limit for installment product,3,REVOLVING,2021-11-01T02:18:27-08:00,400000,0,0,0,0,600000,500
+pp1296A - Verify initial Principal cents for an account cannot be more than the Credit limit for revolving product,4,CREDIT,2021-11-01T02:18:27-08:00,400000,0,0,0,0,600000,500

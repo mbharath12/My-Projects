@@ -1,0 +1,2 @@
+﻿tc_name,index,account_effective_at,first_cycle_interval,initial_principle_in_cents,late_fee_cents,monthly_fee_cents,annual_fee_cents,account_status,account_type,credit1_balance,credit2_balance,credit3_balance
+pp1384 - Verify list of all Current and Metro2 Credit reports for a specific account,1,2021-09-10T02:18:27-08:00,7 days,200000,30000,0,0,11,01,2000,2300,2600

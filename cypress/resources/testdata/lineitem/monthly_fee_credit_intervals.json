@@ -1,0 +1,35 @@
+[
+  {
+    "tc_name": "PP217-Monthly fees on Cards set up with monthly cycle interval",
+    "index": "1",
+    "account_effective_dt": "2021-08-22T05:17:19-05:00",
+    "statement_cycle_inclusive_start": "2021-08-23",
+    "late_fee_cents": "0",
+    "cycle_interval": "30 days",
+    "monthly_fee_cents": "2000",
+    "principal_amount_cents": "2000",
+    "total_balance_cents": "2000"
+  },
+  {
+    "tc_name": "PP218-Monthly fees on Cards sets up with less than 1 month cycle interval - 7 days",
+    "index": "2",
+    "account_effective_dt": "2021-09-06T05:17:25-05:00",
+    "statement_cycle_inclusive_start": "2021-09-28",
+    "late_fee_cents": "0",
+    "cycle_interval": "7 days",
+    "monthly_fee_cents": "2000",
+    "principal_amount_cents": "2000",
+    "total_balance_cents": "2000"
+  },
+  {
+    "tc_name": "PP219-Monthly fees on Cards sets up with less than 1 month cycle interval - 15 days",
+    "index": "3",
+    "account_effective_dt": "2021-08-22T05:17:19-05:00",
+    "statement_cycle_inclusive_start": "2021-08-23",
+    "late_fee_cents": "0",
+    "cycle_interval": "15 days",
+    "monthly_fee_cents": "2000",
+    "principal_amount_cents": "2000",
+    "total_balance_cents": "2000"
+  }
+]

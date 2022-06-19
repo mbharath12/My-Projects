@@ -1,0 +1,28 @@
+{
+  "name_prefix": "{{$randomNamePrefix}}",
+  "name_first": "{{$randomFirstName}}",
+  "name_middle": "{{$randomFirstName}}",
+  "name_last": "{{$randomLastName}}",
+  "name_suffix": "{{$randomNameSuffix}}",
+  "phone_number": "{{Phone_number}}",
+  "address_line_one": "{{$randomStreetAddress}}",
+  "address_line_two": "",
+  "address_city": "{{$randomCity}}",
+  "address_state": "AK",
+  "address_zip": "95667",
+  "address_country_code": "US",
+  "ssn": "{{SSN}}",
+  "international_customer_id": "9999999999",
+  "email": "{{$randomEmail}}",
+  "date_of_birth": "1980-10-10",
+  "assign_to_accounts": [
+    {
+      "account_id": "{{account_id}}",
+      "customer_account_role": "PRIMARY"
+    },
+    {
+      "account_id": "{{account_id}}",
+      "customer_account_role": "PRIMARY"
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+[
+  {
+    "tc_name": "TZ_001 - Validate time zone for America Birmingham",
+    "index": "1",
+    "product_time_zone": "America/Birmingham",
+    "product_effective_at": "1900-01-01T12:00:00-06:00",
+    "product_close_of_business_time": "23:59:59-06:00",
+    "product_interest_calc_time": "01:00:00-06:00",
+    "response_effective_at": "1900-01-01T12:00:00-06:00",
+    "response_close_of_business_time": "23:59:59",
+    "response_interest_calc_time": "01:00:00-06"
+  },
+  {
+    "tc_name": "TZ_002 - Validate time zone for America Birmingham",
+    "index": "2",
+    "product_time_zone": "America/Birmingham",
+    "product_effective_at": "1900-01-01T03:00:00-06:00",
+    "product_close_of_business_time": "23:59:59-06:00",
+    "product_interest_calc_time": "01:00:00-06:00",
+    "response_effective_at": "1900-01-01T03:00:00-06:00",
+    "response_close_of_business_time": "23:59:59",
+    "response_interest_calc_time": "01:00:00-06"
+  },
+  {
+    "tc_name": "TZ_003 - Validate time zone for America LosAngeles",
+    "index": "3",
+    "product_time_zone": "America/Los Angeles",
+    "product_effective_at": "2017-12-15T12:00:00-08:00",
+    "product_close_of_business_time": "23:59:59-08:00",
+    "product_interest_calc_time": "01:00:00-08:00",
+    "response_effective_at": "2017-12-15T14:00:00-06:00",
+    "response_close_of_business_time": "23:59:59",
+    "response_interest_calc_time": "01:00:00-08"
+  },
+  {
+    "tc_name": "TZ_004 - Validate time zone for America LosAngeles",
+    "index": "4",
+    "product_time_zone": "America/Los Angeles",
+    "product_effective_at": "2017-12-15T23:14:00-08:00",
+    "product_close_of_business_time": "23:59:59-08:00",
+    "product_interest_calc_time": "01:00:00-08:00",
+    "response_effective_at": "2017-12-16T01:14:00-06:00",
+    "response_close_of_business_time": "23:59:59",
+    "response_interest_calc_time": "01:00:00-08"
+  },
+  {
+    "tc_name": "TZ_005 - Validate time zone for America Phoenix",
+    "index": "5",
+    "product_time_zone": "America/Phoenix",
+    "product_effective_at": "2017-12-15T09:00:00-07:00",
+    "product_close_of_business_time": "23:59:59-07:00",
+    "product_interest_calc_time": "01:00:00-07:00",
+    "response_effective_at": "2017-12-15T10:00:00-06:00",
+    "response_close_of_business_time": "23:59:59",
+    "response_interest_calc_time": "01:00:00-07"
+  },
+  {
+    "tc_name": "TZ_006 - Validate time zone for America Adak",
+    "index": "6",
+    "product_time_zone": "America/Adak",
+    "product_effective_at": "2017-12-15T19:00:00-10:00",
+    "product_close_of_business_time": "23:59:59-10:00",
+    "product_interest_calc_time": "01:00:00-10:00",
+    "response_effective_at": "2017-12-15T23:00:00-06:00",
+    "response_close_of_business_time": "23:59:59",
+    "response_interest_calc_time": "01:00:00-10"
+  },
+  {
+    "tc_name": "TZ_007 - Validate time zone for America Unalaska",
+    "index": "7",
+    "product_time_zone": "America/Unalaska",
+    "product_effective_at": "2017-12-15T09:00:00-10:00",
+    "product_close_of_business_time": "23:59:59-10:00",
+    "product_interest_calc_time": "01:00:00-10:00",
+    "response_effective_at": "2017-12-15T13:00:00-06:00",
+    "response_close_of_business_time": "23:59:59",
+    "response_interest_calc_time": "01:00:00-10"
+  },
+  {
+    "tc_name": "TZ_008 - Validate time zone for America Chicago",
+    "index": "8",
+    "product_time_zone": "America/Chicago",
+    "product_effective_at": "2017-12-15T11:23:00-06:00",
+    "product_close_of_business_time": "23:59:59-06:00",
+    "product_interest_calc_time": "01:00:00-06:00",
+    "response_effective_at": "2017-12-15T11:23:00-06:00",
+    "response_close_of_business_time": "23:59:59",
+    "response_interest_calc_time": "01:00:00-06"
+  },
+  {
+    "tc_name": "TZ_009 - Validate time zone for America Springfield",
+    "index": "9",
+    "product_time_zone": "America/Springfield",
+    "product_effective_at": "2017-12-15T02:23:00-06:00",
+    "product_close_of_business_time": "23:59:59-06:00",
+    "product_interest_calc_time": "01:00:00-06:00",
+    "response_effective_at": "2017-12-15T02:23:00-06:00",
+    "response_close_of_business_time": "23:59:59",
+    "response_interest_calc_time": "01:00:00-06"
+  },
+  {
+    "tc_name": "TZ_010 - Validate time zone for America New York City",
+    "index": "10",
+    "product_time_zone": "America/New York City",
+    "product_effective_at": "2017-12-15T14:45:23-05:00",
+    "product_close_of_business_time": "23:59:59-05:00",
+    "product_interest_calc_time": "01:00:00-05:00",
+    "response_effective_at": "2017-12-15T13:45:23-06:00",
+    "response_close_of_business_time": "23:59:59",
+    "response_interest_calc_time": "01:00:00-05"
+  },
+  {
+    "tc_name": "TZ_011 - Validate time zone for America Houston",
+    "index": "11",
+    "product_time_zone": "America/Houston",
+    "product_effective_at": "2017-12-15T09:00:00-06:00",
+    "product_close_of_business_time": "23:59:59-06:00",
+    "product_interest_calc_time": "01:00:00-06:00",
+    "response_effective_at": "2017-12-15T09:00:00-06:00",
+    "response_close_of_business_time": "23:59:59",
+    "response_interest_calc_time": "01:00:00-06"
+  },
+  {
+    "tc_name": "TZ_012 - Validate time zone for America Seattle",
+    "index": "12",
+    "product_time_zone": "America/Seattle",
+    "product_effective_at": "2017-12-15T09:00:00-08:00",
+    "product_close_of_business_time": "23:59:59-08:00",
+    "product_interest_calc_time": "01:00:00-08:00",
+    "response_effective_at": "2017-12-15T11:00:00-06:00",
+    "response_close_of_business_time": "23:59:59",
+    "response_interest_calc_time": "01:00:00-08"
+  },
+  {
+    "tc_name": "TZ_013 - Validate time zone for America Newark",
+    "index": "13",
+    "product_time_zone": "America/Newark",
+    "product_effective_at": "2017-12-15T12:45:23-05:00",
+    "product_close_of_business_time": "23:59:59-05:00",
+    "product_interest_calc_time": "01:00:00-05:00",
+    "response_effective_at": "2017-12-15T11:45:23-06:00",
+    "response_close_of_business_time": "23:59:59",
+    "response_interest_calc_time": "01:00:00-05"
+  },
+  {
+    "tc_name": "TZ_014 - Validate time zone for America Portland",
+    "index": "14",
+    "product_time_zone": "America/Portland",
+    "product_effective_at": "2017-12-15T09:00:00-08:00",
+    "product_close_of_business_time": "23:59:59-08:00",
+    "product_interest_calc_time": "01:00:00-08:00",
+    "response_effective_at": "2017-12-15T11:00:00-06:00",
+    "response_close_of_business_time": "23:59:59",
+    "response_interest_calc_time": "01:00:00-08"
+  },
+  {
+    "tc_name": "TZ_015 - Validate time zone for America Portland",
+    "index": "15",
+    "product_time_zone": "America/Portland",
+    "product_effective_at": "2017-12-15T02:00:00-08:00",
+    "product_close_of_business_time": "23:59:59-08:00",
+    "product_interest_calc_time": "01:00:00-08:00",
+    "response_effective_at": "2017-12-15T04:00:00-06:00",
+    "response_close_of_business_time": "23:59:59",
+    "response_interest_calc_time": "01:00:00-08"
+  },
+  {
+    "tc_name": "TZ_016 - Validate time zone for America Denver",
+    "index": "16",
+    "product_time_zone": "America/Denver",
+    "product_effective_at": "2017-12-15T13:00:00-07:00",
+    "product_close_of_business_time": "23:59:59-07:00",
+    "product_interest_calc_time": "01:00:00-07:00",
+    "response_effective_at": "2017-12-15T14:00:00-06:00",
+    "response_close_of_business_time": "23:59:59",
+    "response_interest_calc_time": "01:00:00-07"
+  }
+]

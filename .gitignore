@@ -1,0 +1,32 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/cspell.json
+*.code-workspace
+
+# Test artifacts
+cypress/videos
+cypress/screenshots
+cypress/config_files
+
+# Local History for Visual Studio Code
+.history/
+
+# dependencies
+node_modules
+
+# OS
+.DS_Store
+
+# build
+.build
+
+# misc
+*.env
+*.log
+*.zip

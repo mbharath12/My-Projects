@@ -1,0 +1,5 @@
+﻿tc_name,index,product_type,account_effective_dt,late_fee_cents,monthly_fee_cents,origination_fee_cents,principal_amount_cents,total_balance_cents,payment_check,Payment_amount,total_balance_cents_after_waiver
+PP221- Attempt to revert Monthly fees before floating period,1,CREDIT,-32,0,2000,0,500000,5020000,FALSE,0,500000
+PP222-Attempt to revert Monthly fees after floating period,2,CREDIT,-33,0,2000,0,500000,5020000,FALSE,0,500000
+"PP223- Attempt to revert Monthly fees after floating period, after a payment has been applied",3,CREDIT,-34,0,2000,0,500000,5020000,TRUE,30000,470000
+PP205- Monthly Fee validation - Verify Waiver of fees for Revolving product,4,REVOLVING,-33,0,2000,0,500000,5020000,FALSE,0,500000

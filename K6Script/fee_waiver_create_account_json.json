@@ -1,0 +1,21 @@
+{
+  "summary": {
+    "credit_limit_cents": 400000,
+    "max_approved_credit_limit_cents": 400000,
+    "late_fee_cents": 0,
+    "payment_reversal_fee_cents": 0,
+    "origination_fee_cents": 5000,
+    "annual_fee_cents": 0,
+    "monthly_fee_cents": 0,
+    "initial_principal_cents": 500000
+  },
+  "effective_at": "2021-10-01T01:47:00-04:00",
+  "external_fields": [],
+  "product_id": "1236",
+  "assign_customers": [
+    {
+      "customer_id": "10",
+      "customer_account_role": "PRIMARY"
+    }
+  ]
+}

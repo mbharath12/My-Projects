@@ -1,0 +1,6 @@
+tc_name,index,edit_processor_config,default_payment_process_method,processor_name
+pp1025 - Multiple payment processor - default payment method as ACH and processor name as REPAY,1,account_processor_config_ach_repay.json,ACH,REPAY
+pp1026 - Multiple payment processor - default payment method as ACH and processor name as DWOLLA,2,account_processor_config_ach_dwolla.json,ACH,DWOLLA
+pp1027 - Multiple payment processor - default payment method as ACH and processor name as MODERN TREASURY,3,account_processor_config_ach_modern_treasury.json,ACH,MODERN_TREASURY
+pp1028 - Multiple payment processor - default payment method as Debit Card and processor name as REPAY,4,account_processor_config_debit_card_repay.json,DEBIT_CARD,REPAY
+pp1029 - Multiple payment processor - default payment method as Credit Card and processor name as Checkout,5,account_processor_config_credit_card_checkout.json,CREDIT_CARD,CHECKOUT

@@ -1,0 +1,14 @@
+{
+    "autopay_enabled": false,
+    "default_payment_processor_method": "ACH",
+    "ach": {
+        "payment_processor_name": "REPAY",
+        "repay_config": {
+            "repay_check_type": "BUSINESS",
+            "repay_account_type": "CHECKING",
+            "repay_transit_number": "121000358",
+            "repay_account_number": "0006041231231",
+            "repay_name_on_check": "Umbrella Corporation"
+        }
+    }
+}

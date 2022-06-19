@@ -1,0 +1,3 @@
+tc_name,index,migration_mode,account_effective_dt
+PP1248 - verify statements are not generating for migration mode true,1,TRUE,2021-11-01T05:18:27-05:00
+PP1249 - verify statements are generating for migration mode false,2,FALSE,2021-11-06T00:00:00-05:00

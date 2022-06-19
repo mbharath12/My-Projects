@@ -1,0 +1,22 @@
+[
+  {
+    "tc_name": "pp2651 - Authorize.net - validate manual payment line item is pending status",
+    "index": "1",
+    "account_json_file_name": "account_payment_processor_ach_repay.json",
+    "account_effective_at": "2021-12-10T02:18:27-08:00",
+    "default_payment_process_method": "DEBIT_CARD",
+    "processor_name": "AUTHORIZE_NET",
+    "payment_effective_dt": "2021-12-30T09:11:28+00:00",
+    "autoEnabled": "TRUE"
+  },
+  {
+    "tc_name": "pp2652 - Authorize.net - validate auto payment line item is pending status",
+    "index": "2",
+    "account_json_file_name": "account_payment_processor_ach_repay.json",
+    "account_effective_at": "2021-12-15T02:18:27-08:00",
+    "default_payment_process_method": "DEBIT_CARD",
+    "processor_name": "AUTHORIZE_NET",
+    "payment_effective_dt": "2021-12-30T09:11:28+00:00",
+    "autoEnabled": "FALSE"
+  }
+]

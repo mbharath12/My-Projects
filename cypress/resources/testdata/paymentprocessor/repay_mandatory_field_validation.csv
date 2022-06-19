@@ -1,0 +1,7 @@
+﻿tc_name,index,payment_processor_name,repay_check_type,repay_account_type,repay_transit_number,repay_account_number,repay_name_on_check,error_message,detailed_error_message
+API_105 - create account without payment_processor_name key,1,delete,BUSINESS,CHECKING,121000358,6041231231,Umbrella Corporation,Event object failed validation,must have required property payment_processor_name
+API_110 - create account without repay_check_type,2,REPAY,delete,CHECKING,121000358,6041231231,Umbrella Corporation,Event object failed validation,must have required property repay_check_type
+API_112 - create account without repay_account_type,3,REPAY,BUSINESS,delete,121000358,6041231231,Umbrella Corporation,Event object failed validation,must have required property repay_account_type
+API_114 - create account without repay_transit_number,4,REPAY,BUSINESS,CHECKING,delete,6041231231,Umbrella Corporation,Event object failed validation,must have required property repay_transit_number
+API_115 - create account without repay_account_number,5,REPAY,BUSINESS,CHECKING,121000358,delete,Umbrella Corporation,Event object failed validation,must have required property repay_account_number
+API_116 - create account without repay_name_on_check,6,REPAY,BUSINESS,CHECKING,121000358,6041231231,delete,Event object failed validation,must have required property repay_name_on_check

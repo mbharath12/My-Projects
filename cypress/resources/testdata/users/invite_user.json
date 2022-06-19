@@ -1,0 +1,38 @@
+[
+  {
+    "tc_name": "PP2229 Validate error for invalid email id format",
+    "index": "1",
+    "randromEmail": "FALSE",
+    "email": "marrisa.com",
+    "phone": "",
+    "expected_status_code": "500",
+    "error_message": "Invalid email address format."
+  },
+  {
+    "tc_name": "PP2130 Validate error when email id of existing user",
+    "index": "2",
+    "randromEmail": "FALSE",
+    "email": "marissa@globex.com",
+    "phone": "1-567-8900",
+    "expected_status_code": "409",
+    "error_message": "An account with the given email already exists."
+  },
+  {
+    "tc_name": "PP2134 Validate error for invalid phone number format",
+    "index": "3",
+    "randromEmail": "FALSE",
+    "email": "marissa@globex.com",
+    "phone": "qz-234-567-8900",
+    "expected_status_code": "500",
+    "error_message": "Invalid phone number format."
+  },
+  {
+    "tc_name": "PP2135 Verify the status in the response as Success",
+    "index": "4",
+    "randromEmail": "TRUE",
+    "email": "maarissaa1@globesx.com",
+    "phone": "1-234-567-8900",
+    "expected_status_code": "200",
+    "error_message": ""
+  }
+]

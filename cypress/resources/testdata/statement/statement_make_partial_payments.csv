@@ -1,0 +1,42 @@
+tc_name,index,cycle_interval,account_effective_dt,origination_fee_cents,initial_principal_cents,late_fee_cents,monthly_fee_cents,annual_fee_cents
+pp554 - partial payments through statements - Statements with origination fees - charge - origination fees payment,1,7 days,2021-08-01T02:18:27-08:00,50000,100000,0,0,0
+pp555 - partial payments through statements - Statements with origination fees - charge - charge only payment ,2,7 days,2021-08-01T02:18:27-08:00,50000,100000,0,0,0
+pp556 - partial payments through statements - Statements with origination fees - charge and origination fees payment,3,7 days,2021-08-01T02:18:27-08:00,50000,100000,0,0,0
+pp557 - partial payments through statements - Statements with origination fees - charge - partial charge and origination fees payment,4,7 days,2021-08-01T02:18:27-08:00,50000,100000,0,0,0
+pp558 - partial payments through statements - Statements with no origination fees - charge - monthly fees - monthly fees only payment,5,1 month,2021-03-01T02:18:27-08:00,0,100000,0,5000,0
+pp559 - partial payments through statements - Statements with no origination fees - charge - monthly fees - charge only payment,6,1 month,2021-03-01T02:18:27-08:00,0,100000,0,5000,0
+pp560 - partial payments through statements - Statements with no origination fees - charge - monthly fees - monthly fees and charge payment,7,1 month,2021-03-01T02:18:27-08:00,0,100000,0,5000,0
+pp561 - partial payments through statements - Statements with no origination fees - charge - monthly fees - monthly fees and partial payment,8,1 month,2021-03-01T02:18:27-08:00,0,100000,0,5000,0
+pp562 - partial payments through statements - Statements with origination fees - charge - monthly fees - monthly fees only payment,9,1 month,2021-03-01T02:18:27-08:00,5000,100000,0,5000,0
+pp563 - partial payments through statements - Statements with origination fees - charge - monthly fees - charge only payment,10,1 month,2021-03-01T02:18:27-08:00,5000,100000,0,5000,0
+pp564 - partial payments through statements - Statements with origination fees - charge - monthly fees - monthly fees and charge payment,11,1 month,2021-03-01T02:18:27-08:00,5000,100000,0,5000,0
+pp565 - partial payments through statements - Statements with origination fees - charge - monthly fees - all payments,12,1 month,2021-03-01T02:18:27-08:00,5000,100000,0,5000,0
+pp566 - partial payments through statements - Statements with origination fees - charge - monthly fees - pay fees and partial principal pay,13,1 month,2021-03-01T02:18:27-08:00,5000,100000,0,5000,0
+pp567 - partial payments through statements - Statements with origination fees - charge - monthly fees - monthly fees and charge payment,14,1 month,2021-03-01T02:18:27-08:00,5000,100000,0,5000,0
+pp568 - partial payments through statements - Statements with no origination fees - charge - annual fees - annual fees only payment,15,1 month,2020-10-01T02:18:27-08:00,0,100000,0,0,5000
+pp569 - partial payments through statements - Statements with no origination fees - charge - annual fees - charge only payment,16,1 month,2020-10-01T02:18:27-08:00,0,100000,0,0,5000
+pp570 - partial payments through statements - Statements with no origination fees - charge - annual fees - annual fees and charge payment,17,1 month,2020-10-01T02:18:27-08:00,0,100000,0,0,5000
+pp571 - partial payments through statements - Statements with no origination fees - charge - annual fees - annual fees and partial payment,18,1 month,2020-10-01T02:18:27-08:00,0,100000,0,0,5000
+pp572 - partial payments through statements - Statements with origination fees - charge - annual fees - annual fees only payment,19,1 month,2020-10-01T02:18:27-08:00,5000,100000,0,0,5000
+pp573 - partial payments through statements - Statements with origination fees - charge - annual fees - annual only payment,20,1 month,2020-10-01T02:18:27-08:00,5000,100000,0,0,5000
+pp574 - partial payments through statements - Statements with origination fees - charge - annual fees - annual fees and charge payment,21,1 month,2020-10-01T02:18:27-08:00,5000,100000,0,0,5000
+pp575 - partial payments through statements - Statements with origination fees - charge - annual fees - all payments,22,1 month,2020-10-01T02:18:27-08:00,5000,100000,0,0,5000
+pp576 - partial payments through statements - Statements with origination fees - charge - annual fees - pay fees and partial principal pay,23,1 month,2020-10-01T02:18:27-08:00,5000,100000,0,0,5000
+pp577 - partial payments through statements - Statements with origination fees - charge - annual fees - annual fees and charge payment,24,1 month,2020-10-01T02:18:27-08:00,5000,100000,0,0,5000
+pp578 - partial payments through statements - Statements with no origination fees - charge - monthly fees - annual fees - annual fees only payment,25,1 month,2020-10-01T02:18:27-08:00,0,100000,0,5000,5000
+pp579 - partial payments through statements - Statements with no origination fees - charge - monthly fees - annual fees - charge only payment,26,1 month,2020-10-01T02:18:27-08:00,0,100000,0,5000,5000
+pp580 - partial payments through statements - Statements with no origination fees - charge - monthly fees - annual fees - monthly fees only payment,27,1 month,2020-10-01T02:18:27-08:00,0,100000,0,5000,5000
+pp581 - partial payments through statements - Statements with no origination fees - charge - monthly fees - annual fees - monthly fees and charge payment,28,1 month,2020-10-01T02:18:27-08:00,0,100000,0,5000,5000
+pp582 - partial payments through statements - Statements with no origination fees - charge - monthly fees - annual fees - annual fees and charge payment,29,1 month,2020-10-01T02:18:27-08:00,0,100000,0,5000,5000
+pp583 - partial payments through statements - Statements with no origination fees - charge - monthly fees - annual fees - fees and charge payment,30,1 month,2020-10-01T02:18:27-08:00,0,100000,0,5000,5000
+pp584 - partial payments through statements - Statements with no origination fees - charge - monthly fees - annual fees - annual fees and partial payment,31,1 month,2020-10-01T02:18:27-08:00,0,100000,0,5000,5000
+pp585 - partial payments through statements - Statements with no origination fees - charge - monthly fees - annual fees - annual fees monthly fee and partial payment,32,1 month,2020-10-01T02:18:27-08:00,0,100000,0,5000,5000
+pp586 - partial payments through statements - Statements with origination fees - charge - monthly fees - annual fees - annual fees only payment,33,1 month,2020-10-01T02:18:27-08:00,5000,100000,0,5000,5000
+pp587 - partial payments through statements - Statements with origination fees - charge - monthly fees - annual fees - monthly fee only payment,34,1 month,2020-10-01T02:18:27-08:00,5000,100000,0,5000,5000
+pp588 - partial payments through statements - Statements with origination fees - charge - monthly fees - annual fees - annual fees and charge payment,35,1 month,2020-10-01T02:18:27-08:00,5000,100000,0,5000,5000
+pp589 - partial payments through statements - Statements with origination fees - charge - monthly fees - annual fees - monthly fees and charge payment,36,1 month,2020-10-01T02:18:27-08:00,5000,100000,0,5000,5000
+pp590 - partial payments through statements - Statements with origination fees - charge - monthly fees - annual fees - fees payment,37,1 month,2020-10-01T02:18:27-08:00,5000,100000,0,5000,5000
+pp591 - partial payments through statements - Statements with origination fees - charge - monthly fees - annual fees - monthly fees and annual fees payment,38,1 month,2020-10-01T02:18:27-08:00,5000,100000,0,5000,5000
+pp592 - partial payments through statements - Statements with origination fees - charge - monthly fees - annual fees - all fees and charge payment,39,1 month,2020-10-01T02:18:27-08:00,5000,100000,0,5000,5000
+pp593 - partial payments through statements - Statements with origination fees - charge - monthly fees - annual fees - all payments,40,1 month,2020-10-01T02:18:27-08:00,5000,100000,0,5000,5000
+pp594 - partial payments through statements - Statements with origination fees - charge - monthly fees - annual fees - pay fees and partial principal pay,41,1 month,2020-10-01T02:18:27-08:00,5000,100000,0,5000,5000

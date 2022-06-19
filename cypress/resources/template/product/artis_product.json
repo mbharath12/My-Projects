@@ -1,0 +1,50 @@
+{
+  "effective_at": "2014-07-25T04:00:14.803Z",
+  "admin": {
+    "migration_mode": true
+  },
+  "product_overview": {
+    "product_name": "Pmt-200",
+    "product_type": "FIXED_RATE_INSTALLMENT",
+    "product_color": "#4867FF",
+    "product_long_description": "Monthly payment guaranteed at 2.00% of spend with fixed, risk-based APR between 3.99% and 20.61% and term between 60 and 120.  Purchase Window open for 5 months.  Up to 5 interest-only payments followed by 55-115 amortizing payments starting at approval.\n\nYou will still receive statements via email.\nAs always, you will only be responsible for paying back what you spent during your purchase window in addition to any interest and/or fees you might incur.\nKey Points:\n- Promotion: Guaranteed 2.00% of spend monthly payment starting after purchase window closes\n- APR is assigned by risk between 3.99% and 20.61%\n- After APR is assigned, term is adjusted to guarantee monthly payment amount between 60 and 120 months\n- Purchase window open for the first 5 months after approval\n- Interest Only Payments are assessed during the purchase window\n- After the purchase window closes, the loan converts to an amortizing installment loan.",
+    "product_short_description": "PmtFactor 2.0%"
+  },
+
+  "promotional_policies": {
+    "promo_len": 5,
+    "promo_min_pay_type": "PERCENT_INTEREST",
+    "promo_min_pay_percent": 100,
+    "promo_interest_deferred": false,
+    "promo_purchase_window_len": 5,
+    "promo_apr_range_inclusive_lower": 0,
+    "promo_apr_range_inclusive_upper": 0,
+    "promo_default_interest_rate_percent": 0
+  },
+  "post_promotional_policies": {
+    "post_promo_len": 115,
+    "post_promo_min_pay_type": "AM",
+    "post_promo_apr_range_inclusive_lower": 3.99,
+    "post_promo_apr_range_inclusive_upper": 20.61,
+    "post_promo_am_len_range_inclusive_lower": 55,
+    "post_promo_am_len_range_inclusive_upper": 115,
+    "post_promo_default_interest_rate_percent": 3.99
+  },
+  "product_lifecycle_policies": {
+    "fee_policies": {"late_fee_grace": "5 days"},
+    "interest_policies": {"interest_calc_time": "01:00:00-05:00"},
+    "default_attributes": {
+      "default_late_fee_cents": 0,
+      "default_credit_limit_cents": 0,
+      "default_payment_reversal_fee_cents": 0
+    },
+    "payment_due_policies": {"charge_off_on_n_consecutive_late_fees": 4, "delinquent_on_n_consecutive_late_fees": 1},
+    "billing_cycle_policies": {
+      "cycle_interval": "1 month",
+      "product_time_zone": "America/New_York",
+      "cycle_due_interval": "-4 days",
+      "first_cycle_interval": "6 days",
+      "close_of_business_time": "23:59:59-05:00"
+    }
+  }
+}

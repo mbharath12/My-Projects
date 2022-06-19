@@ -1,0 +1,82 @@
+[
+  {
+    "tc_name": "pp170 - attempt to apply negative fees",
+    "index": "1",
+    "account_effective_dt": "-3",
+    "origination_fee_cents": "-2000",
+    "response_status": "200",
+    "error_msg": ""
+  },
+  {
+    "tc_name": "pp171 - attempt to apply 0 fees",
+    "index": "2",
+    "account_effective_dt": "-3",
+    "origination_fee_cents": "0",
+    "response_status": "200",
+    "error_msg": ""
+  },
+  {
+    "tc_name": "pp172 - attempt to apply 2 cents fees",
+    "index": "3",
+    "account_effective_dt": "-3",
+    "origination_fee_cents": "2",
+    "response_status": "500",
+    "error_msg": "A server error has occurred."
+  },
+  {
+    "tc_name": "pp173 - attempt to apply USD 29.99 fees",
+    "index": "4",
+    "account_effective_dt": "-3",
+    "origination_fee_cents": "2999",
+    "response_status": "200",
+    "error_msg": ""
+  },
+  {
+    "tc_name": "pp174 - attempt to apply USD 35 fees",
+    "index": "5",
+    "account_effective_dt": "-3",
+    "origination_fee_cents": "3500",
+    "response_status": "200",
+    "error_msg": ""
+  },
+  {
+    "tc_name": "pp175 - attempt to apply USD 50 fees",
+    "index": "6",
+    "account_effective_dt": "-3",
+    "origination_fee_cents": "5000",
+    "response_status": "200",
+    "error_msg": ""
+  },
+  {
+    "tc_name": "pp176 - attempt to apply USD 100 fees",
+    "index": "7",
+    "account_effective_dt": "-3",
+    "origination_fee_cents": "1000",
+    "response_status": "200",
+    "error_msg": ""
+  },
+  {
+    "tc_name": "pp177 - attempt to apply USD 1000 fees",
+    "index": "8",
+    "account_effective_dt": "-3",
+    "origination_fee_cents": "100000",
+    "response_status": "500",
+    "error_msg": "A server error has occurred."
+  },
+  {
+    "tc_name": "pp178 - attempt to apply USD 1000000  fees",
+    "index": "9",
+    "account_effective_dt": "-3",
+    "origination_fee_cents": "100000000",
+    "response_status": "500",
+    "error_msg": "A server error has occurred."
+  },
+  {
+    "tc_name": "pp179 - attempt to apply more than the approved credit limit",
+    "index": "10",
+    "account_effective_dt": "-3",
+    "origination_fee_cents": "410000",
+    "response_status": "500",
+    "error_msg": "A server error has occurred."
+  }
+]

@@ -1,0 +1,11 @@
+﻿tc_name,index,product_type,product_json_file,delinquent,charge_off,cycle_interval,cycle_due_interval,account_effective_dt,principal_amount_cents,late_fee_cents,monthly_fee_cents,account_status,payment_check,charge_before_payment,charge_after_payment,charge_status,payment_status,payment_amt_cents,account_status_after_payment
+pp437 -  Verify Delinquent account should not allowed charges and allowed payments,1,Installment,payment_product.json,1,5,5 days,5 days,-8,300000,0,0,SUSPENDED,TRUE,TRUE,FALSE,500,200,100000,ACTIVE
+pp438 -  Verify Delinquent account should allow payments,2,Installment,payment_product.json,1,5,5 days,5 days,-8,300000,0,0,SUSPENDED,TRUE,FALSE,FALSE,,200,100000,ACTIVE
+pp439 - Verify New Charges are allowed in cured Delinquent accounts ,3,Credit Card,product_credit.json,1,5,5 days,5 days,-8,300000,0,0,SUSPENDED,TRUE,FALSE,TRUE,200,200,200000,ACTIVE
+pp443 -  Verify Closed account should not allow payment,4,Credit Card,product_credit.json,1,2,5 days,5 days,-30,300000,0,0,CLOSED,TRUE,FALSE,FALSE,,500,300000,
+pp444 - Verify no further charge transactions are allowed on closed account,5,Credit Card,product_credit.json,1,2,5 days,5 days,-30,300000,0,0,CLOSED,FALSE,TRUE,FALSE,500,,,
+pp445 - Verify Closed account should not allow payment for credit product,6,Installment,payment_product.json,1,2,5 days,5 days,-30,300000,0,0,CLOSED,TRUE,FALSE,FALSE,,500,300000,
+pp448 - Verify no further charge transactions are allowed on closed account for installment,7,Installment,payment_product.json,1,2,5 days,5 days,-30,300000,0,0,CLOSED,FALSE,TRUE,FALSE,500,,,
+pp452 - Verify Payment received on a Suspended account,8,Credit Card,product_credit.json,1,5,5 days,5 days,-8,300000,0,0,SUSPENDED,TRUE,FALSE,FALSE,,200,200000,ACTIVE
+pp454 - Verify Delinquent account is not cured by half due payment installment product,9,Installment,payment_product.json,1,5,5 days,5 days,-8,300000,0,0,SUSPENDED,TRUE,FALSE,TRUE,200,200,200,SUSPENDED
+pp455 - Verify Delinquent account is not cured by half due payment for credit product,10,Credit Card,product_credit.json,1,5,5 days,5 days,-8,300000,0,0,SUSPENDED,TRUE,FALSE,TRUE,200,200,300,SUSPENDED

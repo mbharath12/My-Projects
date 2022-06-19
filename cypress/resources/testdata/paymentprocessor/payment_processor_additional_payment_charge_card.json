@@ -1,0 +1,47 @@
+[
+  {
+    "tc_name": "PP900 - Debit Card - Verify full payment due event and repay call created for Charge card  accounts before due date",
+    "index": "1",
+    "account_json_file_name": "account_payment_processor_debit_card_repay.json",
+    "account_effective_at": "2021-11-01T09:11:28+00:00",
+    "default_payment_process_method": "DEBIT_CARD",
+    "processor_name": "REPAY",
+    "promo_impl_interest": "0"
+  },
+  {
+    "tc_name": "PP937 - Dwolla - Verify full payment due event and dwolla call created for Charge card  accounts before due date",
+    "index": "2",
+    "account_json_file_name": "account_payment_processor_ach_dwolla.json",
+    "account_effective_at": "2021-11-01T09:11:28+00:00",
+    "default_payment_process_method": "ACH",
+    "processor_name": "DWOLLA",
+    "promo_impl_interest": "0"
+  },
+  {
+    "tc_name": "PP974 - Modern treasury - Verify full payment due event and modern treasury call created for Charge card  accounts before due date",
+    "index": "3",
+    "account_json_file_name": "account_payment_processor_ach_modern_treasury.json",
+    "account_effective_at": "2021-11-01T09:11:28+00:00",
+    "default_payment_process_method": "ACH",
+    "processor_name": "MODERN_TREASURY",
+    "promo_impl_interest": "0"
+  },
+  {
+    "tc_name": "PP1011 - Checkout - Verify full payment due event and Checkout call created for Charge card  accounts before due date",
+    "index": "4",
+    "account_json_file_name": "account_payment_processor_credit_card_checkout.json",
+    "account_effective_at": "2021-11-01T09:11:28+00:00",
+    "default_payment_process_method": "CREDIT_CARD",
+    "processor_name": "CHECKOUT",
+    "promo_impl_interest": "0"
+  },
+  {
+    "tc_name": "PP900A - ACH - Verify full payment due event and repay call created for Charge card  accounts before due date",
+    "index": "5",
+    "account_json_file_name": "account_payment_processor_ach_repay.json",
+    "account_effective_at": "2021-11-01T09:11:28+00:00",
+    "default_payment_process_method": "ACH",
+    "processor_name": "REPAY",
+    "promo_impl_interest": "0"
+  }
+]

@@ -1,0 +1,11 @@
+{
+    "ach": {
+        "payment_processor_name": "MODERN_TREASURY",
+        "modern_treasury_config": {
+            "name": "LendingFriend",
+            "plaid_processor_token": "processor-sandbox-24f8f3c9-ba13-4c0e-93c5-3f8f2ef80fe4"
+        }
+    },
+    "autopay_enabled": true,
+    "default_payment_processor_method": "ACH"
+}

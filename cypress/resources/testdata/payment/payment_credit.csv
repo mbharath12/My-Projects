@@ -1,0 +1,68 @@
+﻿tc_name,index,account_effective_dt,account_effective_dt_time,origination_fee_cents,late_fee_cents,repayment_type,payment_amt_cents,current_principal_cents,fees_balance_cents,total_balance_cents,total_paid_to_date_cents,Validations
+pp19 -fully repayment without origination fee on middle of the floating period,1,-2,0,0,0,full,300000,0,0,0,-300000,"payment_amt_cents should be full principal amount.
+current_principal_cents should be loan amount - repayment amount
+total_balance_cents should be  loan amount - repayment amount
+total_paid_to_date_cents should be payment amount"
+pp20 -half repayment without origination fee on middle of the floating period,2,-2,0,0,0,half,150000,150000,0,150000,-150000,"payment_amt_cents should be half of principal amount.
+current_principal_cents should be loan amount - repayment amount
+total_balance_cents should be  loan amount - repayment amount
+total_paid_to_date_cents should be payment amount"
+pp21 - 5 % repayment without origination fee on middle of the floating period,3,-2,0,0,0,5,15000,285000,0,285000,-15000,"payment_amt_cents should be 5% of principal amount.
+current_principal_cents should be loan amount - repayment amount
+total_paid_to_date_cents should be payment amount"
+pp25 - fully repayment with origination fee on middle of the floating period,4,-2,0,5000,0,full,300000,5000,0,5000,-300000,"payment_amt_cents should be full principal amount.
+current_principal_cents should be loan amount - repayment amount
+total_balance_cents should be  loan amount - repayment amount+origination fee
+total_paid_to_date_cents should be payment amount"
+pp26 - half repayment with origination fee on middle of the floating period,5,-2,0,5000,0,half,150000,155000,0,155000,-150000,"payment_amt_cents should be half of principal amount.
+current_principal_cents should be loan amount - repayment amount
+total_balance_cents should be  loan amount - repayment amount+origination fee
+total_paid_to_date_cents should be payment amount"
+pp27 - 5 % repayment with origination fee on middle of the floating period,6,-2,0,5000,0,5,15000,290000,0,290000,-15000,"payment_amt_cents should be 5% of principal amount.
+current_principal_cents should be loan amount - repayment amount+origination fee
+total_paid_to_date_cents should be payment amount"
+pp28 - fully repayment without origination fee on one  day before floating period ends,7,-4,0,0,0,full,300000,0,0,0,-300000,"payment_amt_cents should be full principal amount.
+current_principal_cents should be loan amount - repayment amount
+total_balance_cents should be  loan amount - repayment amount
+total_paid_to_date_cents should be payment amount"
+pp29 - half repayment without origination fee on one day before floating period ends,8,-4,0,0,0,half,150000,150000,0,150000,-150000,"payment_amt_cents should be half of principal amount.
+current_principal_cents should be loan amount - repayment amount
+total_balance_cents should be  loan amount - repayment amount
+total_paid_to_date_cents should be payment amount"
+pp30 - 5 % repayment without origination fee on one  day before floating period ends,9,-4,0,0,0,5,15000,285000,0,285000,-15000,"payment_amt_cents should be 5% of principal amount.
+current_principal_cents should be loan amount - repayment amount
+total_paid_to_date_cents should be payment amount"
+pp34 - fully repayment with origination fee on one  day before floating period ends,10,-4,0,5000,0,full,300000,5000,0,5000,-300000,"payment_amt_cents should be full principal amount.
+current_principal_cents should be loan amount - repayment amount
+total_balance_cents should be  loan amount - repayment amount + origination fee
+total_paid_to_date_cents should be payment amount"
+pp35 - half repayment with origination fee on one  day before floating period ends,11,-4,0,5000,0,half,150000,155000,0,155000,-150000,"payment_amt_cents should be half of principal amount.
+current_principal_cents should be loan amount - repayment amount
+total_balance_cents should be  loan amount - repayment amount
++ origination fee
+total_paid_to_date_cents should be payment amount"
+pp36 - 5 % repayment with origination fee on one  day  before floating period ends,12,-4,0,5000,0,5,15000,290000,0,290000,-15000,"payment_amt_cents should be 5% of principal amount.
+current_principal_cents should be loan amount - repayment amount + origination fee
+total_paid_to_date_cents should be payment amount"
+pp37 - fully repayment without origination fee on the day of floating period ,13,-5,0,0,0,full,300000,0,0,0,-300000,"payment_amt_cents should be full principal amount.
+current_principal_cents should be loan amount - repayment amount
+total_balance_cents should be  loan amount - repayment amount
+total_paid_to_date_cents should be payment amount"
+pp38 - half repayment without origination fee on  the day of floating period,14,-5,0,0,0,half,150000,150000,0,150000,-150000,"payment_amt_cents should be half of principal amount.
+current_principal_cents should be loan amount - repayment amount
+total_balance_cents should be  loan amount - repayment amount
+total_paid_to_date_cents should be payment amount"
+pp39 - 5 % repayment without origination fee on  the day of floating period,15,-5,0,0,0,5,15000,285000,0,285000,-15000,"payment_amt_cents should be 5% of principal amount.
+current_principal_cents should be loan amount - repayment amount
+total_paid_to_date_cents should be payment amount"
+pp43 - full repayment with origination fee on the day of floating period,16,-5,0,5000,0,full,300000,5000,0,5000,-300000,"payment_amt_cents should be full principal amount.
+current_principal_cents should be loan amount - repayment amount
+total_balance_cents should be  loan amount - repayment amount+origination fee
+total_paid_to_date_cents should be payment amount"
+pp44 - half repayment with origination fee on the day of floating period,17,-5,0,5000,0,half,150000,155000,0,155000,-150000,"payment_amt_cents should be half of principal amount.
+current_principal_cents should be loan amount - repayment amount
+total_balance_cents should be  loan amount - repayment amount+origination fee
+total_paid_to_date_cents should be payment amount"
+pp45 - 5 % repayment with origination fee on  the day of floating period,18,-5,0,5000,0,5,15000,290000,0,290000,-15000,"payment_amt_cents should be 5% of principal amount.
+current_principal_cents should be loan amount - repayment amount+origination fee
+total_paid_to_date_cents should be payment amount"

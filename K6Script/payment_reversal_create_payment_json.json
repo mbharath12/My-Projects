@@ -1,0 +1,11 @@
+{
+  "original_amount_cents": 200,
+  "effective_at": "2021-10-10T01:47:00-04:00",
+
+  "external_fields": [
+    {
+      "key": "Globex Interbank Card Processing Account ID",
+      "value": "mvVVci2AuHCC2yxL64bpXYgM3DMd9x8TmT"
+    }
+  ]
+}

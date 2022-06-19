@@ -1,0 +1,53 @@
+account_tc_id,transaction_type,index,roll_date,exp_line_item_type,original_amount_cents,refund_amount,effective_at,acc_fees_balance_cents,acc_total_balance_cents,acc_principal_balance_cents,interest_balance_cents,am_interest_balance_cents,total_interest_paid_to_date_cents,deferred_interest_balance_cents
+PP2757 - Refund on revolving account with No fees and verify account balance,refund,1,,,,100000,2022-02-10T02:18:27-08:00,,,,,,,
+PP2757 - Refund on revolving account with No fees and verify account balance,rollTimeForward,2,2022-02-15T02:18:27-08:00,,,,,,,,,,,
+PP2757 - Refund on revolving account with No fees and verify account balance,validateLineItem,3,,REFUND,100000,,,,,,,,,
+PP2757 - Refund on revolving account with No fees and verify account balance,validateAccountSummary,4,,,,,,0,100000,100000,0,0,0,0
+PP2758 - Refund on revolving account with fees and verify account balance,refund,5,,,,100000,2022-02-10T02:18:27-08:00,,,,,,,
+PP2758 - Refund on revolving account with fees and verify account balance,rollTimeForward,6,2022-02-15T02:18:27-08:00,,,,,,,,,,,
+PP2758 - Refund on revolving account with fees and verify account balance,validateLineItem,7,,REFUND,100000,,,,,,,,,
+PP2758 - Refund on revolving account with fees and verify account balance,validateAccountSummary,8,,,,,,0,102500,102500,0,0,0,0
+PP2759 - Refund on revolving account with interest and verify account balance,refund,9,,,,100000,2022-02-10T02:18:27-08:00,,,,,,,
+PP2759 - Refund on revolving account with interest and verify account balance,rollTimeForward,10,2022-02-15T02:18:27-08:00,,,,,,,,,,,
+PP2759 - Refund on revolving account with interest and verify account balance,validateLineItem,11,,REFUND,100000,,,,,,,,,
+PP2759 - Refund on revolving account with interest and verify account balance,validateAccountSummary,12,,,,,,0,100833,100833,0,0,833,0
+PP2760 - Refund on revolving account with both interest and fees and verify account balance,refund,13,,,,100000,2022-02-10T02:18:27-08:00,,,,,,,
+PP2760 - Refund on revolving account with both interest and fees and verify account balance,rollTimeForward,14,2022-02-15T02:18:27-08:00,,,,,,,,,,,
+PP2760 - Refund on revolving account with both interest and fees and verify account balance,validateLineItem,15,,REFUND,100000,,,,,,,,,
+PP2760 - Refund on revolving account with both interest and fees and verify account balance,validateAccountSummary,16,,,,,,0,103333,103333,0,0,833,0
+PP2761 - Refund on installment account with No fee verify account balance,refund,17,,,,100000,2022-02-10T02:18:27-08:00,,,,,,,
+PP2761 - Refund on installment account with No fee verify account balance,rollTimeForward,18,2022-02-15T02:18:27-08:00,,,,,,,,,,,
+PP2761 - Refund on installment account with No fee verify account balance,validateLineItem,19,,REFUND,100000,,,,,,,,,
+PP2761 - Refund on installment account with No fee verify account balance,validateAccountSummary,20,,,,,,0,100000,100000,0,0,0,0
+PP2762 - Refund on installment account with fees and verify account balance,refund,21,,,,100000,2022-02-10T02:18:27-08:00,,,,,,,
+PP2762 - Refund on installment account with fees and verify account balance,rollTimeForward,22,2022-02-15T02:18:27-08:00,,,,,,,,,,,
+PP2762 - Refund on installment account with fees and verify account balance,validateLineItem,23,,REFUND,100000,,,,,,,,,
+PP2762 - Refund on installment account with fees and verify account balance,validateAccountSummary,24,,,,,,0,102500,102500,0,0,0,0
+PP2763 - Refund on installment account with interest and verify account balance,refund,25,,,,100000,2022-02-10T02:18:27-08:00,,,,,,,
+PP2763 - Refund on installment account with interest and verify account balance,rollTimeForward,26,2022-02-15T02:18:27-08:00,,,,,,,,,,,
+PP2763 - Refund on installment account with interest and verify account balance,validateLineItem,27,,REFUND,100000,,,,,,,,,
+PP2763 - Refund on installment account with interest and verify account balance,validateAccountSummary,28,,,,,,0,100666,100666,0,0,666,0
+PP2764 - Refund on installment account with both interest and fees and verify account balance,refund,29,,,,105000,2022-02-10T02:18:27-08:00,,,,,,,
+PP2764 - Refund on installment account with both interest and fees and verify account balance,rollTimeForward,30,2022-02-15T02:18:27-08:00,,,,,,,,,,,
+PP2764 - Refund on installment account with both interest and fees and verify account balance,validateLineItem,31,,REFUND,105000 ,,,,,,,,,
+PP2764 - Refund on installment account with both interest and fees and verify account balance,validateAccountSummary,32,,,,,,0,98166,98166,0,0,666,0
+PP2765 - Refund on installment account with both interest and fees and verify account balance,refund,33,,,,105000,2022-01-30T02:18:27-08:00,,,,,,,
+PP2765 - Refund on installment account with both interest and fees and verify account balance,rollTimeForward,34,2022-02-05T02:18:27-08:00,,,,,,,,,,,
+PP2765 - Refund on installment account with both interest and fees and verify account balance,validateLineItem,35,,REFUND,105000 ,,,,,,,,,
+PP2765 - Refund on installment account with both interest and fees and verify account balance,validateAccountSummary,36,,,,,,0,97500,97500,0,0,0,0
+PP2766 - Refund on revolving account with both interest and fees and verify account balance,refund,37,,,,100000,2022-01-30T02:18:27-08:00,,,,,,,
+PP2766 - Refund on revolving account with both interest and fees and verify account balance,rollTimeForward,38,2022-02-05T02:18:27-08:00,,,,,,,,,,,
+PP2766 - Refund on revolving account with both interest and fees and verify account balance,validateLineItem,39,,REFUND,100000,,,,,,,,,
+PP2766 - Refund on revolving account with both interest and fees and verify account balance,validateAccountSummary,40,,,,,,0,102500,102500,0,0,0,0
+PP2767 - Refund on revolving account with both interest and fees and verify account balance,refund,41,,,,100000,2022-01-05T05:18:27-08:00,,,,,,,
+PP2767 - Refund on revolving account with both interest and fees and verify account balance,rollTimeForward,42,2022-02-10T02:18:27-08:00,,,,,,,,,,,
+PP2767 - Refund on revolving account with both interest and fees and verify account balance,validateLineItem,43,,REFUND,100000,,,,,,,,,
+PP2767 - Refund on revolving account with both interest and fees and verify account balance,validateAccountSummary,44,,,,,,0,102927,102500,427,0,0,0
+PP2768 - Refund on installment account with both interest and fees and verify account balance,refund,45,,,,100000,2022-01-05T05:18:27-08:00,,,,,,,
+PP2768 - Refund on installment account with both interest and fees and verify account balance,rollTimeForward,46,2022-02-10T02:18:27-08:00,,,,,,,,,,,
+PP2768 - Refund on installment account with both interest and fees and verify account balance,validateLineItem,47,,REFUND,100000,,,,,,,,,
+PP2768 - Refund on installment account with both interest and fees and verify account balance,validateAccountSummary,48,,,,,,0,102841,102500,0,341 ,0,0
+PP2769 - Refund on multi installment account with both interest and fees and verify account balance,refund,49,,,,100000,2022-01-20T05:18:27-08:00,,,,,,,
+PP2769 - Refund on multi installment account with both interest and fees and verify account balance,rollTimeForward,50,2022-02-10T02:18:27-08:00,,,,,,,,,,,
+PP2769 - Refund on multi installment account with both interest and fees and verify account balance,validateLineItem,51,,REFUND,100000,,,,,,,,,
+PP2769 - Refund on multi installment account with both interest and fees and verify account balance,validateAccountSummary,52,,,,,,0,102927,102500,0,0,0,427

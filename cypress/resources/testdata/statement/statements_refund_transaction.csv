@@ -1,0 +1,17 @@
+﻿account_tc_id,transaction_type,index,cycle_number,refund_amount,effective_at,lineitem_amount,stmt_loans_principal_cents,stmt_fees_balance_cents,stmt_total_balance_cents,stmt_principal_balance_cents,interest_balance_cents,am_interest_balance_cents,charges_principal_cents
+PP2735 - Refund on revolving account and verify statement balances,refund,1,1,100000,2021-12-10T02:18:27-08:00,,,,,,,,
+PP2735 - Refund on revolving account and verify statement balances,balances for statement,2,2,,,100000,100000,0,100000,100000,0,0,100000
+PP2736 - Refund on revolving account with fees and verify statement balances,refund,3,1,100000,2021-12-10T02:18:27-08:00,,,,,,,,
+PP2736 - Refund on revolving account with fees and verify statement balances,balances for statement,4,2,,,100000,100000,0,102500,102500,0,0,102500
+PP2737 - Refund on revolving account with interest and verify statement balances,refund,5,1,100000,2021-12-10T02:18:27-08:00,,,,,,,,
+PP2737 - Refund on revolving account with interest and verify statement balances,balances for statement,6,2,,,100000,100000,0,112846,108333,4513,0,108333
+PP2738 - Refund on revolving account with both interest and fees and verify statement balances,refund,7,1,100000,2021-12-10T02:18:27-08:00,,,,,,,,
+PP2738 - Refund on revolving account with both interest and fees and verify statement balances,balances for statement,8,2,,,100000,100000,0,115451,110833,4618,0,110833
+PP2739 - Refund on installment account and verify statement balances,refund,9,1,100000,2021-12-10T02:18:27-08:00,,,,,,,,
+PP2739 - Refund on installment account and verify statement balances,balances for statement,10,2,,,100000,100000,0,100000,100000,0,0,0
+PP2740 - Refund on installment account with fees and verify statement balances,refund,11,1,100000,2021-12-10T02:18:27-08:00,,,,,,,,
+PP2740 - Refund on installment account with fees and verify statement balances,balances for statement,12,2,,,100000,102500,0,102500,102500,0,0,0
+PP2741 - Refund on installment account with interest and verify statement balances,refund,13,1,100000,2021-12-10T02:18:27-08:00,,,,,,,,
+PP2741 - Refund on installment account with interest and verify statement balances,balances for statement,14,2,,,100000,106666,0,110221,106666,0,3555,0
+PP2742 - Refund on installment account with both interest and fees and verify statement balances,refund,15,1,100000,2021-12-10T02:18:27-08:00,,,,,,,,
+PP2742 - Refund on installment account with both interest and fees and verify statement balances,balances for statement,16,2,,,100000,109166,0,112804,109166,0,3638,0

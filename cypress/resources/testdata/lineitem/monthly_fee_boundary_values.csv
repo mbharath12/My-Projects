@@ -1,0 +1,11 @@
+tc_name,index,account_effective_dt,account_effective_dt_time,late_fee_cents,monthly_fee_cents,total_balance_cents,response_status,error_msg
+PP204-Monthly Fee validation - Automated process,1,2021-08-26T02:18:27-08:00,0,0,20000,320000,200,
+PP206-Monthly Fee validation - First month fees,2,2021-08-26T02:18:27-08:00,0,0,20000,320000,200,
+PP208-Monthly fees validation - Attempt to apply monthly fees amount over and above the Credit limit,3,2021-08-26T02:18:27-08:00,0,0,600000,0,500,Internal Server Error
+PP209-Monthly fees validation - Attempt to apply negative fees,4,2021-08-26T02:18:27-08:00,0,0,-20000,0,500,Internal Server Error
+PP210-Monthly fees validation - Attempt to apply 0 fees,5,2021-08-26T02:18:27-08:00,0,0,0,300000,200,
+PP211-Monthly fees validation - Attempt to apply 31 cents fees,6,2021-08-26T02:18:27-08:00,0,0,31,0,422,Unprocessable Time
+PP212-Monthly fees validation - Attempt to apply USD 20 fees,7,2021-08-26T02:18:27-08:00,0,0,2000,302000,200,
+PP213-Monthly fees validation - Attempt to apply USD 1000 fees,8,2021-08-26T02:18:27-08:00,0,0,100000,0,500,Internal Server Error
+PP214-Monthly fees validation - Attempt to apply monthly fees more than the Credit limit,9,2021-08-26T02:18:27-08:00,0,0,500000,0,200,
+PP207-Monthly Fee validation - Automated process when due date for fees falls on a holiday ,10,2021-08-26T02:18:27-08:00,0,0,600000,0,200,

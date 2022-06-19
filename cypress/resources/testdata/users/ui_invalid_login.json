@@ -1,0 +1,23 @@
+[
+  {
+    "tc_name": "WEB_001 - Validate Error for Invalid Email ",
+    "index": "1",
+    "email_id": "testinvalidemail@canopyservicing",
+    "password": "getfromenv",
+    "error_message": "Valid email required"
+  },
+  {
+    "tc_name": "WEB_002 - Validate Error for Invalid Password",
+    "index": "2",
+    "email_id": "getfromenv",
+    "password": "WeCanopy1!",
+    "error_message": "Incorrect username or password."
+  },
+  {
+    "tc_name": "WEB_003 - Validate Error for unauthorized user",
+    "index": "3",
+    "email_id": "testinvalidemail@canopyservicing.com",
+    "password": "WeCanopy1!",
+    "error_message": "Incorrect username or password."
+  }
+]

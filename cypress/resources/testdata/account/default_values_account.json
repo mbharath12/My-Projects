@@ -1,0 +1,233 @@
+[
+  {
+    "tc_name": "API_095 - Validate default value for effective_at",
+    "index": "1",
+    "field_name": "effective_at",
+    "field_path": "effective_at",
+    "field_value": "current_date"
+  },
+  {
+    "tc_name": "API_099 - Validate default value for external_product_id",
+    "index": "2",
+    "field_name": "external_account_id",
+    "field_path": "external_account_id",
+    "field_value": "null"
+  },
+  {
+    "tc_name": "API_100 - Validate default value for external_fields",
+    "index": "3",
+    "field_name": "external_fields",
+    "field_path": "external_fields",
+    "field_value": ""
+  },
+  {
+    "tc_name": "API_106 - Validate default value for ach payment_processor_name",
+    "index": "4",
+    "field_name": "payment_processor_name",
+    "field_path": "payment_processor_config.ach.payment_processor_name",
+    "field_value": "NONE"
+  },
+  {
+    "tc_name": "API_108 - Validate default value for ach repay_config",
+    "index": "5",
+    "field_name": "repay_config",
+    "field_path": "payment_processor_config.ach.repay_config",
+    "field_value": "null"
+  },
+  {
+    "tc_name": "API_117 - Validate default value for dwolla_config",
+    "index": "6",
+    "field_name": "dwolla_config",
+    "field_path": "payment_processor_config.ach.dwolla_config",
+    "field_value": "null"
+  },
+  {
+    "tc_name": "API_119 - Validate default value for modern_treasury_config",
+    "index": "7",
+    "field_name": "modern_treasury_config",
+    "field_path": "payment_processor_config.ach.modern_treasury_config",
+    "field_value": "null"
+  },
+  {
+    "tc_name": "API_128 - Validate default value for debit_card payment_processor_name",
+    "index": "8",
+    "field_name": "payment_processor_name",
+    "field_path": "payment_processor_config.debit_card.payment_processor_name",
+    "field_value": "NONE"
+  },
+  {
+    "tc_name": "API_130 - Validate default value for debit_card repay_config",
+    "index": "9",
+    "field_name": "repay_config",
+    "field_path": "payment_processor_config.debit_card.repay_config",
+    "field_value": "null"
+  },
+  {
+    "tc_name": "API_139 - Validate default value for credit_card payment_processor_name",
+    "index": "10",
+    "field_name": "payment_processor_name",
+    "field_path": "payment_processor_config.credit_card.payment_processor_name",
+    "field_value": "NONE"
+  },
+  {
+    "tc_name": "API_140 - Validate default value for credit_card repay_config",
+    "index": "11",
+    "field_name": "checkout_config",
+    "field_path": "payment_processor_config.credit_card.checkout_config",
+    "field_value": "null"
+  },
+  {
+    "tc_name": "API_151 - Validate default value for autopay_enabled",
+    "index": "12",
+    "field_name": "autopay_enabled",
+    "field_path": "payment_processor_config.autopay_enabled",
+    "field_value": "FALSE"
+  },
+  {
+    "tc_name": "API_155 - Validate default value for default_payment_processor_method",
+    "index": "13",
+    "field_name": "default_payment_processor_method",
+    "field_path": "payment_processor_config.default_payment_processor_method",
+    "field_value": "NONE"
+  },
+  {
+    "tc_name": "API_161 - Validate default value for first_cycle_interval",
+    "index": "14",
+    "field_name": "first_cycle_interval",
+    "field_path": "cycle_type.first_cycle_interval",
+    "field_value": "7 days"
+  },
+  {
+    "tc_name": "API_166 - Validate default value for late_fee_grace",
+    "index": "15",
+    "field_name": "late_fee_grace",
+    "field_path": "cycle_type.late_fee_grace",
+    "field_value": "2 days"
+  },
+  {
+    "tc_name": "API_169 - Validate default value for loan_discount_cents",
+    "index": "16",
+    "field_name": "loan_discount_cents",
+    "field_path": "discounts.prepayment_discount_config.loan_discount_cents",
+    "field_value": "null"
+  },
+  {
+    "tc_name": "API_173 - Validate default value for loan_discount_at",
+    "index": "17",
+    "field_name": "loan_discount_at",
+    "field_path": "discounts.prepayment_discount_config.loan_discount_at",
+    "field_value": "null"
+  },
+  {
+    "tc_name": "API_175 - Validate default value for credit_limit_cents",
+    "index": "18",
+    "field_name": "credit_limit_cents",
+    "field_path": "summary.credit_limit_cents",
+    "field_value": "7500"
+  },
+  {
+    "tc_name": "API_177 - Validate default value for max_approved_credit_limit_cents",
+    "index": "19",
+    "field_name": "max_approved_credit_limit_cents",
+    "field_path": "summary.max_approved_credit_limit_cents",
+    "field_value": "null"
+  },
+  {
+    "tc_name": "API_178 - Validate default value for late_fee_cents",
+    "index": "20",
+    "field_name": "late_fee_cents",
+    "field_path": "account_product.product_lifecycle.late_fee_impl_cents",
+    "field_value": "0"
+  },
+  {
+    "tc_name": "API_180 - Validate default value for payment_reversal_fee_cents",
+    "index": "21",
+    "field_name": "payment_reversal_fee_cents",
+    "field_path": "account_product.product_lifecycle.payment_reversal_fee_impl_cents",
+    "field_value": "0"
+  },
+  {
+    "tc_name": "API_181 - Validate default value for origination_fee_cents",
+    "index": "22",
+    "field_name": "origination_fee_cents",
+    "field_path": "account_product.product_lifecycle.origination_fee_impl_cents",
+    "field_value": "0"
+  },
+  {
+    "tc_name": "API_182 - Validate default value for annual_fee_cents",
+    "index": "23",
+    "field_name": "annual_fee_cents",
+    "field_path": "account_product.product_lifecycle.annual_fee_impl_cents",
+    "field_value": "0"
+  },
+  {
+    "tc_name": "API_183 - Validate default value for monthly_fee_cents",
+    "index": "24",
+    "field_name": "monthly_fee_cents",
+    "field_path": "account_product.product_lifecycle.monthly_fee_impl_cents",
+    "field_value": "0"
+  },
+  {
+    "tc_name": "API_184 - Validate default value for initial_principal_cents",
+    "index": "25",
+    "field_name": "initial_principal_cents",
+    "field_path": "summary.principal_cents",
+    "field_value": "0"
+  },
+  {
+    "tc_name": "API_188 - Validate default value for late_fee_cap_percent",
+    "index": "26",
+    "field_name": "late_fee_cap_percent",
+    "field_path": "account_product.product_lifecycle.late_fee_cap_percent",
+    "field_value": "null"
+  },
+  {
+    "tc_name": "API_191 - Validate default value for payment_reversal_fee_cap_percent",
+    "index": "27",
+    "field_name": "payment_reversal_fee_cap_percent",
+    "field_path": "account_product.product_lifecycle.payment_reversal_fee_cap_percent",
+    "field_value": "null"
+  },
+  {
+    "tc_name": "API_193 - Validate default value for promo overview",
+    "index": "28",
+    "field_name": "promo_len",
+    "field_path": "account_product.promo_overview.promo_len",
+    "field_value": "0"
+  },
+  {
+    "tc_name": "API_194 - Validate default value for promo_impl_interest_rate_percent",
+    "index": "29",
+    "field_name": "promo_impl_interest_rate_percent",
+    "field_path": "account_product.promo_overview.promo_impl_interest_rate_percent",
+    "field_value": "0"
+  },
+  {
+    "tc_name": "API_195 - Validate default value for post_promo_len",
+    "index": "30",
+    "field_name": "post_promo_len",
+    "field_path": "account_product.post_promo_overview.post_promo_len",
+    "field_value": "10"
+  },
+  {
+    "tc_name": "API_196 - Validate default value for post_promo_impl_interest_rate_percent",
+    "index": "31",
+    "field_name": "post_promo_impl_interest_rate_percent",
+    "field_path": "account_product.post_promo_overview.post_promo_impl_interest_rate_percent",
+    "field_value": "3.99"
+  },
+  {
+    "tc_name": "API_207 - Validate default value for customer_account_role",
+    "index": "32",
+    "field_name": "customer_account_role",
+    "field_path": "customers[0].customer_account_role",
+    "field_value": "PRIMARY"
+  },
+  {
+    "tc_name": "API_208 - Validate default value for customer_account_external_id",
+    "index": "33",
+    "field_name": "customer_account_external_id",
+    "field_path": "customers[0].customer_account_external_id",
+    "field_value": "null"
+  }
+]

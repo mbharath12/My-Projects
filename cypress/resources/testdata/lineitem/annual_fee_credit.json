@@ -1,0 +1,47 @@
+[
+  {
+    "tc_name": "PP238 - Annual fees on Cards set up with monthly cycle interval",
+    "index": "1",
+    "account_effective_dt": "-366",
+    "account_effective_dt_time": "0",
+    "origination_fee_cents": "0",
+    "late_fee_cents": "0",
+    "monthly_fee_cents": "0",
+    "cycle_interval": "1 month",
+    "principle_cents": "30000",
+    "annual_fee_cents": "40000",
+    "total_balance_cents": "70000",
+    "response_status": "200",
+    "error_msg": ""
+  },
+  {
+    "tc_name": "PP239 - Annual fees on Cards sets up with less than 1 month cycle interval - 7 days",
+    "index": "2",
+    "account_effective_dt": "-366",
+    "account_effective_dt_time": "0",
+    "origination_fee_cents": "0",
+    "late_fee_cents": "0",
+    "monthly_fee_cents": "0",
+    "cycle_interval": "7 days",
+    "principle_cents": "30000",
+    "annual_fee_cents": "40000",
+    "total_balance_cents": "70000",
+    "response_status": "200",
+    "error_msg": ""
+  },
+  {
+    "tc_name": "PP240 _ Annual fees on Cards sets up with less than 1 month cycle interval - 15 days",
+    "index": "3",
+    "account_effective_dt": "-366",
+    "account_effective_dt_time": "0",
+    "origination_fee_cents": "0",
+    "late_fee_cents": "0",
+    "monthly_fee_cents": "0",
+    "cycle_interval": "15 days",
+    "principle_cents": "30000",
+    "annual_fee_cents": "40000",
+    "total_balance_cents": "70000",
+    "response_status": "200",
+    "error_msg": ""
+  }
+]

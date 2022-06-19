@@ -1,0 +1,48 @@
+{
+  "effective_at": "2021-05-10T09:11:28+00:00",
+  "product_id": "{{product_id}}",
+  "external_fields": [
+      {
+          "key": "Umbrella Corporation",
+          "value": "22445702-a389-431f-927d-07b8d0750787"
+      }
+  ],
+  "payment_processor_config": {
+      "debit_card": {
+          "payment_processor_name": "AUTHORIZE_NET",
+          "authorize_net_config": {
+              "card_number": "4242424242424242",
+              "expiry_month": "12",
+              "expiry_year": "2025",
+              "cvv": "123"
+          }
+      },
+      "autopay_enabled": true,
+      "default_payment_processor_method": "DEBIT_CARD"
+  },
+  "summary": {
+      "credit_limit_cents": 500000,
+      "max_approved_credit_limit_cents": 500000,
+      "late_fee_cents": 2900,
+      "payment_reversal_fee_cents": 2900,
+      "initial_principal_cents": 500000
+  },
+  "promo_overview": {
+      "promo_impl_interest_rate_percent": 6.2
+  },
+  "post_promo_overview": {
+      "post_promo_impl_interest_rate_percent": 6.2,
+      "post_promo_impl_am_len": 48
+  },
+  "associated_entities": {
+      "merchant_name": "Acme Corporation",
+      "lender_name": "Globex Lending Corp"
+  },
+  "assign_customers": [
+      {
+      "customer_id": "{{customer_id}}",
+      "customer_account_role": "PRIMARY",
+      "customer_account_external_id": "{{$randomInt}}"
+      }
+  ]
+}

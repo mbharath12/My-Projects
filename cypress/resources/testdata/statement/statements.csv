@@ -1,0 +1,9 @@
+﻿tc_name,index,product_type,cycle_interval,account_effective_dt,origination_fee_cents,initial_principle_in_cents,late_fee_cents,monthly_fee_cents,annual_fee_cents,payment_amt_cents,payment_effective_dt,check_origination_fee,check_charge,check_payment
+pp470 - statement with no origination fee no charge no payment  for installment,1,Installment,7 days,-10,0,0,0,0,0,,,,,
+pp471 -  statement with no origination fee no charge no payment for credit card,2,Credit Card,7 days,-10,0,0,0,0,0,,,,,
+pp472 - statement with origination fee no charge no payment for installment,3,Installment,7 days,-10,20000,0,0,0,0,,,TRUE,,
+pp473 - statement with origination fee charge no payment for credit card,4,Credit Card,7 days,-10,20000,300000,0,0,0,,,TRUE,TRUE,
+pp474 - statement with origination fee  charge payment - origination fee  for credit card,5,Credit Card,7 days,-10,20000,300000,0,0,0,20000,-2,TRUE,TRUE,TRUE
+pp475 -  statement with origination fee  charge  payment -charge for credit card,6,Credit Card,7 days,-10,20000,300000,0,0,0,300000,-2,TRUE,TRUE,TRUE
+pp476 - statement with origination fee  charge  payment -charge and origination fee for credit card,7,Credit Card,7 days,-10,20000,300000,0,0,0,320000,-2,TRUE,TRUE,TRUE
+pp477 - statement with origination fee  charge  payment -partial charge and origination fee for credit card,8,Credit Card,7 days,-10,20000,300000,0,0,0,310000,-2,TRUE,TRUE,TRUE

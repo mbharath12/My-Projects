@@ -1,0 +1,4 @@
+﻿tc_name,index,account_effective_dt,statement_cycle_inclusive_start,late_fee_cents,cycle_interval,monthly_fee_cents,principal_amount_cents,total_balance_cents
+PP217-Monthly fees on Cards set up with monthly cycle interval,1,2021-08-22T05:17:19-05:00,2021-08-23,0,30 days,2000,2000,2000
+PP218-Monthly fees on Cards sets up with less than 1 month cycle interval - 7 days,2,2021-09-06T05:17:25-05:00,2021-09-28,0,7 days,2000,2000,2000
+PP219-Monthly fees on Cards sets up with less than 1 month cycle interval - 15 days,3,2021-08-22T05:17:19-05:00,2021-08-23,0,15 days,2000,2000,2000

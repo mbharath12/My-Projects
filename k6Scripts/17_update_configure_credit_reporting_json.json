@@ -1,0 +1,13 @@
+{
+    "transunion_program_identifier": "5555555556",
+    "experian_program_identifier": "4444444",
+    "equifax_program_identifier": "5555555555",
+    "program_date": "1985-06-20",
+    "reporter_name": "Acme Corporation",
+    "reporter_address_line_one": "12 Strawberry Road",
+    "reporter_address_line_two": "Suite 101",
+    "reporter_address_city": "Atlanta",
+    "reporter_address_state": "GA",
+    "reporter_address_zip": "99999-1000",
+    "reporter_phone_number": "+14105556789"
+}

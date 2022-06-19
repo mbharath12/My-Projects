@@ -1,0 +1,10 @@
+{
+    "ach": {
+        "payment_processor_name": "DWOLLA",
+        "dwolla_config": {
+            "dwolla_plaid_token": "processor-sandbox-67524ee3-796b-4a3a-8c5e-a59b95d7e4a1"
+        }
+    },
+    "autopay_enabled": true,
+    "default_payment_processor_method": "ACH"
+}

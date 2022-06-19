@@ -1,0 +1,167 @@
+[
+    {
+        "tc_name": "PP1218 - Verify this is the default credit limit cents for all the accounts under the product when specific different credit limit is not specified at Account level",
+        "index": "1",
+        "transaction_type": "statement",
+        "roll_date": "",
+        "stmt_credit_limit_cents": "600000",
+        "exp_line_item_type": "",
+        "exp_origination_fee_cents": "",
+        "effective_at": "",
+        "origination_fee_cents": ""
+    },
+    {
+        "tc_name": "PP1218 - Verify this is the default credit limit cents for all the accounts under the product when specific different credit limit is not specified at Account level",
+        "index": "2",
+        "transaction_type": "statement",
+        "roll_date": "",
+        "stmt_credit_limit_cents": "600000",
+        "exp_line_item_type": "",
+        "exp_origination_fee_cents": "",
+        "effective_at": "",
+        "origination_fee_cents": ""
+    },
+    {
+        "tc_name": "PP1219 - Verify Credit limit cents specified at the Account level overrides the credit limit cents specified at the Product level",
+        "index": "3",
+        "transaction_type": "statement",
+        "roll_date": "",
+        "stmt_credit_limit_cents": "40000",
+        "exp_line_item_type": "",
+        "exp_origination_fee_cents": "",
+        "effective_at": "",
+        "origination_fee_cents": ""
+    },
+    {
+        "tc_name": "PP1221 - Default_late_fee_cents can be specified here and can be applied to all accounts under this product where this is not overridden at account level",
+        "index": "4",
+        "transaction_type": "validation",
+        "roll_date": "2022-01-30T11:15:03-05:00",
+        "stmt_credit_limit_cents": "",
+        "exp_line_item_type": "LATE_FEE",
+        "exp_origination_fee_cents": "30000",
+        "effective_at": "",
+        "origination_fee_cents": ""
+    },
+    {
+        "tc_name": "PP1221 - Default_late_fee_cents can be specified here and can be applied to all accounts under this product where this is not overridden at account level",
+        "index": "5",
+        "transaction_type": "validation",
+        "roll_date": "2022-01-30T11:15:03-05:00",
+        "stmt_credit_limit_cents": "",
+        "exp_line_item_type": "LATE_FEE",
+        "exp_origination_fee_cents": "30000",
+        "effective_at": "",
+        "origination_fee_cents": ""
+    },
+    {
+        "tc_name": "PP1222 - Default_late_fee_cents can be Overridden at the account level.",
+        "index": "6",
+        "transaction_type": "validation",
+        "roll_date": "2022-01-30T11:15:03-05:00",
+        "stmt_credit_limit_cents": "",
+        "exp_line_item_type": "LATE_FEE",
+        "exp_origination_fee_cents": "1500",
+        "effective_at": "",
+        "origination_fee_cents": ""
+    },
+    {
+        "tc_name": "PP1223 - Default_payment_reversal_fee_cents can be specified here and can be applied to all accounts under this product where this is not overridden at account level",
+        "index": "7",
+        "transaction_type": "payment",
+        "roll_date": "",
+        "stmt_credit_limit_cents": "",
+        "exp_line_item_type": "",
+        "exp_origination_fee_cents": "",
+        "effective_at": "2021-12-15T02:18:27-05:00",
+        "origination_fee_cents": "100000"
+    },
+    {
+        "tc_name": "PP1223 - Default_payment_reversal_fee_cents can be specified here and can be applied to all accounts under this product where this is not overridden at account level",
+        "index": "8",
+        "transaction_type": "paymentreversal",
+        "roll_date": "",
+        "stmt_credit_limit_cents": "",
+        "exp_line_item_type": "",
+        "exp_origination_fee_cents": "",
+        "effective_at": "",
+        "origination_fee_cents": ""
+    },
+    {
+        "tc_name": "PP1223 - Default_payment_reversal_fee_cents can be specified here and can be applied to all accounts under this product where this is not overridden at account level",
+        "index": "9",
+        "transaction_type": "validation",
+        "roll_date": "2",
+        "stmt_credit_limit_cents": "",
+        "exp_line_item_type": "PAYMENT_REVERSAL",
+        "exp_origination_fee_cents": "100000",
+        "effective_at": "",
+        "origination_fee_cents": ""
+    },
+    {
+        "tc_name": "PP1223 - Default_payment_reversal_fee_cents can be specified here and can be applied to all accounts under this product where this is not overridden at account level",
+        "index": "10",
+        "transaction_type": "payment",
+        "roll_date": "",
+        "stmt_credit_limit_cents": "",
+        "exp_line_item_type": "",
+        "exp_origination_fee_cents": "",
+        "effective_at": "2021-12-15T02:18:27-05:00",
+        "origination_fee_cents": "100000"
+    },
+    {
+        "tc_name": "PP1223 - Default_payment_reversal_fee_cents can be specified here and can be applied to all accounts under this product where this is not overridden at account level",
+        "index": "11",
+        "transaction_type": "paymentreversal",
+        "roll_date": "",
+        "stmt_credit_limit_cents": "",
+        "exp_line_item_type": "",
+        "exp_origination_fee_cents": "",
+        "effective_at": "",
+        "origination_fee_cents": ""
+    },
+    {
+        "tc_name": "PP1223 - Default_payment_reversal_fee_cents can be specified here and can be applied to all accounts under this product where this is not overridden at account level",
+        "index": "12",
+        "transaction_type": "validation",
+        "roll_date": "2",
+        "stmt_credit_limit_cents": "",
+        "exp_line_item_type": "PAYMENT_REVERSAL",
+        "exp_origination_fee_cents": "100000",
+        "effective_at": "",
+        "origination_fee_cents": ""
+    },
+    {
+        "tc_name": "PP1224 - Default_payment_reversal_fee_cents set up at Product level can be Overridden at the account level.",
+        "index": "13",
+        "transaction_type": "payment",
+        "roll_date": "",
+        "stmt_credit_limit_cents": "",
+        "exp_line_item_type": "",
+        "exp_origination_fee_cents": "",
+        "effective_at": "2021-12-15T02:18:27-05:00",
+        "origination_fee_cents": "100000"
+    },
+    {
+        "tc_name": "PP1224 - Default_payment_reversal_fee_cents set up at Product level can be Overridden at the account level.",
+        "index": "14",
+        "transaction_type": "paymentreversal",
+        "roll_date": "",
+        "stmt_credit_limit_cents": "",
+        "exp_line_item_type": "",
+        "exp_origination_fee_cents": "",
+        "effective_at": "",
+        "origination_fee_cents": ""
+    },
+    {
+        "tc_name": "PP1224 - Default_payment_reversal_fee_cents set up at Product level can be Overridden at the account level.",
+        "index": "",
+        "transaction_type": "validation",
+        "roll_date": "2",
+        "stmt_credit_limit_cents": "",
+        "exp_line_item_type": "PAYMENT_REVERSAL",
+        "exp_origination_fee_cents": "100000",
+        "effective_at": "",
+        "origination_fee_cents": ""
+    }
+]

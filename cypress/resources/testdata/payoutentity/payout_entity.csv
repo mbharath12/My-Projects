@@ -1,0 +1,31 @@
+tc_name,index,payout_entity_file_name,exp_payout_entity_type,exp_payout_entity_name,exp_bank_account_number,exp_bank_routing_number,exp_irs_tin,response
+PayoutEntity269 - Verify creation of a Payout entity-Merchant with all mandatory details,1,merchant.json,merchant,MERCHANT,2351,215545677,482456323,200
+PayoutEntity286 - Verify creation of a Payout entity-Lender with all mandatory details,2,merchant.json,lender,PayoutEntity Funding Account,8000,64008637,451456898,200
+PayoutEntity254 - Verify creation of a Payout entity-organization with all mandatory details,3,merchant.json,organization,PayoutEntity Operating,3790,64008637,113456444,200
+PayoutEntity303 - Verify creation of a Payout entity- ACH clearing with all mandatory details,4,merchant.json,clearing,ACH Clearing,681,164008637,102456545,200
+PayoutEntity319 - Verify creation of a Payout entity- Debit Card clearing with all mandatory details,5,merchant.json,clearing,Card Clearing,764,164008637,505456222,200
+PayoutEntity335 - Verify creation of a Payout entity- Lockbox clearing with all mandatory details,6,merchant.json,clearing,Lockbox Clearing,715,164008637,203456789,200
+PayoutEntity270 - Validate payout_entity_id attribute in Merchant - mandatory field and unique value auto generated,7,merchant.json,merchant,MERCHANT,2351,215545677,482456323,200
+PayoutEntity287 - Validate payout_entity_id attribute in Lender- mandatory field and unique value auto generated,8,merchant.json,lender,PayoutEntity Funding Account,8000,64008637,451456898,200
+PayoutEntity255 - Validate payout_entity_id attribute in organization - mandatory field and unique value auto generated,9,merchant.json,organization,PayoutEntity Operating,3790,64008637,113456444,200
+PayoutEntity304 - Validate payout_entity_id attribute in ACH clearing - mandatory field and unique value auto generated,10,merchant.json,clearing,ACH Clearing,681,64008637,102456545,200
+PayoutEntity320 - Validate payout_entity_id attribute in Debit Card clearing - mandatory field and unique value auto generated,11,merchant.json,clearing,Card Clearing,764,64008637,505456222,200
+PayoutEntity336 - Validate payout_entity_id attribute in Lockbox clearing - mandatory field and unique value auto generated,12,merchant.json,clearing,Lockbox Clearing,715,64008637,203456789,200
+PayoutEntity273A - Validate bank_account_number attribute is mandatory in Merchant and should not accept the invalid format of 7 digits,13,merchant.json,merchant,MERCHANT,235,215545677,482456323,400
+PayoutEntity273B - Validate bank_account_number attribute is mandatory in Merchant and should accept the valid format between 8 and 12,14,merchant.json,merchant,MERCHANT,2351,215545677,482456323,200
+PayoutEntity273C - Validate bank_account_number attribute is mandatory in Merchant and should not accept the invalid format of 13 digits,15,merchant.json,merchant,MERCHANT,235123425,215545677,482456323,400
+PayoutEntity290A - Validate bank_account_number attribute is mandatory in Lender and should not accept the invalid format of 7 digits,16,merchant.json,lender,PayoutEntity Funding Account,800,64008637,451456898,400
+PayoutEntity290B - Validate bank_account_number attribute is mandatory in Lender and should accept the valid format between 8 and 12,17,merchant.json,lender,PayoutEntity Funding Account,8000,64008637,451456898,200
+PayoutEntity290C - Validate bank_account_number attribute is mandatory in Lender and should not accept the invalid format of 13 digits,18,merchant.json,lender,PayoutEntity Funding Account,800012343,64008637,451456898,400
+PayoutEntity258A - Validate bank_account_number attribute is mandatory in organization and should not accept the invalid format of 7 digits,19,merchant.json,organization,PayoutEntity Operating,379,64008637,113456444,400
+PayoutEntity258B - Validate bank_account_number attribute is mandatory in organization and should accept the valid format between 8 and 12,20,merchant.json,organization,PayoutEntity Operating,3790,64008637,113456444,200
+PayoutEntity258C - Validate bank_account_number attribute is mandatory in organization and should not accept the invalid format of 13 digits,21,merchant.json,organization,PayoutEntity Operating,379012344,64008637,113456444,400
+PayoutEntity307A - Validate bank_account_number attribute is mandatory in ach source and should not accept the invalid format of 7 digits,22,merchant.json,clearing,ACH Clearing,68,64008637,102456545,400
+PayoutEntity307B - Validate bank_account_number attribute is mandatory in ach source and should accept the valid format between 8 and 12,23,merchant.json,clearing,ACH Clearing,681,64008637,102456545,200
+PayoutEntity307C - Validate bank_account_number attribute is mandatory in ach source and should not accept the invalid format of 13 digits,24,merchant.json,clearing,ACH Clearing,68112345,64008637,102456545,400
+PayoutEntity323A - Validate bank_account_number attribute is mandatory in debit_source and should not accept the invalid format of 7 digits,25,merchant.json,clearing,Card Clearing,76,64008637,505456222,400
+PayoutEntity323B - Validate bank_account_number attribute is mandatory in debit_source and should accept the valid format between 8 and 12,26,merchant.json,clearing,Card Clearing,764,64008637,505456222,200
+PayoutEntity323C - Validate bank_account_number attribute is mandatory in debit_source and should not accept the invalid format of 13 digits,27,merchant.json,clearing,Card Clearing,76412345,64008637,505456222,400
+PayoutEntity339A - Validate bank_account_number attribute is mandatory in lock box and should not accept the invalid format of 7 digits,28,merchant.json,clearing,Lockbox Clearing,71,64008637,203456789,400
+PayoutEntity339B - Validate bank_account_number attribute is mandatory in lock box and should accept the valid format between 8 and 12,29,merchant.json,clearing,Lockbox Clearing,715,64008637,203456789,200
+PayoutEntity339C - Validate bank_account_number attribute is mandatory in lock box and should not accept the invalid format of 13 digits,30,merchant.json,clearing,Lockbox Clearing,71512354,64008637,203456789,400

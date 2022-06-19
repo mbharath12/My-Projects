@@ -1,0 +1,17 @@
+[
+  {
+    "tc_name": "pp1384 - Verify list of all Current and Metro2 Credit reports for a specific account",
+    "index": "1",
+    "account_effective_at": "2021-09-10T02:18:27-08:00",
+    "first_cycle_interval": "7 days",
+    "initial_principle_in_cents": "200000",
+    "late_fee_cents": "30000",
+    "monthly_fee_cents": "0",
+    "annual_fee_cents": "0",
+    "account_status": "11",
+    "account_type": "01",
+    "credit1_balance": "2000",
+    "credit2_balance": "2300",
+    "credit3_balance": "2600"
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "effective_at": "2016-11-27T13:19:56+00:00",
+  "product_overview": {
+    "product_name": "Charge Card Example",
+    "product_type": "REVOLVING",
+    "product_short_description": "ch-c",
+    "product_long_description": "B2B Charge Card.",
+    "product_color": "#0000FF"
+  },
+  "product_lifecycle_policies": {
+    "billing_cycle_policies": {
+      "cycle_interval": "7 days",
+      "cycle_due_interval": "2 days"
+    },
+    "fee_policies": {
+      "late_fee_grace": "2 day"
+    },
+    "payment_due_policies": {
+      "delinquent_on_n_consecutive_late_fees": 1,
+      "charge_off_on_n_consecutive_late_fees": 2
+    },
+    "default_attributes": {
+      "default_credit_limit_cents": 600000
+    }
+  },
+  "promotional_policies": {
+    "promo_len": 99999,
+    "promo_min_pay_type": "PERCENT_PRINCIPAL",
+    "promo_min_pay_percent": 100
+  },
+  "post_promotional_policies": {}
+}

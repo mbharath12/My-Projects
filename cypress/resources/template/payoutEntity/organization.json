@@ -1,0 +1,21 @@
+{
+  "nacha_destination_config": {
+    "bank_name": "FRB Atlanta",
+    "bank_routing_number": "064000101"
+  },
+  "nacha_origin_config": {
+    "bank_name": "Pinnacle Bank",
+    "bank_routing_number": "064008637"
+  },
+  "payouts_source": {
+    "default": {
+      "payout_entity_id": "{{pe_lockbox_id}}"
+    },
+    "ach": {
+      "payout_entity_id": "{{pe_ach_id}}"
+    },
+    "debit": {
+      "payout_entity_id": "{{pe_debit_id}}"
+    }
+  }
+}

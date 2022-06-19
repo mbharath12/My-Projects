@@ -1,0 +1,13 @@
+tc_name,index,field_name,error_message,detailed_error_message
+API_221 - create customer without name_first,1,name_first,Event object failed validation,must have required property name_first
+API_223 - create customer without name_last,2,name_last,Event object failed validation,must have required property name_last
+API_225 - create customer without phone_number,3,phone_number,Event object failed validation,must have required property phone_number
+API_226  - create customer without address_line_one,4,address_line_one,Event object failed validation,must have required property address_line_one
+API_228  - create customer without address_city,5,address_city,Event object failed validation,must have required property address_city
+API_229  - create customer without address_state,6,address_state,Event object failed validation,must have required property address_state
+API_230  - create customer without address_zip,7,address_zip,Event object failed validation,must have required property address_zip
+API_234  - create customer without email,8,email,Event object failed validation,must have required property email
+API_235  - create customer without date_of_birth,9,date_of_birth,Event object failed validation,must have required property date_of_birth
+API_237  - create customer without business_legal_name,10,business_legal_name,Event object failed validation,must have required property business_legal_name
+API_238  - create customer without doing_business_as,11,doing_business_as,Event object failed validation,must have required property doing_business_as
+API_239  - create customer without business_ein,12,business_ein,Event object failed validation,must have required property business_ein

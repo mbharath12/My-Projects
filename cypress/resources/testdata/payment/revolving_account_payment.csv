@@ -1,0 +1,12 @@
+tc_name,index,account_status,float_days,delinquent,charge_off,account_effective_dt,account_effective_dt_time,initial_principal_cents,line_item_check,late_fee_cents,charge_chk,charge1_effective_dt,charge1_effective_dt_time,charge1_amt_cents,payment_amt_cents_1,multi_payment_check,payment_amt_cents_2,payment1_effective_dt,payment2_effective_dt,total_balance_cents,available_credit_cents,stmt_charges_principal_cents,stmt_loans_principal_cents,stmt_fees_balance_cents,stmt_total_balance_cents,stmt_id
+PP82-Full payment done One day before floating period ends,1,ACTIVE,7days,3,4,-9,-2,200000,FALSE,2900,FALSE,NULL,NULL,0,200000,FALSE,NULL,-1,NULL,200000,300000,0,0,0,0,1
+PP83-Full payment done On the day floating period ends,2,ACTIVE,7days,3,4,-9,-2,200000,FALSE,2900,FALSE,NULL,NULL,0,200000,FALSE,NULL,0,NULL,200000,300000,0,0,0,0,1
+PP84-Full payment done One day after floating period ends,3,ACTIVE,7days,3,4,-11,-2,200000,TRUE,2900,FALSE,NULL,NULL,0,200000,FALSE,NULL,1,NULL,200000,297100,2900,0,0,2900,1
+PP85-Full payment done One day before floating period ends,4,ACTIVE,7days,4,5,-17,-2,100000,TRUE,2900,TRUE,-8,-1,100000,200000,FALSE,NULL,-1,NULL,200000,297100,2900,0,2900,5800,2
+PP86-Full payment done On the day floating period ends,5,ACTIVE,7days,4,5,-17,-2,100000,TRUE,2900,TRUE,-8,-1,100000,200000,FALSE,NULL,0,NULL,200000,297100,2900,0,2900,5800,2
+PP87-Full payment done One day after floating period ends,6,ACTIVE,7days,4,5,-17,-2,100000,TRUE,2900,TRUE,-8,-1,100000,200000,FALSE,NULL,1,NULL,200000,297100,2900,0,2900,5800,2
+PP88-Full payment on existing Revolving card account one day before Floating period ends,7,ACTIVE,7days,3,4,-9,-2,100000,FALSE,2900,FALSE,NULL,NULL,0,100000,FALSE,NULL,-2,NULL,100000,300000,0,0,0,0,1
+PP89-Full payment on existing Revolving card account on the day Floating period ends,8,ACTIVE,7days,3,4,-9,-2,100000,FALSE,2900,FALSE,NULL,NULL,0,100000,FALSE,NULL,0,NULL,100000,300000,0,0,0,0,1
+PP90-Full payment on existing Revolving card account one day after Floating period ends,9,ACTIVE,7days,3,4,-11,-2,100000,TRUE,2900,FALSE,NULL,NULL,0,100000,FALSE,NULL,1,NULL,100000,297100,2900,0,0,2900,1
+PP91-Part payments not allowed on Revolving cards,10,ACTIVE,7days,3,4,-9,-2,100000,FALSE,2900,FALSE,NULL,NULL,0,20000,TRUE,80000,-2,-1,100000,300000,0,0,0,0,1
+PP92-Excess payments on a Revolving card account,11,ACTIVE,7days,3,4,-9,-2,100000,FALSE,2900,FALSE,NULL,NULL,0,800000,FALSE,NULL,-2,NULL,100000,300000,0,0,0,-700000,1

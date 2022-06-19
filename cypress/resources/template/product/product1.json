@@ -1,0 +1,49 @@
+{
+  "effective_at": "2019-02-20T09:11:28+00:00",
+  "product_overview": {
+    "product_name": "BNPL 24 Month Standard",
+    "product_type": "INSTALLMENT",
+    "product_short_description": "12mm3apr.",
+    "product_long_description": "Student credit card.",
+    "product_color": "#0000FF"
+  },
+  "product_lifecycle_policies": {
+    "payment_due_policies": {
+      "delinquent_on_n_consecutive_late_fees": 42,
+      "charge_off_on_n_consecutive_late_fees": 42
+    },
+    "fee_policies": {
+      "late_fee_grace": "5 days"
+    },
+    "billing_cycle_policies": {
+      "cycle_interval": "1 month",
+      "cycle_due_interval": "-5 days",
+      "first_cycle_interval": "25 days",
+      "close_of_business_time": "17:00:00",
+      "product_time_zone": "America/New_York"
+    },
+    "interest_policies": {
+      "interest_calc_time": "11:21:04-08:00"
+    },
+    "default_attributes": {
+      "default_credit_limit_cents": 600000
+    }
+  },
+  "promotional_policies": {
+    "promo_len": "55",
+    "promo_min_pay_type": "PERCENT_INTEREST",
+    "promo_purchase_window_len": 5,
+    "promo_interest_deferred": false,
+    "promo_default_interest_rate_percent": 3,
+    "promo_min_pay_percent": 100,
+    "promo_apr_range_inclusive_lower": 2,
+    "promo_apr_range_inclusive_upper": 5
+  },
+  "post_promotional_policies": {
+    "post_promo_default_am_len": 48,
+    "post_promo_am_len_range_inclusive_lower": 2,
+    "post_promo_min_pay_type": "AM",
+    "post_promo_default_interest_rate_percent": 3,
+    "post_promo_apr_range_inclusive_lower": 2
+  }
+}

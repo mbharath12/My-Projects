@@ -1,0 +1,41 @@
+name: Test Regression on canopy-test repo
+
+on:
+  workflow_dispatch:
+    inputs:
+      env_test:
+        description: "Allowed types are testing env like RC,QA and sandbox'"
+        required: true
+        type: string
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    environment:
+      name: ${{ github.event.inputs.env_test}}
+    strategy:
+      matrix:
+        node-version: ["16.3.0"]
+
+    steps:
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - uses: actions/checkout@v2
+
+      - uses: c-hive/gha-yarn-cache@v1
+      - run: yarn --frozen-lockfile
+
+      - run: yarn tsc --noEmit
+
+      - run: yarn cy:run
+        env:
+          API_URL: ${{ secrets.API_URL }}
+          CYPRESS_BASE_URL: ${{ secrets.CYPRESS_BASE_URL }}
+          CYPRESS_CLIENT_ID: ${{ secrets.CYPRESS_CLIENT_ID }}
+          CYPRESS_CLIENT_SECRET: ${{ secrets.CYPRESS_CLIENT_SECRET }}
+          REPAY_API_USER: ${{ secrets.REPAY_API_USER }}
+          REPAY_API_TOKEN: ${{ secrets.REPAY_API_TOKEN }}
+

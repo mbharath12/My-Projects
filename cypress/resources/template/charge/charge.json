@@ -1,0 +1,16 @@
+{
+  "original_amount_cents": 5000,
+  "effective_at": "2021-02-24T09:11:28+00:00",
+  "merchant_data": {
+    "name": "Home Depot",
+    "id": "",
+    "mcc_code": 42.0,
+    "phone_number": ""
+  },
+  "external_fields": [
+    {
+      "key": "Globex Card Processing Account ID",
+      "value": "22445702-a389-431f-927d-07b8d0750787"
+    }
+  ]
+}

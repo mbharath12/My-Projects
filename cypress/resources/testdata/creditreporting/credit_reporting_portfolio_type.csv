@@ -1,0 +1,7 @@
+﻿tc_name,index,product_type,account_effective_at,portfolio_type,account_type
+pp1414A - Verify credit report portfolio type and account type for installment,1,payment_product.json,2021-10-15T02:18:27-08:00,I,01
+pp1415 - Verify credit report portfolio type and account type for credit,2,product_credit.json,2021-09-30T02:18:27-08:00,I,01
+pp1416 - Verify credit report portfolio type and account type for charge card,3,product_charge.json,2021-09-10T02:18:27-08:00,C,15
+pp1417 - Verify credit report portfolio type and account type for revolving loc,4,product_revolving.json,2021-09-10T02:18:27-08:00,I,01
+pp1418 - Verify credit report portfolio type and account type for bnpl,5,product1.json,2021-09-10T02:18:27-08:00,C,15
+pp1419 - Verify credit report portfolio type and account type for multi advance,6,multi_advance_product.json,2021-08-10T02:18:27-08:00,I,01

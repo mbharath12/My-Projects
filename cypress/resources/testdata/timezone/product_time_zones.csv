@@ -1,0 +1,17 @@
+tc_name,index,product_time_zone,product_effective_at,product_close_of_business_time,product_interest_calc_time,response_effective_at,response_close_of_business_time,response_interest_calc_time
+TZ_001 - Validate time zone for America Birmingham,1,America/Birmingham,1900-01-01T12:00:00-06:00,23:59:59-06:00,01:00:00-06:00,1900-01-01T12:00:00-06:00,23:59:59,01:00:00-06
+TZ_002 - Validate time zone for America Birmingham,2,America/Birmingham,1900-01-01T03:00:00-06:00,23:59:59-06:00,01:00:00-06:00,1900-01-01T03:00:00-06:00,23:59:59,01:00:00-06
+TZ_003 - Validate time zone for America LosAngeles,3,America/Los Angeles,2017-12-15T12:00:00-08:00,23:59:59-08:00,01:00:00-08:00,2017-12-15T14:00:00-06:00,23:59:59,01:00:00-08
+TZ_004 - Validate time zone for America LosAngeles,4,America/Los Angeles,2017-12-15T23:14:00-08:00,23:59:59-08:00,01:00:00-08:00,2017-12-16T01:14:00-06:00,23:59:59,01:00:00-08
+TZ_005 - Validate time zone for America Phoenix,5,America/Phoenix,2017-12-15T09:00:00-07:00,23:59:59-07:00,01:00:00-07:00,2017-12-15T10:00:00-06:00,23:59:59,01:00:00-07
+TZ_006 - Validate time zone for America Adak,6,America/Adak,2017-12-15T19:00:00-10:00,23:59:59-10:00,01:00:00-10:00,2017-12-15T23:00:00-06:00,23:59:59,01:00:00-10
+TZ_007 - Validate time zone for America Unalaska,7,America/Unalaska,2017-12-15T09:00:00-10:00,23:59:59-10:00,01:00:00-10:00,2017-12-15T13:00:00-06:00,23:59:59,01:00:00-10
+TZ_008 - Validate time zone for America Chicago,8,America/Chicago,2017-12-15T11:23:00-06:00,23:59:59-06:00,01:00:00-06:00,2017-12-15T11:23:00-06:00,23:59:59,01:00:00-06
+TZ_009 - Validate time zone for America Springfield,9,America/Springfield,2017-12-15T02:23:00-06:00,23:59:59-06:00,01:00:00-06:00,2017-12-15T02:23:00-06:00,23:59:59,01:00:00-06
+TZ_010 - Validate time zone for America New York City,10,America/New York City,2017-12-15T14:45:23-05:00,23:59:59-05:00,01:00:00-05:00,2017-12-15T13:45:23-06:00,23:59:59,01:00:00-05
+TZ_011 - Validate time zone for America Houston,11,America/Houston,2017-12-15T09:00:00-06:00,23:59:59-06:00,01:00:00-06:00,2017-12-15T09:00:00-06:00,23:59:59,01:00:00-06
+TZ_012 - Validate time zone for America Seattle,12,America/Seattle,2017-12-15T09:00:00-08:00,23:59:59-08:00,01:00:00-08:00,2017-12-15T11:00:00-06:00,23:59:59,01:00:00-08
+TZ_013 - Validate time zone for America Newark,13,America/Newark,2017-12-15T12:45:23-05:00,23:59:59-05:00,01:00:00-05:00,2017-12-15T11:45:23-06:00,23:59:59,01:00:00-05
+TZ_014 - Validate time zone for America Portland,14,America/Portland,2017-12-15T09:00:00-08:00,23:59:59-08:00,01:00:00-08:00,2017-12-15T11:00:00-06:00,23:59:59,01:00:00-08
+TZ_015 - Validate time zone for America Portland,15,America/Portland,2017-12-15T02:00:00-08:00,23:59:59-08:00,01:00:00-08:00,2017-12-15T04:00:00-06:00,23:59:59,01:00:00-08
+TZ_016 - Validate time zone for America Denver,16,America/Denver,2017-12-15T13:00:00-07:00,23:59:59-07:00,01:00:00-07:00,2017-12-15T14:00:00-06:00,23:59:59,01:00:00-07

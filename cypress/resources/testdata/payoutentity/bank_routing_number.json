@@ -1,0 +1,38 @@
+[
+{"tc_name":"PayoutEntity281A - merchant - Verify bank routing number should be 9 digits","index":"1","payout_entity_file_name":"merchant.json","exp_payout_entity_type":"merchant","exp_payout_entity_name":"MERCHANT","exp_bank_account_number":"2351","exp_bank_routing_number":"215545677","exp_irs_tin":"482456323","response":"200","error_code":"","error_message":""}
+,
+{"tc_name":"PayoutEntity281B - merchant - Verify bank routing number should be 8 digits","index":"2","payout_entity_file_name":"merchant.json","exp_payout_entity_type":"merchant","exp_payout_entity_name":"MERCHANT","exp_bank_account_number":"2351","exp_bank_routing_number":"21554567","exp_irs_tin":"482456323","response":"400","error_code":"bad_request","error_message":"bank_routing_number failed the checksum test"}
+,
+{"tc_name":"PayoutEntity281C - merchant - Verify bank routing number should be 10 digits","index":"3","payout_entity_file_name":"merchant.json","exp_payout_entity_type":"merchant","exp_payout_entity_name":"MERCHANT","exp_bank_account_number":"2351","exp_bank_routing_number":"2155456778","exp_irs_tin":"482456323","response":"400","error_code":"bad_request","error_message":"bank_routing_number failed the checksum test"}
+,
+{"tc_name":"PayoutEntity298A - lender - Verify bank routing number should be 9 digits","index":"4","payout_entity_file_name":"merchant.json","exp_payout_entity_type":"lender","exp_payout_entity_name":"BHG Funding Account","exp_bank_account_number":"8000","exp_bank_routing_number":"064008637","exp_irs_tin":"113456444","response":"200","error_code":"","error_message":""}
+,
+{"tc_name":"PayoutEntity298B - lender - Verify bank routing number should be 8 digits","index":"5","payout_entity_file_name":"merchant.json","exp_payout_entity_type":"lender","exp_payout_entity_name":"BHG Funding Account","exp_bank_account_number":"8000","exp_bank_routing_number":"6400863","exp_irs_tin":"113456444","response":"400","error_code":"bad_request","error_message":"bank_routing_number failed the checksum test"}
+,
+{"tc_name":"PayoutEntity298C - lender - Verify bank routing number should be 10 digits","index":"6","payout_entity_file_name":"merchant.json","exp_payout_entity_type":"lender","exp_payout_entity_name":"BHG Funding Account","exp_bank_account_number":"8000","exp_bank_routing_number":"640086378","exp_irs_tin":"113456444","response":"400","error_code":"bad_request","error_message":"bank_routing_number failed the checksum test"}
+,
+{"tc_name":"PayoutEntity266A - organization - Verify bank routing number should be 9 digits","index":"7","payout_entity_file_name":"merchant.json","exp_payout_entity_type":"organization","exp_payout_entity_name":"BHG Operating","exp_bank_account_number":"3790","exp_bank_routing_number":"064008637","exp_irs_tin":"113456444","response":"200","error_code":"","error_message":""}
+,
+{"tc_name":"PayoutEntity266B - organization - Verify bank routing number should be 8 digits","index":"8","payout_entity_file_name":"merchant.json","exp_payout_entity_type":"organization","exp_payout_entity_name":"BHG Operating","exp_bank_account_number":"3790","exp_bank_routing_number":"6400863","exp_irs_tin":"113456444","response":"400","error_code":"bad_request","error_message":"bank_routing_number failed the checksum test"}
+,
+{"tc_name":"PayoutEntity266C - organization - Verify bank routing number should be 10 digits","index":"9","payout_entity_file_name":"merchant.json","exp_payout_entity_type":"organization","exp_payout_entity_name":"BHG Operating","exp_bank_account_number":"3790","exp_bank_routing_number":"640086379","exp_irs_tin":"113456444","response":"400","error_code":"bad_request","error_message":"bank_routing_number failed the checksum test"}
+,
+{"tc_name":"PayoutEntity315A - ACHSource - Verify bank routing number should be 9 digits","index":"10","payout_entity_file_name":"merchant.json","exp_payout_entity_type":"clearing","exp_payout_entity_name":"ACH Clearing","exp_bank_account_number":"6814","exp_bank_routing_number":"064008637","exp_irs_tin":"102456545","response":"200","error_code":"","error_message":""}
+,
+{"tc_name":"PayoutEntity315B - ACHSource - Verify bank routing number should be 8 digits","index":"11","payout_entity_file_name":"merchant.json","exp_payout_entity_type":"clearing","exp_payout_entity_name":"ACH Clearing","exp_bank_account_number":"6814","exp_bank_routing_number":"6400863","exp_irs_tin":"102456545","response":"400","error_code":"bad_request","error_message":"bank_routing_number failed the checksum test"}
+,
+{"tc_name":"PayoutEntity315C - ACHSource - Verify bank routing number should be 10 digits","index":"12","payout_entity_file_name":"merchant.json","exp_payout_entity_type":"clearing","exp_payout_entity_name":"ACH Clearing","exp_bank_account_number":"6814","exp_bank_routing_number":"640086375","exp_irs_tin":"102456545","response":"400","error_code":"bad_request","error_message":"bank_routing_number failed the checksum test"}
+,
+{"tc_name":"PayoutEntity331A - DebitSource - Verify bank routing number should be 9 digits","index":"13","payout_entity_file_name":"merchant.json","exp_payout_entity_type":"clearing","exp_payout_entity_name":"Card Clearing","exp_bank_account_number":"7647","exp_bank_routing_number":"064008637","exp_irs_tin":"505456222","response":"200","error_code":"","error_message":""}
+,
+{"tc_name":"PayoutEntity331B - DebitSource - Verify bank routing number should be 8 digits","index":"14","payout_entity_file_name":"merchant.json","exp_payout_entity_type":"clearing","exp_payout_entity_name":"Card Clearing","exp_bank_account_number":"7640","exp_bank_routing_number":"6400863","exp_irs_tin":"505456222","response":"400","error_code":"bad_request","error_message":"bank_routing_number failed the checksum test"}
+,
+{"tc_name":"PayoutEntity331C - DebitSource - Verify bank routing number should be 10 digits","index":"15","payout_entity_file_name":"merchant.json","exp_payout_entity_type":"clearing","exp_payout_entity_name":"Card Clearing","exp_bank_account_number":"7647","exp_bank_routing_number":"640086378","exp_irs_tin":"505456222","response":"400","error_code":"bad_request","error_message":"bank_routing_number failed the checksum test"}
+,
+{"tc_name":"PayoutEntity347A - LockBox - Verify bank routing number should be 9 digits","index":"16","payout_entity_file_name":"merchant.json","exp_payout_entity_type":"clearing","exp_payout_entity_name":"Lockbox Clearing","exp_bank_account_number":"715","exp_bank_routing_number":"064008637","exp_irs_tin":"203456789","response":"200","error_code":"","error_message":""}
+,
+{"tc_name":"PayoutEntity347B - LockBox - Verify bank routing number should be 8 digits","index":"17","payout_entity_file_name":"merchant.json","exp_payout_entity_type":"clearing","exp_payout_entity_name":"Lockbox Clearing","exp_bank_account_number":"715","exp_bank_routing_number":"6400863","exp_irs_tin":"203456789","response":"400","error_code":"bad_request","error_message":"bank_routing_number failed the checksum test"}
+,
+{"tc_name":"PayoutEntity347C - LockBox - Verify bank routing number should be 10 digits","index":"18","payout_entity_file_name":"merchant.json","exp_payout_entity_type":"clearing","exp_payout_entity_name":"Lockbox Clearing","exp_bank_account_number":"715","exp_bank_routing_number":"640086379","exp_irs_tin":"203456789","response":"400","error_code":"bad_request","error_message":"bank_routing_number failed the checksum test"}
+
+]

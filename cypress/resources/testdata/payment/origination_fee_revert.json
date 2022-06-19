@@ -1,0 +1,101 @@
+[
+  {
+    "tc_name": "pp167-Verify Origination fees can be waived",
+    "index": "1",
+    "product_type": "INSTALLMENT",
+    "do_payment": "FALSE",
+    "response_status": "200",
+    "account_effective_dt": "-2",
+    "payment_effective_dt": "0",
+    "payment_amt_cents": "0",
+    "origination_fee_cents": "3500"
+  },
+  {
+    "tc_name": "pp189-Attempt to revert origination fees after floating period",
+    "index": "2",
+    "product_type": "CREDIT",
+    "do_payment": "FALSE",
+    "response_status": "200",
+    "account_effective_dt": "-8",
+    "payment_effective_dt": "0",
+    "payment_amt_cents": "0",
+    "origination_fee_cents": "3500"
+  },
+  {
+    "tc_name": "pp190-Attempt to revert origination fees after floating period- when there is a payment done during the Float days",
+    "index": "3",
+    "product_type": "CREDIT",
+    "do_payment": "TRUE",
+    "response_status": "500",
+    "account_effective_dt": "-8",
+    "payment_effective_dt": "-5",
+    "payment_amt_cents": "2000",
+    "origination_fee_cents": "0"
+  },
+  {
+    "tc_name": "pp191-Attempt to revert origination fees after floating period- when there is a payment done after the Float days",
+    "index": "4",
+    "product_type": "CREDIT",
+    "do_payment": "TRUE",
+    "response_status": "500",
+    "account_effective_dt": "-8",
+    "payment_effective_dt": "-1",
+    "payment_amt_cents": "2000",
+    "origination_fee_cents": "0"
+  },
+  {
+    "tc_name": "pp192-Attempt to revert origination fees 5 days after account opening",
+    "index": "5",
+    "product_type": "INSTALLMENT",
+    "do_payment": "FALSE",
+    "response_status": "200",
+    "account_effective_dt": "-5",
+    "payment_effective_dt": "0",
+    "payment_amt_cents": "0",
+    "origination_fee_cents": "3500"
+  },
+  {
+    "tc_name": "pp193-Attempt to revert origination fees 1 month after account opening",
+    "index": "6",
+    "product_type": "INSTALLMENT",
+    "do_payment": "FALSE",
+    "response_status": "200",
+    "account_effective_dt": "-32",
+    "payment_effective_dt": "0",
+    "payment_amt_cents": "0",
+    "origination_fee_cents": "3500"
+  },
+  {
+    "tc_name": "pp194-Attempt to revert origination fees 1 year after account opening",
+    "index": "7",
+    "product_type": "INSTALLMENT",
+    "do_payment": "FALSE",
+    "response_status": "200",
+    "account_effective_dt": "-370",
+    "payment_effective_dt": "0",
+    "payment_amt_cents": "0",
+    "origination_fee_cents": "3500"
+  },
+  {
+    "tc_name": "PP166-Verify Origination fees is set up at Account level",
+    "index": "8",
+    "product_type": "INSTALLMENT",
+    "do_payment": "FALSE",
+    "response_status": "200",
+    "account_effective_dt": "-2",
+    "payment_effective_dt": "0",
+    "payment_amt_cents": "0",
+    "origination_fee_cents": "3500"
+  },
+  {
+    "tc_name": "PP168-Verify Origination fees is charged automatically while onboarding a new account",
+    "index": "9",
+    "product_type": "INSTALLMENT",
+    "do_payment": "FALSE",
+    "response_status": "200",
+    "account_effective_dt": "-2",
+    "payment_effective_dt": "0",
+    "payment_amt_cents": "0",
+    "origination_fee_cents": "3500"
+  }
+]

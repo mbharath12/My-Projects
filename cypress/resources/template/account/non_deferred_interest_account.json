@@ -1,0 +1,59 @@
+{  
+  "effective_at": "2021-01-15T09:02:28Z",
+  "product_id": "{{non_deferred_product_id}}",
+  "summary": {
+    "annual_fee_cents": 0,
+    "monthly_fee_cents": 0,
+    "credit_limit_cents": 500000,
+    "origination_fee_cents": 0,
+    "initial_principal_cents": 0,
+    "max_approved_credit_limit_cents": 500000
+  },
+  "promo_overview": {
+    "promo_len": 4,
+    "promo_purchase_window_len": 4,
+    "promo_impl_interest_rate_percent": 0,
+    "promo_min_pay_type": "PERCENT_PRINCIPAL_INTEREST",
+    "promo_min_pay_percent": 3.23
+  },
+  "external_fields": [
+    {
+      "key": "PlanDisclosure",
+      "value": "** Example Disclosure -- not connected to demo account ** Plan [3036-16]. 36 payments. 3 month Purchase Window. Beginning with 1st transaction, minimum monthly payments of 3.23% of aggregate purchases will be due. 3 months and 1 day after approval, the principal balance will be divided equally over 33 monthly payments. Interest rate is 9.99%."
+    },
+    {
+      "key": "PlanDescription",
+      "value": "** Example Description -- not connected to demo account ** Standard installment Line of Credit with 9.99% interest rate for the life of the Line of Credit."
+    },
+    {
+      "key": "PlanType",
+      "value": "** Example Type -- not connected to demo account ** RiskBasedPricing"
+    },
+    {
+      "key": "PlanId",
+      "value": "** Example Type -- not connected to demo account ** RiskBasedPricing 08764b84-d7d0-418c-ad27-b83a38338815"
+    },
+    {
+      "key": "PlanUniqueId",
+      "value": "7af8c06a-447a-4cc5-b945-32b269f9cc2a"
+    }
+  ],
+  "assign_customers": [
+    {
+      "customer_id": "{{customer_id}}"
+    }
+  ],
+  "post_promo_overview": {
+    "post_promo_len": 6,
+    "post_promo_impl_interest_rate_percent": 9.99
+  },
+  "payment_processor_config": {
+    "ach": {
+      "payment_processor_name": "CANOPY_NACHA"
+    },
+    "debit_card": {
+      "payment_processor_name": "AUTHORIZE_NET"
+    },
+    "default_payment_processor_method": "NONE"
+  }
+}

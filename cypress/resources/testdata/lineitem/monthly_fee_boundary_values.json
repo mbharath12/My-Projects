@@ -1,0 +1,112 @@
+[
+  {
+    "tc_name": "PP204-Monthly Fee validation - Automated process",
+    "index": "1",
+    "account_effective_dt": "2021-08-26T02:18:27-08:00",
+    "account_effective_dt_time": "0",
+    "late_fee_cents": "0",
+    "monthly_fee_cents": "20000",
+    "total_balance_cents": "320000",
+    "response_status": "200",
+    "error_msg": ""
+  },
+  {
+    "tc_name": "PP206-Monthly Fee validation - First month fees",
+    "index": "2",
+    "account_effective_dt": "2021-08-26T02:18:27-08:00",
+    "account_effective_dt_time": "0",
+    "late_fee_cents": "0",
+    "monthly_fee_cents": "20000",
+    "total_balance_cents": "320000",
+    "response_status": "200",
+    "error_msg": ""
+  },
+  {
+    "tc_name": "PP208-Monthly fees validation - Attempt to apply monthly fees amount over and above the Credit limit",
+    "index": "3",
+    "account_effective_dt": "2021-08-26T02:18:27-08:00",
+    "account_effective_dt_time": "0",
+    "late_fee_cents": "0",
+    "monthly_fee_cents": "600000",
+    "total_balance_cents": "0",
+    "response_status": "500",
+    "error_msg": "Internal Server Error"
+  },
+  {
+    "tc_name": "PP209-Monthly fees validation - Attempt to apply negative fees",
+    "index": "4",
+    "account_effective_dt": "2021-08-26T02:18:27-08:00",
+    "account_effective_dt_time": "0",
+    "late_fee_cents": "0",
+    "monthly_fee_cents": "-20000",
+    "total_balance_cents": "0",
+    "response_status": "500",
+    "error_msg": "Internal Server Error"
+  },
+  {
+    "tc_name": "PP210-Monthly fees validation - Attempt to apply 0 fees",
+    "index": "5",
+    "account_effective_dt": "2021-08-26T02:18:27-08:00",
+    "account_effective_dt_time": "0",
+    "late_fee_cents": "0",
+    "monthly_fee_cents": "0",
+    "total_balance_cents": "300000",
+    "response_status": "200",
+    "error_msg": ""
+  },
+  {
+    "tc_name": "PP211-Monthly fees validation - Attempt to apply 31 cents fees",
+    "index": "6",
+    "account_effective_dt": "2021-08-26T02:18:27-08:00",
+    "account_effective_dt_time": "0",
+    "late_fee_cents": "0",
+    "monthly_fee_cents": "31",
+    "total_balance_cents": "0",
+    "response_status": "422",
+    "error_msg": "Unprocessable Time"
+  },
+  {
+    "tc_name": "PP212-Monthly fees validation - Attempt to apply USD 20 fees",
+    "index": "7",
+    "account_effective_dt": "2021-08-26T02:18:27-08:00",
+    "account_effective_dt_time": "0",
+    "late_fee_cents": "0",
+    "monthly_fee_cents": "2000",
+    "total_balance_cents": "302000",
+    "response_status": "200",
+    "error_msg": ""
+  },
+  {
+    "tc_name": "PP213-Monthly fees validation - Attempt to apply USD 1000 fees",
+    "index": "8",
+    "account_effective_dt": "2021-08-26T02:18:27-08:00",
+    "account_effective_dt_time": "0",
+    "late_fee_cents": "0",
+    "monthly_fee_cents": "100000",
+    "total_balance_cents": "0",
+    "response_status": "500",
+    "error_msg": "Internal Server Error"
+  },
+  {
+    "tc_name": "PP214-Monthly fees validation - Attempt to apply monthly fees more than the Credit limit",
+    "index": "9",
+    "account_effective_dt": "2021-08-26T02:18:27-08:00",
+    "account_effective_dt_time": "0",
+    "late_fee_cents": "0",
+    "monthly_fee_cents": "500000",
+    "total_balance_cents": "0",
+    "response_status": "200",
+    "error_msg": ""
+  },
+  {
+    "tc_name": "PP207-Monthly Fee validation - Automated process when due date for fees falls on a holiday",
+    "index": "10",
+    "account_effective_dt": "2021-08-26T02:18:27-08:00",
+    "account_effective_dt_time": "0",
+    "late_fee_cents": "0",
+    "monthly_fee_cents": "600000",
+    "total_balance_cents": "0",
+    "response_status": "200",
+    "error_msg": ""
+  }
+]

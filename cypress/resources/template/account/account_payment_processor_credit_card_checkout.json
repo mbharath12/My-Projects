@@ -1,0 +1,48 @@
+{
+  "effective_at": "2021-03-20T09:11:28+00:00",
+  "product_id": "{{product_id}}",
+  "external_fields": [
+    {
+      "key": "Umbrella Corporation",
+      "value": "22445702-a389-431f-927d-07b8d0750787"
+    }
+  ],
+  "summary": {
+    "credit_limit_cents": 400000,
+    "max_approved_credit_limit_cents": 400000,
+    "late_fee_cents": 0,
+    "payment_reversal_fee_cents": 0,
+    "initial_principal_cents": 12000
+  },
+  "promo_overview": {
+    "promo_impl_interest_rate_percent": 6.2
+  },
+  "post_promo_overview": {
+    "post_promo_impl_interest_rate_percent": 6.2,
+    "post_promo_impl_am_len": 10
+  },
+  "associated_entities": {
+    "merchant_name": "Acme Corporation",
+    "lender_name": "Globex Lending Corp"
+  },
+  "payment_processor_config": {
+    "credit_card": {
+      "payment_processor_name": "CHECKOUT",
+      "checkout_config": {
+        "card_number": "4111111111111111",
+        "expiry_month": "06",
+        "expiry_year": "2025",
+        "cvv": "100"
+      }
+    },
+    "autopay_enabled": true,
+    "default_payment_processor_method": "CREDIT_CARD"
+  },
+  "assign_customers": [
+    {
+      "customer_id": "{{customer_id}}",
+      "customer_account_role": "PRIMARY",
+      "customer_account_external_id": "123"
+    }
+  ]
+}

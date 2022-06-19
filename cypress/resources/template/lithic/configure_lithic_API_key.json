@@ -1,0 +1,5 @@
+{
+  "lithic_config": {
+      "api_key": "{{lithic_api_key}}"
+  }
+}

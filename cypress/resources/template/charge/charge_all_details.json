@@ -1,0 +1,22 @@
+{
+  "line_item_status": "VALID",
+  "original_amount_cents": 20000,
+  "effective_at": "2021-12-02T09:11:28+00:00",
+  "merchant_data": {
+    "name": "XYZ COMPANY",
+    "id": "123456789",
+    "mcc_code": 42.0,
+    "phone_number": "1234567890"
+  },
+  "issuer_processor_metadata": {
+    "lithic": {
+      "last_four": "3324"
+    }
+  },
+  "external_fields": [
+    {
+      "key": "Globex Card Processing Account ID",
+      "value": "22445702-a389-431f-927d-07b8d0750787"
+    }
+  ]
+}

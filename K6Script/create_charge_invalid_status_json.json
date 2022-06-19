@@ -1,0 +1,22 @@
+{
+  "line_item_status": "INVALID",
+  "original_amount_cents": 200,
+  "effective_at": "2021-10-05T09:11:28+00:00",
+  "merchant_data": {
+    "name": "string",
+    "id": "string",
+    "mcc_code": 42.0,
+    "phone_number": "string"
+  },
+  "issuer_processor_metadata": {
+    "lithic": {
+      "last_four": "string"
+    }
+  },
+  "external_fields": [
+    {
+      "key": "Globex Card Processing Account ID",
+      "value": "22445702-a389-431f-927d-07b8d0750787"
+    }
+  ]
+}

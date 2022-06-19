@@ -1,0 +1,7 @@
+tc_name,index,account_status,float_days,delinquent,charge_off,account_effective_dt,account_effective_dt_time,initial_principal_cents,line_item_check,late_fee_cents,payment_amt_cents_1,multi_payment_check,payment_amt_cents_2,payment1_effective_dt,payment2_effective_dt,total_balance_cents,available_credit_cents,stmt_charges_principal_cents,stmt_loans_principal_cents,stmt_fees_balance_cents,stmt_total_balance_cents,stmt_id,
+PP1034-Full payment on Charge card within the due date,1,ACTIVE,7days,3,4,-10,-2,100000,FALSE,2900,100000,FALSE,NULL,-2,NULL,100000,300000,0,0,0,0,1,
+PP1035-Full payment on Charge card after the due date before the Grace date expiry,2,ACTIVE,7days,3,4,-10,-2,100000,FALSE,2900,100000,FALSE,NULL,-1,NULL,100000,300000,0,0,0,0,1,
+PP1036-Full payment on Charge card after the Grace date expiry,3,ACTIVE,7days,3,4,-10,-2,100000,TRUE,2900,100000,FALSE,NULL,1,NULL,100000,300000,0,0,0,0,1,D_015
+PP1037-Part Payment on Charge Cards,4,ACTIVE,7days,3,4,-10,-2,100000,FALSE,2900,20000,FALSE,NULL,-2,NULL,80000,220000,80000,0,2900,82900,1,
+PP1038-Part Payment on Charge Cards - not allowed- multiple payments totalling to total outstanding within the due date,5,ACTIVE,7days,3,4,-10,-2,100000,FALSE,2900,20000,TRUE,80000,-2,-1,100000,300000,0,0,0,0,1,
+PP1040-Late fees in charge card for delayed part payment after grace period,6,ACTIVE,7days,3,4,-10,-2,100000,TRUE,2900,20000,FALSE,NULL,1,NULL,80000,220000,80000,0,2900,82900,1,

@@ -1,0 +1,7 @@
+{
+    "dwolla_config": {
+        "app_key": "4PAhglgnuF6Qd8GkdDo6sHjDflfswR5Hk7wGyD2ZJMVgaZ91BF",
+        "app_secret": "FabmMg31zYeihsy7KQe3MA5KeEoR6NiWVnDVLtHq92JLIp2EX1",
+        "master_account": "https://api-sandbox.dwolla.com/funding-sources/dddfa5ff-8535-454a-877f-cf1aaf128d8f"
+    }
+}

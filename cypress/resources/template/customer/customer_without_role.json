@@ -1,0 +1,24 @@
+{
+  "effective_at": "2021-07-10T09:11:28+00:00",
+  "name_prefix": "Dr.",
+  "name_first": "Miriam",
+  "name_middle": "Louise",
+  "name_last": "Trevino",
+  "name_suffix": "Jr",
+  "phone_number": "+14105556789",
+  "address_line_one": "12 Strawberry Road",
+  "address_line_two": "Suite 101",
+  "address_city": "Atlanta",
+  "address_state": "GA",
+  "address_zip": "30025",
+  "address_country_code": "US",
+  "ssn": "888888888",
+  "international_customer_id": "9999999999",
+  "email": "marissa@protonmail.com",
+  "date_of_birth": "1985-06-20",
+  "business_details": {
+    "business_legal_name": "Umbrella Corporation",
+    "doing_business_as": "Umbrella",
+    "business_ein": "888-88-8888"
+  }
+}
