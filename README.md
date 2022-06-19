@@ -1,60 +1,31 @@
-# encapture-auto-tests
+# technomile-auto-tests
 
-## Requirements
+## Introduction:
+This is web automation framework, implemented using Java, Selenium/Webdriver, TestNG & Maven.
+Page Object Model (POM) is used to  make the code more readable, maintainable, and reusable.
 
-- Python 3.7
+## Prerequisite:
 
-# Build project
+1. JDK 8 (Install from here https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html)
+2. Browsers (Chrome is enough)
+3. Intellij (Please install "community edition" https://www.jetbrains.com/idea/download/#section=mac)
+4. Maven (Install from here https://maven.apache.org/download.cgi)
 
-In order to build the project run the following command
+## Build Project:
 
-```
-pip install -r Requirements.txt
-```
-# Custom code in White Library
+After cloning the project, Got inside the project folder and run below command
 
-### Support for name locator
+`mvn clean install`
 
-```
-Navigate to "Python37\Lib\site-packages\WhiteLibrary" and edit "init.py" with IDLE
-```
-Add following code in int_.py below the line 32 i.e after "help_text={"method": "ByNativeProperty", "property": "HelpTextProperty"},"
-```
-   name={"method": "ByNativeProperty", "property": "NameProperty"},
-```
-Save the file "init.py" and run it by pressing the F5 key
+## Run Tests:
 
-### Support forget bulk text
+run below command:
 
-```
-Navigate to "Python37\Lib\site-packages\WhiteLibrary\keywords\items" and edit "textbox.py" with IDLE
-```
-Add following imports in "textbox.py" at the line no 1 
-```
-import os
-from robot.utils import is_truthy
-import clr
-DLL_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'C:\\Python37\\Lib\\site-packages\\WhiteLibrary\\bin', 'TestStack.White.dll')
-clr.AddReference('System')
-clr.AddReference(DLL_PATH)
+`runtest.bat`
+   or 
+ `mvn clean test -Pregression-tests`
 
-```
-Add the following keyword after the "get_text_from_textbox" keyword.
-```
-@keyword
-    def get_bulk_text_from_textbox(self, locator):
-        """Returns the text of a text box.
-
-        ``locator`` is the locator of the text box or Textbox item object.
-        Locator syntax is explained in `Item locators`.
-        """
-        textbox = self.state._get_typed_item_by_locator(TextBox, locator)
-        return textbox.BulkText
-```		
-
-Save the file "textbox.py" and run it by pressing the F5 keyword
-
-# Branch naming
+## Branch naming:
 Group tokens are used to differenciate different types of branches.
 
 Supported group tokens:
@@ -74,10 +45,6 @@ feature/add-a-new-feature-name
 Additional info about group tockens: https://stackoverflow.com/questions/273695/git-branch-naming-best-practices
 
 
-# Branch merge procedure
+## Branch merge procedure:
 
 After branch is merged, the branch itself should be deleted
-
-# Softwares to install 
-
-1) https://docs.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server?view=sql-server-ver15 to connect to db 
