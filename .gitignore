@@ -152,18 +152,16 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 
+#groovy
+.groovylintrc.json
+
 # Windows shortcuts
 *.lnk
 *.html
 *.htm
 .DS_Store
-.pabotsuitenames
 *xml
-pabot_results/*
-TestSuites/.pabot*
-TestSuites/*xml
-TestSuites/*html
-TestSuites/pabot_results/*
 Results/*
-Imagecapture/*
+*.png
+.idea/*
 # End of https://www.gitignore.io/api/python,windows
