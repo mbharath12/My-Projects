@@ -1,8 +1,0 @@
-*** Variables ***
-${API_LOGIN_REQUEST_BODY}    ${TESTDATA_FOLDER}\\API_TEMPLATES\\Login Request body template.txt
-${API_BATCH_LOCK_REQUEST_BODY}    ${TESTDATA_FOLDER}\\API_TEMPLATES\\Batch Lock Request body template.json
-${API_INVALID_BATCH_LOCK_REQUEST_BODY}    ${TESTDATA_FOLDER}\\API_TEMPLATES\\Invalid Batch Lock Request body template.json
-${API_ADD_DOCUMENT_REQUEST_BODY}    ${TESTDATA_FOLDER}\\API_TEMPLATES\\Add Document Request body.txt
-${API_UPDATE_DOCUMENT_REQUEST_BODY}    ${TESTDATA_FOLDER}\\API_TEMPLATES\\Update Document Request body.txt
-${API_UPLOAD_ELECTRONIC_DOCUMENT_WITH_MULTIPLE_PAGES}    ${TESTDATA_FOLDER}\\API_TEMPLATES\\Add Multiple Pages in Document Request body.txt
-${API_UPDATE_CREATE_EMPTY_DOCUMENT_REQUEST_BODY}    ${TESTDATA_FOLDER}\\API_TEMPLATES\\Update Create Empty Document Batch Request Body.txt
