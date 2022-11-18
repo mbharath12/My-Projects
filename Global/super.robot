@@ -1,0 +1,20 @@
+*** Settings ***
+Library           SeleniumLibrary
+Library           ../Library/CustomLibrary.py
+Library           pabot.PabotLib
+Resource          global_variables.robot
+Resource          web_veriables.robot
+Resource          ../ObjectRepository/radiobuttons.robot
+Resource          ../ObjectRepository/dropdowns.robot
+Resource          ../ObjectRepository/checkoxes.robot
+Resource          ../Keywords/Common.robot
+Resource          ../ObjectRepository/labels.robot
+Resource          ../ObjectRepository/buttons.robot
+Resource          ../ObjectRepository/spinners.robot
+Library           String
+Resource          ../Keywords/Common.robot
+Library           AppiumLibrary
+Resource          ../ObjectRepository/images.robot
+Resource          ../ObjectRepository/iframes.robot
+Resource          ../ObjectRepository/lists.robot
+Resource          ../ObjectRepository/textbox.robot

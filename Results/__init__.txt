@@ -1,0 +1,4 @@
+*** Keywords ***
+Launch Browser
+     Run Keyword If     '${Browser_Name}'=='chrome' or '${Browser_Name}'=='Chrome' or '${Browser_Name}'=='gc'     open chrome Browser     ${url}
+     Run Keyword If     '${Browser_Name}'=='firefox' or '${Browser_Name}'=='Firefox' or '${Browser_Name}'=='ff'     Open Browser     ${url}     Firefox
